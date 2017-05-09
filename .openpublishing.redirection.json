@@ -1,0 +1,9 @@
+{
+    "redirections":[
+        {
+            "source_path": "docs-ref-autogen/cosmosdb.md",
+            "redirect_url": "/cli/azure/documentdb",
+            "redirect_document_id": true
+        }
+    ]
+}
