@@ -42,6 +42,6 @@
       "id": "opbuild.templates.azurecli",
       "version": "latest",
       "nuget_feed": "https://www.myget.org/F/op/api/v2"
-    }
+    } 
   ]
 }
