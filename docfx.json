@@ -33,6 +33,6 @@
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
-    "dest": "clitest"
+    "dest": "cli/azure"
   }
 }
