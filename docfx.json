@@ -18,10 +18,6 @@
         "src": "docs-ref-conceptual",
         "files": [
           "**.md"
-        ],
-        "exclude":[
-          "toc.md",
-          "**/toc.md"
         ]
       },
       {
