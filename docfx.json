@@ -4,7 +4,7 @@
       {
         "files": [
           "**/*.md",
-          "docs-ref-autogen/**/*.yml"
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
