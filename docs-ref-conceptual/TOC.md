@@ -12,7 +12,6 @@
 ## [Output formats](format-output-azure-cli.md)
 ## [Query](query-azure-cli.md)
 ## [Subscriptions](manage-azure-subscriptions-azure-cli.md)
-### [Manage clouds](manage-clouds-azure-cli.md)
 ## [Release notes](release-notes-azure-cli.md)
 # Sample Scripts
 ## [Linux VMs](/azure/virtual-machines/linux/cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json)
@@ -23,4 +22,4 @@
 ## [PostgreSQL](/azure/postgresql/sample-scripts-azure-cli?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json)
 ## [MySQL](/azure/mysql/sample-scripts-azure-cli?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json)
 ## [Cosmos DB](/azure/cosmos-db/cli-samples?toc=%2fcli%2fazure%2ftoc.json&bc=%2fcli%2fazure%2fbreadcrumb%2ftoc.json)
-# [Reference](../docs-ref-autogen/TOC.md)
+# [Reference](../docs-ref-autogen/toc.md)
