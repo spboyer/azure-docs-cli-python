@@ -22,7 +22,7 @@
       "template_folder": "_themes",
       "customized_template_paths": [
          "_dependentPackages/uref/content"
-      ]`
+      ]
     }
   ],
   "notification_subscribers": [],
