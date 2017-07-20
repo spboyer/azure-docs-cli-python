@@ -12,19 +12,7 @@ items:
   summary: Lists all the edge nodes of a CDN service.
   langs:
   - azurecli
-  parameters:
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
+  parameters: []
   source:
     path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
     remote:
