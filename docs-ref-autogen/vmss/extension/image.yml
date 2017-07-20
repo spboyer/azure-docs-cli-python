@@ -26,18 +26,6 @@ items:
     summary: Image publisher name.
   - name: --version
     summary: Extension version.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
     remote:
@@ -56,18 +44,6 @@ items:
   - isRequired: true
     name: --publisher -p
     summary: Image publisher name.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
     remote:
@@ -95,18 +71,6 @@ items:
     summary: The sort to apply on the operation.
   - name: --top
     summary: Return top number of records.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
     remote:
@@ -131,18 +95,6 @@ items:
   - isRequired: true
     name: --version
     summary: Extension version.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
     remote:

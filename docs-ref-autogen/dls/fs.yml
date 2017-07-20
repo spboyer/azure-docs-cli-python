@@ -34,18 +34,6 @@ items:
   - isRequired: true
     name: --path
     summary: The path in the specified Data Lake Store account where the action should take place. In the format '/folder/file.txt', where the first '/' after the DNS indicates the root of the file system.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -70,18 +58,6 @@ items:
     summary: Indicates that this new item is a folder and not a file.
   - name: --force
     summary: Indicates that, if the file or folder exists, it should be overwritten.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -102,18 +78,6 @@ items:
     summary: The path in the specified Data Lake Store account where the action should take place. In the format '/folder/file.txt', where the first '/' after the DNS indicates the root of the file system.
   - name: --recurse
     summary: Indicates this should be a recursive delete of the folder.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -139,18 +103,6 @@ items:
     summary: Indicates that, if the destination file or folder exists, it should be overwritten.
   - name: --thread-count
     summary: Optionally specify the parallelism of the download. Default is the number of cores in the local machine.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -174,18 +126,6 @@ items:
     summary: The list of files in the Data Lake Store account to join.
   - name: --force
     summary: Indicates that, if the destination file already exists, it should be overwritten.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -204,18 +144,6 @@ items:
   - isRequired: true
     name: --path
     summary: The path in the specified Data Lake Store account where the action should take place. In the format '/folder/file.txt', where the first '/' after the DNS indicates the root of the file system.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -239,18 +167,6 @@ items:
     summary: The file or folder to move.
   - name: --force
     summary: Indicates that, if the destination file or folder already exists, it should be overwritten and replaced with the file or folder being moved.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -275,18 +191,6 @@ items:
     summary: The optional amount of data to preview in bytes as a long. If not specified, will attempt to preview the full file. If the file is > 1MB --force must be specified.
   - name: --offset
     summary: The optional position in bytes as a long in the file to start the preview from.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -305,18 +209,6 @@ items:
   - isRequired: true
     name: --path
     summary: The path in the specified Data Lake Store account where the action should take place. In the format '/folder/file.txt', where the first '/' after the DNS indicates the root of the file system.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -338,18 +230,6 @@ items:
   - isRequired: true
     name: --path
     summary: The path in the specified Data Lake Store account where the action should take place. In the format '/folder/file.txt', where the first '/' after the DNS indicates the root of the file system.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -368,18 +248,6 @@ items:
   - isRequired: true
     name: --path
     summary: The path in the specified Data Lake Store account where the action should take place. In the format '/folder/file.txt', where the first '/' after the DNS indicates the root of the file system.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -398,18 +266,6 @@ items:
   - isRequired: true
     name: --path
     summary: The path in the specified Data Lake Store account where the action should take place. In the format '/folder/file.txt', where the first '/' after the DNS indicates the root of the file system.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:
@@ -435,18 +291,6 @@ items:
     summary: Indicates that, if the destination file or folder exists, it should be overwritten.
   - name: --thread-count
     summary: Optionally specify the parallelism of the upload. Default is the number of cores in the local machine.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
     remote:

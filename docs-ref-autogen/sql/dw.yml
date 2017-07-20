@@ -36,18 +36,6 @@ items:
     summary: The service objective of the data warehouse.
   - name: --tags
     summary: Resource tags.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
     remote:
@@ -71,18 +59,6 @@ items:
     summary: Name of the Azure SQL server.
   - name: --yes -y
     summary: Do not prompt for confirmation.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
     remote:
@@ -101,18 +77,6 @@ items:
   - isRequired: true
     name: --server -s
     summary: Name of the Azure SQL server.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
     remote:
@@ -134,18 +98,6 @@ items:
   - isRequired: true
     name: --server -s
     summary: Name of the Azure SQL server.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
     remote:
@@ -167,18 +119,6 @@ items:
   - isRequired: true
     name: --server -s
     summary: Name of the Azure SQL server.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
     remote:
@@ -200,18 +140,6 @@ items:
   - isRequired: true
     name: --server -s
     summary: Name of the Azure SQL server.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
     remote:
@@ -243,18 +171,6 @@ items:
     summary: 'Remove a property or an element from a list.  Example: --remove property.list <indexToRemove> OR --remove propertyToRemove.'
   - name: --set
     summary: 'Update an object by specifying a property path and value to set.  Example: --set property1.property2=<value>.'
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
     remote:

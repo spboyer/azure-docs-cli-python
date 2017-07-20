@@ -31,18 +31,6 @@ items:
     summary: Needs to be specified if you are using a federated domain for the user's userPrincipalName (UPN) property while creating a new user account. It is used to associate an on-premises Active Directory user account to their Azure AD user object.
   - name: --mail-nickname
     summary: Mail alias. Defaults to user principal name.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
     remote:
@@ -58,18 +46,6 @@ items:
   - isRequired: true
     name: --upn-or-object-id
     summary: User object id or user principal name (upn).
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
     remote:
@@ -88,18 +64,6 @@ items:
     summary: OData filter.
   - name: --upn
     summary: User principal name, e.g. john.doe@contoso.com.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
     remote:
@@ -115,18 +79,6 @@ items:
   - isRequired: true
     name: --upn-or-object-id
     summary: User object Id or user principal name to get user information.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
     remote:

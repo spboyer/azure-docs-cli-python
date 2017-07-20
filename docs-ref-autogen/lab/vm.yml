@@ -31,18 +31,6 @@ items:
     summary: Name of lab's resource group.
   - name: --artifacts
     summary: JSON encoded array of artifacts to be applied. Use @{file} to load from a file.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
     remote:
@@ -71,18 +59,6 @@ items:
     summary: Name of the virtual machine.
   - name: --resource-group -g
     summary: Name of lab's resource group.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
     remote:
@@ -166,18 +142,6 @@ items:
     summary: Name of the subnet to reference an existing one in lab. If omitted, lab's existing one subnet will be selected automatically.
   - name: --vnet-name
     summary: Name of the virtual network to reference an existing one in lab. If omitted, lab's existing one VNet and subnet will be selected automatically.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
     remote:
@@ -199,18 +163,6 @@ items:
   - isRequired: true
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
     remote:
@@ -245,18 +197,6 @@ items:
     summary: Name or ID of the environment to list all virtual machines in the environment. Cannot be used with --filters.
   - name: --filters
     summary: The filter to apply on the operation.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
     remote:
@@ -280,18 +220,6 @@ items:
     summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
   - name: --expand
     summary: "Specify the $expand query. Example: 'properties($expand=artifacts,computeVm,networkInterface,applicableSchedule)'."
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
     remote:
@@ -313,18 +241,6 @@ items:
   - isRequired: true
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
     remote:
@@ -346,18 +262,6 @@ items:
   - isRequired: true
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
     remote:

@@ -21,18 +21,6 @@ items:
   - isRequired: true
     name: --server-name -s
     summary: Name of the server.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
 - uid: az_postgres_server_configuration_set
   name: az postgres server configuration set
   summary: Update the configuration of an Azure Database for PostgreSQL server.
@@ -57,18 +45,6 @@ items:
     summary: Name of the server.
   - name: --value
     summary: Value of the configuration. If not provided, configuration value will be set to default.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
 - uid: az_postgres_server_configuration_show
   name: az postgres server configuration show
   summary: Show the configuration of an Azure Database for PostgreSQL server.
@@ -84,18 +60,6 @@ items:
   - isRequired: true
     name: --server-name -s
     summary: Name of the server.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
 commands:
 - uid: az_postgres_server_configuration_list
   name: az postgres server configuration list

@@ -39,18 +39,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -71,18 +59,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -101,18 +77,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -131,18 +95,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -168,18 +120,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -215,18 +155,6 @@ items:
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
   - name: --ttl
     summary: The duration, in milliseconds, for which this health report is valid. When clients report periodically, they should send reports with higher frequency than time to live. If not specified, time to live defaults to infinite value.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -251,18 +179,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -287,18 +203,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -320,18 +224,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -361,18 +253,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -399,18 +279,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -434,18 +302,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -467,18 +323,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:
@@ -500,18 +344,6 @@ items:
   - name: --timeout -t
     defaultValue: "60"
     summary: The server timeout for performing the operation, specified in seconds. This is the maximum time a client can wait.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
   source:
     path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
     remote:

@@ -55,18 +55,6 @@ items:
     summary: The administrator's login name of a server. Can only be specified when the server is being created (and is required for creation).
   - name: --admin-password -p
     summary: The password of the administrator login.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
 - uid: az_postgres_server_delete
   name: az postgres server delete
   summary: Delete an Azure Database for PostgreSQL server.
@@ -81,18 +69,6 @@ items:
     summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
   - name: --yes -y
     summary: Do not prompt for confirmation.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
 - uid: az_postgres_server_list
   name: az postgres server list
   summary: List all the Azure Database for PostgreSQL servers belong to given resource group or subscription.
@@ -108,18 +84,6 @@ items:
   parameters:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
 - uid: az_postgres_server_restore
   name: az postgres server restore
   summary: Create a new Azure Database for PostgreSQL server by restoring from a server backup.
@@ -145,18 +109,6 @@ items:
   - isRequired: true
     name: --source-server -s
     summary: The name or ID of the source server to restore from.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
 - uid: az_postgres_server_show
   name: az postgres server show
   summary: Show the details of an Azure Database for PostgreSQL server.
@@ -169,18 +121,6 @@ items:
   - isRequired: true
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
 - uid: az_postgres_server_update
   name: az postgres server update
   summary: Update an Azure Database for PostgreSQL server.
@@ -215,18 +155,6 @@ items:
     summary: 'Remove a property or an element from a list.  Example: --remove property.list <indexToRemove> OR --remove propertyToRemove.'
   - name: --set
     summary: 'Update an object by specifying a property path and value to set.  Example: --set property1.property2=<value>.'
-  - name: --debug
-    summary: Increase logging verbosity to show all debug logs.
-  - name: --help -h
-    summary: Show this help message and exit.
-  - name: --output -o
-    defaultValue: json
-    parameterValueGroup: json, jsonc, table, tsv
-    summary: Output format.
-  - name: --query
-    summary: JMESPath query string. See <a href="http://jmespath.org/">http://jmespath.org/</a> for more information and examples.
-  - name: --verbose
-    summary: Increase logging verbosity. Use --debug for full debug logs.
 commands:
 - uid: az_postgres_server_configuration
   name: az postgres server configuration
