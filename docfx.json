@@ -4,7 +4,7 @@
       {
         "files": [
           "**/*.md",
-          "docs-ref-autogen/**/*.yml"
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -13,7 +13,61 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices"
-        ]
+        ],
+        "src": "latest/docs-ref-autogen",
+        "version": "azure-cli-latest",
+        "dest": "azure"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": "latest/docs-ref-conceptual",
+        "version": "azure-cli-latest",
+        "dest": "azure"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": "2017-03-09-profile/docs-ref-autogen",
+        "version": "azure-cli-2017-03-09-profile",
+        "dest": "azure"
+      },
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices"
+        ],
+        "src": "2017-03-09-profile/docs-ref-conceptual",
+        "version": "azure-cli-2017-03-09-profile",
+        "dest": "azure"
       }
     ],
     "resource": [
@@ -25,14 +79,39 @@
         "exclude": [
           "**/obj/**",
           "**/includes/**"
-        ]
+        ],
+        "src": "latest/docs-ref-conceptual",
+        "version": "azure-cli-latest",
+        "dest": "azure"
+      },
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ],
+        "src": "2017-03-09-profile/docs-ref-conceptual",
+        "version": "azure-cli-2017-03-09-profile",
+        "dest": "azure"
       }
     ],
+    "versions": { 
+       "azure-cli-latest": { 
+         "dest": "azure-cli-latest" 
+       }, 
+       "azure-cli-2017-03-09-profile": { 
+         "dest": "azure-cli-2017-03-09-profile" 
+       }
+     },
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {},
     "fileMetadata": {},
     "template": [],
+    "exportrawmodel": true,
     "dest": "clitest"
   }
 }
