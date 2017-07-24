@@ -7,7 +7,7 @@
     {
       "docset_name": "azure-cli-docs",
       "build_source_folder": ".",
-      "build_output_subfolder": "cli/azure",
+      "build_output_subfolder": "cli",
       "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": true,
