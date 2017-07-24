@@ -16,7 +16,7 @@
         ],
         "src": "latest/docs-ref-autogen",
         "version": "azure-cli-latest",
-        "dest": "azure"
+        "dest": ""
       },
       {
         "files": [
@@ -33,7 +33,7 @@
         ],
         "src": "latest/docs-ref-conceptual",
         "version": "azure-cli-latest",
-        "dest": "azure"
+        "dest": ""
       },
       {
         "files": [
@@ -50,7 +50,7 @@
         ],
         "src": "2017-03-09-profile/docs-ref-autogen",
         "version": "azure-cli-2017-03-09-profile",
-        "dest": "azure"
+        "dest": ""
       },
       {
         "files": [
@@ -67,7 +67,7 @@
         ],
         "src": "2017-03-09-profile/docs-ref-conceptual",
         "version": "azure-cli-2017-03-09-profile",
-        "dest": "azure"
+        "dest": ""
       }
     ],
     "resource": [
@@ -82,7 +82,7 @@
         ],
         "src": "latest/docs-ref-conceptual",
         "version": "azure-cli-latest",
-        "dest": "azure"
+        "dest": ""
       },
       {
         "files": [
@@ -95,7 +95,7 @@
         ],
         "src": "2017-03-09-profile/docs-ref-conceptual",
         "version": "azure-cli-2017-03-09-profile",
-        "dest": "azure"
+        "dest": ""
       }
     ],
     "versions": { 
