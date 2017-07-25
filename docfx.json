@@ -3,7 +3,7 @@
     "content": [
       {
         "files": [
-          "**/*.md",
+          "**/TOC.md",
           "**/*.yml"
         ],
         "exclude": [
@@ -20,7 +20,6 @@
       },
       {
         "files": [
-          "**/*.md",
           "**/*.yml"
         ],
         "exclude": [
@@ -37,7 +36,7 @@
       },
       {
         "files": [
-          "**/*.md",
+          "**/TOC.md",
           "**/*.yml"
         ],
         "exclude": [
@@ -54,7 +53,6 @@
       },
       {
         "files": [
-          "**/*.md",
           "**/*.yml"
         ],
         "exclude": [
