@@ -5,8 +5,8 @@
   "need_generate_intellisense": false,
   "customized_tasks": [
     {
-        "repo_setup": [
-          "_dependentPackages/CommonPlugins/tools/AzureCLI-MergeTOC.ps1"
+      "repo_setup": [
+        "_dependentPackages/CommonPlugins/tools/AzureCLI-MergeTOCLocal.ps1"
         ]
     }
   ],
@@ -60,5 +60,9 @@
       "target_framework": "net45",
       "version": "latest"
     }
-  ]
+  ],
+  "MergeMDTocPlugin": {
+    "AutogenTocFolder": "docs-ref-autogen",
+    "ConceptTocFolder": "docs-ref-conceptual"
+  }
 }
