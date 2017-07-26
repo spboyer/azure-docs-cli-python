@@ -3,18 +3,9 @@
     "content": [
       {
         "files": [
-          "**/*.yml"
+          "toc.yml"
         ],
-        "exclude": [
-          "**/obj/**",
-          "**/includes/**",
-          "README.md",
-          "LICENSE",
-          "LICENSE-CODE",
-          "ThirdPartyNotices"
-        ],
-        "src": "breadcrumb",
-        "dest": "breadcrumb"
+        "src": "breadcrumb"
       },
       {
         "files": [
