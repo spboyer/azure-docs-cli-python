@@ -6,7 +6,7 @@
   "customized_tasks": [
     {
       "repo_setup": [
-        "_dependentPackages/CommonPlugins/tools/AzureCLI-MergeTOCLocal.ps1"
+        "_dependentPackages/CommonPlugins/tools/AzureCLI-MergeTOC.ps1"
         ]
     }
   ],
