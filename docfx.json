@@ -5,7 +5,8 @@
         "files": [
           "toc.yml"
         ],
-        "src": "breadcrumb"
+        "src": "breadcrumb",
+        "dest": "breadcrumb"
       },
       {
         "files": [
@@ -128,6 +129,6 @@
     "fileMetadata": {},
     "template": [],
     "exportrawmodel": true,
-    "dest": "clitest"
+    "dest": "cli"
   }
 }
