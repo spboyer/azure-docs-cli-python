@@ -6,13 +6,13 @@ items:
   langs:
   - azurecli
   children:
-  - az_network_vnet_check-ip-address
+  - az_network_vnet_check_ip_address
   - az_network_vnet_create
   - az_network_vnet_delete
   - az_network_vnet_list
   - az_network_vnet_show
   - az_network_vnet_update
-- uid: az_network_vnet_check-ip-address
+- uid: az_network_vnet_check_ip_address
   name: az network vnet check-ip-address
   summary: Check whether a private IP address is available for use.
   langs:
@@ -155,7 +155,7 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_vnet_check-ip-address
+- uid: az_network_vnet_check_ip_address
   name: az network vnet check-ip-address
   summary: Check whether a private IP address is available for use.
 - uid: az_network_vnet_create

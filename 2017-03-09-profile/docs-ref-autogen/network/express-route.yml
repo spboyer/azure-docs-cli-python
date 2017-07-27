@@ -1,43 +1,43 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_express-route
+- uid: az_network_express_route
   name: az network express-route
   summary: Manage dedicated private network fiber connections to Azure.
   langs:
   - azurecli
   children: []
 commands:
-- uid: az_network_express-route_auth
+- uid: az_network_express_route_auth
   name: az network express-route auth
   summary: Manage authentication of an ExpressRoute circuit.
-- uid: az_network_express-route_auth_create
+- uid: az_network_express_route_auth_create
   name: az network express-route auth create
   summary: Create an authorization setting.
-- uid: az_network_express-route_auth_delete
+- uid: az_network_express_route_auth_delete
   name: az network express-route auth delete
   summary: Delete an authorization setting.
-- uid: az_network_express-route_auth_list
+- uid: az_network_express_route_auth_list
   name: az network express-route auth list
   summary: List authorization settings.
-- uid: az_network_express-route_auth_show
+- uid: az_network_express_route_auth_show
   name: az network express-route auth show
   summary: Show details of an authorization setting.
-- uid: az_network_express-route_peering
+- uid: az_network_express_route_peering
   name: az network express-route peering
   summary: Manage ExpressRoute peering.
-- uid: az_network_express-route_peering_create
+- uid: az_network_express_route_peering_create
   name: az network express-route peering create
   summary: Create peering settings.
-- uid: az_network_express-route_peering_delete
+- uid: az_network_express_route_peering_delete
   name: az network express-route peering delete
   summary: Delete peering settings.
-- uid: az_network_express-route_peering_list
+- uid: az_network_express_route_peering_list
   name: az network express-route peering list
   summary: List peering settings.
-- uid: az_network_express-route_peering_show
+- uid: az_network_express_route_peering_show
   name: az network express-route peering show
   summary: Show peering details.
-- uid: az_network_express-route_peering_update
+- uid: az_network_express_route_peering_update
   name: az network express-route peering update
   summary: Update peering settings.
 globalParameters:

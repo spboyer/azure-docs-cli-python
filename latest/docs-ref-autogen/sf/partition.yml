@@ -8,8 +8,8 @@ items:
   children:
   - az_sf_partition_health
   - az_sf_partition_info
-  - az_sf_partition_report-health
-  - az_sf_partition_service-name
+  - az_sf_partition_report_health
+  - az_sf_partition_service_name
 - uid: az_sf_partition_health
   name: az sf partition health
   summary: Gets the health of the specified Service Fabric partition.
@@ -50,7 +50,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sf_partition_report-health
+- uid: az_sf_partition_report_health
   name: az sf partition report-health
   summary: Sends a health report on the Service Fabric partition.
   langs:
@@ -85,7 +85,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sf_partition_service-name
+- uid: az_sf_partition_service_name
   name: az sf partition service-name
   summary: Gets the name of the Service Fabric service for a partition.
   langs:
@@ -110,10 +110,10 @@ commands:
 - uid: az_sf_partition_info
   name: az sf partition info
   summary: Gets the information about a Service Fabric partition.
-- uid: az_sf_partition_report-health
+- uid: az_sf_partition_report_health
   name: az sf partition report-health
   summary: Sends a health report on the Service Fabric partition.
-- uid: az_sf_partition_service-name
+- uid: az_sf_partition_service_name
   name: az sf partition service-name
   summary: Gets the name of the Service Fabric service for a partition.
 globalParameters:

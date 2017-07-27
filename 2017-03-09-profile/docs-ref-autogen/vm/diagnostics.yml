@@ -6,9 +6,9 @@ items:
   langs:
   - azurecli
   children:
-  - az_vm_diagnostics_get-default-config
+  - az_vm_diagnostics_get_default_config
   - az_vm_diagnostics_set
-- uid: az_vm_diagnostics_get-default-config
+- uid: az_vm_diagnostics_get_default_config
   name: az vm diagnostics get-default-config
   summary: Show the default config file which defines data to be collected.
   langs:
@@ -61,7 +61,7 @@ items:
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_vm_diagnostics_get-default-config
+- uid: az_vm_diagnostics_get_default_config
   name: az vm diagnostics get-default-config
   summary: Show the default config file which defines data to be collected.
 - uid: az_vm_diagnostics_set

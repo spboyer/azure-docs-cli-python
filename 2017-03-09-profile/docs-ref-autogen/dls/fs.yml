@@ -14,8 +14,8 @@ items:
   - az_dls_fs_list
   - az_dls_fs_move
   - az_dls_fs_preview
-  - az_dls_fs_remove-expiry
-  - az_dls_fs_set-expiry
+  - az_dls_fs_remove_expiry
+  - az_dls_fs_set_expiry
   - az_dls_fs_show
   - az_dls_fs_test
   - az_dls_fs_upload
@@ -197,7 +197,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dls_fs_remove-expiry
+- uid: az_dls_fs_remove_expiry
   name: az dls fs remove-expiry
   summary: Removes the expiration time on a file, if any.
   langs:
@@ -215,7 +215,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dls_fs_set-expiry
+- uid: az_dls_fs_set_expiry
   name: az dls fs set-expiry
   summary: Sets the absolute expiration time of the file.
   langs:
@@ -301,22 +301,22 @@ commands:
 - uid: az_dls_fs_access
   name: az dls fs access
   summary: Commands to manage a Data Lake Store filesystem access and permissions.
-- uid: az_dls_fs_access_remove-all
+- uid: az_dls_fs_access_remove_all
   name: az dls fs access remove-all
   summary: Completely removes the existing ACL or default ACL on the file or folder.
-- uid: az_dls_fs_access_remove-entry
+- uid: az_dls_fs_access_remove_entry
   name: az dls fs access remove-entry
   summary: Updates the existing ACL on the file or folder to remove the entries specified if they exist.
 - uid: az_dls_fs_access_set
   name: az dls fs access set
   summary: Replaces the existing ACL on the file or folder with the specified ACL, which must contain all unnamed entries.
-- uid: az_dls_fs_access_set-entry
+- uid: az_dls_fs_access_set_entry
   name: az dls fs access set-entry
   summary: Updates the existing ACL on the file or folder to include or update the entries specified.
-- uid: az_dls_fs_access_set-owner
+- uid: az_dls_fs_access_set_owner
   name: az dls fs access set-owner
   summary: Sets the owner and or owning group for the file or folder in the Data Lake Store account.
-- uid: az_dls_fs_access_set-permission
+- uid: az_dls_fs_access_set_permission
   name: az dls fs access set-permission
   summary: Sets the permission octal for the file or folder in the Data Lake Store account.
 - uid: az_dls_fs_access_show
@@ -346,10 +346,10 @@ commands:
 - uid: az_dls_fs_preview
   name: az dls fs preview
   summary: Previews the content of the file in the Data Lake Store account at the path.
-- uid: az_dls_fs_remove-expiry
+- uid: az_dls_fs_remove_expiry
   name: az dls fs remove-expiry
   summary: Removes the expiration time on a file, if any.
-- uid: az_dls_fs_set-expiry
+- uid: az_dls_fs_set_expiry
   name: az dls fs set-expiry
   summary: Sets the absolute expiration time of the file.
 - uid: az_dls_fs_show

@@ -28,7 +28,7 @@ commands:
 - uid: az_functionapp_config_hostname_delete
   name: az functionapp config hostname delete
   summary: Unbind a hostname (custom domain) from a function app.
-- uid: az_functionapp_config_hostname_get-external-ip
+- uid: az_functionapp_config_hostname_get_external_ip
   name: az functionapp config hostname get-external-ip
   summary: Get the ip address to configure your DNS settings for A records.
 - uid: az_functionapp_config_hostname_list

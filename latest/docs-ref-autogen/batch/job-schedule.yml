@@ -1,21 +1,21 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_batch_job-schedule
+- uid: az_batch_job_schedule
   name: az batch job-schedule
   summary: Manage your Batch job schedules.
   langs:
   - azurecli
   children:
-  - az_batch_job-schedule_create
-  - az_batch_job-schedule_delete
-  - az_batch_job-schedule_disable
-  - az_batch_job-schedule_enable
-  - az_batch_job-schedule_list
-  - az_batch_job-schedule_reset
-  - az_batch_job-schedule_set
-  - az_batch_job-schedule_show
-  - az_batch_job-schedule_stop
-- uid: az_batch_job-schedule_create
+  - az_batch_job_schedule_create
+  - az_batch_job_schedule_delete
+  - az_batch_job_schedule_disable
+  - az_batch_job_schedule_enable
+  - az_batch_job_schedule_list
+  - az_batch_job_schedule_reset
+  - az_batch_job_schedule_set
+  - az_batch_job_schedule_show
+  - az_batch_job_schedule_stop
+- uid: az_batch_job_schedule_create
   name: az batch job-schedule create
   summary: Add a job schedule to the specified account.
   langs:
@@ -66,7 +66,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_batch_job-schedule_delete
+- uid: az_batch_job_schedule_delete
   name: az batch job-schedule delete
   summary: Deletes a job schedule from the specified account.
   langs:
@@ -97,7 +97,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_batch_job-schedule_disable
+- uid: az_batch_job_schedule_disable
   name: az batch job-schedule disable
   summary: Disables a job schedule.
   langs:
@@ -126,7 +126,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_batch_job-schedule_enable
+- uid: az_batch_job_schedule_enable
   name: az batch job-schedule enable
   summary: Enables a job schedule.
   langs:
@@ -155,7 +155,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_batch_job-schedule_list
+- uid: az_batch_job_schedule_list
   name: az batch job-schedule list
   summary: Lists all of the job schedules in the specified account.
   langs:
@@ -179,7 +179,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_batch_job-schedule_reset
+- uid: az_batch_job_schedule_reset
   name: az batch job-schedule reset
   summary: Update the properties of the specified job schedule. All updatable properties are replaced with the values specified or reset to default values if unspecified. An updated job specification only applies to new jobs.
   langs:
@@ -241,7 +241,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_batch_job-schedule_set
+- uid: az_batch_job_schedule_set
   name: az batch job-schedule set
   summary: Update the properties of the specified job schedule. You can independently update the 'schedule' and the 'job specification', but any change to either of these entities will reset all properties in that entity.
   langs:
@@ -303,7 +303,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_batch_job-schedule_show
+- uid: az_batch_job_schedule_show
   name: az batch job-schedule show
   summary: Gets information about the specified job schedule.
   langs:
@@ -336,7 +336,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_batch_job-schedule_stop
+- uid: az_batch_job_schedule_stop
   name: az batch job-schedule stop
   summary: Terminates a job schedule.
   langs:
@@ -366,31 +366,31 @@ items:
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_batch_job-schedule_create
+- uid: az_batch_job_schedule_create
   name: az batch job-schedule create
   summary: Add a job schedule to the specified account.
-- uid: az_batch_job-schedule_delete
+- uid: az_batch_job_schedule_delete
   name: az batch job-schedule delete
   summary: Deletes a job schedule from the specified account.
-- uid: az_batch_job-schedule_disable
+- uid: az_batch_job_schedule_disable
   name: az batch job-schedule disable
   summary: Disables a job schedule.
-- uid: az_batch_job-schedule_enable
+- uid: az_batch_job_schedule_enable
   name: az batch job-schedule enable
   summary: Enables a job schedule.
-- uid: az_batch_job-schedule_list
+- uid: az_batch_job_schedule_list
   name: az batch job-schedule list
   summary: Lists all of the job schedules in the specified account.
-- uid: az_batch_job-schedule_reset
+- uid: az_batch_job_schedule_reset
   name: az batch job-schedule reset
   summary: Update the properties of the specified job schedule. All updatable properties are replaced with the values specified or reset to default values if unspecified. An updated job specification only applies to new jobs.
-- uid: az_batch_job-schedule_set
+- uid: az_batch_job_schedule_set
   name: az batch job-schedule set
   summary: Update the properties of the specified job schedule. You can independently update the 'schedule' and the 'job specification', but any change to either of these entities will reset all properties in that entity.
-- uid: az_batch_job-schedule_show
+- uid: az_batch_job_schedule_show
   name: az batch job-schedule show
   summary: Gets information about the specified job schedule.
-- uid: az_batch_job-schedule_stop
+- uid: az_batch_job_schedule_stop
   name: az batch job-schedule stop
   summary: Terminates a job schedule.
 globalParameters:

@@ -46,7 +46,7 @@ commands:
 - uid: az_iot_device_show
   name: az iot device show
   summary: Show metadata of a device in an IoT Hub.
-- uid: az_iot_device_show-connection-string
+- uid: az_iot_device_show_connection_string
   name: az iot device show-connection-string
   summary: Show the connection string of devices in an IoT Hub.
 - uid: az_iot_device_update
@@ -55,19 +55,19 @@ commands:
 - uid: az_iot_hub
   name: az iot hub
   summary: Manage Azure IoT Hubs.
-- uid: az_iot_hub_consumer-group
+- uid: az_iot_hub_consumer_group
   name: az iot hub consumer-group
   summary: Manage event hub consumer groups of an IoT Hub.
-- uid: az_iot_hub_consumer-group_create
+- uid: az_iot_hub_consumer_group_create
   name: az iot hub consumer-group create
   summary: Create an event hub consumer group.
-- uid: az_iot_hub_consumer-group_delete
+- uid: az_iot_hub_consumer_group_delete
   name: az iot hub consumer-group delete
   summary: Delete an event hub consumer group.
-- uid: az_iot_hub_consumer-group_list
+- uid: az_iot_hub_consumer_group_list
   name: az iot hub consumer-group list
   summary: List all event hub consumer groups.
-- uid: az_iot_hub_consumer-group_show
+- uid: az_iot_hub_consumer_group_show
   name: az iot hub consumer-group show
   summary: Get an event hub consumer group.
 - uid: az_iot_hub_create
@@ -91,7 +91,7 @@ commands:
 - uid: az_iot_hub_list
   name: az iot hub list
   summary: List IoT Hubs.
-- uid: az_iot_hub_list-skus
+- uid: az_iot_hub_list_skus
   name: az iot hub list-skus
   summary: List all valid pricing tiers.
 - uid: az_iot_hub_policy
@@ -112,13 +112,13 @@ commands:
 - uid: az_iot_hub_show
   name: az iot hub show
   summary: Show non-security metadata of an IoT Hub.
-- uid: az_iot_hub_show-connection-string
+- uid: az_iot_hub_show_connection_string
   name: az iot hub show-connection-string
   summary: Show the connection string of an IoT Hub.
-- uid: az_iot_hub_show-quota-metrics
+- uid: az_iot_hub_show_quota_metrics
   name: az iot hub show-quota-metrics
   summary: Show quota metrics for an IoT Hub.
-- uid: az_iot_hub_show-stats
+- uid: az_iot_hub_show_stats
   name: az iot hub show-stats
   summary: Show statistics of an IoT Hub.
 - uid: az_iot_hub_update

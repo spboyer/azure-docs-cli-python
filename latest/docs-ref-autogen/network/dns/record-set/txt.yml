@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_dns_record-set_txt
+- uid: az_network_dns_record_set_txt
   name: az network dns record-set txt
   summary: Manage DNS TXT records.
   langs:
   - azurecli
   children:
-  - az_network_dns_record-set_txt_add-record
-  - az_network_dns_record-set_txt_create
-  - az_network_dns_record-set_txt_delete
-  - az_network_dns_record-set_txt_list
-  - az_network_dns_record-set_txt_remove-record
-  - az_network_dns_record-set_txt_show
-  - az_network_dns_record-set_txt_update
-- uid: az_network_dns_record-set_txt_add-record
+  - az_network_dns_record_set_txt_add_record
+  - az_network_dns_record_set_txt_create
+  - az_network_dns_record_set_txt_delete
+  - az_network_dns_record_set_txt_list
+  - az_network_dns_record_set_txt_remove_record
+  - az_network_dns_record_set_txt_show
+  - az_network_dns_record_set_txt_update
+- uid: az_network_dns_record_set_txt_add_record
   name: az network dns record-set txt add-record
   summary: Add TXT record.
   langs:
@@ -37,7 +37,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_txt_create
+- uid: az_network_dns_record_set_txt_create
   name: az network dns record-set txt create
   summary: Create an empty TXT record set.
   langs:
@@ -67,7 +67,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_txt_delete
+- uid: az_network_dns_record_set_txt_delete
   name: az network dns record-set txt delete
   summary: Delete a TXT record set and all records within.
   langs:
@@ -92,7 +92,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_txt_list
+- uid: az_network_dns_record_set_txt_list
   name: az network dns record-set txt list
   summary: List all TXT record sets in a zone.
   langs:
@@ -110,7 +110,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_txt_remove-record
+- uid: az_network_dns_record_set_txt_remove_record
   name: az network dns record-set txt remove-record
   summary: Remove TXT record from its record set.
   langs:
@@ -136,7 +136,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_txt_show
+- uid: az_network_dns_record_set_txt_show
   name: az network dns record-set txt show
   summary: Show details of TXT record set.
   langs:
@@ -161,7 +161,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_txt_update
+- uid: az_network_dns_record_set_txt_update
   name: az network dns record-set txt update
   summary: Update TXT record set.
   langs:
@@ -195,25 +195,25 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_dns_record-set_txt_add-record
+- uid: az_network_dns_record_set_txt_add_record
   name: az network dns record-set txt add-record
   summary: Add TXT record.
-- uid: az_network_dns_record-set_txt_create
+- uid: az_network_dns_record_set_txt_create
   name: az network dns record-set txt create
   summary: Create an empty TXT record set.
-- uid: az_network_dns_record-set_txt_delete
+- uid: az_network_dns_record_set_txt_delete
   name: az network dns record-set txt delete
   summary: Delete a TXT record set and all records within.
-- uid: az_network_dns_record-set_txt_list
+- uid: az_network_dns_record_set_txt_list
   name: az network dns record-set txt list
   summary: List all TXT record sets in a zone.
-- uid: az_network_dns_record-set_txt_remove-record
+- uid: az_network_dns_record_set_txt_remove_record
   name: az network dns record-set txt remove-record
   summary: Remove TXT record from its record set.
-- uid: az_network_dns_record-set_txt_show
+- uid: az_network_dns_record_set_txt_show
   name: az network dns record-set txt show
   summary: Show details of TXT record set.
-- uid: az_network_dns_record-set_txt_update
+- uid: az_network_dns_record_set_txt_update
   name: az network dns record-set txt update
   summary: Update TXT record set.
 globalParameters:

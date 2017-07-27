@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_express-route_peering
+- uid: az_network_express_route_peering
   name: az network express-route peering
   summary: Manage ExpressRoute peering.
   langs:
   - azurecli
   children:
-  - az_network_express-route_peering_create
-  - az_network_express-route_peering_delete
-  - az_network_express-route_peering_list
-  - az_network_express-route_peering_show
-  - az_network_express-route_peering_update
-- uid: az_network_express-route_peering_create
+  - az_network_express_route_peering_create
+  - az_network_express_route_peering_delete
+  - az_network_express_route_peering_list
+  - az_network_express_route_peering_show
+  - az_network_express_route_peering_update
+- uid: az_network_express_route_peering_create
   name: az network express-route peering create
   summary: Create peering settings.
   langs:
@@ -56,7 +56,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_peering_delete
+- uid: az_network_express_route_peering_delete
   name: az network express-route peering delete
   summary: Delete peering settings.
   langs:
@@ -77,7 +77,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_peering_list
+- uid: az_network_express_route_peering_list
   name: az network express-route peering list
   summary: List peering settings.
   langs:
@@ -95,7 +95,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_peering_show
+- uid: az_network_express_route_peering_show
   name: az network express-route peering show
   summary: Show peering details.
   langs:
@@ -116,7 +116,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_peering_update
+- uid: az_network_express_route_peering_update
   name: az network express-route peering update
   summary: Update peering settings.
   langs:
@@ -161,19 +161,19 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_express-route_peering_create
+- uid: az_network_express_route_peering_create
   name: az network express-route peering create
   summary: Create peering settings.
-- uid: az_network_express-route_peering_delete
+- uid: az_network_express_route_peering_delete
   name: az network express-route peering delete
   summary: Delete peering settings.
-- uid: az_network_express-route_peering_list
+- uid: az_network_express_route_peering_list
   name: az network express-route peering list
   summary: List peering settings.
-- uid: az_network_express-route_peering_show
+- uid: az_network_express_route_peering_show
   name: az network express-route peering show
   summary: Show peering details.
-- uid: az_network_express-route_peering_update
+- uid: az_network_express_route_peering_update
   name: az network express-route peering update
   summary: Update peering settings.
 globalParameters:

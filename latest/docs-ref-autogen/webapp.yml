@@ -10,7 +10,7 @@ items:
   - az_webapp_create
   - az_webapp_delete
   - az_webapp_list
-  - az_webapp_list-runtimes
+  - az_webapp_list_runtimes
   - az_webapp_restart
   - az_webapp_show
   - az_webapp_start
@@ -95,7 +95,7 @@ items:
   parameters:
   - name: --resource-group -g
     summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
-- uid: az_webapp_list-runtimes
+- uid: az_webapp_list_runtimes
   name: az webapp list-runtimes
   summary: List built-in web stack runtimes you can use to create new webapps.
   langs:
@@ -196,16 +196,16 @@ commands:
 - uid: az_webapp_config_backup_update
   name: az webapp config backup update
   summary: Configure a new backup schedule.
-- uid: az_webapp_config_connection-string
+- uid: az_webapp_config_connection_string
   name: az webapp config connection-string
   summary: Configure web app connection strings.
-- uid: az_webapp_config_connection-string_delete
+- uid: az_webapp_config_connection_string_delete
   name: az webapp config connection-string delete
   summary: Delete connection strings.
-- uid: az_webapp_config_connection-string_list
+- uid: az_webapp_config_connection_string_list
   name: az webapp config connection-string list
   summary: ''
-- uid: az_webapp_config_connection-string_set
+- uid: az_webapp_config_connection_string_set
   name: az webapp config connection-string set
   summary: Create or update connection strings.
 - uid: az_webapp_config_container
@@ -229,7 +229,7 @@ commands:
 - uid: az_webapp_config_hostname_delete
   name: az webapp config hostname delete
   summary: Unbind a hostname (custom domain) from a web app.
-- uid: az_webapp_config_hostname_get-external-ip
+- uid: az_webapp_config_hostname_get_external_ip
   name: az webapp config hostname get-external-ip
   summary: Get the ip address to configure your DNS settings for A records.
 - uid: az_webapp_config_hostname_list
@@ -268,13 +268,13 @@ commands:
 - uid: az_webapp_deployment
   name: az webapp deployment
   summary: Manage web application deployments.
-- uid: az_webapp_deployment_list-publishing-profiles
+- uid: az_webapp_deployment_list_publishing_profiles
   name: az webapp deployment list-publishing-profiles
   summary: Get publishing endpoints, credentials, database connection strings, etc.
 - uid: az_webapp_deployment_slot
   name: az webapp deployment slot
   summary: Manage deployment slots.
-- uid: az_webapp_deployment_slot_auto-swap
+- uid: az_webapp_deployment_slot_auto_swap
   name: az webapp deployment slot auto-swap
   summary: Configure slot auto swap.
 - uid: az_webapp_deployment_slot_create
@@ -295,7 +295,7 @@ commands:
 - uid: az_webapp_deployment_source_config
   name: az webapp deployment source config
   summary: Associate to Git or Mercurial repositories.
-- uid: az_webapp_deployment_source_config-local-git
+- uid: az_webapp_deployment_source_config_local_git
   name: az webapp deployment source config-local-git
   summary: Enable local git.
 - uid: az_webapp_deployment_source_delete
@@ -307,7 +307,7 @@ commands:
 - uid: az_webapp_deployment_source_sync
   name: az webapp deployment source sync
   summary: Synchronize from the source repository, only needed under manual integration mode.
-- uid: az_webapp_deployment_source_update-token
+- uid: az_webapp_deployment_source_update_token
   name: az webapp deployment source update-token
   summary: Update source control token cached in Azure app service.
 - uid: az_webapp_deployment_user
@@ -322,7 +322,7 @@ commands:
 - uid: az_webapp_list
   name: az webapp list
   summary: List web apps.
-- uid: az_webapp_list-runtimes
+- uid: az_webapp_list_runtimes
   name: az webapp list-runtimes
   summary: List built-in web stack runtimes you can use to create new webapps.
 - uid: az_webapp_log
@@ -349,16 +349,16 @@ commands:
 - uid: az_webapp_stop
   name: az webapp stop
   summary: Stop a web app.
-- uid: az_webapp_traffic-routing
+- uid: az_webapp_traffic_routing
   name: az webapp traffic-routing
   summary: Manage traffic routings in production test.
-- uid: az_webapp_traffic-routing_clear
+- uid: az_webapp_traffic_routing_clear
   name: az webapp traffic-routing clear
   summary: Clear the routing rules to send 100% to production.
-- uid: az_webapp_traffic-routing_set
+- uid: az_webapp_traffic_routing_set
   name: az webapp traffic-routing set
   summary: Routing some percentages of traffic to deployment slots.
-- uid: az_webapp_traffic-routing_show
+- uid: az_webapp_traffic_routing_show
   name: az webapp traffic-routing show
   summary: Display the current distribution of traffic across slots.
 globalParameters:

@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_dns_record-set_a
+- uid: az_network_dns_record_set_a
   name: az network dns record-set a
   summary: Manage DNS A records.
   langs:
   - azurecli
   children:
-  - az_network_dns_record-set_a_add-record
-  - az_network_dns_record-set_a_create
-  - az_network_dns_record-set_a_delete
-  - az_network_dns_record-set_a_list
-  - az_network_dns_record-set_a_remove-record
-  - az_network_dns_record-set_a_show
-  - az_network_dns_record-set_a_update
-- uid: az_network_dns_record-set_a_add-record
+  - az_network_dns_record_set_a_add_record
+  - az_network_dns_record_set_a_create
+  - az_network_dns_record_set_a_delete
+  - az_network_dns_record_set_a_list
+  - az_network_dns_record_set_a_remove_record
+  - az_network_dns_record_set_a_show
+  - az_network_dns_record_set_a_update
+- uid: az_network_dns_record_set_a_add_record
   name: az network dns record-set a add-record
   summary: ''
   langs:
@@ -37,7 +37,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_a_create
+- uid: az_network_dns_record_set_a_create
   name: az network dns record-set a create
   summary: Create an empty A record set.
   langs:
@@ -67,7 +67,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_a_delete
+- uid: az_network_dns_record_set_a_delete
   name: az network dns record-set a delete
   summary: Delete a A record set and all records within.
   langs:
@@ -92,7 +92,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_a_list
+- uid: az_network_dns_record_set_a_list
   name: az network dns record-set a list
   summary: List all A record sets in a zone.
   langs:
@@ -110,7 +110,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_a_remove-record
+- uid: az_network_dns_record_set_a_remove_record
   name: az network dns record-set a remove-record
   summary: Remove A record from its record set.
   langs:
@@ -136,7 +136,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_a_show
+- uid: az_network_dns_record_set_a_show
   name: az network dns record-set a show
   summary: Show details of A record set.
   langs:
@@ -161,7 +161,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_a_update
+- uid: az_network_dns_record_set_a_update
   name: az network dns record-set a update
   summary: ''
   langs:
@@ -195,25 +195,25 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_dns_record-set_a_add-record
+- uid: az_network_dns_record_set_a_add_record
   name: az network dns record-set a add-record
   summary: ''
-- uid: az_network_dns_record-set_a_create
+- uid: az_network_dns_record_set_a_create
   name: az network dns record-set a create
   summary: Create an empty A record set.
-- uid: az_network_dns_record-set_a_delete
+- uid: az_network_dns_record_set_a_delete
   name: az network dns record-set a delete
   summary: Delete a A record set and all records within.
-- uid: az_network_dns_record-set_a_list
+- uid: az_network_dns_record_set_a_list
   name: az network dns record-set a list
   summary: List all A record sets in a zone.
-- uid: az_network_dns_record-set_a_remove-record
+- uid: az_network_dns_record_set_a_remove_record
   name: az network dns record-set a remove-record
   summary: Remove A record from its record set.
-- uid: az_network_dns_record-set_a_show
+- uid: az_network_dns_record_set_a_show
   name: az network dns record-set a show
   summary: Show details of A record set.
-- uid: az_network_dns_record-set_a_update
+- uid: az_network_dns_record_set_a_update
   name: az network dns record-set a update
   summary: ''
 globalParameters:

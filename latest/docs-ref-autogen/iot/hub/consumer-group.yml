@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_iot_hub_consumer-group
+- uid: az_iot_hub_consumer_group
   name: az iot hub consumer-group
   summary: Manage event hub consumer groups of an IoT Hub.
   langs:
   - azurecli
   children:
-  - az_iot_hub_consumer-group_create
-  - az_iot_hub_consumer-group_delete
-  - az_iot_hub_consumer-group_list
-  - az_iot_hub_consumer-group_show
-- uid: az_iot_hub_consumer-group_create
+  - az_iot_hub_consumer_group_create
+  - az_iot_hub_consumer_group_delete
+  - az_iot_hub_consumer_group_list
+  - az_iot_hub_consumer_group_show
+- uid: az_iot_hub_consumer_group_create
   name: az iot hub consumer-group create
   summary: Create an event hub consumer group.
   langs:
@@ -40,7 +40,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-iot/azure/cli/command_modules/iot/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_iot_hub_consumer-group_delete
+- uid: az_iot_hub_consumer_group_delete
   name: az iot hub consumer-group delete
   summary: Delete an event hub consumer group.
   langs:
@@ -63,7 +63,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-iot/azure/cli/command_modules/iot/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_iot_hub_consumer-group_list
+- uid: az_iot_hub_consumer_group_list
   name: az iot hub consumer-group list
   summary: List all event hub consumer groups.
   langs:
@@ -83,7 +83,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-iot/azure/cli/command_modules/iot/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_iot_hub_consumer-group_show
+- uid: az_iot_hub_consumer_group_show
   name: az iot hub consumer-group show
   summary: Get an event hub consumer group.
   langs:
@@ -107,16 +107,16 @@ items:
       path: src/command_modules/azure-cli-iot/azure/cli/command_modules/iot/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_iot_hub_consumer-group_create
+- uid: az_iot_hub_consumer_group_create
   name: az iot hub consumer-group create
   summary: Create an event hub consumer group.
-- uid: az_iot_hub_consumer-group_delete
+- uid: az_iot_hub_consumer_group_delete
   name: az iot hub consumer-group delete
   summary: Delete an event hub consumer group.
-- uid: az_iot_hub_consumer-group_list
+- uid: az_iot_hub_consumer_group_list
   name: az iot hub consumer-group list
   summary: List all event hub consumer groups.
-- uid: az_iot_hub_consumer-group_show
+- uid: az_iot_hub_consumer_group_show
   name: az iot hub consumer-group show
   summary: Get an event hub consumer group.
 globalParameters:

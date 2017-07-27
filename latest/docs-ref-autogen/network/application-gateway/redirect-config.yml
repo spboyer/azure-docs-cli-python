@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_application-gateway_redirect-config
+- uid: az_network_application_gateway_redirect_config
   name: az network application-gateway redirect-config
   summary: Manage redirect configurations.
   langs:
   - azurecli
   children:
-  - az_network_application-gateway_redirect-config_create
-  - az_network_application-gateway_redirect-config_delete
-  - az_network_application-gateway_redirect-config_list
-  - az_network_application-gateway_redirect-config_show
-  - az_network_application-gateway_redirect-config_update
-- uid: az_network_application-gateway_redirect-config_create
+  - az_network_application_gateway_redirect_config_create
+  - az_network_application_gateway_redirect_config_delete
+  - az_network_application_gateway_redirect_config_list
+  - az_network_application_gateway_redirect_config_show
+  - az_network_application_gateway_redirect_config_update
+- uid: az_network_application_gateway_redirect_config_create
   name: az network application-gateway redirect-config create
   summary: Create a redirect configuration.
   langs:
@@ -48,7 +48,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_application-gateway_redirect-config_delete
+- uid: az_network_application_gateway_redirect_config_delete
   name: az network application-gateway redirect-config delete
   summary: Delete a redirect configuration.
   langs:
@@ -71,7 +71,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_application-gateway_redirect-config_list
+- uid: az_network_application_gateway_redirect_config_list
   name: az network application-gateway redirect-config list
   summary: List redirect configurations.
   langs:
@@ -89,7 +89,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_application-gateway_redirect-config_show
+- uid: az_network_application_gateway_redirect_config_show
   name: az network application-gateway redirect-config show
   summary: Show details of a redirect configuration.
   langs:
@@ -110,7 +110,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_application-gateway_redirect-config_update
+- uid: az_network_application_gateway_redirect_config_update
   name: az network application-gateway redirect-config update
   summary: Update a redirect configuration.
   langs:
@@ -132,7 +132,7 @@ items:
     parameterValueGroup: false, true
     summary: ''
   - name: --no-wait
-    summary: Do not wait for the long running operation to finish.
+    summary: ''
   - name: --target-listener
     summary: Name or ID of the HTTP listener to redirect the request to.
   - name: --target-url
@@ -153,19 +153,19 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_application-gateway_redirect-config_create
+- uid: az_network_application_gateway_redirect_config_create
   name: az network application-gateway redirect-config create
   summary: Create a redirect configuration.
-- uid: az_network_application-gateway_redirect-config_delete
+- uid: az_network_application_gateway_redirect_config_delete
   name: az network application-gateway redirect-config delete
   summary: Delete a redirect configuration.
-- uid: az_network_application-gateway_redirect-config_list
+- uid: az_network_application_gateway_redirect_config_list
   name: az network application-gateway redirect-config list
   summary: List redirect configurations.
-- uid: az_network_application-gateway_redirect-config_show
+- uid: az_network_application_gateway_redirect_config_show
   name: az network application-gateway redirect-config show
   summary: Show details of a redirect configuration.
-- uid: az_network_application-gateway_redirect-config_update
+- uid: az_network_application_gateway_redirect_config_update
   name: az network application-gateway redirect-config update
   summary: Update a redirect configuration.
 globalParameters:

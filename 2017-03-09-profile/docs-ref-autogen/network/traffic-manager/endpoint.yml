@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_traffic-manager_endpoint
+- uid: az_network_traffic_manager_endpoint
   name: az network traffic-manager endpoint
   summary: Manage Traffic Manager end points.
   langs:
   - azurecli
   children:
-  - az_network_traffic-manager_endpoint_create
-  - az_network_traffic-manager_endpoint_delete
-  - az_network_traffic-manager_endpoint_list
-  - az_network_traffic-manager_endpoint_show
-  - az_network_traffic-manager_endpoint_show-geographic-hierarchy
-  - az_network_traffic-manager_endpoint_update
-- uid: az_network_traffic-manager_endpoint_create
+  - az_network_traffic_manager_endpoint_create
+  - az_network_traffic_manager_endpoint_delete
+  - az_network_traffic_manager_endpoint_list
+  - az_network_traffic_manager_endpoint_show
+  - az_network_traffic_manager_endpoint_show_geographic_hierarchy
+  - az_network_traffic_manager_endpoint_update
+- uid: az_network_traffic_manager_endpoint_create
   name: az network traffic-manager endpoint create
   summary: Create an endpoint.
   langs:
@@ -56,7 +56,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_traffic-manager_endpoint_delete
+- uid: az_network_traffic_manager_endpoint_delete
   name: az network traffic-manager endpoint delete
   summary: Delete an endpoint.
   langs:
@@ -81,7 +81,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_traffic-manager_endpoint_list
+- uid: az_network_traffic_manager_endpoint_list
   name: az network traffic-manager endpoint list
   summary: List endpoints.
   langs:
@@ -102,7 +102,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_traffic-manager_endpoint_show
+- uid: az_network_traffic_manager_endpoint_show
   name: az network traffic-manager endpoint show
   summary: Show details of an endpoint.
   langs:
@@ -127,7 +127,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_traffic-manager_endpoint_show-geographic-hierarchy
+- uid: az_network_traffic_manager_endpoint_show_geographic_hierarchy
   name: az network traffic-manager endpoint show-geographic-hierarchy
   summary: Gets the default Geographic Hierarchy used by the Geographic traffic routing method.
   langs:
@@ -139,7 +139,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_traffic-manager_endpoint_update
+- uid: az_network_traffic_manager_endpoint_update
   name: az network traffic-manager endpoint update
   summary: Update an endpoint.
   langs:
@@ -188,22 +188,22 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_traffic-manager_endpoint_create
+- uid: az_network_traffic_manager_endpoint_create
   name: az network traffic-manager endpoint create
   summary: Create an endpoint.
-- uid: az_network_traffic-manager_endpoint_delete
+- uid: az_network_traffic_manager_endpoint_delete
   name: az network traffic-manager endpoint delete
   summary: Delete an endpoint.
-- uid: az_network_traffic-manager_endpoint_list
+- uid: az_network_traffic_manager_endpoint_list
   name: az network traffic-manager endpoint list
   summary: List endpoints.
-- uid: az_network_traffic-manager_endpoint_show
+- uid: az_network_traffic_manager_endpoint_show
   name: az network traffic-manager endpoint show
   summary: Show details of an endpoint.
-- uid: az_network_traffic-manager_endpoint_show-geographic-hierarchy
+- uid: az_network_traffic_manager_endpoint_show_geographic_hierarchy
   name: az network traffic-manager endpoint show-geographic-hierarchy
   summary: Gets the default Geographic Hierarchy used by the Geographic traffic routing method.
-- uid: az_network_traffic-manager_endpoint_update
+- uid: az_network_traffic_manager_endpoint_update
   name: az network traffic-manager endpoint update
   summary: Update an endpoint.
 globalParameters:

@@ -9,15 +9,15 @@ items:
   - az_redis_create
   - az_redis_delete
   - az_redis_export
-  - az_redis_force-reboot
-  - az_redis_import-method
+  - az_redis_force_reboot
+  - az_redis_import_method
   - az_redis_list
-  - az_redis_list-all
-  - az_redis_list-keys
-  - az_redis_regenerate-keys
+  - az_redis_list_all
+  - az_redis_list_keys
+  - az_redis_regenerate_keys
   - az_redis_show
   - az_redis_update
-  - az_redis_update-settings
+  - az_redis_update_settings
 - uid: az_redis_create
   name: az redis create
   summary: Create new Redis Cache instance.
@@ -104,7 +104,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_redis_force-reboot
+- uid: az_redis_force_reboot
   name: az redis force-reboot
   summary: Reboot specified redis node(s).
   langs:
@@ -128,7 +128,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_redis_import-method
+- uid: az_redis_import_method
   name: az redis import-method
   summary: Import data into a redis cache.
   langs:
@@ -167,7 +167,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_redis_list-all
+- uid: az_redis_list_all
   name: az redis list-all
   summary: Gets all redis caches in the specified subscription.
   langs:
@@ -179,7 +179,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_redis_list-keys
+- uid: az_redis_list_keys
   name: az redis list-keys
   summary: Retrieve a redis cache's access keys.
   langs:
@@ -197,7 +197,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_redis_regenerate-keys
+- uid: az_redis_regenerate_keys
   name: az redis regenerate-keys
   summary: Regenerate redis cache's access keys.
   langs:
@@ -266,7 +266,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_redis_update-settings
+- uid: az_redis_update_settings
   name: az redis update-settings
   summary: (DEPRECATED) Update the settings of a redis cache.
   langs:
@@ -297,34 +297,34 @@ commands:
 - uid: az_redis_export
   name: az redis export
   summary: Export data stored in a redis cache.
-- uid: az_redis_force-reboot
+- uid: az_redis_force_reboot
   name: az redis force-reboot
   summary: Reboot specified redis node(s).
-- uid: az_redis_import-method
+- uid: az_redis_import_method
   name: az redis import-method
   summary: Import data into a redis cache.
 - uid: az_redis_list
   name: az redis list
   summary: Gets all redis caches in a resource group.
-- uid: az_redis_list-all
+- uid: az_redis_list_all
   name: az redis list-all
   summary: Gets all redis caches in the specified subscription.
-- uid: az_redis_list-keys
+- uid: az_redis_list_keys
   name: az redis list-keys
   summary: Retrieve a redis cache's access keys.
-- uid: az_redis_patch-schedule
+- uid: az_redis_patch_schedule
   name: az redis patch-schedule
   summary: Manage redis patch schedules.
-- uid: az_redis_patch-schedule_delete
+- uid: az_redis_patch_schedule_delete
   name: az redis patch-schedule delete
   summary: Deletes the patching schedule for redis cache.
-- uid: az_redis_patch-schedule_set
+- uid: az_redis_patch_schedule_set
   name: az redis patch-schedule set
   summary: Create or replace the patching schedule for redis cache.
-- uid: az_redis_patch-schedule_show
+- uid: az_redis_patch_schedule_show
   name: az redis patch-schedule show
   summary: Gets the patching schedule for redis cache.
-- uid: az_redis_regenerate-keys
+- uid: az_redis_regenerate_keys
   name: az redis regenerate-keys
   summary: Regenerate redis cache's access keys.
 - uid: az_redis_show
@@ -333,7 +333,7 @@ commands:
 - uid: az_redis_update
   name: az redis update
   summary: Scale or update settings of a redis cache.
-- uid: az_redis_update-settings
+- uid: az_redis_update_settings
   name: az redis update-settings
   summary: (DEPRECATED) Update the settings of a redis cache.
 globalParameters:

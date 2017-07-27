@@ -1,22 +1,22 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_express-route
+- uid: az_network_express_route
   name: az network express-route
   summary: Manage dedicated private network fiber connections to Azure.
   langs:
   - azurecli
   children:
-  - az_network_express-route_create
-  - az_network_express-route_delete
-  - az_network_express-route_get-stats
-  - az_network_express-route_list
-  - az_network_express-route_list-arp-tables
-  - az_network_express-route_list-route-tables
-  - az_network_express-route_list-service-providers
-  - az_network_express-route_show
-  - az_network_express-route_update
-  - az_network_express-route_wait
-- uid: az_network_express-route_create
+  - az_network_express_route_create
+  - az_network_express_route_delete
+  - az_network_express_route_get_stats
+  - az_network_express_route_list
+  - az_network_express_route_list_arp_tables
+  - az_network_express_route_list_route_tables
+  - az_network_express_route_list_service_providers
+  - az_network_express_route_show
+  - az_network_express_route_update
+  - az_network_express_route_wait
+- uid: az_network_express_route_create
   name: az network express-route create
   summary: Create an ExpressRoute circuit.
   langs:
@@ -57,7 +57,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_delete
+- uid: az_network_express_route_delete
   name: az network express-route delete
   summary: Delete an ExpressRoute circuit.
   langs:
@@ -77,7 +77,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_get-stats
+- uid: az_network_express_route_get_stats
   name: az network express-route get-stats
   summary: Show statistics of an ExpressRoute circuit.
   langs:
@@ -95,7 +95,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_list
+- uid: az_network_express_route_list
   name: az network express-route list
   summary: List ExpressRoute circuits.
   langs:
@@ -109,7 +109,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_list-arp-tables
+- uid: az_network_express_route_list_arp_tables
   name: az network express-route list-arp-tables
   summary: List the currently advertised ARP table of an ExpressRoute circuit.
   langs:
@@ -134,7 +134,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_list-route-tables
+- uid: az_network_express_route_list_route_tables
   name: az network express-route list-route-tables
   summary: List the currently advertised route tables of an ExpressRoute circuit.
   langs:
@@ -159,7 +159,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_list-service-providers
+- uid: az_network_express_route_list_service_providers
   name: az network express-route list-service-providers
   summary: List available ExpressRoute service providers.
   langs:
@@ -171,7 +171,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_show
+- uid: az_network_express_route_show
   name: az network express-route show
   summary: Show details of an ExpressRoute circuit.
   langs:
@@ -189,7 +189,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_update
+- uid: az_network_express_route_update
   name: az network express-route update
   summary: Update settings of an ExpressRoute circuit.
   langs:
@@ -229,7 +229,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_wait
+- uid: az_network_express_route_wait
   name: az network express-route wait
   summary: ''
   langs:
@@ -264,67 +264,67 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_express-route_auth
+- uid: az_network_express_route_auth
   name: az network express-route auth
   summary: Manage authentication of an ExpressRoute circuit.
-- uid: az_network_express-route_auth_create
+- uid: az_network_express_route_auth_create
   name: az network express-route auth create
   summary: Create an authorization setting.
-- uid: az_network_express-route_auth_delete
+- uid: az_network_express_route_auth_delete
   name: az network express-route auth delete
   summary: Delete an authorization setting.
-- uid: az_network_express-route_auth_list
+- uid: az_network_express_route_auth_list
   name: az network express-route auth list
   summary: List authorization settings.
-- uid: az_network_express-route_auth_show
+- uid: az_network_express_route_auth_show
   name: az network express-route auth show
   summary: Show details of an authorization setting.
-- uid: az_network_express-route_create
+- uid: az_network_express_route_create
   name: az network express-route create
   summary: Create an ExpressRoute circuit.
-- uid: az_network_express-route_delete
+- uid: az_network_express_route_delete
   name: az network express-route delete
   summary: Delete an ExpressRoute circuit.
-- uid: az_network_express-route_get-stats
+- uid: az_network_express_route_get_stats
   name: az network express-route get-stats
   summary: Show statistics of an ExpressRoute circuit.
-- uid: az_network_express-route_list
+- uid: az_network_express_route_list
   name: az network express-route list
   summary: List ExpressRoute circuits.
-- uid: az_network_express-route_list-arp-tables
+- uid: az_network_express_route_list_arp_tables
   name: az network express-route list-arp-tables
   summary: List the currently advertised ARP table of an ExpressRoute circuit.
-- uid: az_network_express-route_list-route-tables
+- uid: az_network_express_route_list_route_tables
   name: az network express-route list-route-tables
   summary: List the currently advertised route tables of an ExpressRoute circuit.
-- uid: az_network_express-route_list-service-providers
+- uid: az_network_express_route_list_service_providers
   name: az network express-route list-service-providers
   summary: List available ExpressRoute service providers.
-- uid: az_network_express-route_peering
+- uid: az_network_express_route_peering
   name: az network express-route peering
   summary: Manage ExpressRoute peering.
-- uid: az_network_express-route_peering_create
+- uid: az_network_express_route_peering_create
   name: az network express-route peering create
   summary: Create peering settings.
-- uid: az_network_express-route_peering_delete
+- uid: az_network_express_route_peering_delete
   name: az network express-route peering delete
   summary: Delete peering settings.
-- uid: az_network_express-route_peering_list
+- uid: az_network_express_route_peering_list
   name: az network express-route peering list
   summary: List peering settings.
-- uid: az_network_express-route_peering_show
+- uid: az_network_express_route_peering_show
   name: az network express-route peering show
   summary: Show peering details.
-- uid: az_network_express-route_peering_update
+- uid: az_network_express_route_peering_update
   name: az network express-route peering update
   summary: Update peering settings.
-- uid: az_network_express-route_show
+- uid: az_network_express_route_show
   name: az network express-route show
   summary: Show details of an ExpressRoute circuit.
-- uid: az_network_express-route_update
+- uid: az_network_express_route_update
   name: az network express-route update
   summary: Update settings of an ExpressRoute circuit.
-- uid: az_network_express-route_wait
+- uid: az_network_express_route_wait
   name: az network express-route wait
   summary: ''
 globalParameters:

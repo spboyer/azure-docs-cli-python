@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_nic_ip-config_inbound-nat-rule
+- uid: az_network_nic_ip_config_inbound_nat_rule
   name: az network nic ip-config inbound-nat-rule
   summary: Manage inbound NAT rules for an IP configuration.
   langs:
   - azurecli
   children:
-  - az_network_nic_ip-config_inbound-nat-rule_add
-  - az_network_nic_ip-config_inbound-nat-rule_remove
-- uid: az_network_nic_ip-config_inbound-nat-rule_add
+  - az_network_nic_ip_config_inbound_nat_rule_add
+  - az_network_nic_ip_config_inbound_nat_rule_remove
+- uid: az_network_nic_ip_config_inbound_nat_rule_add
   name: az network nic ip-config inbound-nat-rule add
   summary: Add an inbound NAT rule.
   langs:
@@ -34,7 +34,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_nic_ip-config_inbound-nat-rule_remove
+- uid: az_network_nic_ip_config_inbound_nat_rule_remove
   name: az network nic ip-config inbound-nat-rule remove
   summary: Remove an inbound NAT rule.
   langs:
@@ -61,10 +61,10 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_nic_ip-config_inbound-nat-rule_add
+- uid: az_network_nic_ip_config_inbound_nat_rule_add
   name: az network nic ip-config inbound-nat-rule add
   summary: Add an inbound NAT rule.
-- uid: az_network_nic_ip-config_inbound-nat-rule_remove
+- uid: az_network_nic_ip_config_inbound_nat_rule_remove
   name: az network nic ip-config inbound-nat-rule remove
   summary: Remove an inbound NAT rule.
 globalParameters:

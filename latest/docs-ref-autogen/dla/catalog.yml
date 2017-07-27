@@ -43,13 +43,13 @@ commands:
 - uid: az_dla_catalog_database_show
   name: az dla catalog database show
   summary: Retrieves the specified database from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_external-data-source
+- uid: az_dla_catalog_external_data_source
   name: az dla catalog external-data-source
   summary: Commands to manage Data Lake Analytics catalog external data sources.
-- uid: az_dla_catalog_external-data-source_list
+- uid: az_dla_catalog_external_data_source_list
   name: az dla catalog external-data-source list
   summary: Retrieves the list of external data sources from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_external-data-source_show
+- uid: az_dla_catalog_external_data_source_show
   name: az dla catalog external-data-source show
   summary: Retrieves the specified external data source from the Data Lake Analytics catalog.
 - uid: az_dla_catalog_package
@@ -88,31 +88,31 @@ commands:
 - uid: az_dla_catalog_table_show
   name: az dla catalog table show
   summary: Retrieves the specified table from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-partition
+- uid: az_dla_catalog_table_partition
   name: az dla catalog table-partition
   summary: Commands to manage Data Lake Analytics catalog table partitions.
-- uid: az_dla_catalog_table-partition_list
+- uid: az_dla_catalog_table_partition_list
   name: az dla catalog table-partition list
   summary: Retrieves the list of table partitions from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-partition_show
+- uid: az_dla_catalog_table_partition_show
   name: az dla catalog table-partition show
   summary: Retrieves the specified table partition from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-stats
+- uid: az_dla_catalog_table_stats
   name: az dla catalog table-stats
   summary: Commands to manage Data Lake Analytics catalog table statistics.
-- uid: az_dla_catalog_table-stats_list
+- uid: az_dla_catalog_table_stats_list
   name: az dla catalog table-stats list
   summary: Lists all table statistics in the database or in the database and schema or in a specific table.
-- uid: az_dla_catalog_table-stats_show
+- uid: az_dla_catalog_table_stats_show
   name: az dla catalog table-stats show
   summary: Retrieves the specified table statistics from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-type
+- uid: az_dla_catalog_table_type
   name: az dla catalog table-type
   summary: Commands to manage Data Lake Analytics catalog table types.
-- uid: az_dla_catalog_table-type_list
+- uid: az_dla_catalog_table_type_list
   name: az dla catalog table-type list
   summary: Retrieves the list of table types from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-type_show
+- uid: az_dla_catalog_table_type_show
   name: az dla catalog table-type show
   summary: Retrieves the specified table type from the Data Lake Analytics catalog.
 - uid: az_dla_catalog_tvf

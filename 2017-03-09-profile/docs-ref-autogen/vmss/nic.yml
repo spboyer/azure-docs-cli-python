@@ -7,7 +7,7 @@ items:
   - azurecli
   children:
   - az_vmss_nic_list
-  - az_vmss_nic_list-vm-nics
+  - az_vmss_nic_list_vm_nics
   - az_vmss_nic_show
 - uid: az_vmss_nic_list
   name: az vmss nic list
@@ -27,7 +27,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vmss_nic_list-vm-nics
+- uid: az_vmss_nic_list_vm_nics
   name: az vmss nic list-vm-nics
   summary: Gets information about all network interfaces in a virtual machine in a virtual machine scale set.
   langs:
@@ -78,7 +78,7 @@ commands:
 - uid: az_vmss_nic_list
   name: az vmss nic list
   summary: Gets all network interfaces in a virtual machine scale set.
-- uid: az_vmss_nic_list-vm-nics
+- uid: az_vmss_nic_list_vm_nics
   name: az vmss nic list-vm-nics
   summary: Gets information about all network interfaces in a virtual machine in a virtual machine scale set.
 - uid: az_vmss_nic_show

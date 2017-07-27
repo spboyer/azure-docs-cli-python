@@ -284,10 +284,10 @@ items:
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_batch_pool_all-statistics
+- uid: az_batch_pool_all_statistics
   name: az batch pool all-statistics
   summary: View statistics of all pools under your Batch account.
-- uid: az_batch_pool_all-statistics_show
+- uid: az_batch_pool_all_statistics_show
   name: az batch pool all-statistics show
   summary: Get lifetime summary statistics for all of the pools in the specified account. Statistics are aggregated across all pools that have ever existed in the account, from account creation to the last update time of the statistics.
 - uid: az_batch_pool_autoscale
@@ -311,10 +311,10 @@ commands:
 - uid: az_batch_pool_list
   name: az batch pool list
   summary: Lists all of the pools in the specified account.
-- uid: az_batch_pool_node-agent-skus
+- uid: az_batch_pool_node_agent_skus
   name: az batch pool node-agent-skus
   summary: Retrieve node agent SKUs of pools using a Virtual Machine Configuration.
-- uid: az_batch_pool_node-agent-skus_list
+- uid: az_batch_pool_node_agent_skus_list
   name: az batch pool node-agent-skus list
   summary: Lists all node agent SKUs supported by the Azure Batch service.
 - uid: az_batch_pool_os
@@ -335,10 +335,10 @@ commands:
 - uid: az_batch_pool_show
   name: az batch pool show
   summary: Gets information about the specified pool.
-- uid: az_batch_pool_usage-metrics
+- uid: az_batch_pool_usage_metrics
   name: az batch pool usage-metrics
   summary: View usage metrics of your Batch pools.
-- uid: az_batch_pool_usage-metrics_list
+- uid: az_batch_pool_usage_metrics_list
   name: az batch pool usage-metrics list
   summary: Lists the usage metrics, aggregated by pool across individual time intervals, for the specified account.
 globalParameters:

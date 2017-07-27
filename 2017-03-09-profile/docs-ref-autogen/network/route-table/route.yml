@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_route-table_route
+- uid: az_network_route_table_route
   name: az network route-table route
   summary: Manage routes in a route table.
   langs:
   - azurecli
   children:
-  - az_network_route-table_route_create
-  - az_network_route-table_route_delete
-  - az_network_route-table_route_list
-  - az_network_route-table_route_show
-  - az_network_route-table_route_update
-- uid: az_network_route-table_route_create
+  - az_network_route_table_route_create
+  - az_network_route_table_route_delete
+  - az_network_route_table_route_list
+  - az_network_route_table_route_show
+  - az_network_route_table_route_update
+- uid: az_network_route_table_route_create
   name: az network route-table route create
   summary: Create a route in a route table.
   langs:
@@ -41,7 +41,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-table_route_delete
+- uid: az_network_route_table_route_delete
   name: az network route-table route delete
   summary: Delete a route from a route table.
   langs:
@@ -62,7 +62,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-table_route_list
+- uid: az_network_route_table_route_list
   name: az network route-table route list
   summary: List routes in a route table.
   langs:
@@ -80,7 +80,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-table_route_show
+- uid: az_network_route_table_route_show
   name: az network route-table route show
   summary: Show details of a route in a route table.
   langs:
@@ -101,7 +101,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-table_route_update
+- uid: az_network_route_table_route_update
   name: az network route-table route update
   summary: Update a route in a route table.
   langs:
@@ -136,19 +136,19 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_route-table_route_create
+- uid: az_network_route_table_route_create
   name: az network route-table route create
   summary: Create a route in a route table.
-- uid: az_network_route-table_route_delete
+- uid: az_network_route_table_route_delete
   name: az network route-table route delete
   summary: Delete a route from a route table.
-- uid: az_network_route-table_route_list
+- uid: az_network_route_table_route_list
   name: az network route-table route list
   summary: List routes in a route table.
-- uid: az_network_route-table_route_show
+- uid: az_network_route_table_route_show
   name: az network route-table route show
   summary: Show details of a route in a route table.
-- uid: az_network_route-table_route_update
+- uid: az_network_route_table_route_update
   name: az network route-table route update
   summary: Update a route in a route table.
 globalParameters:

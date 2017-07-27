@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_public-ip
+- uid: az_network_public_ip
   name: az network public-ip
   summary: Manage public IP addresses.
   langs:
   - azurecli
   children:
-  - az_network_public-ip_create
-  - az_network_public-ip_delete
-  - az_network_public-ip_list
-  - az_network_public-ip_show
-  - az_network_public-ip_update
-- uid: az_network_public-ip_create
+  - az_network_public_ip_create
+  - az_network_public_ip_delete
+  - az_network_public_ip_list
+  - az_network_public_ip_show
+  - az_network_public_ip_update
+- uid: az_network_public_ip_create
   name: az network public-ip create
   summary: Create a public IP address.
   langs:
@@ -51,7 +51,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_public-ip_delete
+- uid: az_network_public_ip_delete
   name: az network public-ip delete
   summary: Delete a public IP address.
   langs:
@@ -69,7 +69,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_public-ip_list
+- uid: az_network_public_ip_list
   name: az network public-ip list
   summary: List public IP addresses.
   langs:
@@ -90,7 +90,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_public-ip_show
+- uid: az_network_public_ip_show
   name: az network public-ip show
   summary: Show details of a public IP address.
   langs:
@@ -117,7 +117,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_public-ip_update
+- uid: az_network_public_ip_update
   name: az network public-ip update
   summary: Update a public IP address.
   langs:
@@ -157,19 +157,19 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_public-ip_create
+- uid: az_network_public_ip_create
   name: az network public-ip create
   summary: Create a public IP address.
-- uid: az_network_public-ip_delete
+- uid: az_network_public_ip_delete
   name: az network public-ip delete
   summary: Delete a public IP address.
-- uid: az_network_public-ip_list
+- uid: az_network_public_ip_list
   name: az network public-ip list
   summary: List public IP addresses.
-- uid: az_network_public-ip_show
+- uid: az_network_public_ip_show
   name: az network public-ip show
   summary: Show details of a public IP address.
-- uid: az_network_public-ip_update
+- uid: az_network_public_ip_update
   name: az network public-ip update
   summary: Update a public IP address.
 globalParameters:

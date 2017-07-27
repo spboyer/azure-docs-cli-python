@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_batch_pool_node-agent-skus
+- uid: az_batch_pool_node_agent_skus
   name: az batch pool node-agent-skus
   summary: Retrieve node agent SKUs of pools using a Virtual Machine Configuration.
   langs:
   - azurecli
   children:
-  - az_batch_pool_node-agent-skus_list
-- uid: az_batch_pool_node-agent-skus_list
+  - az_batch_pool_node_agent_skus_list
+- uid: az_batch_pool_node_agent_skus_list
   name: az batch pool node-agent-skus list
   summary: Lists all node agent SKUs supported by the Azure Batch service.
   langs:
@@ -28,7 +28,7 @@ items:
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_batch_pool_node-agent-skus_list
+- uid: az_batch_pool_node_agent_skus_list
   name: az batch pool node-agent-skus list
   summary: Lists all node agent SKUs supported by the Azure Batch service.
 globalParameters:

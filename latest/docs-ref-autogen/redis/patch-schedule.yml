@@ -1,15 +1,15 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_redis_patch-schedule
+- uid: az_redis_patch_schedule
   name: az redis patch-schedule
   summary: Manage redis patch schedules.
   langs:
   - azurecli
   children:
-  - az_redis_patch-schedule_delete
-  - az_redis_patch-schedule_set
-  - az_redis_patch-schedule_show
-- uid: az_redis_patch-schedule_delete
+  - az_redis_patch_schedule_delete
+  - az_redis_patch_schedule_set
+  - az_redis_patch_schedule_show
+- uid: az_redis_patch_schedule_delete
   name: az redis patch-schedule delete
   summary: Deletes the patching schedule for redis cache.
   langs:
@@ -27,7 +27,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_redis_patch-schedule_set
+- uid: az_redis_patch_schedule_set
   name: az redis patch-schedule set
   summary: Create or replace the patching schedule for redis cache.
   langs:
@@ -48,7 +48,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_redis_patch-schedule_show
+- uid: az_redis_patch_schedule_show
   name: az redis patch-schedule show
   summary: Gets the patching schedule for redis cache.
   langs:
@@ -67,13 +67,13 @@ items:
       path: src/command_modules/azure-cli-redis/azure/cli/command_modules/redis/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_redis_patch-schedule_delete
+- uid: az_redis_patch_schedule_delete
   name: az redis patch-schedule delete
   summary: Deletes the patching schedule for redis cache.
-- uid: az_redis_patch-schedule_set
+- uid: az_redis_patch_schedule_set
   name: az redis patch-schedule set
   summary: Create or replace the patching schedule for redis cache.
-- uid: az_redis_patch-schedule_show
+- uid: az_redis_patch_schedule_show
   name: az redis patch-schedule show
   summary: Gets the patching schedule for redis cache.
 globalParameters:

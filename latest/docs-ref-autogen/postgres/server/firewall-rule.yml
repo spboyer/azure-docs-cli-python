@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_postgres_server_firewall-rule
+- uid: az_postgres_server_firewall_rule
   name: az postgres server firewall-rule
   summary: Commands to manage firewall rules for an Azure Database for PostgreSQL server.
   langs:
   - azurecli
   children:
-  - az_postgres_server_firewall-rule_create
-  - az_postgres_server_firewall-rule_delete
-  - az_postgres_server_firewall-rule_list
-  - az_postgres_server_firewall-rule_show
-  - az_postgres_server_firewall-rule_update
-- uid: az_postgres_server_firewall-rule_create
+  - az_postgres_server_firewall_rule_create
+  - az_postgres_server_firewall_rule_delete
+  - az_postgres_server_firewall_rule_list
+  - az_postgres_server_firewall_rule_show
+  - az_postgres_server_firewall_rule_update
+- uid: az_postgres_server_firewall_rule_create
   name: az postgres server firewall-rule create
   summary: Create a firewall rule for an Azure Database for PostgreSQL server.
   langs:
@@ -36,7 +36,7 @@ items:
   - isRequired: true
     name: --start-ip-address
     summary: The start IP address of the firewall rule. Must be IPv4 format.
-- uid: az_postgres_server_firewall-rule_delete
+- uid: az_postgres_server_firewall_rule_delete
   name: az postgres server firewall-rule delete
   summary: Delete a firewall rule for an Azure Database for PostgreSQL server.
   langs:
@@ -53,7 +53,7 @@ items:
     summary: Name of the server.
   - name: --yes -y
     summary: Do not prompt for confirmation.
-- uid: az_postgres_server_firewall-rule_list
+- uid: az_postgres_server_firewall_rule_list
   name: az postgres server firewall-rule list
   summary: List all the firewall rules for an Azure Database for PostgreSQL server.
   langs:
@@ -65,7 +65,7 @@ items:
   - isRequired: true
     name: --server-name -s
     summary: Name of the server.
-- uid: az_postgres_server_firewall-rule_show
+- uid: az_postgres_server_firewall_rule_show
   name: az postgres server firewall-rule show
   summary: Show the details of a firewall rule for an Azure Database for PostgreSQL server.
   langs:
@@ -80,7 +80,7 @@ items:
   - isRequired: true
     name: --server-name -s
     summary: Name of the server.
-- uid: az_postgres_server_firewall-rule_update
+- uid: az_postgres_server_firewall_rule_update
   name: az postgres server firewall-rule update
   summary: Update a firewall rule for an Azure Database for PostgreSQL server.
   langs:
@@ -113,19 +113,19 @@ items:
   - name: --set
     summary: 'Update an object by specifying a property path and value to set.  Example: --set property1.property2=<value>.'
 commands:
-- uid: az_postgres_server_firewall-rule_create
+- uid: az_postgres_server_firewall_rule_create
   name: az postgres server firewall-rule create
   summary: Create a firewall rule for an Azure Database for PostgreSQL server.
-- uid: az_postgres_server_firewall-rule_delete
+- uid: az_postgres_server_firewall_rule_delete
   name: az postgres server firewall-rule delete
   summary: Delete a firewall rule for an Azure Database for PostgreSQL server.
-- uid: az_postgres_server_firewall-rule_list
+- uid: az_postgres_server_firewall_rule_list
   name: az postgres server firewall-rule list
   summary: List all the firewall rules for an Azure Database for PostgreSQL server.
-- uid: az_postgres_server_firewall-rule_show
+- uid: az_postgres_server_firewall_rule_show
   name: az postgres server firewall-rule show
   summary: Show the details of a firewall rule for an Azure Database for PostgreSQL server.
-- uid: az_postgres_server_firewall-rule_update
+- uid: az_postgres_server_firewall_rule_update
   name: az postgres server firewall-rule update
   summary: Update a firewall rule for an Azure Database for PostgreSQL server.
 globalParameters:

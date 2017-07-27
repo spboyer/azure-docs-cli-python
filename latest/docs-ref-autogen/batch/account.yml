@@ -134,10 +134,10 @@ items:
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_batch_account_autostorage-keys
+- uid: az_batch_account_autostorage_keys
   name: az batch account autostorage-keys
   summary: Manage the access keys for the auto storage account configured for your Batch account.
-- uid: az_batch_account_autostorage-keys_sync
+- uid: az_batch_account_autostorage_keys_sync
   name: az batch account autostorage-keys sync
   summary: Synchronizes access keys for the auto-storage account configured for the specified Batch account.
 - uid: az_batch_account_create

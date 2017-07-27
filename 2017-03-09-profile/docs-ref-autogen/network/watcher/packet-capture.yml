@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_watcher_packet-capture
+- uid: az_network_watcher_packet_capture
   name: az network watcher packet-capture
   summary: (PREVIEW) Commands to manage packet capture sessions on VMs.
   langs:
   - azurecli
   children:
-  - az_network_watcher_packet-capture_create
-- uid: az_network_watcher_packet-capture_create
+  - az_network_watcher_packet_capture_create
+- uid: az_network_watcher_packet_capture_create
   name: az network watcher packet-capture create
   summary: Create and start a packet capture session.
   langs:
@@ -43,7 +43,7 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_watcher_packet-capture_create
+- uid: az_network_watcher_packet_capture_create
   name: az network watcher packet-capture create
   summary: Create and start a packet capture session.
 globalParameters:

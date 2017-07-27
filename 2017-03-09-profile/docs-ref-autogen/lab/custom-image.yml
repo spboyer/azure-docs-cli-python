@@ -1,15 +1,15 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_lab_custom-image
+- uid: az_lab_custom_image
   name: az lab custom-image
   summary: Commands to manage custom images of a DevTest Lab.
   langs:
   - azurecli
   children:
-  - az_lab_custom-image_delete
-  - az_lab_custom-image_list
-  - az_lab_custom-image_show
-- uid: az_lab_custom-image_delete
+  - az_lab_custom_image_delete
+  - az_lab_custom_image_list
+  - az_lab_custom_image_show
+- uid: az_lab_custom_image_delete
   name: az lab custom-image delete
   summary: Delete custom image.
   langs:
@@ -30,7 +30,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_lab_custom-image_list
+- uid: az_lab_custom_image_list
   name: az lab custom-image list
   summary: List custom images in a given lab.
   langs:
@@ -56,7 +56,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_lab_custom-image_show
+- uid: az_lab_custom_image_show
   name: az lab custom-image show
   summary: Get custom image.
   langs:
@@ -80,13 +80,13 @@ items:
       path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_lab_custom-image_delete
+- uid: az_lab_custom_image_delete
   name: az lab custom-image delete
   summary: Delete custom image.
-- uid: az_lab_custom-image_list
+- uid: az_lab_custom_image_list
   name: az lab custom-image list
   summary: List custom images in a given lab.
-- uid: az_lab_custom-image_show
+- uid: az_lab_custom_image_show
   name: az lab custom-image show
   summary: Get custom image.
 globalParameters:

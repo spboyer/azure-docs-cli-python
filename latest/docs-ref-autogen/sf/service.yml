@@ -6,16 +6,16 @@ items:
   langs:
   - azurecli
   children:
-  - az_sf_service_application-name
+  - az_sf_service_application_name
   - az_sf_service_create
   - az_sf_service_description
   - az_sf_service_health
   - az_sf_service_list
   - az_sf_service_manifest
-  - az_sf_service_report-health
+  - az_sf_service_report_health
   - az_sf_service_resolve
   - az_sf_service_update
-- uid: az_sf_service_application-name
+- uid: az_sf_service_application_name
   name: az sf service application-name
   summary: Gets the name of the Service Fabric application for a service.
   langs:
@@ -191,7 +191,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sf_service_report-health
+- uid: az_sf_service_report_health
   name: az sf service report-health
   summary: Sends a health report on the Service Fabric service.
   langs:
@@ -297,7 +297,7 @@ items:
       path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_sf_service_application-name
+- uid: az_sf_service_application_name
   name: az sf service application-name
   summary: Gets the name of the Service Fabric application for a service.
 - uid: az_sf_service_create
@@ -315,7 +315,7 @@ commands:
 - uid: az_sf_service_manifest
   name: az sf service manifest
   summary: Gets the manifest describing a service type.
-- uid: az_sf_service_report-health
+- uid: az_sf_service_report_health
   name: az sf service report-health
   summary: Sends a health report on the Service Fabric service.
 - uid: az_sf_service_resolve

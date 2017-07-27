@@ -11,15 +11,15 @@ items:
   - az_vm_create
   - az_vm_deallocate
   - az_vm_delete
-  - az_vm_format-secret
+  - az_vm_format_secret
   - az_vm_generalize
-  - az_vm_get-instance-view
+  - az_vm_get_instance_view
   - az_vm_list
-  - az_vm_list-ip-addresses
-  - az_vm_list-sizes
-  - az_vm_list-usage
-  - az_vm_list-vm-resize-options
-  - az_vm_open-port
+  - az_vm_list_ip_addresses
+  - az_vm_list_sizes
+  - az_vm_list_usage
+  - az_vm_list_vm_resize_options
+  - az_vm_open_port
   - az_vm_redeploy
   - az_vm_resize
   - az_vm_restart
@@ -292,7 +292,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_format-secret
+- uid: az_vm_format_secret
   name: az vm format-secret
   summary: Format secrets to be used in az vm create --secrets.
   langs:
@@ -347,7 +347,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_get-instance-view
+- uid: az_vm_get_instance_view
   name: az vm get-instance-view
   summary: Get information about a VM including instance information (powerState).
   langs:
@@ -398,7 +398,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_list-ip-addresses
+- uid: az_vm_list_ip_addresses
   name: az vm list-ip-addresses
   summary: Get IP addresses from one or more Virtual Machines.
   langs:
@@ -421,7 +421,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_list-sizes
+- uid: az_vm_list_sizes
   name: az vm list-sizes
   summary: Lists all available virtual machine sizes for a subscription in a location.
   langs:
@@ -440,7 +440,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_list-usage
+- uid: az_vm_list_usage
   name: az vm list-usage
   summary: Gets, for the specified location, the current compute resource usage information as well as the limits for compute resources under the subscription.
   langs:
@@ -459,7 +459,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_list-vm-resize-options
+- uid: az_vm_list_vm_resize_options
   name: az vm list-vm-resize-options
   summary: Lists all available virtual machine sizes to which the specified virtual machine can be resized.
   langs:
@@ -484,7 +484,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_open-port
+- uid: az_vm_open_port
   name: az vm open-port
   summary: Opens a VM to inbound traffic on specified ports by adding a security rule to the network security group (NSG) that is attached to the VM's network interface (NIC) or subnet.
   langs:
@@ -771,40 +771,40 @@ items:
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_vm_availability-set
+- uid: az_vm_availability_set
   name: az vm availability-set
   summary: Group resources into availability sets for high-availability requirements.
-- uid: az_vm_availability-set_convert
+- uid: az_vm_availability_set_convert
   name: az vm availability-set convert
   summary: Convert an Azure Availability Set to contain VMs with managed disks.
-- uid: az_vm_availability-set_create
+- uid: az_vm_availability_set_create
   name: az vm availability-set create
   summary: Create an Azure Availability Set.
-- uid: az_vm_availability-set_delete
+- uid: az_vm_availability_set_delete
   name: az vm availability-set delete
   summary: Delete an availability set.
-- uid: az_vm_availability-set_list
+- uid: az_vm_availability_set_list
   name: az vm availability-set list
   summary: Lists all availability sets in a resource group.
-- uid: az_vm_availability-set_list-sizes
+- uid: az_vm_availability_set_list_sizes
   name: az vm availability-set list-sizes
   summary: Lists all available virtual machine sizes that can be used to create a new virtual machine in an existing availability set.
-- uid: az_vm_availability-set_show
+- uid: az_vm_availability_set_show
   name: az vm availability-set show
   summary: Retrieves information about an availability set.
-- uid: az_vm_availability-set_update
+- uid: az_vm_availability_set_update
   name: az vm availability-set update
   summary: Update an Azure Availability Set.
-- uid: az_vm_boot-diagnostics
+- uid: az_vm_boot_diagnostics
   name: az vm boot-diagnostics
   summary: Troubleshoot the start up of an Azure Virtual Machine.
-- uid: az_vm_boot-diagnostics_disable
+- uid: az_vm_boot_diagnostics_disable
   name: az vm boot-diagnostics disable
   summary: Disable the boot diagnostics on a VM.
-- uid: az_vm_boot-diagnostics_enable
+- uid: az_vm_boot_diagnostics_enable
   name: az vm boot-diagnostics enable
   summary: Enable the boot diagnostics on a VM.
-- uid: az_vm_boot-diagnostics_get-boot-log
+- uid: az_vm_boot_diagnostics_get_boot_log
   name: az vm boot-diagnostics get-boot-log
   summary: Get the boot diagnostics log from a VM.
 - uid: az_vm_capture
@@ -825,7 +825,7 @@ commands:
 - uid: az_vm_diagnostics
   name: az vm diagnostics
   summary: Configure the Azure Virtual Machine diagnostics extension.
-- uid: az_vm_diagnostics_get-default-config
+- uid: az_vm_diagnostics_get_default_config
   name: az vm diagnostics get-default-config
   summary: Show the default config file which defines data to be collected.
 - uid: az_vm_diagnostics_set
@@ -864,10 +864,10 @@ commands:
 - uid: az_vm_extension_image_list
   name: az vm extension image list
   summary: Vm extension image list.
-- uid: az_vm_extension_image_list-names
+- uid: az_vm_extension_image_list_names
   name: az vm extension image list-names
   summary: Gets a list of virtual machine extension image types.
-- uid: az_vm_extension_image_list-versions
+- uid: az_vm_extension_image_list_versions
   name: az vm extension image list-versions
   summary: Gets a list of virtual machine extension image versions.
 - uid: az_vm_extension_image_show
@@ -882,13 +882,13 @@ commands:
 - uid: az_vm_extension_show
   name: az vm extension show
   summary: The operation to get the extension.
-- uid: az_vm_format-secret
+- uid: az_vm_format_secret
   name: az vm format-secret
   summary: Format secrets to be used in az vm create --secrets.
 - uid: az_vm_generalize
   name: az vm generalize
   summary: Sets the state of the virtual machine to generalized.
-- uid: az_vm_get-instance-view
+- uid: az_vm_get_instance_view
   name: az vm get-instance-view
   summary: Get information about a VM including instance information (powerState).
 - uid: az_vm_image
@@ -897,13 +897,13 @@ commands:
 - uid: az_vm_image_list
   name: az vm image list
   summary: List the VM/VMSS images available in the Azure Marketplace.
-- uid: az_vm_image_list-offers
+- uid: az_vm_image_list_offers
   name: az vm image list-offers
   summary: List the VM image offers available in the Azure Marketplace.
-- uid: az_vm_image_list-publishers
+- uid: az_vm_image_list_publishers
   name: az vm image list-publishers
   summary: List the VM image publishers available in the Azure Marketplace.
-- uid: az_vm_image_list-skus
+- uid: az_vm_image_list_skus
   name: az vm image list-skus
   summary: List the VM image skus available in the Azure Marketplace.
 - uid: az_vm_image_show
@@ -912,16 +912,16 @@ commands:
 - uid: az_vm_list
   name: az vm list
   summary: List information about Virtual Machines.
-- uid: az_vm_list-ip-addresses
+- uid: az_vm_list_ip_addresses
   name: az vm list-ip-addresses
   summary: Get IP addresses from one or more Virtual Machines.
-- uid: az_vm_list-sizes
+- uid: az_vm_list_sizes
   name: az vm list-sizes
   summary: Lists all available virtual machine sizes for a subscription in a location.
-- uid: az_vm_list-usage
+- uid: az_vm_list_usage
   name: az vm list-usage
   summary: Gets, for the specified location, the current compute resource usage information as well as the limits for compute resources under the subscription.
-- uid: az_vm_list-vm-resize-options
+- uid: az_vm_list_vm_resize_options
   name: az vm list-vm-resize-options
   summary: Lists all available virtual machine sizes to which the specified virtual machine can be resized.
 - uid: az_vm_nic
@@ -942,7 +942,7 @@ commands:
 - uid: az_vm_nic_show
   name: az vm nic show
   summary: Show details of a network interface configuration attached to a virtual machine.
-- uid: az_vm_open-port
+- uid: az_vm_open_port
   name: az vm open-port
   summary: Opens a VM to inbound traffic on specified ports by adding a security rule to the network security group (NSG) that is attached to the VM's network interface (NIC) or subnet.
 - uid: az_vm_redeploy
@@ -963,16 +963,16 @@ commands:
 - uid: az_vm_stop
   name: az vm stop
   summary: The operation to power off (stop) a virtual machine.
-- uid: az_vm_unmanaged-disk
+- uid: az_vm_unmanaged_disk
   name: az vm unmanaged-disk
   summary: Manage the unmanaged data disks attached to a VM.
-- uid: az_vm_unmanaged-disk_attach
+- uid: az_vm_unmanaged_disk_attach
   name: az vm unmanaged-disk attach
   summary: Attach an unmanaged disk.
-- uid: az_vm_unmanaged-disk_detach
+- uid: az_vm_unmanaged_disk_detach
   name: az vm unmanaged-disk detach
   summary: ''
-- uid: az_vm_unmanaged-disk_list
+- uid: az_vm_unmanaged_disk_list
   name: az vm unmanaged-disk list
   summary: List disks for a Virtual Machine.
 - uid: az_vm_update
@@ -984,7 +984,7 @@ commands:
 - uid: az_vm_user_delete
   name: az vm user delete
   summary: Remove a user(not supported on Windows VM).
-- uid: az_vm_user_reset-ssh
+- uid: az_vm_user_reset_ssh
   name: az vm user reset-ssh
   summary: Reset the SSH configuration on a VM.
 - uid: az_vm_user_update

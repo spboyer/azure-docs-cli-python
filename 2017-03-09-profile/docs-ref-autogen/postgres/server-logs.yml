@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_postgres_server-logs
+- uid: az_postgres_server_logs
   name: az postgres server-logs
   summary: Commands to manage Azure Database for PostgreSQL server logs.
   langs:
   - azurecli
   children:
-  - az_postgres_server-logs_download
-  - az_postgres_server-logs_list
-- uid: az_postgres_server-logs_download
+  - az_postgres_server_logs_download
+  - az_postgres_server_logs_list
+- uid: az_postgres_server_logs_download
   name: az postgres server-logs download
   summary: Download log file(s) to current directory for Azure Database for PostgreSQL.
   langs:
@@ -27,7 +27,7 @@ items:
   - isRequired: true
     name: --server-name -s
     summary: Name of the server.
-- uid: az_postgres_server-logs_list
+- uid: az_postgres_server_logs_list
   name: az postgres server-logs list
   summary: List log files for Azure Database for PostgreSQL.
   langs:
@@ -56,10 +56,10 @@ items:
   - name: --max-file-size
     summary: The file size limitation to filter files.
 commands:
-- uid: az_postgres_server-logs_download
+- uid: az_postgres_server_logs_download
   name: az postgres server-logs download
   summary: Download log file(s) to current directory for Azure Database for PostgreSQL.
-- uid: az_postgres_server-logs_list
+- uid: az_postgres_server_logs_list
   name: az postgres server-logs list
   summary: List log files for Azure Database for PostgreSQL.
 globalParameters:

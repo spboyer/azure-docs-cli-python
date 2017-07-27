@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_dns_record-set_srv
+- uid: az_network_dns_record_set_srv
   name: az network dns record-set srv
   summary: Manage DNS SRV records.
   langs:
   - azurecli
   children:
-  - az_network_dns_record-set_srv_add-record
-  - az_network_dns_record-set_srv_create
-  - az_network_dns_record-set_srv_delete
-  - az_network_dns_record-set_srv_list
-  - az_network_dns_record-set_srv_remove-record
-  - az_network_dns_record-set_srv_show
-  - az_network_dns_record-set_srv_update
-- uid: az_network_dns_record-set_srv_add-record
+  - az_network_dns_record_set_srv_add_record
+  - az_network_dns_record_set_srv_create
+  - az_network_dns_record_set_srv_delete
+  - az_network_dns_record_set_srv_list
+  - az_network_dns_record_set_srv_remove_record
+  - az_network_dns_record_set_srv_show
+  - az_network_dns_record_set_srv_update
+- uid: az_network_dns_record_set_srv_add_record
   name: az network dns record-set srv add-record
   summary: ''
   langs:
@@ -46,7 +46,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_srv_create
+- uid: az_network_dns_record_set_srv_create
   name: az network dns record-set srv create
   summary: Create an empty SRV record set.
   langs:
@@ -76,7 +76,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_srv_delete
+- uid: az_network_dns_record_set_srv_delete
   name: az network dns record-set srv delete
   summary: Delete a SRV record set and all records within.
   langs:
@@ -101,7 +101,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_srv_list
+- uid: az_network_dns_record_set_srv_list
   name: az network dns record-set srv list
   summary: List all SRV record sets in a zone.
   langs:
@@ -119,7 +119,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_srv_remove-record
+- uid: az_network_dns_record_set_srv_remove_record
   name: az network dns record-set srv remove-record
   summary: Remove SRV record from its record set.
   langs:
@@ -154,7 +154,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_srv_show
+- uid: az_network_dns_record_set_srv_show
   name: az network dns record-set srv show
   summary: Show details of SRV record set.
   langs:
@@ -179,7 +179,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_srv_update
+- uid: az_network_dns_record_set_srv_update
   name: az network dns record-set srv update
   summary: ''
   langs:
@@ -213,25 +213,25 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_dns_record-set_srv_add-record
+- uid: az_network_dns_record_set_srv_add_record
   name: az network dns record-set srv add-record
   summary: ''
-- uid: az_network_dns_record-set_srv_create
+- uid: az_network_dns_record_set_srv_create
   name: az network dns record-set srv create
   summary: Create an empty SRV record set.
-- uid: az_network_dns_record-set_srv_delete
+- uid: az_network_dns_record_set_srv_delete
   name: az network dns record-set srv delete
   summary: Delete a SRV record set and all records within.
-- uid: az_network_dns_record-set_srv_list
+- uid: az_network_dns_record_set_srv_list
   name: az network dns record-set srv list
   summary: List all SRV record sets in a zone.
-- uid: az_network_dns_record-set_srv_remove-record
+- uid: az_network_dns_record_set_srv_remove_record
   name: az network dns record-set srv remove-record
   summary: Remove SRV record from its record set.
-- uid: az_network_dns_record-set_srv_show
+- uid: az_network_dns_record_set_srv_show
   name: az network dns record-set srv show
   summary: Show details of SRV record set.
-- uid: az_network_dns_record-set_srv_update
+- uid: az_network_dns_record_set_srv_update
   name: az network dns record-set srv update
   summary: ''
 globalParameters:

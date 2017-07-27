@@ -174,22 +174,22 @@ commands:
 - uid: az_mysql_server_delete
   name: az mysql server delete
   summary: Delete an Azure Database for MySQL server.
-- uid: az_mysql_server_firewall-rule
+- uid: az_mysql_server_firewall_rule
   name: az mysql server firewall-rule
   summary: Commands to manage firewall rules for an Azure Database for MySQL server.
-- uid: az_mysql_server_firewall-rule_create
+- uid: az_mysql_server_firewall_rule_create
   name: az mysql server firewall-rule create
   summary: Create a firewall rule for an Azure Database for MySQL server.
-- uid: az_mysql_server_firewall-rule_delete
+- uid: az_mysql_server_firewall_rule_delete
   name: az mysql server firewall-rule delete
   summary: Delete a firewall rule for an Azure Database for MySQL server.
-- uid: az_mysql_server_firewall-rule_list
+- uid: az_mysql_server_firewall_rule_list
   name: az mysql server firewall-rule list
   summary: List all the firewall rules for an Azure Database for MySQL server.
-- uid: az_mysql_server_firewall-rule_show
+- uid: az_mysql_server_firewall_rule_show
   name: az mysql server firewall-rule show
   summary: Show the details of a firewall rule for an Azure Database for MySQL server.
-- uid: az_mysql_server_firewall-rule_update
+- uid: az_mysql_server_firewall_rule_update
   name: az mysql server firewall-rule update
   summary: Update a firewall rule for an Azure Database for MySQL server.
 - uid: az_mysql_server_list

@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_local-gateway
+- uid: az_network_local_gateway
   name: az network local-gateway
   summary: Manage local gateways.
   langs:
   - azurecli
   children:
-  - az_network_local-gateway_create
-  - az_network_local-gateway_delete
-  - az_network_local-gateway_list
-  - az_network_local-gateway_show
-  - az_network_local-gateway_update
-  - az_network_local-gateway_wait
-- uid: az_network_local-gateway_create
+  - az_network_local_gateway_create
+  - az_network_local_gateway_delete
+  - az_network_local_gateway_list
+  - az_network_local_gateway_show
+  - az_network_local_gateway_update
+  - az_network_local_gateway_wait
+- uid: az_network_local_gateway_create
   name: az network local-gateway create
   summary: Create a local VPN gateway.
   langs:
@@ -47,7 +47,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_local-gateway_delete
+- uid: az_network_local_gateway_delete
   name: az network local-gateway delete
   summary: Delete a local VPN gateway.
   langs:
@@ -67,7 +67,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_local-gateway_list
+- uid: az_network_local_gateway_list
   name: az network local-gateway list
   summary: List local VPN gateways.
   langs:
@@ -82,7 +82,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_local-gateway_show
+- uid: az_network_local_gateway_show
   name: az network local-gateway show
   summary: Show details of a local VPN gateway.
   langs:
@@ -100,7 +100,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_local-gateway_update
+- uid: az_network_local_gateway_update
   name: az network local-gateway update
   summary: Update a local VPN gateway.
   langs:
@@ -138,7 +138,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_local-gateway_wait
+- uid: az_network_local_gateway_wait
   name: az network local-gateway wait
   summary: ''
   langs:
@@ -173,22 +173,22 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_local-gateway_create
+- uid: az_network_local_gateway_create
   name: az network local-gateway create
   summary: Create a local VPN gateway.
-- uid: az_network_local-gateway_delete
+- uid: az_network_local_gateway_delete
   name: az network local-gateway delete
   summary: Delete a local VPN gateway.
-- uid: az_network_local-gateway_list
+- uid: az_network_local_gateway_list
   name: az network local-gateway list
   summary: List local VPN gateways.
-- uid: az_network_local-gateway_show
+- uid: az_network_local_gateway_show
   name: az network local-gateway show
   summary: Show details of a local VPN gateway.
-- uid: az_network_local-gateway_update
+- uid: az_network_local_gateway_update
   name: az network local-gateway update
   summary: Update a local VPN gateway.
-- uid: az_network_local-gateway_wait
+- uid: az_network_local_gateway_wait
   name: az network local-gateway wait
   summary: ''
 globalParameters:

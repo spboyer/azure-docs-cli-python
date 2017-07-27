@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_dns_record-set_mx
+- uid: az_network_dns_record_set_mx
   name: az network dns record-set mx
   summary: Manage DNS MX records.
   langs:
   - azurecli
   children:
-  - az_network_dns_record-set_mx_add-record
-  - az_network_dns_record-set_mx_create
-  - az_network_dns_record-set_mx_delete
-  - az_network_dns_record-set_mx_list
-  - az_network_dns_record-set_mx_remove-record
-  - az_network_dns_record-set_mx_show
-  - az_network_dns_record-set_mx_update
-- uid: az_network_dns_record-set_mx_add-record
+  - az_network_dns_record_set_mx_add_record
+  - az_network_dns_record_set_mx_create
+  - az_network_dns_record_set_mx_delete
+  - az_network_dns_record_set_mx_list
+  - az_network_dns_record_set_mx_remove_record
+  - az_network_dns_record_set_mx_show
+  - az_network_dns_record_set_mx_update
+- uid: az_network_dns_record_set_mx_add_record
   name: az network dns record-set mx add-record
   summary: ''
   langs:
@@ -40,7 +40,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_mx_create
+- uid: az_network_dns_record_set_mx_create
   name: az network dns record-set mx create
   summary: Create an empty MX record set.
   langs:
@@ -70,7 +70,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_mx_delete
+- uid: az_network_dns_record_set_mx_delete
   name: az network dns record-set mx delete
   summary: Delete a MX record set and all records within.
   langs:
@@ -95,7 +95,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_mx_list
+- uid: az_network_dns_record_set_mx_list
   name: az network dns record-set mx list
   summary: List all MX record sets in a zone.
   langs:
@@ -113,7 +113,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_mx_remove-record
+- uid: az_network_dns_record_set_mx_remove_record
   name: az network dns record-set mx remove-record
   summary: Remove MX record from its record set.
   langs:
@@ -142,7 +142,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_mx_show
+- uid: az_network_dns_record_set_mx_show
   name: az network dns record-set mx show
   summary: Show details of MX record set.
   langs:
@@ -167,7 +167,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_mx_update
+- uid: az_network_dns_record_set_mx_update
   name: az network dns record-set mx update
   summary: ''
   langs:
@@ -201,25 +201,25 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_dns_record-set_mx_add-record
+- uid: az_network_dns_record_set_mx_add_record
   name: az network dns record-set mx add-record
   summary: ''
-- uid: az_network_dns_record-set_mx_create
+- uid: az_network_dns_record_set_mx_create
   name: az network dns record-set mx create
   summary: Create an empty MX record set.
-- uid: az_network_dns_record-set_mx_delete
+- uid: az_network_dns_record_set_mx_delete
   name: az network dns record-set mx delete
   summary: Delete a MX record set and all records within.
-- uid: az_network_dns_record-set_mx_list
+- uid: az_network_dns_record_set_mx_list
   name: az network dns record-set mx list
   summary: List all MX record sets in a zone.
-- uid: az_network_dns_record-set_mx_remove-record
+- uid: az_network_dns_record_set_mx_remove_record
   name: az network dns record-set mx remove-record
   summary: Remove MX record from its record set.
-- uid: az_network_dns_record-set_mx_show
+- uid: az_network_dns_record_set_mx_show
   name: az network dns record-set mx show
   summary: Show details of MX record set.
-- uid: az_network_dns_record-set_mx_update
+- uid: az_network_dns_record_set_mx_update
   name: az network dns record-set mx update
   summary: ''
 globalParameters:

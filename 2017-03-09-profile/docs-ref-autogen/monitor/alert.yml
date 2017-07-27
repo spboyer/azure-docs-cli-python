@@ -9,9 +9,9 @@ items:
   - az_monitor_alert_create
   - az_monitor_alert_delete
   - az_monitor_alert_list
-  - az_monitor_alert_list-incidents
+  - az_monitor_alert_list_incidents
   - az_monitor_alert_show
-  - az_monitor_alert_show-incident
+  - az_monitor_alert_show_incident
   - az_monitor_alert_update
 - uid: az_monitor_alert_create
   name: az monitor alert create
@@ -97,7 +97,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-monitor/azure/cli/command_modules/monitor/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_monitor_alert_list-incidents
+- uid: az_monitor_alert_list_incidents
   name: az monitor alert list-incidents
   summary: List all incidents for an alert rule.
   langs:
@@ -133,7 +133,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-monitor/azure/cli/command_modules/monitor/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_monitor_alert_show-incident
+- uid: az_monitor_alert_show_incident
   name: az monitor alert show-incident
   summary: Show details of an alert rule incident.
   langs:
@@ -224,13 +224,13 @@ commands:
 - uid: az_monitor_alert_list
   name: az monitor alert list
   summary: List alert rules in a resource group.
-- uid: az_monitor_alert_list-incidents
+- uid: az_monitor_alert_list_incidents
   name: az monitor alert list-incidents
   summary: List all incidents for an alert rule.
 - uid: az_monitor_alert_show
   name: az monitor alert show
   summary: Show an alert rule.
-- uid: az_monitor_alert_show-incident
+- uid: az_monitor_alert_show_incident
   name: az monitor alert show-incident
   summary: Show details of an alert rule incident.
 - uid: az_monitor_alert_update

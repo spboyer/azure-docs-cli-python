@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_lab_gallery-image
+- uid: az_lab_gallery_image
   name: az lab gallery-image
   summary: Commands to list Azure Marketplace images allowed in a given DevTest Lab.
   langs:
   - azurecli
   children:
-  - az_lab_gallery-image_list
-- uid: az_lab_gallery-image_list
+  - az_lab_gallery_image_list
+- uid: az_lab_gallery_image_list
   name: az lab gallery-image list
   summary: List gallery images in a given lab.
   langs:
@@ -34,7 +34,7 @@ items:
       path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_lab_gallery-image_list
+- uid: az_lab_gallery_image_list
   name: az lab gallery-image list
   summary: List gallery images in a given lab.
 globalParameters:

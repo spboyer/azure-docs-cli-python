@@ -6,14 +6,14 @@ items:
   langs:
   - azurecli
   children:
-  - az_dls_fs_access_remove-all
-  - az_dls_fs_access_remove-entry
+  - az_dls_fs_access_remove_all
+  - az_dls_fs_access_remove_entry
   - az_dls_fs_access_set
-  - az_dls_fs_access_set-entry
-  - az_dls_fs_access_set-owner
-  - az_dls_fs_access_set-permission
+  - az_dls_fs_access_set_entry
+  - az_dls_fs_access_set_owner
+  - az_dls_fs_access_set_permission
   - az_dls_fs_access_show
-- uid: az_dls_fs_access_remove-all
+- uid: az_dls_fs_access_remove_all
   name: az dls fs access remove-all
   summary: Completely removes the existing ACL or default ACL on the file or folder.
   langs:
@@ -33,7 +33,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dls_fs_access_remove-entry
+- uid: az_dls_fs_access_remove_entry
   name: az dls fs access remove-entry
   summary: Updates the existing ACL on the file or folder to remove the entries specified if they exist.
   langs:
@@ -75,7 +75,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dls_fs_access_set-entry
+- uid: az_dls_fs_access_set_entry
   name: az dls fs access set-entry
   summary: Updates the existing ACL on the file or folder to include or update the entries specified.
   langs:
@@ -96,7 +96,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dls_fs_access_set-owner
+- uid: az_dls_fs_access_set_owner
   name: az dls fs access set-owner
   summary: Sets the owner and or owning group for the file or folder in the Data Lake Store account.
   langs:
@@ -118,7 +118,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dls_fs_access_set-permission
+- uid: az_dls_fs_access_set_permission
   name: az dls fs access set-permission
   summary: Sets the permission octal for the file or folder in the Data Lake Store account.
   langs:
@@ -158,22 +158,22 @@ items:
       path: src/command_modules/azure-cli-dls/azure/cli/command_modules/dls/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_dls_fs_access_remove-all
+- uid: az_dls_fs_access_remove_all
   name: az dls fs access remove-all
   summary: Completely removes the existing ACL or default ACL on the file or folder.
-- uid: az_dls_fs_access_remove-entry
+- uid: az_dls_fs_access_remove_entry
   name: az dls fs access remove-entry
   summary: Updates the existing ACL on the file or folder to remove the entries specified if they exist.
 - uid: az_dls_fs_access_set
   name: az dls fs access set
   summary: Replaces the existing ACL on the file or folder with the specified ACL, which must contain all unnamed entries.
-- uid: az_dls_fs_access_set-entry
+- uid: az_dls_fs_access_set_entry
   name: az dls fs access set-entry
   summary: Updates the existing ACL on the file or folder to include or update the entries specified.
-- uid: az_dls_fs_access_set-owner
+- uid: az_dls_fs_access_set_owner
   name: az dls fs access set-owner
   summary: Sets the owner and or owning group for the file or folder in the Data Lake Store account.
-- uid: az_dls_fs_access_set-permission
+- uid: az_dls_fs_access_set_permission
   name: az dls fs access set-permission
   summary: Sets the permission octal for the file or folder in the Data Lake Store account.
 - uid: az_dls_fs_access_show

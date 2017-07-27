@@ -8,15 +8,15 @@ items:
   children:
   - az_storage_file_delete
   - az_storage_file_download
-  - az_storage_file_download-batch
+  - az_storage_file_download_batch
   - az_storage_file_exists
-  - az_storage_file_generate-sas
+  - az_storage_file_generate_sas
   - az_storage_file_list
   - az_storage_file_resize
   - az_storage_file_show
   - az_storage_file_update
   - az_storage_file_upload
-  - az_storage_file_upload-batch
+  - az_storage_file_upload_batch
   - az_storage_file_url
 - uid: az_storage_file_delete
   name: az storage file delete
@@ -94,7 +94,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_storage_file_download-batch
+- uid: az_storage_file_download_batch
   name: az storage file download-batch
   summary: Download files from an Azure Storage File Share to a local directory in batch.
   langs:
@@ -155,7 +155,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_storage_file_generate-sas
+- uid: az_storage_file_generate_sas
   name: az storage file generate-sas
   summary: Generates a shared access signature for the file.
   langs:
@@ -388,7 +388,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_storage_file_upload-batch
+- uid: az_storage_file_upload_batch
   name: az storage file upload-batch
   summary: Upload files from a local directory to an Azure Storage File Share in batch.
   langs:
@@ -475,7 +475,7 @@ commands:
 - uid: az_storage_file_copy_start
   name: az storage file copy start
   summary: Copies a blob or file to a destination file within the storage account.
-- uid: az_storage_file_copy_start-batch
+- uid: az_storage_file_copy_start_batch
   name: az storage file copy start-batch
   summary: Copy multiple files or blobs to a file share.
 - uid: az_storage_file_delete
@@ -484,13 +484,13 @@ commands:
 - uid: az_storage_file_download
   name: az storage file download
   summary: Downloads a file to a file path, with automatic chunking and progress notifications.
-- uid: az_storage_file_download-batch
+- uid: az_storage_file_download_batch
   name: az storage file download-batch
   summary: Download files from an Azure Storage File Share to a local directory in batch.
 - uid: az_storage_file_exists
   name: az storage file exists
   summary: Indicates whether the file exists.
-- uid: az_storage_file_generate-sas
+- uid: az_storage_file_generate_sas
   name: az storage file generate-sas
   summary: Generates a shared access signature for the file.
 - uid: az_storage_file_list
@@ -517,7 +517,7 @@ commands:
 - uid: az_storage_file_upload
   name: az storage file upload
   summary: Upload a specified file to a file share that uses the standard SMB 3.0 protocol.
-- uid: az_storage_file_upload-batch
+- uid: az_storage_file_upload_batch
   name: az storage file upload-batch
   summary: Upload files from a local directory to an Azure Storage File Share in batch.
 - uid: az_storage_file_url

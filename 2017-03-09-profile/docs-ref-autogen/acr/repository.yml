@@ -8,8 +8,8 @@ items:
   children:
   - az_acr_repository_delete
   - az_acr_repository_list
-  - az_acr_repository_show-manifests
-  - az_acr_repository_show-tags
+  - az_acr_repository_show_manifests
+  - az_acr_repository_show_tags
 - uid: az_acr_repository_delete
   name: az acr repository delete
   summary: Deletes a repository or a manifest/tag from the given repository in the specified container registry.
@@ -78,7 +78,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-acr/azure/cli/command_modules/acr/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_acr_repository_show-manifests
+- uid: az_acr_repository_show_manifests
   name: az acr repository show-manifests
   summary: Shows manifests of a given repository in the specified container registry.
   langs:
@@ -106,7 +106,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-acr/azure/cli/command_modules/acr/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_acr_repository_show-tags
+- uid: az_acr_repository_show_tags
   name: az acr repository show-tags
   summary: Shows tags of a given repository in the specified container registry.
   langs:
@@ -141,10 +141,10 @@ commands:
 - uid: az_acr_repository_list
   name: az acr repository list
   summary: Lists repositories in the specified container registry.
-- uid: az_acr_repository_show-manifests
+- uid: az_acr_repository_show_manifests
   name: az acr repository show-manifests
   summary: Shows manifests of a given repository in the specified container registry.
-- uid: az_acr_repository_show-tags
+- uid: az_acr_repository_show_tags
   name: az acr repository show-tags
   summary: Shows tags of a given repository in the specified container registry.
 globalParameters:

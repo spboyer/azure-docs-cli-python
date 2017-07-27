@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_route-table
+- uid: az_network_route_table
   name: az network route-table
   summary: Manage route tables.
   langs:
   - azurecli
   children:
-  - az_network_route-table_create
-  - az_network_route-table_delete
-  - az_network_route-table_list
-  - az_network_route-table_show
-  - az_network_route-table_update
-- uid: az_network_route-table_create
+  - az_network_route_table_create
+  - az_network_route_table_delete
+  - az_network_route_table_list
+  - az_network_route_table_show
+  - az_network_route_table_update
+- uid: az_network_route_table_create
   name: az network route-table create
   summary: Create a route table.
   langs:
@@ -33,7 +33,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-table_delete
+- uid: az_network_route_table_delete
   name: az network route-table delete
   summary: Delete a route table.
   langs:
@@ -51,7 +51,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-table_list
+- uid: az_network_route_table_list
   name: az network route-table list
   summary: List route tables.
   langs:
@@ -65,7 +65,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-table_show
+- uid: az_network_route_table_show
   name: az network route-table show
   summary: Show details of a route table.
   langs:
@@ -85,7 +85,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-table_update
+- uid: az_network_route_table_update
   name: az network route-table update
   summary: Update a route table.
   langs:
@@ -112,37 +112,37 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_route-table_create
+- uid: az_network_route_table_create
   name: az network route-table create
   summary: Create a route table.
-- uid: az_network_route-table_delete
+- uid: az_network_route_table_delete
   name: az network route-table delete
   summary: Delete a route table.
-- uid: az_network_route-table_list
+- uid: az_network_route_table_list
   name: az network route-table list
   summary: List route tables.
-- uid: az_network_route-table_route
+- uid: az_network_route_table_route
   name: az network route-table route
   summary: Manage routes in a route table.
-- uid: az_network_route-table_route_create
+- uid: az_network_route_table_route_create
   name: az network route-table route create
   summary: Create a route in a route table.
-- uid: az_network_route-table_route_delete
+- uid: az_network_route_table_route_delete
   name: az network route-table route delete
   summary: Delete a route from a route table.
-- uid: az_network_route-table_route_list
+- uid: az_network_route_table_route_list
   name: az network route-table route list
   summary: List routes in a route table.
-- uid: az_network_route-table_route_show
+- uid: az_network_route_table_route_show
   name: az network route-table route show
   summary: Show details of a route in a route table.
-- uid: az_network_route-table_route_update
+- uid: az_network_route_table_route_update
   name: az network route-table route update
   summary: Update a route in a route table.
-- uid: az_network_route-table_show
+- uid: az_network_route_table_show
   name: az network route-table show
   summary: Show details of a route table.
-- uid: az_network_route-table_update
+- uid: az_network_route_table_update
   name: az network route-table update
   summary: Update a route table.
 globalParameters:

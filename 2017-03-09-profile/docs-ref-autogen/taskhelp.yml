@@ -6,8 +6,8 @@ items:
   langs:
   - azurecli
   children:
-  - az_taskhelp_deploy-arm-template
-- uid: az_taskhelp_deploy-arm-template
+  - az_taskhelp_deploy_arm_template
+- uid: az_taskhelp_deploy_arm_template
   name: az taskhelp deploy-arm-template
   summary: How to deploy an ARM template using Azure CLI.
   langs:
@@ -20,7 +20,7 @@ items:
       path: src/command_modules/azure-cli-taskhelp/azure/cli/command_modules/taskhelp/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_taskhelp_deploy-arm-template
+- uid: az_taskhelp_deploy_arm_template
   name: az taskhelp deploy-arm-template
   summary: How to deploy an ARM template using Azure CLI.
 globalParameters:

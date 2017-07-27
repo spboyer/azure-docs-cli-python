@@ -8,15 +8,15 @@ items:
   children:
   - az_storage_blob_delete
   - az_storage_blob_download
-  - az_storage_blob_download-batch
+  - az_storage_blob_download_batch
   - az_storage_blob_exists
-  - az_storage_blob_generate-sas
+  - az_storage_blob_generate_sas
   - az_storage_blob_list
   - az_storage_blob_show
   - az_storage_blob_snapshot
   - az_storage_blob_update
   - az_storage_blob_upload
-  - az_storage_blob_upload-batch
+  - az_storage_blob_upload_batch
   - az_storage_blob_url
 - uid: az_storage_blob_delete
   name: az storage blob delete
@@ -120,7 +120,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_storage_blob_download-batch
+- uid: az_storage_blob_download_batch
   name: az storage blob download-batch
   summary: Download blobs in a container recursively.
   langs:
@@ -180,7 +180,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_storage_blob_generate-sas
+- uid: az_storage_blob_generate_sas
   name: az storage blob generate-sas
   summary: Generates a shared access signature for the blob.
   langs:
@@ -466,7 +466,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_storage_blob_upload-batch
+- uid: az_storage_blob_upload_batch
   name: az storage blob upload-batch
   summary: Upload files to storage container as blobs.
   langs:
@@ -574,7 +574,7 @@ commands:
 - uid: az_storage_blob_copy_start
   name: az storage blob copy start
   summary: Copies a blob asynchronously.
-- uid: az_storage_blob_copy_start-batch
+- uid: az_storage_blob_copy_start_batch
   name: az storage blob copy start-batch
   summary: Copy multiple blobs or files to a blob container.
 - uid: az_storage_blob_delete
@@ -583,22 +583,22 @@ commands:
 - uid: az_storage_blob_download
   name: az storage blob download
   summary: Downloads a blob to a file path, with automatic chunking and progress notifications.
-- uid: az_storage_blob_download-batch
+- uid: az_storage_blob_download_batch
   name: az storage blob download-batch
   summary: Download blobs in a container recursively.
 - uid: az_storage_blob_exists
   name: az storage blob exists
   summary: Indicates whether the blob exists.
-- uid: az_storage_blob_generate-sas
+- uid: az_storage_blob_generate_sas
   name: az storage blob generate-sas
   summary: Generates a shared access signature for the blob.
-- uid: az_storage_blob_incremental-copy
+- uid: az_storage_blob_incremental_copy
   name: az storage blob incremental-copy
   summary: Manage blob incremental copy operations.
-- uid: az_storage_blob_incremental-copy_cancel
+- uid: az_storage_blob_incremental_copy_cancel
   name: az storage blob incremental-copy cancel
   summary: Aborts a pending copy_blob operation, and leaves a destination blob with zero length and full metadata.
-- uid: az_storage_blob_incremental-copy_start
+- uid: az_storage_blob_incremental_copy_start
   name: az storage blob incremental-copy start
   summary: Copies an incremental copy of a blob asynchronously.
 - uid: az_storage_blob_lease
@@ -631,10 +631,10 @@ commands:
 - uid: az_storage_blob_metadata_update
   name: az storage blob metadata update
   summary: Sets user-defined metadata for the specified blob as one or more name-value pairs.
-- uid: az_storage_blob_service-properties
+- uid: az_storage_blob_service_properties
   name: az storage blob service-properties
   summary: Manage storage blob service properties.
-- uid: az_storage_blob_service-properties_show
+- uid: az_storage_blob_service_properties_show
   name: az storage blob service-properties show
   summary: Gets the properties of a storage account's Blob service, including Azure Storage Analytics.
 - uid: az_storage_blob_show
@@ -649,7 +649,7 @@ commands:
 - uid: az_storage_blob_upload
   name: az storage blob upload
   summary: Upload a specified file to a storage blob.
-- uid: az_storage_blob_upload-batch
+- uid: az_storage_blob_upload_batch
   name: az storage blob upload-batch
   summary: Upload files to storage container as blobs.
 - uid: az_storage_blob_url

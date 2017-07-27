@@ -8,11 +8,11 @@ items:
   children:
   - az_network_watcher_configure
   - az_network_watcher_list
-  - az_network_watcher_show-next-hop
-  - az_network_watcher_show-security-group-view
-  - az_network_watcher_show-topology
-  - az_network_watcher_test-connectivity
-  - az_network_watcher_test-ip-flow
+  - az_network_watcher_show_next_hop
+  - az_network_watcher_show_security_group_view
+  - az_network_watcher_show_topology
+  - az_network_watcher_test_connectivity
+  - az_network_watcher_test_ip_flow
 - uid: az_network_watcher_configure
   name: az network watcher configure
   summary: Configure the Network Watcher service for different regions.
@@ -47,7 +47,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_show-next-hop
+- uid: az_network_watcher_show_next_hop
   name: az network watcher show-next-hop
   summary: Show information on the 'next hop' for a VM.
   langs:
@@ -73,7 +73,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_show-security-group-view
+- uid: az_network_watcher_show_security_group_view
   name: az network watcher show-security-group-view
   summary: Show detailed security information on a VM given the currently configured NSG.
   langs:
@@ -91,7 +91,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_show-topology
+- uid: az_network_watcher_show_topology
   name: az network watcher show-topology
   summary: Show the network topology for a resource group.
   langs:
@@ -108,7 +108,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_test-connectivity
+- uid: az_network_watcher_test_connectivity
   name: az network watcher test-connectivity
   summary: Test whether a direct TCP connection can be established between a Virtual Machine and a given endpoint, such as another VM or an arbitrary remote server.
   langs:
@@ -133,7 +133,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_test-ip-flow
+- uid: az_network_watcher_test_ip_flow
   name: az network watcher test-ip-flow
   summary: Test IP flow to/from a VM given the currently configured NSG rules.
   langs:
@@ -170,52 +170,52 @@ commands:
 - uid: az_network_watcher_configure
   name: az network watcher configure
   summary: Configure the Network Watcher service for different regions.
-- uid: az_network_watcher_flow-log
+- uid: az_network_watcher_flow_log
   name: az network watcher flow-log
   summary: (PREVIEW) Commands to manage NSG flow logging.
-- uid: az_network_watcher_flow-log_configure
+- uid: az_network_watcher_flow_log_configure
   name: az network watcher flow-log configure
   summary: Configure flow logging on a Network Security Group (NSG).
-- uid: az_network_watcher_flow-log_show
+- uid: az_network_watcher_flow_log_show
   name: az network watcher flow-log show
   summary: Show flow log configuration for an NSG.
 - uid: az_network_watcher_list
   name: az network watcher list
   summary: List Network Watchers.
-- uid: az_network_watcher_packet-capture
+- uid: az_network_watcher_packet_capture
   name: az network watcher packet-capture
   summary: (PREVIEW) Commands to manage packet capture sessions on VMs.
-- uid: az_network_watcher_packet-capture_create
+- uid: az_network_watcher_packet_capture_create
   name: az network watcher packet-capture create
   summary: Create and start a packet capture session.
-- uid: az_network_watcher_packet-capture_delete
+- uid: az_network_watcher_packet_capture_delete
   name: az network watcher packet-capture delete
   summary: Deletes the specified packet capture session.
-- uid: az_network_watcher_packet-capture_list
+- uid: az_network_watcher_packet_capture_list
   name: az network watcher packet-capture list
   summary: Lists all packet capture sessions within the specified resource group.
-- uid: az_network_watcher_packet-capture_show
+- uid: az_network_watcher_packet_capture_show
   name: az network watcher packet-capture show
   summary: Gets a packet capture session by name.
-- uid: az_network_watcher_packet-capture_show-status
+- uid: az_network_watcher_packet_capture_show_status
   name: az network watcher packet-capture show-status
   summary: Query the status of a running packet capture session.
-- uid: az_network_watcher_packet-capture_stop
+- uid: az_network_watcher_packet_capture_stop
   name: az network watcher packet-capture stop
   summary: Stops a specified packet capture session.
-- uid: az_network_watcher_show-next-hop
+- uid: az_network_watcher_show_next_hop
   name: az network watcher show-next-hop
   summary: Show information on the 'next hop' for a VM.
-- uid: az_network_watcher_show-security-group-view
+- uid: az_network_watcher_show_security_group_view
   name: az network watcher show-security-group-view
   summary: Show detailed security information on a VM given the currently configured NSG.
-- uid: az_network_watcher_show-topology
+- uid: az_network_watcher_show_topology
   name: az network watcher show-topology
   summary: Show the network topology for a resource group.
-- uid: az_network_watcher_test-connectivity
+- uid: az_network_watcher_test_connectivity
   name: az network watcher test-connectivity
   summary: Test whether a direct TCP connection can be established between a Virtual Machine and a given endpoint, such as another VM or an arbitrary remote server.
-- uid: az_network_watcher_test-ip-flow
+- uid: az_network_watcher_test_ip_flow
   name: az network watcher test-ip-flow
   summary: Test IP flow to/from a VM given the currently configured NSG rules.
 - uid: az_network_watcher_troubleshooting

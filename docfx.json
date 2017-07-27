@@ -3,6 +3,13 @@
     "content": [
       {
         "files": [
+          "toc.yml"
+        ],
+        "src": "breadcrumb",
+        "dest": "breadcrumb"
+      },
+      {
+        "files": [
           "**/TOC.md",
           "**/*.yml"
         ],
@@ -110,7 +117,18 @@
      },
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/cli/azure/breadcrumb/toc.json",
+      "keywords": "azure, cli, command line",
+      "brand": "azure",
+      "author": "rloutlaw",
+      "ms.author": "routlaw",
+      "manager": "douge",
+      "ms.topic": "reference",
+      "ms.devlang": "azurecli",
+      "ms.date": "12/06/2016",
+      "showPowerShellPicker": "true"
+    },
     "fileMetadata": {},
     "template": [],
     "exportrawmodel": true,

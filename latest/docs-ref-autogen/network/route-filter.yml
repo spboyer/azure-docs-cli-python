@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_route-filter
+- uid: az_network_route_filter
   name: az network route-filter
   summary: (PREVIEW) Manage route filters.
   langs:
   - azurecli
   children:
-  - az_network_route-filter_create
-  - az_network_route-filter_delete
-  - az_network_route-filter_list
-  - az_network_route-filter_show
-  - az_network_route-filter_update
-- uid: az_network_route-filter_create
+  - az_network_route_filter_create
+  - az_network_route_filter_delete
+  - az_network_route_filter_list
+  - az_network_route_filter_show
+  - az_network_route_filter_update
+- uid: az_network_route_filter_create
   name: az network route-filter create
   summary: Create a route filter.
   langs:
@@ -33,7 +33,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-filter_delete
+- uid: az_network_route_filter_delete
   name: az network route-filter delete
   summary: Delete a route filter.
   langs:
@@ -51,7 +51,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-filter_list
+- uid: az_network_route_filter_list
   name: az network route-filter list
   summary: List route filters.
   langs:
@@ -65,7 +65,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-filter_show
+- uid: az_network_route_filter_show
   name: az network route-filter show
   summary: Show details of a route filter.
   langs:
@@ -86,7 +86,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_route-filter_update
+- uid: az_network_route_filter_update
   name: az network route-filter update
   summary: Update a route filter.
   langs:
@@ -114,40 +114,40 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_route-filter_create
+- uid: az_network_route_filter_create
   name: az network route-filter create
   summary: Create a route filter.
-- uid: az_network_route-filter_delete
+- uid: az_network_route_filter_delete
   name: az network route-filter delete
   summary: Delete a route filter.
-- uid: az_network_route-filter_list
+- uid: az_network_route_filter_list
   name: az network route-filter list
   summary: List route filters.
-- uid: az_network_route-filter_rule
+- uid: az_network_route_filter_rule
   name: az network route-filter rule
   summary: (PREVIEW) Manage rules in a route filter.
-- uid: az_network_route-filter_rule_create
+- uid: az_network_route_filter_rule_create
   name: az network route-filter rule create
   summary: Create a rule in a route filter.
-- uid: az_network_route-filter_rule_delete
+- uid: az_network_route_filter_rule_delete
   name: az network route-filter rule delete
   summary: Delete a rule from a route filter.
-- uid: az_network_route-filter_rule_list
+- uid: az_network_route_filter_rule_list
   name: az network route-filter rule list
   summary: List rules in a route filter.
-- uid: az_network_route-filter_rule_list-service-communities
+- uid: az_network_route_filter_rule_list_service_communities
   name: az network route-filter rule list-service-communities
   summary: Gets all the available bgp service communities.
-- uid: az_network_route-filter_rule_show
+- uid: az_network_route_filter_rule_show
   name: az network route-filter rule show
   summary: Show details of a rule in a route filter.
-- uid: az_network_route-filter_rule_update
+- uid: az_network_route_filter_rule_update
   name: az network route-filter rule update
   summary: Update a rule in a route filter.
-- uid: az_network_route-filter_show
+- uid: az_network_route_filter_show
   name: az network route-filter show
   summary: Show details of a route filter.
-- uid: az_network_route-filter_update
+- uid: az_network_route_filter_update
   name: az network route-filter update
   summary: Update a route filter.
 globalParameters:

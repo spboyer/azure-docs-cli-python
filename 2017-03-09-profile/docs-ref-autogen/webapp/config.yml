@@ -98,16 +98,16 @@ commands:
 - uid: az_webapp_config_backup_update
   name: az webapp config backup update
   summary: Configure a new backup schedule.
-- uid: az_webapp_config_connection-string
+- uid: az_webapp_config_connection_string
   name: az webapp config connection-string
   summary: Configure web app connection strings.
-- uid: az_webapp_config_connection-string_delete
+- uid: az_webapp_config_connection_string_delete
   name: az webapp config connection-string delete
   summary: Delete connection strings.
-- uid: az_webapp_config_connection-string_list
+- uid: az_webapp_config_connection_string_list
   name: az webapp config connection-string list
   summary: ''
-- uid: az_webapp_config_connection-string_set
+- uid: az_webapp_config_connection_string_set
   name: az webapp config connection-string set
   summary: Create or update connection strings.
 - uid: az_webapp_config_container
@@ -131,7 +131,7 @@ commands:
 - uid: az_webapp_config_hostname_delete
   name: az webapp config hostname delete
   summary: Unbind a hostname (custom domain) from a web app.
-- uid: az_webapp_config_hostname_get-external-ip
+- uid: az_webapp_config_hostname_get_external_ip
   name: az webapp config hostname get-external-ip
   summary: Get the ip address to configure your DNS settings for A records.
 - uid: az_webapp_config_hostname_list

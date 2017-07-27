@@ -1,15 +1,15 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_vpn-connection_shared-key
+- uid: az_network_vpn_connection_shared_key
   name: az network vpn-connection shared-key
   summary: Manage VPN shared keys.
   langs:
   - azurecli
   children:
-  - az_network_vpn-connection_shared-key_reset
-  - az_network_vpn-connection_shared-key_show
-  - az_network_vpn-connection_shared-key_update
-- uid: az_network_vpn-connection_shared-key_reset
+  - az_network_vpn_connection_shared_key_reset
+  - az_network_vpn_connection_shared_key_show
+  - az_network_vpn_connection_shared_key_update
+- uid: az_network_vpn_connection_shared_key_reset
   name: az network vpn-connection shared-key reset
   summary: Reset a VPN connection shared key.
   langs:
@@ -29,7 +29,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_vpn-connection_shared-key_show
+- uid: az_network_vpn_connection_shared_key_show
   name: az network vpn-connection shared-key show
   summary: Show a VPN connection shared key.
   langs:
@@ -47,7 +47,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_vpn-connection_shared-key_update
+- uid: az_network_vpn_connection_shared_key_update
   name: az network vpn-connection shared-key update
   summary: Update a VPN connection shared key.
   langs:
@@ -74,13 +74,13 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_vpn-connection_shared-key_reset
+- uid: az_network_vpn_connection_shared_key_reset
   name: az network vpn-connection shared-key reset
   summary: Reset a VPN connection shared key.
-- uid: az_network_vpn-connection_shared-key_show
+- uid: az_network_vpn_connection_shared_key_show
   name: az network vpn-connection shared-key show
   summary: Show a VPN connection shared key.
-- uid: az_network_vpn-connection_shared-key_update
+- uid: az_network_vpn_connection_shared_key_update
   name: az network vpn-connection shared-key update
   summary: Update a VPN connection shared key.
 globalParameters:

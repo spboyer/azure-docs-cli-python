@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_batch_node_remote-desktop
+- uid: az_batch_node_remote_desktop
   name: az batch node remote-desktop
   summary: Retrieve the remote desktop protocol for a Batch compute node.
   langs:
   - azurecli
   children:
-  - az_batch_node_remote-desktop_download
-- uid: az_batch_node_remote-desktop_download
+  - az_batch_node_remote_desktop_download
+- uid: az_batch_node_remote_desktop_download
   name: az batch node remote-desktop download
   summary: Gets the Remote Desktop Protocol file for the specified compute node.
   langs:
@@ -35,7 +35,7 @@ items:
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_batch_node_remote-desktop_download
+- uid: az_batch_node_remote_desktop_download
   name: az batch node remote-desktop download
   summary: Gets the Remote Desktop Protocol file for the specified compute node.
 globalParameters:

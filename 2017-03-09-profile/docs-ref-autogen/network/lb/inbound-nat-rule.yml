@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_lb_inbound-nat-rule
+- uid: az_network_lb_inbound_nat_rule
   name: az network lb inbound-nat-rule
   summary: Manage inbound NAT rules for a load balancer.
   langs:
   - azurecli
   children:
-  - az_network_lb_inbound-nat-rule_create
-  - az_network_lb_inbound-nat-rule_delete
-  - az_network_lb_inbound-nat-rule_list
-  - az_network_lb_inbound-nat-rule_show
-  - az_network_lb_inbound-nat-rule_update
-- uid: az_network_lb_inbound-nat-rule_create
+  - az_network_lb_inbound_nat_rule_create
+  - az_network_lb_inbound_nat_rule_delete
+  - az_network_lb_inbound_nat_rule_list
+  - az_network_lb_inbound_nat_rule_show
+  - az_network_lb_inbound_nat_rule_update
+- uid: az_network_lb_inbound_nat_rule_create
   name: az network lb inbound-nat-rule create
   summary: Create an inbound NAT rule.
   langs:
@@ -54,7 +54,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_lb_inbound-nat-rule_delete
+- uid: az_network_lb_inbound_nat_rule_delete
   name: az network lb inbound-nat-rule delete
   summary: Delete an inbound NAT rule.
   langs:
@@ -77,7 +77,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_lb_inbound-nat-rule_list
+- uid: az_network_lb_inbound_nat_rule_list
   name: az network lb inbound-nat-rule list
   summary: List inbound NAT rules.
   langs:
@@ -95,7 +95,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_lb_inbound-nat-rule_show
+- uid: az_network_lb_inbound_nat_rule_show
   name: az network lb inbound-nat-rule show
   summary: Show details of an inbound NAT rule.
   langs:
@@ -116,7 +116,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_lb_inbound-nat-rule_update
+- uid: az_network_lb_inbound_nat_rule_update
   name: az network lb inbound-nat-rule update
   summary: Update an inbound NAT rule.
   langs:
@@ -158,19 +158,19 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_lb_inbound-nat-rule_create
+- uid: az_network_lb_inbound_nat_rule_create
   name: az network lb inbound-nat-rule create
   summary: Create an inbound NAT rule.
-- uid: az_network_lb_inbound-nat-rule_delete
+- uid: az_network_lb_inbound_nat_rule_delete
   name: az network lb inbound-nat-rule delete
   summary: Delete an inbound NAT rule.
-- uid: az_network_lb_inbound-nat-rule_list
+- uid: az_network_lb_inbound_nat_rule_list
   name: az network lb inbound-nat-rule list
   summary: List inbound NAT rules.
-- uid: az_network_lb_inbound-nat-rule_show
+- uid: az_network_lb_inbound_nat_rule_show
   name: az network lb inbound-nat-rule show
   summary: Show details of an inbound NAT rule.
-- uid: az_network_lb_inbound-nat-rule_update
+- uid: az_network_lb_inbound_nat_rule_update
   name: az network lb inbound-nat-rule update
   summary: Update an inbound NAT rule.
 globalParameters:

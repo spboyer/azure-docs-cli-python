@@ -6,12 +6,12 @@ items:
   langs:
   - azurecli
   children:
-  - az_tag_add-value
+  - az_tag_add_value
   - az_tag_create
   - az_tag_delete
   - az_tag_list
-  - az_tag_remove-value
-- uid: az_tag_add-value
+  - az_tag_remove_value
+- uid: az_tag_add_value
   name: az tag add-value
   summary: Creates a tag value.
   langs:
@@ -71,7 +71,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-resource/azure/cli/command_modules/resource/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_tag_remove-value
+- uid: az_tag_remove_value
   name: az tag remove-value
   summary: Deletes a tag value.
   langs:
@@ -90,7 +90,7 @@ items:
       path: src/command_modules/azure-cli-resource/azure/cli/command_modules/resource/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_tag_add-value
+- uid: az_tag_add_value
   name: az tag add-value
   summary: Creates a tag value.
 - uid: az_tag_create
@@ -102,7 +102,7 @@ commands:
 - uid: az_tag_list
   name: az tag list
   summary: Gets the names and values of all resource tags that are defined in a subscription.
-- uid: az_tag_remove-value
+- uid: az_tag_remove_value
   name: az tag remove-value
   summary: Deletes a tag value.
 globalParameters:

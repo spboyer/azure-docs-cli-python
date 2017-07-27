@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_sql_db_audit-policy
+- uid: az_sql_db_audit_policy
   name: az sql db audit-policy
   summary: Manage a database's auditing policy.
   langs:
   - azurecli
   children:
-  - az_sql_db_audit-policy_show
-  - az_sql_db_audit-policy_update
-- uid: az_sql_db_audit-policy_show
+  - az_sql_db_audit_policy_show
+  - az_sql_db_audit_policy_update
+- uid: az_sql_db_audit_policy_show
   name: az sql db audit-policy show
   summary: Gets a database's blob auditing policy.
   langs:
@@ -29,7 +29,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_db_audit-policy_update
+- uid: az_sql_db_audit_policy_update
   name: az sql db audit-policy update
   summary: Updates a database's auditing policy.
   langs:
@@ -89,10 +89,10 @@ items:
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_sql_db_audit-policy_show
+- uid: az_sql_db_audit_policy_show
   name: az sql db audit-policy show
   summary: Gets a database's blob auditing policy.
-- uid: az_sql_db_audit-policy_update
+- uid: az_sql_db_audit_policy_update
   name: az sql db audit-policy update
   summary: Updates a database's auditing policy.
 globalParameters:

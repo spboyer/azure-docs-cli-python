@@ -1,15 +1,15 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_vm_boot-diagnostics
+- uid: az_vm_boot_diagnostics
   name: az vm boot-diagnostics
   summary: Troubleshoot the start up of an Azure Virtual Machine.
   langs:
   - azurecli
   children:
-  - az_vm_boot-diagnostics_disable
-  - az_vm_boot-diagnostics_enable
-  - az_vm_boot-diagnostics_get-boot-log
-- uid: az_vm_boot-diagnostics_disable
+  - az_vm_boot_diagnostics_disable
+  - az_vm_boot_diagnostics_enable
+  - az_vm_boot_diagnostics_get_boot_log
+- uid: az_vm_boot_diagnostics_disable
   name: az vm boot-diagnostics disable
   summary: Disable the boot diagnostics on a VM.
   langs:
@@ -34,7 +34,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_boot-diagnostics_enable
+- uid: az_vm_boot_diagnostics_enable
   name: az vm boot-diagnostics enable
   summary: Enable the boot diagnostics on a VM.
   langs:
@@ -62,7 +62,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_boot-diagnostics_get-boot-log
+- uid: az_vm_boot_diagnostics_get_boot_log
   name: az vm boot-diagnostics get-boot-log
   summary: Get the boot diagnostics log from a VM.
   langs:
@@ -88,13 +88,13 @@ items:
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_vm_boot-diagnostics_disable
+- uid: az_vm_boot_diagnostics_disable
   name: az vm boot-diagnostics disable
   summary: Disable the boot diagnostics on a VM.
-- uid: az_vm_boot-diagnostics_enable
+- uid: az_vm_boot_diagnostics_enable
   name: az vm boot-diagnostics enable
   summary: Enable the boot diagnostics on a VM.
-- uid: az_vm_boot-diagnostics_get-boot-log
+- uid: az_vm_boot_diagnostics_get_boot_log
   name: az vm boot-diagnostics get-boot-log
   summary: Get the boot diagnostics log from a VM.
 globalParameters:

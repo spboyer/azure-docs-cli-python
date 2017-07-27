@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_vnet-gateway_root-cert
+- uid: az_network_vnet_gateway_root_cert
   name: az network vnet-gateway root-cert
   summary: Manage root certificates for a virtual network gateway.
   langs:
   - azurecli
   children:
-  - az_network_vnet-gateway_root-cert_create
-  - az_network_vnet-gateway_root-cert_delete
-- uid: az_network_vnet-gateway_root-cert_create
+  - az_network_vnet_gateway_root_cert_create
+  - az_network_vnet_gateway_root_cert_delete
+- uid: az_network_vnet_gateway_root_cert_create
   name: az network vnet-gateway root-cert create
   summary: Upload a root certificate.
   langs:
@@ -32,7 +32,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_vnet-gateway_root-cert_delete
+- uid: az_network_vnet_gateway_root_cert_delete
   name: az network vnet-gateway root-cert delete
   summary: Delete a root certificate.
   langs:
@@ -54,10 +54,10 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_vnet-gateway_root-cert_create
+- uid: az_network_vnet_gateway_root_cert_create
   name: az network vnet-gateway root-cert create
   summary: Upload a root certificate.
-- uid: az_network_vnet-gateway_root-cert_delete
+- uid: az_network_vnet_gateway_root_cert_delete
   name: az network vnet-gateway root-cert delete
   summary: Delete a root certificate.
 globalParameters:

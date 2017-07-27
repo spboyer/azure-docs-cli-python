@@ -47,13 +47,13 @@ items:
       path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_lab_arm-template
+- uid: az_lab_arm_template
   name: az lab arm-template
   summary: Commands to manage ARM templates in a DevTest Lab.
-- uid: az_lab_arm-template_list
+- uid: az_lab_arm_template_list
   name: az lab arm-template list
   summary: List azure resource manager templates in a given artifact source.
-- uid: az_lab_arm-template_show
+- uid: az_lab_arm_template_show
   name: az lab arm-template show
   summary: Commands to show ARM templates in a DevTest Lab.
 - uid: az_lab_artifact
@@ -62,25 +62,25 @@ commands:
 - uid: az_lab_artifact_list
   name: az lab artifact list
   summary: List artifacts in a given artifact source.
-- uid: az_lab_artifact-source
+- uid: az_lab_artifact_source
   name: az lab artifact-source
   summary: Commands to manage DevTest Lab artifact sources.
-- uid: az_lab_artifact-source_list
+- uid: az_lab_artifact_source_list
   name: az lab artifact-source list
   summary: List artifact sources in a given lab.
-- uid: az_lab_artifact-source_show
+- uid: az_lab_artifact_source_show
   name: az lab artifact-source show
   summary: Get artifact source.
-- uid: az_lab_custom-image
+- uid: az_lab_custom_image
   name: az lab custom-image
   summary: Commands to manage custom images of a DevTest Lab.
-- uid: az_lab_custom-image_delete
+- uid: az_lab_custom_image_delete
   name: az lab custom-image delete
   summary: Delete custom image.
-- uid: az_lab_custom-image_list
+- uid: az_lab_custom_image_list
   name: az lab custom-image list
   summary: List custom images in a given lab.
-- uid: az_lab_custom-image_show
+- uid: az_lab_custom_image_show
   name: az lab custom-image show
   summary: Get custom image.
 - uid: az_lab_delete
@@ -107,7 +107,7 @@ commands:
 - uid: az_lab_formula_delete
   name: az lab formula delete
   summary: Delete formula.
-- uid: az_lab_formula_export-artifacts
+- uid: az_lab_formula_export_artifacts
   name: az lab formula export-artifacts
   summary: Export artifacts from a formula.
 - uid: az_lab_formula_list
@@ -116,10 +116,10 @@ commands:
 - uid: az_lab_formula_show
   name: az lab formula show
   summary: Commands to show formula from the Azure DevTest Lab.
-- uid: az_lab_gallery-image
+- uid: az_lab_gallery_image
   name: az lab gallery-image
   summary: Commands to list Azure Marketplace images allowed in a given DevTest Lab.
-- uid: az_lab_gallery-image_list
+- uid: az_lab_gallery_image_list
   name: az lab gallery-image list
   summary: List gallery images in a given lab.
 - uid: az_lab_get
@@ -143,7 +143,7 @@ commands:
 - uid: az_lab_vm
   name: az lab vm
   summary: Commands to manage VM in a DevTest Lab.
-- uid: az_lab_vm_apply-artifacts
+- uid: az_lab_vm_apply_artifacts
   name: az lab vm apply-artifacts
   summary: Command to apply artifacts to virtual machine in Azure DevTest Lab.
 - uid: az_lab_vm_claim

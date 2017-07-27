@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_vnet-gateway
+- uid: az_network_vnet_gateway
   name: az network vnet-gateway
   summary: Use an Azure Virtual Network Gateway to establish secure, cross-premises connectivity.
   langs:
   - azurecli
   children:
-  - az_network_vnet-gateway_create
-  - az_network_vnet-gateway_delete
-  - az_network_vnet-gateway_list
-  - az_network_vnet-gateway_reset
-  - az_network_vnet-gateway_show
-  - az_network_vnet-gateway_update
-  - az_network_vnet-gateway_wait
-- uid: az_network_vnet-gateway_create
+  - az_network_vnet_gateway_create
+  - az_network_vnet_gateway_delete
+  - az_network_vnet_gateway_list
+  - az_network_vnet_gateway_reset
+  - az_network_vnet_gateway_show
+  - az_network_vnet_gateway_update
+  - az_network_vnet_gateway_wait
+- uid: az_network_vnet_gateway_create
   name: az network vnet-gateway create
   summary: Create a virtual network gateway.
   langs:
@@ -67,7 +67,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_vnet-gateway_delete
+- uid: az_network_vnet_gateway_delete
   name: az network vnet-gateway delete
   summary: Delete a virtual network gateway.
   langs:
@@ -87,7 +87,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_vnet-gateway_list
+- uid: az_network_vnet_gateway_list
   name: az network vnet-gateway list
   summary: List virtual network gateways.
   langs:
@@ -102,7 +102,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_vnet-gateway_reset
+- uid: az_network_vnet_gateway_reset
   name: az network vnet-gateway reset
   summary: Reset a virtual network gateway.
   langs:
@@ -123,7 +123,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_vnet-gateway_show
+- uid: az_network_vnet_gateway_show
   name: az network vnet-gateway show
   summary: Show details of a virtual network gateway.
   langs:
@@ -141,7 +141,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_vnet-gateway_update
+- uid: az_network_vnet_gateway_update
   name: az network vnet-gateway update
   summary: Update a virtual network gateway.
   langs:
@@ -193,7 +193,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_vnet-gateway_wait
+- uid: az_network_vnet_gateway_wait
   name: az network vnet-gateway wait
   summary: Place the CLI in a waiting state until a condition of the virtual network gateway is met.
   langs:
@@ -228,43 +228,43 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_vnet-gateway_create
+- uid: az_network_vnet_gateway_create
   name: az network vnet-gateway create
   summary: Create a virtual network gateway.
-- uid: az_network_vnet-gateway_delete
+- uid: az_network_vnet_gateway_delete
   name: az network vnet-gateway delete
   summary: Delete a virtual network gateway.
-- uid: az_network_vnet-gateway_list
+- uid: az_network_vnet_gateway_list
   name: az network vnet-gateway list
   summary: List virtual network gateways.
-- uid: az_network_vnet-gateway_reset
+- uid: az_network_vnet_gateway_reset
   name: az network vnet-gateway reset
   summary: Reset a virtual network gateway.
-- uid: az_network_vnet-gateway_revoked-cert
+- uid: az_network_vnet_gateway_revoked_cert
   name: az network vnet-gateway revoked-cert
   summary: Manage revoked certificates in a virtual network gateway.
-- uid: az_network_vnet-gateway_revoked-cert_create
+- uid: az_network_vnet_gateway_revoked_cert_create
   name: az network vnet-gateway revoked-cert create
   summary: Revoke a certificate.
-- uid: az_network_vnet-gateway_revoked-cert_delete
+- uid: az_network_vnet_gateway_revoked_cert_delete
   name: az network vnet-gateway revoked-cert delete
   summary: Delete a revoked certificate.
-- uid: az_network_vnet-gateway_root-cert
+- uid: az_network_vnet_gateway_root_cert
   name: az network vnet-gateway root-cert
   summary: Manage root certificates for a virtual network gateway.
-- uid: az_network_vnet-gateway_root-cert_create
+- uid: az_network_vnet_gateway_root_cert_create
   name: az network vnet-gateway root-cert create
   summary: Upload a root certificate.
-- uid: az_network_vnet-gateway_root-cert_delete
+- uid: az_network_vnet_gateway_root_cert_delete
   name: az network vnet-gateway root-cert delete
   summary: Delete a root certificate.
-- uid: az_network_vnet-gateway_show
+- uid: az_network_vnet_gateway_show
   name: az network vnet-gateway show
   summary: Show details of a virtual network gateway.
-- uid: az_network_vnet-gateway_update
+- uid: az_network_vnet_gateway_update
   name: az network vnet-gateway update
   summary: Update a virtual network gateway.
-- uid: az_network_vnet-gateway_wait
+- uid: az_network_vnet_gateway_wait
   name: az network vnet-gateway wait
   summary: Place the CLI in a waiting state until a condition of the virtual network gateway is met.
 globalParameters:

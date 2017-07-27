@@ -6,12 +6,12 @@ items:
   langs:
   - azurecli
   children:
-  - az_webapp_deployment_slot_auto-swap
+  - az_webapp_deployment_slot_auto_swap
   - az_webapp_deployment_slot_create
   - az_webapp_deployment_slot_delete
   - az_webapp_deployment_slot_list
   - az_webapp_deployment_slot_swap
-- uid: az_webapp_deployment_slot_auto-swap
+- uid: az_webapp_deployment_slot_auto_swap
   name: az webapp deployment slot auto-swap
   summary: Configure slot auto swap.
   langs:
@@ -101,7 +101,7 @@ items:
   - name: --target-slot
     summary: Target slot to swap, default to 'production'.
 commands:
-- uid: az_webapp_deployment_slot_auto-swap
+- uid: az_webapp_deployment_slot_auto_swap
   name: az webapp deployment slot auto-swap
   summary: Configure slot auto swap.
 - uid: az_webapp_deployment_slot_create

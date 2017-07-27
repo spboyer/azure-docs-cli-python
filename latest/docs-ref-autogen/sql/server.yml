@@ -9,7 +9,7 @@ items:
   - az_sql_server_create
   - az_sql_server_delete
   - az_sql_server_list
-  - az_sql_server_list-usages
+  - az_sql_server_list_usages
   - az_sql_server_show
   - az_sql_server_update
 - uid: az_sql_server_create
@@ -76,7 +76,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_server_list-usages
+- uid: az_sql_server_list_usages
   name: az sql server list-usages
   summary: Returns server usages.
   langs:
@@ -139,19 +139,19 @@ items:
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_sql_server_ad-admin
+- uid: az_sql_server_ad_admin
   name: az sql server ad-admin
   summary: Manage a server's Active Directory administrator.
-- uid: az_sql_server_ad-admin_create
+- uid: az_sql_server_ad_admin_create
   name: az sql server ad-admin create
   summary: Creates a new server Active Directory administrator.
-- uid: az_sql_server_ad-admin_delete
+- uid: az_sql_server_ad_admin_delete
   name: az sql server ad-admin delete
   summary: Deletes an existing server Active Directory Administrator.
-- uid: az_sql_server_ad-admin_list
+- uid: az_sql_server_ad_admin_list
   name: az sql server ad-admin list
   summary: Returns a list of server Administrators.
-- uid: az_sql_server_ad-admin_update
+- uid: az_sql_server_ad_admin_update
   name: az sql server ad-admin update
   summary: Updates an existing server Active Directory administrator.
 - uid: az_sql_server_create
@@ -160,28 +160,28 @@ commands:
 - uid: az_sql_server_delete
   name: az sql server delete
   summary: Deletes a server.
-- uid: az_sql_server_firewall-rule
+- uid: az_sql_server_firewall_rule
   name: az sql server firewall-rule
   summary: Manage a server's firewall rules.
-- uid: az_sql_server_firewall-rule_create
+- uid: az_sql_server_firewall_rule_create
   name: az sql server firewall-rule create
   summary: Creates a firewall rule.
-- uid: az_sql_server_firewall-rule_delete
+- uid: az_sql_server_firewall_rule_delete
   name: az sql server firewall-rule delete
   summary: Deletes a firewall rule.
-- uid: az_sql_server_firewall-rule_list
+- uid: az_sql_server_firewall_rule_list
   name: az sql server firewall-rule list
   summary: Lists the firewall rules.
-- uid: az_sql_server_firewall-rule_show
+- uid: az_sql_server_firewall_rule_show
   name: az sql server firewall-rule show
   summary: Shows the detail of a firewall rule.
-- uid: az_sql_server_firewall-rule_update
+- uid: az_sql_server_firewall_rule_update
   name: az sql server firewall-rule update
   summary: Updates a firewall rule.
 - uid: az_sql_server_list
   name: az sql server list
   summary: Lists servers.
-- uid: az_sql_server_list-usages
+- uid: az_sql_server_list_usages
   name: az sql server list-usages
   summary: Returns server usages.
 - uid: az_sql_server_show

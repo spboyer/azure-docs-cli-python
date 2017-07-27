@@ -10,13 +10,13 @@ commands:
 - uid: az_sql_db
   name: az sql db
   summary: Manage databases.
-- uid: az_sql_db_audit-policy
+- uid: az_sql_db_audit_policy
   name: az sql db audit-policy
   summary: Manage a database's auditing policy.
-- uid: az_sql_db_audit-policy_show
+- uid: az_sql_db_audit_policy_show
   name: az sql db audit-policy show
   summary: Gets a database's blob auditing policy.
-- uid: az_sql_db_audit-policy_update
+- uid: az_sql_db_audit_policy_update
   name: az sql db audit-policy update
   summary: Updates a database's auditing policy.
 - uid: az_sql_db_copy
@@ -37,10 +37,10 @@ commands:
 - uid: az_sql_db_list
   name: az sql db list
   summary: Lists all databases and data warehouses in a server, or all databases in an elastic pool.
-- uid: az_sql_db_list-editions
+- uid: az_sql_db_list_editions
   name: az sql db list-editions
   summary: Shows database editions that are available for your subscription.
-- uid: az_sql_db_list-usages
+- uid: az_sql_db_list_usages
   name: az sql db list-usages
   summary: Returns database usages.
 - uid: az_sql_db_replica
@@ -49,13 +49,13 @@ commands:
 - uid: az_sql_db_replica_create
   name: az sql db replica create
   summary: Creates a database as a readable secondary replica of an existing database.
-- uid: az_sql_db_replica_delete-link
+- uid: az_sql_db_replica_delete_link
   name: az sql db replica delete-link
   summary: Permanently stops data replication between two database replicas.
-- uid: az_sql_db_replica_list-links
+- uid: az_sql_db_replica_list_links
   name: az sql db replica list-links
   summary: Lists the replicas of a database and corresponding replication status.
-- uid: az_sql_db_replica_set-primary
+- uid: az_sql_db_replica_set_primary
   name: az sql db replica set-primary
   summary: Sets which replica database is primary by failing over from the current primary replica database.
 - uid: az_sql_db_restore
@@ -64,13 +64,13 @@ commands:
 - uid: az_sql_db_show
   name: az sql db show
   summary: Gets a database or data warehouse.
-- uid: az_sql_db_threat-policy
+- uid: az_sql_db_threat_policy
   name: az sql db threat-policy
   summary: Manage a database's threat detection policy.
-- uid: az_sql_db_threat-policy_show
+- uid: az_sql_db_threat_policy_show
   name: az sql db threat-policy show
   summary: Gets a database's threat detection policy.
-- uid: az_sql_db_threat-policy_update
+- uid: az_sql_db_threat_policy_update
   name: az sql db threat-policy update
   summary: Updates a database's threat detection policy.
 - uid: az_sql_db_update
@@ -100,46 +100,46 @@ commands:
 - uid: az_sql_dw_update
   name: az sql dw update
   summary: Updates a data warehouse.
-- uid: az_sql_elastic-pool
+- uid: az_sql_elastic_pool
   name: az sql elastic-pool
   summary: Manage elastic pools. An elastic pool is an allocation of CPU, IO, and memory resources. Databases inside the pool share these resources.
-- uid: az_sql_elastic-pool_create
+- uid: az_sql_elastic_pool_create
   name: az sql elastic-pool create
   summary: Creates an elastic pool.
-- uid: az_sql_elastic-pool_delete
+- uid: az_sql_elastic_pool_delete
   name: az sql elastic-pool delete
   summary: Deletes the elastic pool.
-- uid: az_sql_elastic-pool_list
+- uid: az_sql_elastic_pool_list
   name: az sql elastic-pool list
   summary: Returns a list of elastic pools in a server.
-- uid: az_sql_elastic-pool_list-dbs
+- uid: az_sql_elastic_pool_list_dbs
   name: az sql elastic-pool list-dbs
   summary: Returns a list of databases in an elastic pool.
-- uid: az_sql_elastic-pool_list-editions
+- uid: az_sql_elastic_pool_list_editions
   name: az sql elastic-pool list-editions
   summary: Shows elastic pool editions that are available for your subscription.
-- uid: az_sql_elastic-pool_show
+- uid: az_sql_elastic_pool_show
   name: az sql elastic-pool show
   summary: Gets an elastic pool.
-- uid: az_sql_elastic-pool_update
+- uid: az_sql_elastic_pool_update
   name: az sql elastic-pool update
   summary: Updates an elastic pool.
 - uid: az_sql_server
   name: az sql server
   summary: Manage servers. Servers contain databases, data warehouses, and elastic pools.
-- uid: az_sql_server_ad-admin
+- uid: az_sql_server_ad_admin
   name: az sql server ad-admin
   summary: Manage a server's Active Directory administrator.
-- uid: az_sql_server_ad-admin_create
+- uid: az_sql_server_ad_admin_create
   name: az sql server ad-admin create
   summary: Creates a new server Active Directory administrator.
-- uid: az_sql_server_ad-admin_delete
+- uid: az_sql_server_ad_admin_delete
   name: az sql server ad-admin delete
   summary: Deletes an existing server Active Directory Administrator.
-- uid: az_sql_server_ad-admin_list
+- uid: az_sql_server_ad_admin_list
   name: az sql server ad-admin list
   summary: Returns a list of server Administrators.
-- uid: az_sql_server_ad-admin_update
+- uid: az_sql_server_ad_admin_update
   name: az sql server ad-admin update
   summary: Updates an existing server Active Directory administrator.
 - uid: az_sql_server_create
@@ -148,28 +148,28 @@ commands:
 - uid: az_sql_server_delete
   name: az sql server delete
   summary: Deletes a server.
-- uid: az_sql_server_firewall-rule
+- uid: az_sql_server_firewall_rule
   name: az sql server firewall-rule
   summary: Manage a server's firewall rules.
-- uid: az_sql_server_firewall-rule_create
+- uid: az_sql_server_firewall_rule_create
   name: az sql server firewall-rule create
   summary: Creates a firewall rule.
-- uid: az_sql_server_firewall-rule_delete
+- uid: az_sql_server_firewall_rule_delete
   name: az sql server firewall-rule delete
   summary: Deletes a firewall rule.
-- uid: az_sql_server_firewall-rule_list
+- uid: az_sql_server_firewall_rule_list
   name: az sql server firewall-rule list
   summary: Lists the firewall rules.
-- uid: az_sql_server_firewall-rule_show
+- uid: az_sql_server_firewall_rule_show
   name: az sql server firewall-rule show
   summary: Shows the detail of a firewall rule.
-- uid: az_sql_server_firewall-rule_update
+- uid: az_sql_server_firewall_rule_update
   name: az sql server firewall-rule update
   summary: Updates a firewall rule.
 - uid: az_sql_server_list
   name: az sql server list
   summary: Lists servers.
-- uid: az_sql_server_list-usages
+- uid: az_sql_server_list_usages
   name: az sql server list-usages
   summary: Returns server usages.
 - uid: az_sql_server_show

@@ -265,6 +265,9 @@ commands:
 - uid: az_vm
   name: az vm
   summary: Provision Linux or Windows virtual machines in seconds.
+- uid: az_vmss
+  name: az vmss
+  summary: Create highly available, auto-scalable Linux or Windows virtual machines.
 - uid: az_webapp
   name: az webapp
   summary: Manage web apps.

@@ -25,13 +25,13 @@ commands:
 - uid: az_sf_application_manifest
   name: az sf application manifest
   summary: Gets the manifest describing an application type.
-- uid: az_sf_application_package-delete
+- uid: az_sf_application_package_delete
   name: az sf application package-delete
   summary: Deletes existing image store content.
 - uid: az_sf_application_provision
   name: az sf application provision
   summary: Provisions or registers a Service Fabric application type with the cluster.
-- uid: az_sf_application_report-health
+- uid: az_sf_application_report_health
   name: az sf application report-health
   summary: Sends a health report on the Service Fabric application.
 - uid: az_sf_application_type
@@ -55,10 +55,10 @@ commands:
 - uid: az_sf_cluster
   name: az sf cluster
   summary: Select and manage a Service Fabric cluster.
-- uid: az_sf_cluster_code-version
+- uid: az_sf_cluster_code_version
   name: az sf cluster code-version
   summary: Gets a list of fabric code versions that are provisioned in a Service Fabric cluster.
-- uid: az_sf_cluster_config-version
+- uid: az_sf_cluster_config_version
   name: az sf cluster config-version
   summary: Gets a list of fabric config versions that are provisioned in a Service Fabric cluster.
 - uid: az_sf_cluster_health
@@ -88,7 +88,7 @@ commands:
 - uid: az_sf_node
   name: az sf node
   summary: Manage the nodes that create a Service Fabric cluster.
-- uid: az_sf_node_code-package
+- uid: az_sf_node_code_package
   name: az sf node code-package
   summary: Gets the list of code packages deployed on a Service Fabric node.
 - uid: az_sf_node_list
@@ -97,31 +97,31 @@ commands:
 - uid: az_sf_node_load
   name: az sf node load
   summary: Gets the load information of a Service Fabric node.
-- uid: az_sf_node_remove-state
+- uid: az_sf_node_remove_state
   name: az sf node remove-state
   summary: Notifies Service Fabric that the persisted state on a node has been permanently removed or lost.
-- uid: az_sf_node_replica-list
+- uid: az_sf_node_replica_list
   name: az sf node replica-list
   summary: Gets the list of replicas deployed on a Service Fabric node.
-- uid: az_sf_node_report-health
+- uid: az_sf_node_report_health
   name: az sf node report-health
   summary: Sends a health report on the Service Fabric node.
 - uid: az_sf_node_restart
   name: az sf node restart
   summary: Restarts a Service Fabric cluster node.
-- uid: az_sf_node_service-package
+- uid: az_sf_node_service_package
   name: az sf node service-package
   summary: Gets the list of service packages deployed on a Service Fabric node matching exactly the specified name.
-- uid: az_sf_node_service-package-list
+- uid: az_sf_node_service_package_list
   name: az sf node service-package-list
   summary: Gets the list of service packages deployed on a Service Fabric node.
-- uid: az_sf_node_service-package-upload
+- uid: az_sf_node_service_package_upload
   name: az sf node service-package-upload
   summary: Downloads packages associated with specified service manifest to the image cache on specified node.
-- uid: az_sf_node_service-type
+- uid: az_sf_node_service_type
   name: az sf node service-type
   summary: Gets the information about a specified service type of the application deployed on a node in a Service Fabric cluster.
-- uid: az_sf_node_service-type-list
+- uid: az_sf_node_service_type_list
   name: az sf node service-type-list
   summary: Gets the list containing the information about service types from the applications deployed on a node in a Service Fabric cluster.
 - uid: az_sf_node_start
@@ -139,10 +139,10 @@ commands:
 - uid: az_sf_partition_info
   name: az sf partition info
   summary: Gets the information about a Service Fabric partition.
-- uid: az_sf_partition_report-health
+- uid: az_sf_partition_report_health
   name: az sf partition report-health
   summary: Sends a health report on the Service Fabric partition.
-- uid: az_sf_partition_service-name
+- uid: az_sf_partition_service_name
   name: az sf partition service-name
   summary: Gets the name of the Service Fabric service for a partition.
 - uid: az_sf_replica
@@ -151,13 +151,13 @@ commands:
 - uid: az_sf_replica_health
   name: az sf replica health
   summary: Gets the health of a Service Fabric stateful service replica or stateless service instance.
-- uid: az_sf_replica_report-health
+- uid: az_sf_replica_report_health
   name: az sf replica report-health
   summary: Sends a health report on the Service Fabric replica.
 - uid: az_sf_service
   name: az sf service
   summary: Manage the services of a Service Fabric application.
-- uid: az_sf_service_application-name
+- uid: az_sf_service_application_name
   name: az sf service application-name
   summary: Gets the name of the Service Fabric application for a service.
 - uid: az_sf_service_create
@@ -175,7 +175,7 @@ commands:
 - uid: az_sf_service_manifest
   name: az sf service manifest
   summary: Gets the manifest describing a service type.
-- uid: az_sf_service_report-health
+- uid: az_sf_service_report_health
   name: az sf service report-health
   summary: Sends a health report on the Service Fabric service.
 - uid: az_sf_service_resolve

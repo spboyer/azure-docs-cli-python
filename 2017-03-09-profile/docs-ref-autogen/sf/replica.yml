@@ -7,7 +7,7 @@ items:
   - azurecli
   children:
   - az_sf_replica_health
-  - az_sf_replica_report-health
+  - az_sf_replica_report_health
 - uid: az_sf_replica_health
   name: az sf replica health
   summary: Gets the health of a Service Fabric stateful service replica or stateless service instance.
@@ -31,7 +31,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sf/azure/cli/command_modules/sf/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sf_replica_report-health
+- uid: az_sf_replica_report_health
   name: az sf replica report-health
   summary: Sends a health report on the Service Fabric replica.
   langs:
@@ -76,7 +76,7 @@ commands:
 - uid: az_sf_replica_health
   name: az sf replica health
   summary: Gets the health of a Service Fabric stateful service replica or stateless service instance.
-- uid: az_sf_replica_report-health
+- uid: az_sf_replica_report_health
   name: az sf replica report-health
   summary: Sends a health report on the Service Fabric replica.
 globalParameters:

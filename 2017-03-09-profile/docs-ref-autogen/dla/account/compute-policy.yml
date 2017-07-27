@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_dla_account_compute-policy
+- uid: az_dla_account_compute_policy
   name: az dla account compute-policy
   summary: Commands to manage Data Lake Analytics account compute policies.
   langs:
   - azurecli
   children:
-  - az_dla_account_compute-policy_create
-  - az_dla_account_compute-policy_delete
-  - az_dla_account_compute-policy_list
-  - az_dla_account_compute-policy_show
-  - az_dla_account_compute-policy_update
-- uid: az_dla_account_compute-policy_create
+  - az_dla_account_compute_policy_create
+  - az_dla_account_compute_policy_delete
+  - az_dla_account_compute_policy_list
+  - az_dla_account_compute_policy_show
+  - az_dla_account_compute_policy_update
+- uid: az_dla_account_compute_policy_create
   name: az dla account compute-policy create
   summary: Creates a compute policy in the Data Lake Analytics account.
   langs:
@@ -41,7 +41,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dla_account_compute-policy_delete
+- uid: az_dla_account_compute_policy_delete
   name: az dla account compute-policy delete
   summary: Deletes a compute policy in the Data Lake Analytics account.
   langs:
@@ -61,7 +61,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dla_account_compute-policy_list
+- uid: az_dla_account_compute_policy_list
   name: az dla account compute-policy list
   summary: Lists compute policies in the Data Lake Analytics account.
   langs:
@@ -78,7 +78,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dla_account_compute-policy_show
+- uid: az_dla_account_compute_policy_show
   name: az dla account compute-policy show
   summary: Retrieves a compute policy in the Data Lake Analytics account.
   langs:
@@ -98,7 +98,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dla_account_compute-policy_update
+- uid: az_dla_account_compute_policy_update
   name: az dla account compute-policy update
   summary: Updates a compute policy in the Data Lake Analytics account.
   langs:
@@ -123,19 +123,19 @@ items:
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_dla_account_compute-policy_create
+- uid: az_dla_account_compute_policy_create
   name: az dla account compute-policy create
   summary: Creates a compute policy in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_delete
+- uid: az_dla_account_compute_policy_delete
   name: az dla account compute-policy delete
   summary: Deletes a compute policy in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_list
+- uid: az_dla_account_compute_policy_list
   name: az dla account compute-policy list
   summary: Lists compute policies in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_show
+- uid: az_dla_account_compute_policy_show
   name: az dla account compute-policy show
   summary: Retrieves a compute policy in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_update
+- uid: az_dla_account_compute_policy_update
   name: az dla account compute-policy update
   summary: Updates a compute policy in the Data Lake Analytics account.
 globalParameters:

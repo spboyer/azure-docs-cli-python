@@ -10,10 +10,10 @@ commands:
 - uid: az_batch_account
   name: az batch account
   summary: Manage your Batch accounts.
-- uid: az_batch_account_autostorage-keys
+- uid: az_batch_account_autostorage_keys
   name: az batch account autostorage-keys
   summary: Manage the access keys for the auto storage account configured for your Batch account.
-- uid: az_batch_account_autostorage-keys_sync
+- uid: az_batch_account_autostorage_keys_sync
   name: az batch account autostorage-keys sync
   summary: Synchronizes access keys for the auto-storage account configured for the specified Batch account.
 - uid: az_batch_account_create
@@ -103,10 +103,10 @@ commands:
 - uid: az_batch_job
   name: az batch job
   summary: Manage your Batch jobs.
-- uid: az_batch_job_all-statistics
+- uid: az_batch_job_all_statistics
   name: az batch job all-statistics
   summary: View statistics of all the jobs under your Batch account.
-- uid: az_batch_job_all-statistics_show
+- uid: az_batch_job_all_statistics_show
   name: az batch job all-statistics show
   summary: Get lifetime summary statistics for all of the jobs in the specified account. Statistics are aggregated across all jobs that have ever existed in the account, from account creation to the last update time of the statistics.
 - uid: az_batch_job_create
@@ -124,10 +124,10 @@ commands:
 - uid: az_batch_job_list
   name: az batch job list
   summary: List all of the jobs in the specified account or the specified job schedule.
-- uid: az_batch_job_prep-release-status
+- uid: az_batch_job_prep_release_status
   name: az batch job prep-release-status
   summary: View the status of your job preparation and release tasks.
-- uid: az_batch_job_prep-release-status_list
+- uid: az_batch_job_prep_release_status_list
   name: az batch job prep-release-status list
   summary: Lists the execution status of the Job Preparation and Job Release task for the specified job across the compute nodes where the job has run.
 - uid: az_batch_job_reset
@@ -142,34 +142,34 @@ commands:
 - uid: az_batch_job_stop
   name: az batch job stop
   summary: Terminates the specified job, marking it as completed.
-- uid: az_batch_job-schedule
+- uid: az_batch_job_schedule
   name: az batch job-schedule
   summary: Manage your Batch job schedules.
-- uid: az_batch_job-schedule_create
+- uid: az_batch_job_schedule_create
   name: az batch job-schedule create
   summary: Add a job schedule to the specified account.
-- uid: az_batch_job-schedule_delete
+- uid: az_batch_job_schedule_delete
   name: az batch job-schedule delete
   summary: Deletes a job schedule from the specified account.
-- uid: az_batch_job-schedule_disable
+- uid: az_batch_job_schedule_disable
   name: az batch job-schedule disable
   summary: Disables a job schedule.
-- uid: az_batch_job-schedule_enable
+- uid: az_batch_job_schedule_enable
   name: az batch job-schedule enable
   summary: Enables a job schedule.
-- uid: az_batch_job-schedule_list
+- uid: az_batch_job_schedule_list
   name: az batch job-schedule list
   summary: Lists all of the job schedules in the specified account.
-- uid: az_batch_job-schedule_reset
+- uid: az_batch_job_schedule_reset
   name: az batch job-schedule reset
   summary: Update the properties of the specified job schedule. All updatable properties are replaced with the values specified or reset to default values if unspecified. An updated job specification only applies to new jobs.
-- uid: az_batch_job-schedule_set
+- uid: az_batch_job_schedule_set
   name: az batch job-schedule set
   summary: Update the properties of the specified job schedule. You can independently update the 'schedule' and the 'job specification', but any change to either of these entities will reset all properties in that entity.
-- uid: az_batch_job-schedule_show
+- uid: az_batch_job_schedule_show
   name: az batch job-schedule show
   summary: Gets information about the specified job schedule.
-- uid: az_batch_job-schedule_stop
+- uid: az_batch_job_schedule_stop
   name: az batch job-schedule stop
   summary: Terminates a job schedule.
 - uid: az_batch_location
@@ -211,16 +211,16 @@ commands:
 - uid: az_batch_node_reimage
   name: az batch node reimage
   summary: Reinstalls the operating system on the specified compute node.
-- uid: az_batch_node_remote-desktop
+- uid: az_batch_node_remote_desktop
   name: az batch node remote-desktop
   summary: Retrieve the remote desktop protocol for a Batch compute node.
-- uid: az_batch_node_remote-desktop_download
+- uid: az_batch_node_remote_desktop_download
   name: az batch node remote-desktop download
   summary: Gets the Remote Desktop Protocol file for the specified compute node.
-- uid: az_batch_node_remote-login-settings
+- uid: az_batch_node_remote_login_settings
   name: az batch node remote-login-settings
   summary: Retrieve the remote login settings for a Batch compute node.
-- uid: az_batch_node_remote-login-settings_show
+- uid: az_batch_node_remote_login_settings_show
   name: az batch node remote-login-settings show
   summary: Gets the settings required for remote login to a compute node.
 - uid: az_batch_node_scheduling
@@ -250,10 +250,10 @@ commands:
 - uid: az_batch_pool
   name: az batch pool
   summary: Manage your Batch pools.
-- uid: az_batch_pool_all-statistics
+- uid: az_batch_pool_all_statistics
   name: az batch pool all-statistics
   summary: View statistics of all pools under your Batch account.
-- uid: az_batch_pool_all-statistics_show
+- uid: az_batch_pool_all_statistics_show
   name: az batch pool all-statistics show
   summary: Get lifetime summary statistics for all of the pools in the specified account. Statistics are aggregated across all pools that have ever existed in the account, from account creation to the last update time of the statistics.
 - uid: az_batch_pool_autoscale
@@ -277,10 +277,10 @@ commands:
 - uid: az_batch_pool_list
   name: az batch pool list
   summary: Lists all of the pools in the specified account.
-- uid: az_batch_pool_node-agent-skus
+- uid: az_batch_pool_node_agent_skus
   name: az batch pool node-agent-skus
   summary: Retrieve node agent SKUs of pools using a Virtual Machine Configuration.
-- uid: az_batch_pool_node-agent-skus_list
+- uid: az_batch_pool_node_agent_skus_list
   name: az batch pool node-agent-skus list
   summary: Lists all node agent SKUs supported by the Azure Batch service.
 - uid: az_batch_pool_os
@@ -301,10 +301,10 @@ commands:
 - uid: az_batch_pool_show
   name: az batch pool show
   summary: Gets information about the specified pool.
-- uid: az_batch_pool_usage-metrics
+- uid: az_batch_pool_usage_metrics
   name: az batch pool usage-metrics
   summary: View usage metrics of your Batch pools.
-- uid: az_batch_pool_usage-metrics_list
+- uid: az_batch_pool_usage_metrics_list
   name: az batch pool usage-metrics list
   summary: Lists the usage metrics, aggregated by pool across individual time intervals, for the specified account.
 - uid: az_batch_task

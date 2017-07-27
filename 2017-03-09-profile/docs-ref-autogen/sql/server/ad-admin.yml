@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_sql_server_ad-admin
+- uid: az_sql_server_ad_admin
   name: az sql server ad-admin
   summary: Manage a server's Active Directory administrator.
   langs:
   - azurecli
   children:
-  - az_sql_server_ad-admin_create
-  - az_sql_server_ad-admin_delete
-  - az_sql_server_ad-admin_list
-  - az_sql_server_ad-admin_update
-- uid: az_sql_server_ad-admin_create
+  - az_sql_server_ad_admin_create
+  - az_sql_server_ad_admin_delete
+  - az_sql_server_ad_admin_list
+  - az_sql_server_ad_admin_update
+- uid: az_sql_server_ad_admin_create
   name: az sql server ad-admin create
   summary: Creates a new server Active Directory administrator.
   langs:
@@ -34,7 +34,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_server_ad-admin_delete
+- uid: az_sql_server_ad_admin_delete
   name: az sql server ad-admin delete
   summary: Deletes an existing server Active Directory Administrator.
   langs:
@@ -52,7 +52,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_server_ad-admin_list
+- uid: az_sql_server_ad_admin_list
   name: az sql server ad-admin list
   summary: Returns a list of server Administrators.
   langs:
@@ -70,7 +70,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_server_ad-admin_update
+- uid: az_sql_server_ad_admin_update
   name: az sql server ad-admin update
   summary: Updates an existing server Active Directory administrator.
   langs:
@@ -99,16 +99,16 @@ items:
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_sql_server_ad-admin_create
+- uid: az_sql_server_ad_admin_create
   name: az sql server ad-admin create
   summary: Creates a new server Active Directory administrator.
-- uid: az_sql_server_ad-admin_delete
+- uid: az_sql_server_ad_admin_delete
   name: az sql server ad-admin delete
   summary: Deletes an existing server Active Directory Administrator.
-- uid: az_sql_server_ad-admin_list
+- uid: az_sql_server_ad_admin_list
   name: az sql server ad-admin list
   summary: Returns a list of server Administrators.
-- uid: az_sql_server_ad-admin_update
+- uid: az_sql_server_ad_admin_update
   name: az sql server ad-admin update
   summary: Updates an existing server Active Directory administrator.
 globalParameters:

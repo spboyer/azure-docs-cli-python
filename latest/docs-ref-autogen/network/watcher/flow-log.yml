@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_watcher_flow-log
+- uid: az_network_watcher_flow_log
   name: az network watcher flow-log
   summary: (PREVIEW) Commands to manage NSG flow logging.
   langs:
   - azurecli
   children:
-  - az_network_watcher_flow-log_configure
-  - az_network_watcher_flow-log_show
-- uid: az_network_watcher_flow-log_configure
+  - az_network_watcher_flow_log_configure
+  - az_network_watcher_flow_log_show
+- uid: az_network_watcher_flow_log_configure
   name: az network watcher flow-log configure
   summary: Configure flow logging on a Network Security Group (NSG).
   langs:
@@ -32,7 +32,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_flow-log_show
+- uid: az_network_watcher_flow_log_show
   name: az network watcher flow-log show
   summary: Show flow log configuration for an NSG.
   langs:
@@ -50,10 +50,10 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_watcher_flow-log_configure
+- uid: az_network_watcher_flow_log_configure
   name: az network watcher flow-log configure
   summary: Configure flow logging on a Network Security Group (NSG).
-- uid: az_network_watcher_flow-log_show
+- uid: az_network_watcher_flow_log_show
   name: az network watcher flow-log show
   summary: Show flow log configuration for an NSG.
 globalParameters:

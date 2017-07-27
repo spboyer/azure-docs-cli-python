@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_express-route_auth
+- uid: az_network_express_route_auth
   name: az network express-route auth
   summary: Manage authentication of an ExpressRoute circuit.
   langs:
   - azurecli
   children:
-  - az_network_express-route_auth_create
-  - az_network_express-route_auth_delete
-  - az_network_express-route_auth_list
-  - az_network_express-route_auth_show
-- uid: az_network_express-route_auth_create
+  - az_network_express_route_auth_create
+  - az_network_express_route_auth_delete
+  - az_network_express_route_auth_list
+  - az_network_express_route_auth_show
+- uid: az_network_express_route_auth_create
   name: az network express-route auth create
   summary: Create an authorization setting.
   langs:
@@ -31,7 +31,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_auth_delete
+- uid: az_network_express_route_auth_delete
   name: az network express-route auth delete
   summary: Delete an authorization setting.
   langs:
@@ -52,7 +52,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_auth_list
+- uid: az_network_express_route_auth_list
   name: az network express-route auth list
   summary: List authorization settings.
   langs:
@@ -70,7 +70,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_express-route_auth_show
+- uid: az_network_express_route_auth_show
   name: az network express-route auth show
   summary: Show details of an authorization setting.
   langs:
@@ -92,16 +92,16 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_express-route_auth_create
+- uid: az_network_express_route_auth_create
   name: az network express-route auth create
   summary: Create an authorization setting.
-- uid: az_network_express-route_auth_delete
+- uid: az_network_express_route_auth_delete
   name: az network express-route auth delete
   summary: Delete an authorization setting.
-- uid: az_network_express-route_auth_list
+- uid: az_network_express_route_auth_list
   name: az network express-route auth list
   summary: List authorization settings.
-- uid: az_network_express-route_auth_show
+- uid: az_network_express_route_auth_show
   name: az network express-route auth show
   summary: Show details of an authorization setting.
 globalParameters:

@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_batch_pool_usage-metrics
+- uid: az_batch_pool_usage_metrics
   name: az batch pool usage-metrics
   summary: View usage metrics of your Batch pools.
   langs:
   - azurecli
   children:
-  - az_batch_pool_usage-metrics_list
-- uid: az_batch_pool_usage-metrics_list
+  - az_batch_pool_usage_metrics_list
+- uid: az_batch_pool_usage_metrics_list
   name: az batch pool usage-metrics list
   summary: Lists the usage metrics, aggregated by pool across individual time intervals, for the specified account.
   langs:
@@ -32,7 +32,7 @@ items:
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_batch_pool_usage-metrics_list
+- uid: az_batch_pool_usage_metrics_list
   name: az batch pool usage-metrics list
   summary: Lists the usage metrics, aggregated by pool across individual time intervals, for the specified account.
 globalParameters:

@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_lab_artifact-source
+- uid: az_lab_artifact_source
   name: az lab artifact-source
   summary: Commands to manage DevTest Lab artifact sources.
   langs:
   - azurecli
   children:
-  - az_lab_artifact-source_list
-  - az_lab_artifact-source_show
-- uid: az_lab_artifact-source_list
+  - az_lab_artifact_source_list
+  - az_lab_artifact_source_show
+- uid: az_lab_artifact_source_list
   name: az lab artifact-source list
   summary: List artifact sources in a given lab.
   langs:
@@ -34,7 +34,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_lab_artifact-source_show
+- uid: az_lab_artifact_source_show
   name: az lab artifact-source show
   summary: Get artifact source.
   langs:
@@ -58,10 +58,10 @@ items:
       path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_lab_artifact-source_list
+- uid: az_lab_artifact_source_list
   name: az lab artifact-source list
   summary: List artifact sources in a given lab.
-- uid: az_lab_artifact-source_show
+- uid: az_lab_artifact_source_show
   name: az lab artifact-source show
   summary: Get artifact source.
 globalParameters:

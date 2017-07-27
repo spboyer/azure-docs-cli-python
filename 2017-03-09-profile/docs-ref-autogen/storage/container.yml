@@ -9,11 +9,11 @@ items:
   - az_storage_container_create
   - az_storage_container_delete
   - az_storage_container_exists
-  - az_storage_container_generate-sas
+  - az_storage_container_generate_sas
   - az_storage_container_list
-  - az_storage_container_set-permission
+  - az_storage_container_set_permission
   - az_storage_container_show
-  - az_storage_container_show-permission
+  - az_storage_container_show_permission
 - uid: az_storage_container_create
   name: az storage container create
   summary: Creates a container in a storage account.
@@ -111,7 +111,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_storage_container_generate-sas
+- uid: az_storage_container_generate_sas
   name: az storage container generate-sas
   summary: Generates a shared access signature for the container.
   langs:
@@ -186,7 +186,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_storage_container_set-permission
+- uid: az_storage_container_set_permission
   name: az storage container set-permission
   summary: Sets the permissions for the specified container or stored access  policies that may be used with Shared Access Signatures.
   langs:
@@ -247,7 +247,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-storage/azure/cli/command_modules/storage/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_storage_container_show-permission
+- uid: az_storage_container_show_permission
   name: az storage container show-permission
   summary: Gets the permissions for the specified container.
   langs:
@@ -284,7 +284,7 @@ commands:
 - uid: az_storage_container_exists
   name: az storage container exists
   summary: Indicates whether the container exists.
-- uid: az_storage_container_generate-sas
+- uid: az_storage_container_generate_sas
   name: az storage container generate-sas
   summary: Generates a shared access signature for the container.
 - uid: az_storage_container_lease
@@ -335,13 +335,13 @@ commands:
 - uid: az_storage_container_policy_update
   name: az storage container policy update
   summary: Set a stored access policy on a containing object.
-- uid: az_storage_container_set-permission
+- uid: az_storage_container_set_permission
   name: az storage container set-permission
   summary: Sets the permissions for the specified container or stored access  policies that may be used with Shared Access Signatures.
 - uid: az_storage_container_show
   name: az storage container show
   summary: Returns all user-defined metadata and system properties for the specified container.
-- uid: az_storage_container_show-permission
+- uid: az_storage_container_show_permission
   name: az storage container show-permission
   summary: Gets the permissions for the specified container.
 globalParameters:

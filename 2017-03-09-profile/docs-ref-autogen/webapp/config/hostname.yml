@@ -8,7 +8,7 @@ items:
   children:
   - az_webapp_config_hostname_add
   - az_webapp_config_hostname_delete
-  - az_webapp_config_hostname_get-external-ip
+  - az_webapp_config_hostname_get_external_ip
   - az_webapp_config_hostname_list
 - uid: az_webapp_config_hostname_add
   name: az webapp config hostname add
@@ -44,7 +44,7 @@ items:
     summary: Webapp name. You can configure the default using 'az configure --defaults web=<name>'.
   - name: --slot -s
     summary: The name of the slot. Default to the productions slot if not specified.
-- uid: az_webapp_config_hostname_get-external-ip
+- uid: az_webapp_config_hostname_get_external_ip
   name: az webapp config hostname get-external-ip
   summary: Get the ip address to configure your DNS settings for A records.
   langs:
@@ -77,7 +77,7 @@ commands:
 - uid: az_webapp_config_hostname_delete
   name: az webapp config hostname delete
   summary: Unbind a hostname (custom domain) from a web app.
-- uid: az_webapp_config_hostname_get-external-ip
+- uid: az_webapp_config_hostname_get_external_ip
   name: az webapp config hostname get-external-ip
   summary: Get the ip address to configure your DNS settings for A records.
 - uid: az_webapp_config_hostname_list

@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_watcher_packet-capture
+- uid: az_network_watcher_packet_capture
   name: az network watcher packet-capture
   summary: (PREVIEW) Commands to manage packet capture sessions on VMs.
   langs:
   - azurecli
   children:
-  - az_network_watcher_packet-capture_create
-  - az_network_watcher_packet-capture_delete
-  - az_network_watcher_packet-capture_list
-  - az_network_watcher_packet-capture_show
-  - az_network_watcher_packet-capture_show-status
-  - az_network_watcher_packet-capture_stop
-- uid: az_network_watcher_packet-capture_create
+  - az_network_watcher_packet_capture_create
+  - az_network_watcher_packet_capture_delete
+  - az_network_watcher_packet_capture_list
+  - az_network_watcher_packet_capture_show
+  - az_network_watcher_packet_capture_show_status
+  - az_network_watcher_packet_capture_stop
+- uid: az_network_watcher_packet_capture_create
   name: az network watcher packet-capture create
   summary: Create and start a packet capture session.
   langs:
@@ -47,7 +47,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_packet-capture_delete
+- uid: az_network_watcher_packet_capture_delete
   name: az network watcher packet-capture delete
   summary: Deletes the specified packet capture session.
   langs:
@@ -65,7 +65,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_packet-capture_list
+- uid: az_network_watcher_packet_capture_list
   name: az network watcher packet-capture list
   summary: Lists all packet capture sessions within the specified resource group.
   langs:
@@ -80,7 +80,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_packet-capture_show
+- uid: az_network_watcher_packet_capture_show
   name: az network watcher packet-capture show
   summary: Gets a packet capture session by name.
   langs:
@@ -98,7 +98,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_packet-capture_show-status
+- uid: az_network_watcher_packet_capture_show_status
   name: az network watcher packet-capture show-status
   summary: Query the status of a running packet capture session.
   langs:
@@ -116,7 +116,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_watcher_packet-capture_stop
+- uid: az_network_watcher_packet_capture_stop
   name: az network watcher packet-capture stop
   summary: Stops a specified packet capture session.
   langs:
@@ -135,22 +135,22 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_watcher_packet-capture_create
+- uid: az_network_watcher_packet_capture_create
   name: az network watcher packet-capture create
   summary: Create and start a packet capture session.
-- uid: az_network_watcher_packet-capture_delete
+- uid: az_network_watcher_packet_capture_delete
   name: az network watcher packet-capture delete
   summary: Deletes the specified packet capture session.
-- uid: az_network_watcher_packet-capture_list
+- uid: az_network_watcher_packet_capture_list
   name: az network watcher packet-capture list
   summary: Lists all packet capture sessions within the specified resource group.
-- uid: az_network_watcher_packet-capture_show
+- uid: az_network_watcher_packet_capture_show
   name: az network watcher packet-capture show
   summary: Gets a packet capture session by name.
-- uid: az_network_watcher_packet-capture_show-status
+- uid: az_network_watcher_packet_capture_show_status
   name: az network watcher packet-capture show-status
   summary: Query the status of a running packet capture session.
-- uid: az_network_watcher_packet-capture_stop
+- uid: az_network_watcher_packet_capture_stop
   name: az network watcher packet-capture stop
   summary: Stops a specified packet capture session.
 globalParameters:

@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_dns_record-set_ptr
+- uid: az_network_dns_record_set_ptr
   name: az network dns record-set ptr
   summary: Manage DNS PTR records.
   langs:
   - azurecli
   children:
-  - az_network_dns_record-set_ptr_add-record
-  - az_network_dns_record-set_ptr_create
-  - az_network_dns_record-set_ptr_delete
-  - az_network_dns_record-set_ptr_list
-  - az_network_dns_record-set_ptr_remove-record
-  - az_network_dns_record-set_ptr_show
-  - az_network_dns_record-set_ptr_update
-- uid: az_network_dns_record-set_ptr_add-record
+  - az_network_dns_record_set_ptr_add_record
+  - az_network_dns_record_set_ptr_create
+  - az_network_dns_record_set_ptr_delete
+  - az_network_dns_record_set_ptr_list
+  - az_network_dns_record_set_ptr_remove_record
+  - az_network_dns_record_set_ptr_show
+  - az_network_dns_record_set_ptr_update
+- uid: az_network_dns_record_set_ptr_add_record
   name: az network dns record-set ptr add-record
   summary: ''
   langs:
@@ -37,7 +37,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_ptr_create
+- uid: az_network_dns_record_set_ptr_create
   name: az network dns record-set ptr create
   summary: Create an empty PTR record set.
   langs:
@@ -67,7 +67,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_ptr_delete
+- uid: az_network_dns_record_set_ptr_delete
   name: az network dns record-set ptr delete
   summary: Delete a PTR record set and all records within.
   langs:
@@ -92,7 +92,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_ptr_list
+- uid: az_network_dns_record_set_ptr_list
   name: az network dns record-set ptr list
   summary: List all PTR record sets in a zone.
   langs:
@@ -110,7 +110,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_ptr_remove-record
+- uid: az_network_dns_record_set_ptr_remove_record
   name: az network dns record-set ptr remove-record
   summary: Remove PTR record from its record set.
   langs:
@@ -136,7 +136,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_ptr_show
+- uid: az_network_dns_record_set_ptr_show
   name: az network dns record-set ptr show
   summary: Show details of PTR record set.
   langs:
@@ -161,7 +161,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_ptr_update
+- uid: az_network_dns_record_set_ptr_update
   name: az network dns record-set ptr update
   summary: ''
   langs:
@@ -195,25 +195,25 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_dns_record-set_ptr_add-record
+- uid: az_network_dns_record_set_ptr_add_record
   name: az network dns record-set ptr add-record
   summary: ''
-- uid: az_network_dns_record-set_ptr_create
+- uid: az_network_dns_record_set_ptr_create
   name: az network dns record-set ptr create
   summary: Create an empty PTR record set.
-- uid: az_network_dns_record-set_ptr_delete
+- uid: az_network_dns_record_set_ptr_delete
   name: az network dns record-set ptr delete
   summary: Delete a PTR record set and all records within.
-- uid: az_network_dns_record-set_ptr_list
+- uid: az_network_dns_record_set_ptr_list
   name: az network dns record-set ptr list
   summary: List all PTR record sets in a zone.
-- uid: az_network_dns_record-set_ptr_remove-record
+- uid: az_network_dns_record_set_ptr_remove_record
   name: az network dns record-set ptr remove-record
   summary: Remove PTR record from its record set.
-- uid: az_network_dns_record-set_ptr_show
+- uid: az_network_dns_record_set_ptr_show
   name: az network dns record-set ptr show
   summary: Show details of PTR record set.
-- uid: az_network_dns_record-set_ptr_update
+- uid: az_network_dns_record_set_ptr_update
   name: az network dns record-set ptr update
   summary: ''
 globalParameters:

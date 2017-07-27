@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_nic_ip-config_address-pool
+- uid: az_network_nic_ip_config_address_pool
   name: az network nic ip-config address-pool
   summary: Manage backend address pools in an IP configuration.
   langs:
   - azurecli
   children:
-  - az_network_nic_ip-config_address-pool_add
-  - az_network_nic_ip-config_address-pool_remove
-- uid: az_network_nic_ip-config_address-pool_add
+  - az_network_nic_ip_config_address_pool_add
+  - az_network_nic_ip_config_address_pool_remove
+- uid: az_network_nic_ip_config_address_pool_add
   name: az network nic ip-config address-pool add
   summary: Add a backend address pool.
   langs:
@@ -34,7 +34,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_nic_ip-config_address-pool_remove
+- uid: az_network_nic_ip_config_address_pool_remove
   name: az network nic ip-config address-pool remove
   summary: Remove a backend address pool.
   langs:
@@ -61,10 +61,10 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_nic_ip-config_address-pool_add
+- uid: az_network_nic_ip_config_address_pool_add
   name: az network nic ip-config address-pool add
   summary: Add a backend address pool.
-- uid: az_network_nic_ip-config_address-pool_remove
+- uid: az_network_nic_ip_config_address_pool_remove
   name: az network nic ip-config address-pool remove
   summary: Remove a backend address pool.
 globalParameters:

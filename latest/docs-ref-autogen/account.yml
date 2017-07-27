@@ -7,9 +7,9 @@ items:
   - azurecli
   children:
   - az_account_clear
-  - az_account_get-access-token
+  - az_account_get_access_token
   - az_account_list
-  - az_account_list-locations
+  - az_account_list_locations
   - az_account_set
   - az_account_show
 - uid: az_account_clear
@@ -24,7 +24,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-profile/azure/cli/command_modules/profile/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_account_get-access-token
+- uid: az_account_get_access_token
   name: az account get-access-token
   summary: Get AAD token to access to a specified resource.
   langs:
@@ -54,7 +54,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-profile/azure/cli/command_modules/profile/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_account_list-locations
+- uid: az_account_list_locations
   name: az account list-locations
   summary: List supported regions of the current subscription.
   langs:
@@ -101,13 +101,13 @@ commands:
 - uid: az_account_clear
   name: az account clear
   summary: Clear all subscriptions from the CLI's local cache.
-- uid: az_account_get-access-token
+- uid: az_account_get_access_token
   name: az account get-access-token
   summary: Get AAD token to access to a specified resource.
 - uid: az_account_list
   name: az account list
   summary: Get a list of subscriptions for the account.
-- uid: az_account_list-locations
+- uid: az_account_list_locations
   name: az account list-locations
   summary: List supported regions of the current subscription.
 - uid: az_account_set

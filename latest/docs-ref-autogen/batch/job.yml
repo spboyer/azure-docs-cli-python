@@ -328,10 +328,10 @@ items:
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_batch_job_all-statistics
+- uid: az_batch_job_all_statistics
   name: az batch job all-statistics
   summary: View statistics of all the jobs under your Batch account.
-- uid: az_batch_job_all-statistics_show
+- uid: az_batch_job_all_statistics_show
   name: az batch job all-statistics show
   summary: Get lifetime summary statistics for all of the jobs in the specified account. Statistics are aggregated across all jobs that have ever existed in the account, from account creation to the last update time of the statistics.
 - uid: az_batch_job_create
@@ -349,10 +349,10 @@ commands:
 - uid: az_batch_job_list
   name: az batch job list
   summary: List all of the jobs in the specified account or the specified job schedule.
-- uid: az_batch_job_prep-release-status
+- uid: az_batch_job_prep_release_status
   name: az batch job prep-release-status
   summary: View the status of your job preparation and release tasks.
-- uid: az_batch_job_prep-release-status_list
+- uid: az_batch_job_prep_release_status_list
   name: az batch job prep-release-status list
   summary: Lists the execution status of the Job Preparation and Job Release task for the specified job across the compute nodes where the job has run.
 - uid: az_batch_job_reset

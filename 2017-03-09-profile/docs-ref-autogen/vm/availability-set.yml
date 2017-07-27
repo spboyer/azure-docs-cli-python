@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_vm_availability-set
+- uid: az_vm_availability_set
   name: az vm availability-set
   summary: Group resources into availability sets for high-availability requirements.
   langs:
   - azurecli
   children:
-  - az_vm_availability-set_convert
-  - az_vm_availability-set_create
-  - az_vm_availability-set_delete
-  - az_vm_availability-set_list
-  - az_vm_availability-set_list-sizes
-  - az_vm_availability-set_show
-  - az_vm_availability-set_update
-- uid: az_vm_availability-set_convert
+  - az_vm_availability_set_convert
+  - az_vm_availability_set_create
+  - az_vm_availability_set_delete
+  - az_vm_availability_set_list
+  - az_vm_availability_set_list_sizes
+  - az_vm_availability_set_show
+  - az_vm_availability_set_update
+- uid: az_vm_availability_set_convert
   name: az vm availability-set convert
   summary: Convert an Azure Availability Set to contain VMs with managed disks.
   langs:
@@ -38,7 +38,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_availability-set_create
+- uid: az_vm_availability_set_create
   name: az vm availability-set create
   summary: Create an Azure Availability Set.
   langs:
@@ -75,7 +75,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_availability-set_delete
+- uid: az_vm_availability_set_delete
   name: az vm availability-set delete
   summary: Delete an availability set.
   langs:
@@ -97,7 +97,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_availability-set_list
+- uid: az_vm_availability_set_list
   name: az vm availability-set list
   summary: Lists all availability sets in a resource group.
   langs:
@@ -116,7 +116,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_availability-set_list-sizes
+- uid: az_vm_availability_set_list_sizes
   name: az vm availability-set list-sizes
   summary: Lists all available virtual machine sizes that can be used to create a new virtual machine in an existing availability set.
   langs:
@@ -138,7 +138,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_availability-set_show
+- uid: az_vm_availability_set_show
   name: az vm availability-set show
   summary: Retrieves information about an availability set.
   langs:
@@ -160,7 +160,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_availability-set_update
+- uid: az_vm_availability_set_update
   name: az vm availability-set update
   summary: Update an Azure Availability Set.
   langs:
@@ -195,25 +195,25 @@ items:
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_vm_availability-set_convert
+- uid: az_vm_availability_set_convert
   name: az vm availability-set convert
   summary: Convert an Azure Availability Set to contain VMs with managed disks.
-- uid: az_vm_availability-set_create
+- uid: az_vm_availability_set_create
   name: az vm availability-set create
   summary: Create an Azure Availability Set.
-- uid: az_vm_availability-set_delete
+- uid: az_vm_availability_set_delete
   name: az vm availability-set delete
   summary: Delete an availability set.
-- uid: az_vm_availability-set_list
+- uid: az_vm_availability_set_list
   name: az vm availability-set list
   summary: Lists all availability sets in a resource group.
-- uid: az_vm_availability-set_list-sizes
+- uid: az_vm_availability_set_list_sizes
   name: az vm availability-set list-sizes
   summary: Lists all available virtual machine sizes that can be used to create a new virtual machine in an existing availability set.
-- uid: az_vm_availability-set_show
+- uid: az_vm_availability_set_show
   name: az vm availability-set show
   summary: Retrieves information about an availability set.
-- uid: az_vm_availability-set_update
+- uid: az_vm_availability_set_update
   name: az vm availability-set update
   summary: Update an Azure Availability Set.
 globalParameters:

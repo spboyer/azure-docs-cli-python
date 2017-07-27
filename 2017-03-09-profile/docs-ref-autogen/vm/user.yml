@@ -7,7 +7,7 @@ items:
   - azurecli
   children:
   - az_vm_user_delete
-  - az_vm_user_reset-ssh
+  - az_vm_user_reset_ssh
   - az_vm_user_update
 - uid: az_vm_user_delete
   name: az vm user delete
@@ -39,7 +39,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_user_reset-ssh
+- uid: az_vm_user_reset_ssh
   name: az vm user reset-ssh
   summary: Reset the SSH configuration on a VM.
   langs:
@@ -107,7 +107,7 @@ commands:
 - uid: az_vm_user_delete
   name: az vm user delete
   summary: Remove a user(not supported on Windows VM).
-- uid: az_vm_user_reset-ssh
+- uid: az_vm_user_reset_ssh
   name: az vm user reset-ssh
   summary: Reset the SSH configuration on a VM.
 - uid: az_vm_user_update

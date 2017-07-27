@@ -1,19 +1,19 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_sql_elastic-pool
+- uid: az_sql_elastic_pool
   name: az sql elastic-pool
   summary: Manage elastic pools. An elastic pool is an allocation of CPU, IO, and memory resources. Databases inside the pool share these resources.
   langs:
   - azurecli
   children:
-  - az_sql_elastic-pool_create
-  - az_sql_elastic-pool_delete
-  - az_sql_elastic-pool_list
-  - az_sql_elastic-pool_list-dbs
-  - az_sql_elastic-pool_list-editions
-  - az_sql_elastic-pool_show
-  - az_sql_elastic-pool_update
-- uid: az_sql_elastic-pool_create
+  - az_sql_elastic_pool_create
+  - az_sql_elastic_pool_delete
+  - az_sql_elastic_pool_list
+  - az_sql_elastic_pool_list_dbs
+  - az_sql_elastic_pool_list_editions
+  - az_sql_elastic_pool_show
+  - az_sql_elastic_pool_update
+- uid: az_sql_elastic_pool_create
   name: az sql elastic-pool create
   summary: Creates an elastic pool.
   langs:
@@ -46,7 +46,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_elastic-pool_delete
+- uid: az_sql_elastic_pool_delete
   name: az sql elastic-pool delete
   summary: Deletes the elastic pool.
   langs:
@@ -67,7 +67,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_elastic-pool_list
+- uid: az_sql_elastic_pool_list
   name: az sql elastic-pool list
   summary: Returns a list of elastic pools in a server.
   langs:
@@ -85,7 +85,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_elastic-pool_list-dbs
+- uid: az_sql_elastic_pool_list_dbs
   name: az sql elastic-pool list-dbs
   summary: Returns a list of databases in an elastic pool.
   langs:
@@ -106,7 +106,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_elastic-pool_list-editions
+- uid: az_sql_elastic_pool_list_editions
   name: az sql elastic-pool list-editions
   summary: Shows elastic pool editions that are available for your subscription.
   langs:
@@ -141,7 +141,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_elastic-pool_show
+- uid: az_sql_elastic_pool_show
   name: az sql elastic-pool show
   summary: Gets an elastic pool.
   langs:
@@ -162,7 +162,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_elastic-pool_update
+- uid: az_sql_elastic_pool_update
   name: az sql elastic-pool update
   summary: Updates an elastic pool.
   langs:
@@ -198,25 +198,25 @@ items:
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_sql_elastic-pool_create
+- uid: az_sql_elastic_pool_create
   name: az sql elastic-pool create
   summary: Creates an elastic pool.
-- uid: az_sql_elastic-pool_delete
+- uid: az_sql_elastic_pool_delete
   name: az sql elastic-pool delete
   summary: Deletes the elastic pool.
-- uid: az_sql_elastic-pool_list
+- uid: az_sql_elastic_pool_list
   name: az sql elastic-pool list
   summary: Returns a list of elastic pools in a server.
-- uid: az_sql_elastic-pool_list-dbs
+- uid: az_sql_elastic_pool_list_dbs
   name: az sql elastic-pool list-dbs
   summary: Returns a list of databases in an elastic pool.
-- uid: az_sql_elastic-pool_list-editions
+- uid: az_sql_elastic_pool_list_editions
   name: az sql elastic-pool list-editions
   summary: Shows elastic pool editions that are available for your subscription.
-- uid: az_sql_elastic-pool_show
+- uid: az_sql_elastic_pool_show
   name: az sql elastic-pool show
   summary: Gets an elastic pool.
-- uid: az_sql_elastic-pool_update
+- uid: az_sql_elastic_pool_update
   name: az sql elastic-pool update
   summary: Updates an elastic pool.
 globalParameters:

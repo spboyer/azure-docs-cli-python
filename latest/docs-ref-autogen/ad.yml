@@ -34,7 +34,7 @@ commands:
 - uid: az_ad_group_delete
   name: az ad group delete
   summary: Delete a group in the directory.
-- uid: az_ad_group_get-member-groups
+- uid: az_ad_group_get_member_groups
   name: az ad group get-member-groups
   summary: Gets a collection that contains the Object IDs of the groups of which the group is a member.
 - uid: az_ad_group_list
@@ -64,7 +64,7 @@ commands:
 - uid: az_ad_sp_create
   name: az ad sp create
   summary: Create a service principal.
-- uid: az_ad_sp_create-for-rbac
+- uid: az_ad_sp_create_for_rbac
   name: az ad sp create-for-rbac
   summary: Create a service principal and configure its access to Azure resources.
 - uid: az_ad_sp_delete
@@ -73,7 +73,7 @@ commands:
 - uid: az_ad_sp_list
   name: az ad sp list
   summary: List service principals, with optional filtering.
-- uid: az_ad_sp_reset-credentials
+- uid: az_ad_sp_reset_credentials
   name: az ad sp reset-credentials
   summary: Reset service principal credentials.
 - uid: az_ad_sp_show

@@ -7,10 +7,10 @@ items:
   - azurecli
   children:
   - az_ad_sp_create
-  - az_ad_sp_create-for-rbac
+  - az_ad_sp_create_for_rbac
   - az_ad_sp_delete
   - az_ad_sp_list
-  - az_ad_sp_reset-credentials
+  - az_ad_sp_reset_credentials
   - az_ad_sp_show
 - uid: az_ad_sp_create
   name: az ad sp create
@@ -27,7 +27,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_ad_sp_create-for-rbac
+- uid: az_ad_sp_create_for_rbac
   name: az ad sp create-for-rbac
   summary: Create a service principal and configure its access to Azure resources.
   langs:
@@ -130,7 +130,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-role/azure/cli/command_modules/role/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_ad_sp_reset-credentials
+- uid: az_ad_sp_reset_credentials
   name: az ad sp reset-credentials
   summary: Reset service principal credentials.
   langs:
@@ -174,7 +174,7 @@ commands:
 - uid: az_ad_sp_create
   name: az ad sp create
   summary: Create a service principal.
-- uid: az_ad_sp_create-for-rbac
+- uid: az_ad_sp_create_for_rbac
   name: az ad sp create-for-rbac
   summary: Create a service principal and configure its access to Azure resources.
 - uid: az_ad_sp_delete
@@ -183,7 +183,7 @@ commands:
 - uid: az_ad_sp_list
   name: az ad sp list
   summary: List service principals, with optional filtering.
-- uid: az_ad_sp_reset-credentials
+- uid: az_ad_sp_reset_credentials
   name: az ad sp reset-credentials
   summary: Reset service principal credentials.
 - uid: az_ad_sp_show

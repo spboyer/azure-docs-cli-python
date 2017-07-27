@@ -6,18 +6,18 @@ items:
   langs:
   - azurecli
   children:
-  - az_cosmosdb_check-name-exists
+  - az_cosmosdb_check_name_exists
   - az_cosmosdb_create
   - az_cosmosdb_delete
-  - az_cosmosdb_failover-priority-change
+  - az_cosmosdb_failover_priority_change
   - az_cosmosdb_list
-  - az_cosmosdb_list-connection-strings
-  - az_cosmosdb_list-keys
-  - az_cosmosdb_list-read-only-keys
-  - az_cosmosdb_regenerate-key
+  - az_cosmosdb_list_connection_strings
+  - az_cosmosdb_list_keys
+  - az_cosmosdb_list_read_only_keys
+  - az_cosmosdb_regenerate_key
   - az_cosmosdb_show
   - az_cosmosdb_update
-- uid: az_cosmosdb_check-name-exists
+- uid: az_cosmosdb_check_name_exists
   name: az cosmosdb check-name-exists
   summary: Checks that the Azure Cosmos DB account name already exists.
   langs:
@@ -87,7 +87,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-cosmosdb/azure/cli/command_modules/cosmosdb/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_cosmosdb_failover-priority-change
+- uid: az_cosmosdb_failover_priority_change
   name: az cosmosdb failover-priority-change
   summary: Changes the failover priority for the Azure Cosmos DB database account.
   langs:
@@ -121,7 +121,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-cosmosdb/azure/cli/command_modules/cosmosdb/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_cosmosdb_list-connection-strings
+- uid: az_cosmosdb_list_connection_strings
   name: az cosmosdb list-connection-strings
   summary: Lists the connection strings for the specified Azure Cosmos DB database account.
   langs:
@@ -139,7 +139,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-cosmosdb/azure/cli/command_modules/cosmosdb/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_cosmosdb_list-keys
+- uid: az_cosmosdb_list_keys
   name: az cosmosdb list-keys
   summary: Lists the access keys for the specified Azure Cosmos DB database account.
   langs:
@@ -157,7 +157,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-cosmosdb/azure/cli/command_modules/cosmosdb/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_cosmosdb_list-read-only-keys
+- uid: az_cosmosdb_list_read_only_keys
   name: az cosmosdb list-read-only-keys
   summary: Lists the read-only access keys for the specified Azure Cosmos DB database account.
   langs:
@@ -175,7 +175,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-cosmosdb/azure/cli/command_modules/cosmosdb/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_cosmosdb_regenerate-key
+- uid: az_cosmosdb_regenerate_key
   name: az cosmosdb regenerate-key
   summary: Regenerates an access key for the specified Azure Cosmos DB database account.
   langs:
@@ -247,7 +247,7 @@ items:
       path: src/command_modules/azure-cli-cosmosdb/azure/cli/command_modules/cosmosdb/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_cosmosdb_check-name-exists
+- uid: az_cosmosdb_check_name_exists
   name: az cosmosdb check-name-exists
   summary: Checks that the Azure Cosmos DB account name already exists.
 - uid: az_cosmosdb_collection
@@ -295,22 +295,22 @@ commands:
 - uid: az_cosmosdb_delete
   name: az cosmosdb delete
   summary: Deletes an existing Azure Cosmos DB database account.
-- uid: az_cosmosdb_failover-priority-change
+- uid: az_cosmosdb_failover_priority_change
   name: az cosmosdb failover-priority-change
   summary: Changes the failover priority for the Azure Cosmos DB database account.
 - uid: az_cosmosdb_list
   name: az cosmosdb list
   summary: Lists all Azure Cosmos DB database accounts within a given resource group or subscription.
-- uid: az_cosmosdb_list-connection-strings
+- uid: az_cosmosdb_list_connection_strings
   name: az cosmosdb list-connection-strings
   summary: Lists the connection strings for the specified Azure Cosmos DB database account.
-- uid: az_cosmosdb_list-keys
+- uid: az_cosmosdb_list_keys
   name: az cosmosdb list-keys
   summary: Lists the access keys for the specified Azure Cosmos DB database account.
-- uid: az_cosmosdb_list-read-only-keys
+- uid: az_cosmosdb_list_read_only_keys
   name: az cosmosdb list-read-only-keys
   summary: Lists the read-only access keys for the specified Azure Cosmos DB database account.
-- uid: az_cosmosdb_regenerate-key
+- uid: az_cosmosdb_regenerate_key
   name: az cosmosdb regenerate-key
   summary: Regenerates an access key for the specified Azure Cosmos DB database account.
 - uid: az_cosmosdb_show

@@ -6,8 +6,8 @@ items:
   langs:
   - azurecli
   children:
-  - az_appservice_list-locations
-- uid: az_appservice_list-locations
+  - az_appservice_list_locations
+- uid: az_appservice_list_locations
   name: az appservice list-locations
   summary: Get a list of available geographical regions.
   langs:
@@ -25,7 +25,7 @@ items:
       path: src/command_modules/azure-cli-appservice/azure/cli/command_modules/appservice/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_appservice_list-locations
+- uid: az_appservice_list_locations
   name: az appservice list-locations
   summary: Get a list of available geographical regions.
 - uid: az_appservice_plan

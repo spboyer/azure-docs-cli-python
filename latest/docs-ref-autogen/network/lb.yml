@@ -150,19 +150,19 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_lb_address-pool
+- uid: az_network_lb_address_pool
   name: az network lb address-pool
   summary: Manage backend address pools for a load balancer.
-- uid: az_network_lb_address-pool_create
+- uid: az_network_lb_address_pool_create
   name: az network lb address-pool create
   summary: Create a backend address pool.
-- uid: az_network_lb_address-pool_delete
+- uid: az_network_lb_address_pool_delete
   name: az network lb address-pool delete
   summary: Delete a backend address pool.
-- uid: az_network_lb_address-pool_list
+- uid: az_network_lb_address_pool_list
   name: az network lb address-pool list
   summary: List backend address pools.
-- uid: az_network_lb_address-pool_show
+- uid: az_network_lb_address_pool_show
   name: az network lb address-pool show
   summary: Show details of a backend address pool.
 - uid: az_network_lb_create
@@ -171,58 +171,58 @@ commands:
 - uid: az_network_lb_delete
   name: az network lb delete
   summary: Delete a load balancer.
-- uid: az_network_lb_frontend-ip
+- uid: az_network_lb_frontend_ip
   name: az network lb frontend-ip
   summary: Manage frontend IP addresses for a load balancer.
-- uid: az_network_lb_frontend-ip_create
+- uid: az_network_lb_frontend_ip_create
   name: az network lb frontend-ip create
   summary: Create a frontend IP address.
-- uid: az_network_lb_frontend-ip_delete
+- uid: az_network_lb_frontend_ip_delete
   name: az network lb frontend-ip delete
   summary: Delete a frontend IP address.
-- uid: az_network_lb_frontend-ip_list
+- uid: az_network_lb_frontend_ip_list
   name: az network lb frontend-ip list
   summary: List frontend IP addresses.
-- uid: az_network_lb_frontend-ip_show
+- uid: az_network_lb_frontend_ip_show
   name: az network lb frontend-ip show
   summary: Show details of a frontend IP address.
-- uid: az_network_lb_frontend-ip_update
+- uid: az_network_lb_frontend_ip_update
   name: az network lb frontend-ip update
   summary: Update a frontend IP address.
-- uid: az_network_lb_inbound-nat-pool
+- uid: az_network_lb_inbound_nat_pool
   name: az network lb inbound-nat-pool
   summary: Manage inbound NAT address pools for a load balancer.
-- uid: az_network_lb_inbound-nat-pool_create
+- uid: az_network_lb_inbound_nat_pool_create
   name: az network lb inbound-nat-pool create
   summary: Create an inbound NAT address pool.
-- uid: az_network_lb_inbound-nat-pool_delete
+- uid: az_network_lb_inbound_nat_pool_delete
   name: az network lb inbound-nat-pool delete
   summary: Delete an inbound NAT address pool.
-- uid: az_network_lb_inbound-nat-pool_list
+- uid: az_network_lb_inbound_nat_pool_list
   name: az network lb inbound-nat-pool list
   summary: List inbound NAT address pools.
-- uid: az_network_lb_inbound-nat-pool_show
+- uid: az_network_lb_inbound_nat_pool_show
   name: az network lb inbound-nat-pool show
   summary: Show details of an inbound NAT address pool.
-- uid: az_network_lb_inbound-nat-pool_update
+- uid: az_network_lb_inbound_nat_pool_update
   name: az network lb inbound-nat-pool update
   summary: Update an inbound NAT address pool.
-- uid: az_network_lb_inbound-nat-rule
+- uid: az_network_lb_inbound_nat_rule
   name: az network lb inbound-nat-rule
   summary: Manage inbound NAT rules for a load balancer.
-- uid: az_network_lb_inbound-nat-rule_create
+- uid: az_network_lb_inbound_nat_rule_create
   name: az network lb inbound-nat-rule create
   summary: Create an inbound NAT rule.
-- uid: az_network_lb_inbound-nat-rule_delete
+- uid: az_network_lb_inbound_nat_rule_delete
   name: az network lb inbound-nat-rule delete
   summary: Delete an inbound NAT rule.
-- uid: az_network_lb_inbound-nat-rule_list
+- uid: az_network_lb_inbound_nat_rule_list
   name: az network lb inbound-nat-rule list
   summary: List inbound NAT rules.
-- uid: az_network_lb_inbound-nat-rule_show
+- uid: az_network_lb_inbound_nat_rule_show
   name: az network lb inbound-nat-rule show
   summary: Show details of an inbound NAT rule.
-- uid: az_network_lb_inbound-nat-rule_update
+- uid: az_network_lb_inbound_nat_rule_update
   name: az network lb inbound-nat-rule update
   summary: Update an inbound NAT rule.
 - uid: az_network_lb_list

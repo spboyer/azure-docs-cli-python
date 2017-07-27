@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_dla_account_blob-storage
+- uid: az_dla_account_blob_storage
   name: az dla account blob-storage
   summary: Commands to manage Data Lake Analytics account linked Azure Storage.
   langs:
   - azurecli
   children:
-  - az_dla_account_blob-storage_add
-  - az_dla_account_blob-storage_delete
-  - az_dla_account_blob-storage_list
-  - az_dla_account_blob-storage_show
-  - az_dla_account_blob-storage_update
-- uid: az_dla_account_blob-storage_add
+  - az_dla_account_blob_storage_add
+  - az_dla_account_blob_storage_delete
+  - az_dla_account_blob_storage_list
+  - az_dla_account_blob_storage_show
+  - az_dla_account_blob_storage_update
+- uid: az_dla_account_blob_storage_add
   name: az dla account blob-storage add
   summary: ''
   langs:
@@ -36,7 +36,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dla_account_blob-storage_delete
+- uid: az_dla_account_blob_storage_delete
   name: az dla account blob-storage delete
   summary: Updates the specified Data Lake Analytics account to remove an Azure Storage account.
   langs:
@@ -56,7 +56,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dla_account_blob-storage_list
+- uid: az_dla_account_blob_storage_list
   name: az dla account blob-storage list
   summary: Gets the first page of Azure Storage accounts, if any, linked to the specified Data Lake Analytics account.
   langs:
@@ -85,7 +85,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dla_account_blob-storage_show
+- uid: az_dla_account_blob_storage_show
   name: az dla account blob-storage show
   summary: Gets the specified Azure Storage account linked to the given Data Lake Analytics account.
   langs:
@@ -105,7 +105,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dla_account_blob-storage_update
+- uid: az_dla_account_blob_storage_update
   name: az dla account blob-storage update
   summary: ''
   langs:
@@ -131,19 +131,19 @@ items:
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_dla_account_blob-storage_add
+- uid: az_dla_account_blob_storage_add
   name: az dla account blob-storage add
   summary: ''
-- uid: az_dla_account_blob-storage_delete
+- uid: az_dla_account_blob_storage_delete
   name: az dla account blob-storage delete
   summary: Updates the specified Data Lake Analytics account to remove an Azure Storage account.
-- uid: az_dla_account_blob-storage_list
+- uid: az_dla_account_blob_storage_list
   name: az dla account blob-storage list
   summary: Gets the first page of Azure Storage accounts, if any, linked to the specified Data Lake Analytics account.
-- uid: az_dla_account_blob-storage_show
+- uid: az_dla_account_blob_storage_show
   name: az dla account blob-storage show
   summary: Gets the specified Azure Storage account linked to the given Data Lake Analytics account.
-- uid: az_dla_account_blob-storage_update
+- uid: az_dla_account_blob_storage_update
   name: az dla account blob-storage update
   summary: ''
 globalParameters:

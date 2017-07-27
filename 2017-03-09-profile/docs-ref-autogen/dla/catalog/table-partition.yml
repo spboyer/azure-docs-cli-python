@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_dla_catalog_table-partition
+- uid: az_dla_catalog_table_partition
   name: az dla catalog table-partition
   summary: Commands to manage Data Lake Analytics catalog table partitions.
   langs:
   - azurecli
   children:
-  - az_dla_catalog_table-partition_list
-  - az_dla_catalog_table-partition_show
-- uid: az_dla_catalog_table-partition_list
+  - az_dla_catalog_table_partition_list
+  - az_dla_catalog_table_partition_show
+- uid: az_dla_catalog_table_partition_list
   name: az dla catalog table-partition list
   summary: Retrieves the list of table partitions from the Data Lake Analytics catalog.
   langs:
@@ -44,7 +44,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dla_catalog_table-partition_show
+- uid: az_dla_catalog_table_partition_show
   name: az dla catalog table-partition show
   summary: Retrieves the specified table partition from the Data Lake Analytics catalog.
   langs:
@@ -72,10 +72,10 @@ items:
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_dla_catalog_table-partition_list
+- uid: az_dla_catalog_table_partition_list
   name: az dla catalog table-partition list
   summary: Retrieves the list of table partitions from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-partition_show
+- uid: az_dla_catalog_table_partition_show
   name: az dla catalog table-partition show
   summary: Retrieves the specified table partition from the Data Lake Analytics catalog.
 globalParameters:

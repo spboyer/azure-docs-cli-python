@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_batch_pool_all-statistics
+- uid: az_batch_pool_all_statistics
   name: az batch pool all-statistics
   summary: View statistics of all pools under your Batch account.
   langs:
   - azurecli
   children:
-  - az_batch_pool_all-statistics_show
-- uid: az_batch_pool_all-statistics_show
+  - az_batch_pool_all_statistics_show
+- uid: az_batch_pool_all_statistics_show
   name: az batch pool all-statistics show
   summary: Get lifetime summary statistics for all of the pools in the specified account. Statistics are aggregated across all pools that have ever existed in the account, from account creation to the last update time of the statistics.
   langs:
@@ -26,7 +26,7 @@ items:
       path: src/command_modules/azure-cli-batch/azure/cli/command_modules/batch/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_batch_pool_all-statistics_show
+- uid: az_batch_pool_all_statistics_show
   name: az batch pool all-statistics show
   summary: Get lifetime summary statistics for all of the pools in the specified account. Statistics are aggregated across all pools that have ever existed in the account, from account creation to the last update time of the statistics.
 globalParameters:

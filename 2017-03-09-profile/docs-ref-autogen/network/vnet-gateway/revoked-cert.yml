@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_vnet-gateway_revoked-cert
+- uid: az_network_vnet_gateway_revoked_cert
   name: az network vnet-gateway revoked-cert
   summary: Manage revoked certificates in a virtual network gateway.
   langs:
   - azurecli
   children:
-  - az_network_vnet-gateway_revoked-cert_create
-  - az_network_vnet-gateway_revoked-cert_delete
-- uid: az_network_vnet-gateway_revoked-cert_create
+  - az_network_vnet_gateway_revoked_cert_create
+  - az_network_vnet_gateway_revoked_cert_delete
+- uid: az_network_vnet_gateway_revoked_cert_create
   name: az network vnet-gateway revoked-cert create
   summary: Revoke a certificate.
   langs:
@@ -32,7 +32,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_vnet-gateway_revoked-cert_delete
+- uid: az_network_vnet_gateway_revoked_cert_delete
   name: az network vnet-gateway revoked-cert delete
   summary: Delete a revoked certificate.
   langs:
@@ -54,10 +54,10 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_vnet-gateway_revoked-cert_create
+- uid: az_network_vnet_gateway_revoked_cert_create
   name: az network vnet-gateway revoked-cert create
   summary: Revoke a certificate.
-- uid: az_network_vnet-gateway_revoked-cert_delete
+- uid: az_network_vnet_gateway_revoked_cert_delete
   name: az network vnet-gateway revoked-cert delete
   summary: Delete a revoked certificate.
 globalParameters:

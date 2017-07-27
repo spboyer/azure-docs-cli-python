@@ -7,11 +7,11 @@ items:
   - azurecli
   children:
   - az_functionapp_deployment_source_config
-  - az_functionapp_deployment_source_config-local-git
+  - az_functionapp_deployment_source_config_local_git
   - az_functionapp_deployment_source_delete
   - az_functionapp_deployment_source_show
   - az_functionapp_deployment_source_sync
-  - az_functionapp_deployment_source_update-token
+  - az_functionapp_deployment_source_update_token
 - uid: az_functionapp_deployment_source_config
   name: az functionapp deployment source config
   summary: Associate to Git or Mercurial repositories.
@@ -49,7 +49,7 @@ items:
     defaultValue: AspNetWap
     parameterValueGroup: AspNetCore, AspNetWap, NodeJSWithGrunt, NodeJSWithGulp
     summary: Web application framework you used to develop your app.
-- uid: az_functionapp_deployment_source_config-local-git
+- uid: az_functionapp_deployment_source_config_local_git
   name: az functionapp deployment source config-local-git
   summary: Enable local git.
   langs:
@@ -101,7 +101,7 @@ items:
   - isRequired: true
     name: --resource-group -g
     summary: Name of resource group. You can configure the default group using az configure --defaults group=<name>.
-- uid: az_functionapp_deployment_source_update-token
+- uid: az_functionapp_deployment_source_update_token
   name: az functionapp deployment source update-token
   summary: Update source control token cached in Azure app service.
   langs:
@@ -113,7 +113,7 @@ commands:
 - uid: az_functionapp_deployment_source_config
   name: az functionapp deployment source config
   summary: Associate to Git or Mercurial repositories.
-- uid: az_functionapp_deployment_source_config-local-git
+- uid: az_functionapp_deployment_source_config_local_git
   name: az functionapp deployment source config-local-git
   summary: Enable local git.
 - uid: az_functionapp_deployment_source_delete
@@ -125,7 +125,7 @@ commands:
 - uid: az_functionapp_deployment_source_sync
   name: az functionapp deployment source sync
   summary: Synchronize from the source repository, only needed under manual integration mode.
-- uid: az_functionapp_deployment_source_update-token
+- uid: az_functionapp_deployment_source_update_token
   name: az functionapp deployment source update-token
   summary: Update source control token cached in Azure app service.
 globalParameters:

@@ -15,7 +15,7 @@ items:
   - az_cdn_endpoint_start
   - az_cdn_endpoint_stop
   - az_cdn_endpoint_update
-  - az_cdn_endpoint_validate-custom-domain
+  - az_cdn_endpoint_validate_custom_domain
 - uid: az_cdn_endpoint_create
   name: az cdn endpoint create
   summary: CDN endpoint is the entity within a CDN profile containing configuration information such as origin, protocol, content caching and delivery behavior.
@@ -301,7 +301,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_cdn_endpoint_validate-custom-domain
+- uid: az_cdn_endpoint_validate_custom_domain
   name: az cdn endpoint validate-custom-domain
   summary: Validates the custom domain mapping to ensure it maps to the correct CDN endpoint in DNS.
   langs:
@@ -353,7 +353,7 @@ commands:
 - uid: az_cdn_endpoint_update
   name: az cdn endpoint update
   summary: Update a CDN endpoint to manage how content is delivered.
-- uid: az_cdn_endpoint_validate-custom-domain
+- uid: az_cdn_endpoint_validate_custom_domain
   name: az cdn endpoint validate-custom-domain
   summary: Validates the custom domain mapping to ensure it maps to the correct CDN endpoint in DNS.
 globalParameters:

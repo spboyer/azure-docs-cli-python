@@ -1,18 +1,18 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_dns_record-set_cname
+- uid: az_network_dns_record_set_cname
   name: az network dns record-set cname
   summary: Manage DNS CNAME records.
   langs:
   - azurecli
   children:
-  - az_network_dns_record-set_cname_create
-  - az_network_dns_record-set_cname_delete
-  - az_network_dns_record-set_cname_list
-  - az_network_dns_record-set_cname_remove-record
-  - az_network_dns_record-set_cname_set-record
-  - az_network_dns_record-set_cname_show
-- uid: az_network_dns_record-set_cname_create
+  - az_network_dns_record_set_cname_create
+  - az_network_dns_record_set_cname_delete
+  - az_network_dns_record_set_cname_list
+  - az_network_dns_record_set_cname_remove_record
+  - az_network_dns_record_set_cname_set_record
+  - az_network_dns_record_set_cname_show
+- uid: az_network_dns_record_set_cname_create
   name: az network dns record-set cname create
   summary: Create an empty CNAME record set.
   langs:
@@ -42,7 +42,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_cname_delete
+- uid: az_network_dns_record_set_cname_delete
   name: az network dns record-set cname delete
   summary: Delete a CNAME record set and all records within.
   langs:
@@ -65,7 +65,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_cname_list
+- uid: az_network_dns_record_set_cname_list
   name: az network dns record-set cname list
   summary: List all CNAME record sets in a zone.
   langs:
@@ -83,7 +83,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_cname_remove-record
+- uid: az_network_dns_record_set_cname_remove_record
   name: az network dns record-set cname remove-record
   summary: Remove CNAME record from its record set.
   langs:
@@ -109,7 +109,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_cname_set-record
+- uid: az_network_dns_record_set_cname_set_record
   name: az network dns record-set cname set-record
   summary: Set the value of the CNAME record.
   langs:
@@ -133,7 +133,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_dns_record-set_cname_show
+- uid: az_network_dns_record_set_cname_show
   name: az network dns record-set cname show
   summary: Show details of CNAME record set.
   langs:
@@ -159,22 +159,22 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_dns_record-set_cname_create
+- uid: az_network_dns_record_set_cname_create
   name: az network dns record-set cname create
   summary: Create an empty CNAME record set.
-- uid: az_network_dns_record-set_cname_delete
+- uid: az_network_dns_record_set_cname_delete
   name: az network dns record-set cname delete
   summary: Delete a CNAME record set and all records within.
-- uid: az_network_dns_record-set_cname_list
+- uid: az_network_dns_record_set_cname_list
   name: az network dns record-set cname list
   summary: List all CNAME record sets in a zone.
-- uid: az_network_dns_record-set_cname_remove-record
+- uid: az_network_dns_record_set_cname_remove_record
   name: az network dns record-set cname remove-record
   summary: Remove CNAME record from its record set.
-- uid: az_network_dns_record-set_cname_set-record
+- uid: az_network_dns_record_set_cname_set_record
   name: az network dns record-set cname set-record
   summary: Set the value of the CNAME record.
-- uid: az_network_dns_record-set_cname_show
+- uid: az_network_dns_record_set_cname_show
   name: az network dns record-set cname show
   summary: Show details of CNAME record set.
 globalParameters:

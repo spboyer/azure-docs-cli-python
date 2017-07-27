@@ -1,13 +1,13 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_cdn_edge-node
+- uid: az_cdn_edge_node
   name: az cdn edge-node
   summary: View all available edge nodes.
   langs:
   - azurecli
   children:
-  - az_cdn_edge-node_list
-- uid: az_cdn_edge-node_list
+  - az_cdn_edge_node_list
+- uid: az_cdn_edge_node_list
   name: az cdn edge-node list
   summary: Lists all the edge nodes of a CDN service.
   langs:
@@ -20,7 +20,7 @@ items:
       path: src/command_modules/azure-cli-cdn/azure/cli/command_modules/cdn/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_cdn_edge-node_list
+- uid: az_cdn_edge_node_list
   name: az cdn edge-node list
   summary: Lists all the edge nodes of a CDN service.
 globalParameters:

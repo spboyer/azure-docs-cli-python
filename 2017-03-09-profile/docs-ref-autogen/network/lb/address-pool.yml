@@ -1,16 +1,16 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_lb_address-pool
+- uid: az_network_lb_address_pool
   name: az network lb address-pool
   summary: Manage backend address pools for a load balancer.
   langs:
   - azurecli
   children:
-  - az_network_lb_address-pool_create
-  - az_network_lb_address-pool_delete
-  - az_network_lb_address-pool_list
-  - az_network_lb_address-pool_show
-- uid: az_network_lb_address-pool_create
+  - az_network_lb_address_pool_create
+  - az_network_lb_address_pool_delete
+  - az_network_lb_address_pool_list
+  - az_network_lb_address_pool_show
+- uid: az_network_lb_address_pool_create
   name: az network lb address-pool create
   summary: Create a backend address pool.
   langs:
@@ -31,7 +31,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_lb_address-pool_delete
+- uid: az_network_lb_address_pool_delete
   name: az network lb address-pool delete
   summary: Delete a backend address pool.
   langs:
@@ -54,7 +54,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_lb_address-pool_list
+- uid: az_network_lb_address_pool_list
   name: az network lb address-pool list
   summary: List backend address pools.
   langs:
@@ -72,7 +72,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_lb_address-pool_show
+- uid: az_network_lb_address_pool_show
   name: az network lb address-pool show
   summary: Show details of a backend address pool.
   langs:
@@ -94,16 +94,16 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_lb_address-pool_create
+- uid: az_network_lb_address_pool_create
   name: az network lb address-pool create
   summary: Create a backend address pool.
-- uid: az_network_lb_address-pool_delete
+- uid: az_network_lb_address_pool_delete
   name: az network lb address-pool delete
   summary: Delete a backend address pool.
-- uid: az_network_lb_address-pool_list
+- uid: az_network_lb_address_pool_list
   name: az network lb address-pool list
   summary: List backend address pools.
-- uid: az_network_lb_address-pool_show
+- uid: az_network_lb_address_pool_show
   name: az network lb address-pool show
   summary: Show details of a backend address pool.
 globalParameters:

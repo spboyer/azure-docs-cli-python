@@ -8,12 +8,12 @@ items:
   children:
   - az_keyvault_create
   - az_keyvault_delete
-  - az_keyvault_delete-policy
+  - az_keyvault_delete_policy
   - az_keyvault_list
-  - az_keyvault_list-deleted
+  - az_keyvault_list_deleted
   - az_keyvault_purge
   - az_keyvault_recover
-  - az_keyvault_set-policy
+  - az_keyvault_set_policy
   - az_keyvault_show
   - az_keyvault_update
 - uid: az_keyvault_create
@@ -74,7 +74,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_keyvault_delete-policy
+- uid: az_keyvault_delete_policy
   name: az keyvault delete-policy
   summary: Delete security policy settings for a Key Vault.
   langs:
@@ -111,7 +111,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_keyvault_list-deleted
+- uid: az_keyvault_list_deleted
   name: az keyvault list-deleted
   summary: Gets information about the deleted vaults in a subscription.
   langs:
@@ -161,7 +161,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_keyvault_set-policy
+- uid: az_keyvault_set_policy
   name: az keyvault set-policy
   summary: Update security policy settings for a Key Vault.
   langs:
@@ -264,7 +264,7 @@ commands:
 - uid: az_keyvault_certificate_download
   name: az keyvault certificate download
   summary: Download a certificate from a KeyVault.
-- uid: az_keyvault_certificate_get-default-policy
+- uid: az_keyvault_certificate_get_default_policy
   name: az keyvault certificate get-default-policy
   summary: Get a default policy for a self-signed certificate.
 - uid: az_keyvault_certificate_import
@@ -303,10 +303,10 @@ commands:
 - uid: az_keyvault_certificate_list
   name: az keyvault certificate list
   summary: List certificates in a specified key vault.
-- uid: az_keyvault_certificate_list-deleted
+- uid: az_keyvault_certificate_list_deleted
   name: az keyvault certificate list-deleted
   summary: Lists the deleted certificates in the specified vault, currently available for recovery.
-- uid: az_keyvault_certificate_list-versions
+- uid: az_keyvault_certificate_list_versions
   name: az keyvault certificate list-versions
   summary: List the versions of a certificate.
 - uid: az_keyvault_certificate_pending
@@ -327,13 +327,13 @@ commands:
 - uid: az_keyvault_certificate_recover
   name: az keyvault certificate recover
   summary: Recovers the deleted certificate back to its current version under /certificates.
-- uid: az_keyvault_certificate_set-attributes
+- uid: az_keyvault_certificate_set_attributes
   name: az keyvault certificate set-attributes
   summary: Updates the specified attributes associated with the given certificate.
 - uid: az_keyvault_certificate_show
   name: az keyvault certificate show
   summary: Gets information about a specified certificate.
-- uid: az_keyvault_certificate_show-deleted
+- uid: az_keyvault_certificate_show_deleted
   name: az keyvault certificate show-deleted
   summary: Retrieves information about the specified deleted certificate.
 - uid: az_keyvault_create
@@ -342,7 +342,7 @@ commands:
 - uid: az_keyvault_delete
   name: az keyvault delete
   summary: Delete a key vault.
-- uid: az_keyvault_delete-policy
+- uid: az_keyvault_delete_policy
   name: az keyvault delete-policy
   summary: Delete security policy settings for a Key Vault.
 - uid: az_keyvault_key
@@ -363,10 +363,10 @@ commands:
 - uid: az_keyvault_key_list
   name: az keyvault key list
   summary: List keys in the specified vault.
-- uid: az_keyvault_key_list-deleted
+- uid: az_keyvault_key_list_deleted
   name: az keyvault key list-deleted
   summary: List deleted keys in the specified vault.
-- uid: az_keyvault_key_list-versions
+- uid: az_keyvault_key_list_versions
   name: az keyvault key list-versions
   summary: Retrieves a list of individual key versions with the same key name.
 - uid: az_keyvault_key_purge
@@ -378,19 +378,19 @@ commands:
 - uid: az_keyvault_key_restore
   name: az keyvault key restore
   summary: Restores a backed up key to a vault.
-- uid: az_keyvault_key_set-attributes
+- uid: az_keyvault_key_set_attributes
   name: az keyvault key set-attributes
   summary: The update key operation changes specified attributes of a stored key and can be applied to any key type and key version stored in Azure Key Vault.
 - uid: az_keyvault_key_show
   name: az keyvault key show
   summary: Gets the public part of a stored key.
-- uid: az_keyvault_key_show-deleted
+- uid: az_keyvault_key_show_deleted
   name: az keyvault key show-deleted
   summary: Retrieves the deleted key information plus its attributes.
 - uid: az_keyvault_list
   name: az keyvault list
   summary: List key vaults.
-- uid: az_keyvault_list-deleted
+- uid: az_keyvault_list_deleted
   name: az keyvault list-deleted
   summary: Gets information about the deleted vaults in a subscription.
 - uid: az_keyvault_purge
@@ -414,10 +414,10 @@ commands:
 - uid: az_keyvault_secret_list
   name: az keyvault secret list
   summary: List secrets in a specified key vault.
-- uid: az_keyvault_secret_list-deleted
+- uid: az_keyvault_secret_list_deleted
   name: az keyvault secret list-deleted
   summary: List deleted secrets in the specified vault.
-- uid: az_keyvault_secret_list-versions
+- uid: az_keyvault_secret_list_versions
   name: az keyvault secret list-versions
   summary: List the versions of the specified secret.
 - uid: az_keyvault_secret_purge
@@ -432,16 +432,16 @@ commands:
 - uid: az_keyvault_secret_set
   name: az keyvault secret set
   summary: Sets a secret in a specified key vault.
-- uid: az_keyvault_secret_set-attributes
+- uid: az_keyvault_secret_set_attributes
   name: az keyvault secret set-attributes
   summary: Updates the attributes associated with a specified secret in a given key vault.
 - uid: az_keyvault_secret_show
   name: az keyvault secret show
   summary: Get a specified secret from a given key vault.
-- uid: az_keyvault_secret_show-deleted
+- uid: az_keyvault_secret_show_deleted
   name: az keyvault secret show-deleted
   summary: Retrieves the deleted secret information plus its attributes.
-- uid: az_keyvault_set-policy
+- uid: az_keyvault_set_policy
   name: az keyvault set-policy
   summary: Update security policy settings for a Key Vault.
 - uid: az_keyvault_show

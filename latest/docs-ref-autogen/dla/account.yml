@@ -130,58 +130,58 @@ items:
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_dla_account_blob-storage
+- uid: az_dla_account_blob_storage
   name: az dla account blob-storage
   summary: Commands to manage Data Lake Analytics account linked Azure Storage.
-- uid: az_dla_account_blob-storage_add
+- uid: az_dla_account_blob_storage_add
   name: az dla account blob-storage add
   summary: ''
-- uid: az_dla_account_blob-storage_delete
+- uid: az_dla_account_blob_storage_delete
   name: az dla account blob-storage delete
   summary: Updates the specified Data Lake Analytics account to remove an Azure Storage account.
-- uid: az_dla_account_blob-storage_list
+- uid: az_dla_account_blob_storage_list
   name: az dla account blob-storage list
   summary: Gets the first page of Azure Storage accounts, if any, linked to the specified Data Lake Analytics account.
-- uid: az_dla_account_blob-storage_show
+- uid: az_dla_account_blob_storage_show
   name: az dla account blob-storage show
   summary: Gets the specified Azure Storage account linked to the given Data Lake Analytics account.
-- uid: az_dla_account_blob-storage_update
+- uid: az_dla_account_blob_storage_update
   name: az dla account blob-storage update
   summary: ''
-- uid: az_dla_account_compute-policy
+- uid: az_dla_account_compute_policy
   name: az dla account compute-policy
   summary: Commands to manage Data Lake Analytics account compute policies.
-- uid: az_dla_account_compute-policy_create
+- uid: az_dla_account_compute_policy_create
   name: az dla account compute-policy create
   summary: Creates a compute policy in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_delete
+- uid: az_dla_account_compute_policy_delete
   name: az dla account compute-policy delete
   summary: Deletes a compute policy in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_list
+- uid: az_dla_account_compute_policy_list
   name: az dla account compute-policy list
   summary: Lists compute policies in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_show
+- uid: az_dla_account_compute_policy_show
   name: az dla account compute-policy show
   summary: Retrieves a compute policy in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_update
+- uid: az_dla_account_compute_policy_update
   name: az dla account compute-policy update
   summary: Updates a compute policy in the Data Lake Analytics account.
 - uid: az_dla_account_create
   name: az dla account create
   summary: Creates a Data Lake Analytics account.
-- uid: az_dla_account_data-lake-store
+- uid: az_dla_account_data_lake_store
   name: az dla account data-lake-store
   summary: Commands to manage Data Lake Analytics account linked Data Lake Store accounts.
-- uid: az_dla_account_data-lake-store_add
+- uid: az_dla_account_data_lake_store_add
   name: az dla account data-lake-store add
   summary: Updates the specified Data Lake Analytics account to include the additional Data Lake Store account.
-- uid: az_dla_account_data-lake-store_delete
+- uid: az_dla_account_data_lake_store_delete
   name: az dla account data-lake-store delete
   summary: Updates the Data Lake Analytics account specified to remove the specified Data Lake Store account.
-- uid: az_dla_account_data-lake-store_list
+- uid: az_dla_account_data_lake_store_list
   name: az dla account data-lake-store list
   summary: Gets the first page of Data Lake Store accounts linked to the specified Data Lake Analytics account.
-- uid: az_dla_account_data-lake-store_show
+- uid: az_dla_account_data_lake_store_show
   name: az dla account data-lake-store show
   summary: Gets the specified Data Lake Store account details in the specified Data Lake Analytics account.
 - uid: az_dla_account_delete

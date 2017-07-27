@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_sql_db_threat-policy
+- uid: az_sql_db_threat_policy
   name: az sql db threat-policy
   summary: Manage a database's threat detection policy.
   langs:
   - azurecli
   children:
-  - az_sql_db_threat-policy_show
-  - az_sql_db_threat-policy_update
-- uid: az_sql_db_threat-policy_show
+  - az_sql_db_threat_policy_show
+  - az_sql_db_threat_policy_update
+- uid: az_sql_db_threat_policy_show
   name: az sql db threat-policy show
   summary: Gets a database's threat detection policy.
   langs:
@@ -29,7 +29,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_sql_db_threat-policy_update
+- uid: az_sql_db_threat_policy_update
   name: az sql db threat-policy update
   summary: Updates a database's threat detection policy.
   langs:
@@ -91,10 +91,10 @@ items:
       path: src/command_modules/azure-cli-sql/azure/cli/command_modules/sql/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_sql_db_threat-policy_show
+- uid: az_sql_db_threat_policy_show
   name: az sql db threat-policy show
   summary: Gets a database's threat detection policy.
-- uid: az_sql_db_threat-policy_update
+- uid: az_sql_db_threat_policy_update
   name: az sql db threat-policy update
   summary: Updates a database's threat detection policy.
 globalParameters:

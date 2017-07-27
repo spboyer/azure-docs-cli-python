@@ -6,7 +6,7 @@ items:
   langs:
   - azurecli
   children:
-  - az_lab_vm_apply-artifacts
+  - az_lab_vm_apply_artifacts
   - az_lab_vm_claim
   - az_lab_vm_create
   - az_lab_vm_delete
@@ -14,7 +14,7 @@ items:
   - az_lab_vm_show
   - az_lab_vm_start
   - az_lab_vm_stop
-- uid: az_lab_vm_apply-artifacts
+- uid: az_lab_vm_apply_artifacts
   name: az lab vm apply-artifacts
   summary: Command to apply artifacts to virtual machine in Azure DevTest Lab.
   langs:
@@ -269,7 +269,7 @@ items:
       path: src/command_modules/azure-cli-lab/azure/cli/command_modules/lab/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_lab_vm_apply-artifacts
+- uid: az_lab_vm_apply_artifacts
   name: az lab vm apply-artifacts
   summary: Command to apply artifacts to virtual machine in Azure DevTest Lab.
 - uid: az_lab_vm_claim

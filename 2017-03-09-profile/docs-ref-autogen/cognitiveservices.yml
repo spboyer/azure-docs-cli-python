@@ -44,7 +44,7 @@ commands:
 - uid: az_cognitiveservices_account_keys_regenerate
   name: az cognitiveservices account keys regenerate
   summary: Regenerate the keys of a cognitive services account.
-- uid: az_cognitiveservices_account_list-skus
+- uid: az_cognitiveservices_account_list_skus
   name: az cognitiveservices account list-skus
   summary: List the avaiable skus of a cognitive services account.
 - uid: az_cognitiveservices_account_show

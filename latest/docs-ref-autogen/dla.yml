@@ -10,58 +10,58 @@ commands:
 - uid: az_dla_account
   name: az dla account
   summary: Commands to manage Data Lake Analytics accounts.
-- uid: az_dla_account_blob-storage
+- uid: az_dla_account_blob_storage
   name: az dla account blob-storage
   summary: Commands to manage Data Lake Analytics account linked Azure Storage.
-- uid: az_dla_account_blob-storage_add
+- uid: az_dla_account_blob_storage_add
   name: az dla account blob-storage add
   summary: ''
-- uid: az_dla_account_blob-storage_delete
+- uid: az_dla_account_blob_storage_delete
   name: az dla account blob-storage delete
   summary: Updates the specified Data Lake Analytics account to remove an Azure Storage account.
-- uid: az_dla_account_blob-storage_list
+- uid: az_dla_account_blob_storage_list
   name: az dla account blob-storage list
   summary: Gets the first page of Azure Storage accounts, if any, linked to the specified Data Lake Analytics account.
-- uid: az_dla_account_blob-storage_show
+- uid: az_dla_account_blob_storage_show
   name: az dla account blob-storage show
   summary: Gets the specified Azure Storage account linked to the given Data Lake Analytics account.
-- uid: az_dla_account_blob-storage_update
+- uid: az_dla_account_blob_storage_update
   name: az dla account blob-storage update
   summary: ''
-- uid: az_dla_account_compute-policy
+- uid: az_dla_account_compute_policy
   name: az dla account compute-policy
   summary: Commands to manage Data Lake Analytics account compute policies.
-- uid: az_dla_account_compute-policy_create
+- uid: az_dla_account_compute_policy_create
   name: az dla account compute-policy create
   summary: Creates a compute policy in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_delete
+- uid: az_dla_account_compute_policy_delete
   name: az dla account compute-policy delete
   summary: Deletes a compute policy in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_list
+- uid: az_dla_account_compute_policy_list
   name: az dla account compute-policy list
   summary: Lists compute policies in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_show
+- uid: az_dla_account_compute_policy_show
   name: az dla account compute-policy show
   summary: Retrieves a compute policy in the Data Lake Analytics account.
-- uid: az_dla_account_compute-policy_update
+- uid: az_dla_account_compute_policy_update
   name: az dla account compute-policy update
   summary: Updates a compute policy in the Data Lake Analytics account.
 - uid: az_dla_account_create
   name: az dla account create
   summary: Creates a Data Lake Analytics account.
-- uid: az_dla_account_data-lake-store
+- uid: az_dla_account_data_lake_store
   name: az dla account data-lake-store
   summary: Commands to manage Data Lake Analytics account linked Data Lake Store accounts.
-- uid: az_dla_account_data-lake-store_add
+- uid: az_dla_account_data_lake_store_add
   name: az dla account data-lake-store add
   summary: Updates the specified Data Lake Analytics account to include the additional Data Lake Store account.
-- uid: az_dla_account_data-lake-store_delete
+- uid: az_dla_account_data_lake_store_delete
   name: az dla account data-lake-store delete
   summary: Updates the Data Lake Analytics account specified to remove the specified Data Lake Store account.
-- uid: az_dla_account_data-lake-store_list
+- uid: az_dla_account_data_lake_store_list
   name: az dla account data-lake-store list
   summary: Gets the first page of Data Lake Store accounts linked to the specified Data Lake Analytics account.
-- uid: az_dla_account_data-lake-store_show
+- uid: az_dla_account_data_lake_store_show
   name: az dla account data-lake-store show
   summary: Gets the specified Data Lake Store account details in the specified Data Lake Analytics account.
 - uid: az_dla_account_delete
@@ -133,13 +133,13 @@ commands:
 - uid: az_dla_catalog_database_show
   name: az dla catalog database show
   summary: Retrieves the specified database from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_external-data-source
+- uid: az_dla_catalog_external_data_source
   name: az dla catalog external-data-source
   summary: Commands to manage Data Lake Analytics catalog external data sources.
-- uid: az_dla_catalog_external-data-source_list
+- uid: az_dla_catalog_external_data_source_list
   name: az dla catalog external-data-source list
   summary: Retrieves the list of external data sources from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_external-data-source_show
+- uid: az_dla_catalog_external_data_source_show
   name: az dla catalog external-data-source show
   summary: Retrieves the specified external data source from the Data Lake Analytics catalog.
 - uid: az_dla_catalog_package
@@ -178,31 +178,31 @@ commands:
 - uid: az_dla_catalog_table_show
   name: az dla catalog table show
   summary: Retrieves the specified table from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-partition
+- uid: az_dla_catalog_table_partition
   name: az dla catalog table-partition
   summary: Commands to manage Data Lake Analytics catalog table partitions.
-- uid: az_dla_catalog_table-partition_list
+- uid: az_dla_catalog_table_partition_list
   name: az dla catalog table-partition list
   summary: Retrieves the list of table partitions from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-partition_show
+- uid: az_dla_catalog_table_partition_show
   name: az dla catalog table-partition show
   summary: Retrieves the specified table partition from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-stats
+- uid: az_dla_catalog_table_stats
   name: az dla catalog table-stats
   summary: Commands to manage Data Lake Analytics catalog table statistics.
-- uid: az_dla_catalog_table-stats_list
+- uid: az_dla_catalog_table_stats_list
   name: az dla catalog table-stats list
   summary: Lists all table statistics in the database or in the database and schema or in a specific table.
-- uid: az_dla_catalog_table-stats_show
+- uid: az_dla_catalog_table_stats_show
   name: az dla catalog table-stats show
   summary: Retrieves the specified table statistics from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-type
+- uid: az_dla_catalog_table_type
   name: az dla catalog table-type
   summary: Commands to manage Data Lake Analytics catalog table types.
-- uid: az_dla_catalog_table-type_list
+- uid: az_dla_catalog_table_type_list
   name: az dla catalog table-type list
   summary: Retrieves the list of table types from the Data Lake Analytics catalog.
-- uid: az_dla_catalog_table-type_show
+- uid: az_dla_catalog_table_type_show
   name: az dla catalog table-type show
   summary: Retrieves the specified table type from the Data Lake Analytics catalog.
 - uid: az_dla_catalog_tvf

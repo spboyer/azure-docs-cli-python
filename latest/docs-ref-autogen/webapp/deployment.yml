@@ -6,8 +6,8 @@ items:
   langs:
   - azurecli
   children:
-  - az_webapp_deployment_list-publishing-profiles
-- uid: az_webapp_deployment_list-publishing-profiles
+  - az_webapp_deployment_list_publishing_profiles
+- uid: az_webapp_deployment_list_publishing_profiles
   name: az webapp deployment list-publishing-profiles
   summary: Get publishing endpoints, credentials, database connection strings, etc.
   langs:
@@ -22,13 +22,13 @@ items:
   - name: --slot -s
     summary: The name of the slot. Default to the productions slot if not specified.
 commands:
-- uid: az_webapp_deployment_list-publishing-profiles
+- uid: az_webapp_deployment_list_publishing_profiles
   name: az webapp deployment list-publishing-profiles
   summary: Get publishing endpoints, credentials, database connection strings, etc.
 - uid: az_webapp_deployment_slot
   name: az webapp deployment slot
   summary: Manage deployment slots.
-- uid: az_webapp_deployment_slot_auto-swap
+- uid: az_webapp_deployment_slot_auto_swap
   name: az webapp deployment slot auto-swap
   summary: Configure slot auto swap.
 - uid: az_webapp_deployment_slot_create
@@ -49,7 +49,7 @@ commands:
 - uid: az_webapp_deployment_source_config
   name: az webapp deployment source config
   summary: Associate to Git or Mercurial repositories.
-- uid: az_webapp_deployment_source_config-local-git
+- uid: az_webapp_deployment_source_config_local_git
   name: az webapp deployment source config-local-git
   summary: Enable local git.
 - uid: az_webapp_deployment_source_delete
@@ -61,7 +61,7 @@ commands:
 - uid: az_webapp_deployment_source_sync
   name: az webapp deployment source sync
   summary: Synchronize from the source repository, only needed under manual integration mode.
-- uid: az_webapp_deployment_source_update-token
+- uid: az_webapp_deployment_source_update_token
   name: az webapp deployment source update-token
   summary: Update source control token cached in Azure app service.
 - uid: az_webapp_deployment_user

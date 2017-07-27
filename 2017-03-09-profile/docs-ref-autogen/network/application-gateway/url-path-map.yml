@@ -1,17 +1,17 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_network_application-gateway_url-path-map
+- uid: az_network_application_gateway_url_path_map
   name: az network application-gateway url-path-map
   summary: Manage URL path maps for an application gateway.
   langs:
   - azurecli
   children:
-  - az_network_application-gateway_url-path-map_create
-  - az_network_application-gateway_url-path-map_delete
-  - az_network_application-gateway_url-path-map_list
-  - az_network_application-gateway_url-path-map_show
-  - az_network_application-gateway_url-path-map_update
-- uid: az_network_application-gateway_url-path-map_create
+  - az_network_application_gateway_url_path_map_create
+  - az_network_application_gateway_url_path_map_delete
+  - az_network_application_gateway_url_path_map_list
+  - az_network_application_gateway_url_path_map_show
+  - az_network_application_gateway_url_path_map_update
+- uid: az_network_application_gateway_url_path_map_create
   name: az network application-gateway url-path-map create
   summary: Create a URL path map.
   langs:
@@ -48,7 +48,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_application-gateway_url-path-map_delete
+- uid: az_network_application_gateway_url_path_map_delete
   name: az network application-gateway url-path-map delete
   summary: Delete a URL path map.
   langs:
@@ -71,7 +71,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_application-gateway_url-path-map_list
+- uid: az_network_application_gateway_url_path_map_list
   name: az network application-gateway url-path-map list
   summary: List URL path maps.
   langs:
@@ -89,7 +89,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_application-gateway_url-path-map_show
+- uid: az_network_application_gateway_url_path_map_show
   name: az network application-gateway url-path-map show
   summary: Show details of a URL path map.
   langs:
@@ -110,7 +110,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_network_application-gateway_url-path-map_update
+- uid: az_network_application_gateway_url_path_map_update
   name: az network application-gateway url-path-map update
   summary: Update a URL path map.
   langs:
@@ -144,28 +144,28 @@ items:
       path: src/command_modules/azure-cli-network/azure/cli/command_modules/network/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_network_application-gateway_url-path-map_create
+- uid: az_network_application_gateway_url_path_map_create
   name: az network application-gateway url-path-map create
   summary: Create a URL path map.
-- uid: az_network_application-gateway_url-path-map_delete
+- uid: az_network_application_gateway_url_path_map_delete
   name: az network application-gateway url-path-map delete
   summary: Delete a URL path map.
-- uid: az_network_application-gateway_url-path-map_list
+- uid: az_network_application_gateway_url_path_map_list
   name: az network application-gateway url-path-map list
   summary: List URL path maps.
-- uid: az_network_application-gateway_url-path-map_rule
+- uid: az_network_application_gateway_url_path_map_rule
   name: az network application-gateway url-path-map rule
   summary: Manage the rules for a URL path map.
-- uid: az_network_application-gateway_url-path-map_rule_create
+- uid: az_network_application_gateway_url_path_map_rule_create
   name: az network application-gateway url-path-map rule create
   summary: Create a rule for a URL path map.
-- uid: az_network_application-gateway_url-path-map_rule_delete
+- uid: az_network_application_gateway_url_path_map_rule_delete
   name: az network application-gateway url-path-map rule delete
   summary: Delete a rule for a URL path map.
-- uid: az_network_application-gateway_url-path-map_show
+- uid: az_network_application_gateway_url_path_map_show
   name: az network application-gateway url-path-map show
   summary: Show details of a URL path map.
-- uid: az_network_application-gateway_url-path-map_update
+- uid: az_network_application_gateway_url_path_map_update
   name: az network application-gateway url-path-map update
   summary: Update a URL path map.
 globalParameters:

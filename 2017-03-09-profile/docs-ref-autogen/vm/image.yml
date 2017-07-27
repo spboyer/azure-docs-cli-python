@@ -7,9 +7,9 @@ items:
   - azurecli
   children:
   - az_vm_image_list
-  - az_vm_image_list-offers
-  - az_vm_image_list-publishers
-  - az_vm_image_list-skus
+  - az_vm_image_list_offers
+  - az_vm_image_list_publishers
+  - az_vm_image_list_skus
   - az_vm_image_show
 - uid: az_vm_image_list
   name: az vm image list
@@ -43,7 +43,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_image_list-offers
+- uid: az_vm_image_list_offers
   name: az vm image list-offers
   summary: List the VM image offers available in the Azure Marketplace.
   langs:
@@ -68,7 +68,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_image_list-publishers
+- uid: az_vm_image_list_publishers
   name: az vm image list-publishers
   summary: List the VM image publishers available in the Azure Marketplace.
   langs:
@@ -90,7 +90,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-vm/azure/cli/command_modules/vm/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_vm_image_list-skus
+- uid: az_vm_image_list_skus
   name: az vm image list-skus
   summary: List the VM image skus available in the Azure Marketplace.
   langs:
@@ -152,13 +152,13 @@ commands:
 - uid: az_vm_image_list
   name: az vm image list
   summary: List the VM/VMSS images available in the Azure Marketplace.
-- uid: az_vm_image_list-offers
+- uid: az_vm_image_list_offers
   name: az vm image list-offers
   summary: List the VM image offers available in the Azure Marketplace.
-- uid: az_vm_image_list-publishers
+- uid: az_vm_image_list_publishers
   name: az vm image list-publishers
   summary: List the VM image publishers available in the Azure Marketplace.
-- uid: az_vm_image_list-skus
+- uid: az_vm_image_list_skus
   name: az vm image list-skus
   summary: List the VM image skus available in the Azure Marketplace.
 - uid: az_vm_image_show

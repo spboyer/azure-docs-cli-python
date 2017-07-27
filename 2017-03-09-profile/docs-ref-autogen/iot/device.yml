@@ -12,7 +12,7 @@ items:
   - az_iot_device_import
   - az_iot_device_list
   - az_iot_device_show
-  - az_iot_device_show-connection-string
+  - az_iot_device_show_connection_string
   - az_iot_device_update
 - uid: az_iot_device_create
   name: az iot device create
@@ -168,7 +168,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-iot/azure/cli/command_modules/iot/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_iot_device_show-connection-string
+- uid: az_iot_device_show_connection_string
   name: az iot device show-connection-string
   summary: Show the connection string of devices in an IoT Hub.
   langs:
@@ -274,7 +274,7 @@ commands:
 - uid: az_iot_device_show
   name: az iot device show
   summary: Show metadata of a device in an IoT Hub.
-- uid: az_iot_device_show-connection-string
+- uid: az_iot_device_show_connection_string
   name: az iot device show-connection-string
   summary: Show the connection string of devices in an IoT Hub.
 - uid: az_iot_device_update

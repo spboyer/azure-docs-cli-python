@@ -1,14 +1,14 @@
 ### YamlMime:UniversalReference
 items:
-- uid: az_dla_catalog_table-stats
+- uid: az_dla_catalog_table_stats
   name: az dla catalog table-stats
   summary: Commands to manage Data Lake Analytics catalog table statistics.
   langs:
   - azurecli
   children:
-  - az_dla_catalog_table-stats_list
-  - az_dla_catalog_table-stats_show
-- uid: az_dla_catalog_table-stats_list
+  - az_dla_catalog_table_stats_list
+  - az_dla_catalog_table_stats_show
+- uid: az_dla_catalog_table_stats_list
   name: az dla catalog table-stats list
   summary: Lists all table statistics in the database or in the database and schema or in a specific table.
   langs:
@@ -30,7 +30,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_dla_catalog_table-stats_show
+- uid: az_dla_catalog_table_stats_show
   name: az dla catalog table-stats show
   summary: Retrieves the specified table statistics from the Data Lake Analytics catalog.
   langs:
@@ -58,10 +58,10 @@ items:
       path: src/command_modules/azure-cli-dla/azure/cli/command_modules/dla/_help.py
       repo: https://github.com/azure/azure-cli/.git
 commands:
-- uid: az_dla_catalog_table-stats_list
+- uid: az_dla_catalog_table_stats_list
   name: az dla catalog table-stats list
   summary: Lists all table statistics in the database or in the database and schema or in a specific table.
-- uid: az_dla_catalog_table-stats_show
+- uid: az_dla_catalog_table_stats_show
   name: az dla catalog table-stats show
   summary: Retrieves the specified table statistics from the Data Lake Analytics catalog.
 globalParameters:

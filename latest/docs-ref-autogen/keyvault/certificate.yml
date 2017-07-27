@@ -9,16 +9,16 @@ items:
   - az_keyvault_certificate_create
   - az_keyvault_certificate_delete
   - az_keyvault_certificate_download
-  - az_keyvault_certificate_get-default-policy
+  - az_keyvault_certificate_get_default_policy
   - az_keyvault_certificate_import
   - az_keyvault_certificate_list
-  - az_keyvault_certificate_list-deleted
-  - az_keyvault_certificate_list-versions
+  - az_keyvault_certificate_list_deleted
+  - az_keyvault_certificate_list_versions
   - az_keyvault_certificate_purge
   - az_keyvault_certificate_recover
-  - az_keyvault_certificate_set-attributes
+  - az_keyvault_certificate_set_attributes
   - az_keyvault_certificate_show
-  - az_keyvault_certificate_show-deleted
+  - az_keyvault_certificate_show_deleted
 - uid: az_keyvault_certificate_create
   name: az keyvault certificate create
   summary: Creates a new certificate.
@@ -103,7 +103,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_keyvault_certificate_get-default-policy
+- uid: az_keyvault_certificate_get_default_policy
   name: az keyvault certificate get-default-policy
   summary: Get a default policy for a self-signed certificate.
   langs:
@@ -172,7 +172,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_keyvault_certificate_list-deleted
+- uid: az_keyvault_certificate_list_deleted
   name: az keyvault certificate list-deleted
   summary: Lists the deleted certificates in the specified vault, currently available for recovery.
   langs:
@@ -189,7 +189,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_keyvault_certificate_list-versions
+- uid: az_keyvault_certificate_list_versions
   name: az keyvault certificate list-versions
   summary: List the versions of a certificate.
   langs:
@@ -245,7 +245,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_keyvault_certificate_set-attributes
+- uid: az_keyvault_certificate_set_attributes
   name: az keyvault certificate set-attributes
   summary: Updates the specified attributes associated with the given certificate.
   langs:
@@ -292,7 +292,7 @@ items:
       branch: chaochen
       path: src/command_modules/azure-cli-keyvault/azure/cli/command_modules/keyvault/_help.py
       repo: https://github.com/azure/azure-cli/.git
-- uid: az_keyvault_certificate_show-deleted
+- uid: az_keyvault_certificate_show_deleted
   name: az keyvault certificate show-deleted
   summary: Retrieves information about the specified deleted certificate.
   langs:
@@ -332,7 +332,7 @@ commands:
 - uid: az_keyvault_certificate_download
   name: az keyvault certificate download
   summary: Download a certificate from a KeyVault.
-- uid: az_keyvault_certificate_get-default-policy
+- uid: az_keyvault_certificate_get_default_policy
   name: az keyvault certificate get-default-policy
   summary: Get a default policy for a self-signed certificate.
 - uid: az_keyvault_certificate_import
@@ -371,10 +371,10 @@ commands:
 - uid: az_keyvault_certificate_list
   name: az keyvault certificate list
   summary: List certificates in a specified key vault.
-- uid: az_keyvault_certificate_list-deleted
+- uid: az_keyvault_certificate_list_deleted
   name: az keyvault certificate list-deleted
   summary: Lists the deleted certificates in the specified vault, currently available for recovery.
-- uid: az_keyvault_certificate_list-versions
+- uid: az_keyvault_certificate_list_versions
   name: az keyvault certificate list-versions
   summary: List the versions of a certificate.
 - uid: az_keyvault_certificate_pending
@@ -395,13 +395,13 @@ commands:
 - uid: az_keyvault_certificate_recover
   name: az keyvault certificate recover
   summary: Recovers the deleted certificate back to its current version under /certificates.
-- uid: az_keyvault_certificate_set-attributes
+- uid: az_keyvault_certificate_set_attributes
   name: az keyvault certificate set-attributes
   summary: Updates the specified attributes associated with the given certificate.
 - uid: az_keyvault_certificate_show
   name: az keyvault certificate show
   summary: Gets information about a specified certificate.
-- uid: az_keyvault_certificate_show-deleted
+- uid: az_keyvault_certificate_show_deleted
   name: az keyvault certificate show-deleted
   summary: Retrieves information about the specified deleted certificate.
 globalParameters:
