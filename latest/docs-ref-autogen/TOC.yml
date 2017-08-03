@@ -2970,7 +2970,7 @@
       items:
       - name: Check-Name
         displayName: az storage account check-name
-        href: storage/account.yml#az_storage_account_check_name
+        uid: az_storage_account_check_name
       - name: Create
         displayName: az storage account create
         href: storage/account.yml#az_storage_account_create
