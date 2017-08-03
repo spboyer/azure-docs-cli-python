@@ -1,0 +1,4150 @@
+- name: Reference
+  href: index.yml
+  items:
+  - name: Configure
+    displayName: az configure
+    href: index.yml#az_configure
+  - name: Feedback
+    displayName: az feedback
+    href: index.yml#az_feedback
+  - name: Find
+    displayName: az find
+    href: index.yml#az_find
+  - name: Interactive
+    displayName: az interactive
+    href: index.yml#az_interactive
+  - name: Login
+    displayName: az login
+    href: index.yml#az_login
+  - name: Logout
+    displayName: az logout
+    href: index.yml#az_logout
+  - name: App Service
+    displayName: az appservice
+    href: appservice.yml
+    items:
+    - name: List-Locations
+      displayName: az appservice list-locations
+      href: appservice.yml#az_appservice_list_locations
+    - name: Plans
+      displayName: az appservice plan
+      href: appservice/plan.yml
+      items:
+      - name: Create
+        displayName: az appservice plan create
+        href: appservice/plan.yml#az_appservice_plan_create
+      - name: Delete
+        displayName: az appservice plan delete
+        href: appservice/plan.yml#az_appservice_plan_delete
+      - name: List
+        displayName: az appservice plan list
+        href: appservice/plan.yml#az_appservice_plan_list
+      - name: Show
+        displayName: az appservice plan show
+        href: appservice/plan.yml#az_appservice_plan_show
+      - name: Update
+        displayName: az appservice plan update
+        href: appservice/plan.yml#az_appservice_plan_update
+  - name: Azure Active Directory
+    displayName: az ad
+    href: ad.yml
+    items:
+    - name: Applications
+      displayName: az ad app
+      href: ad/app.yml
+      items:
+      - name: Create
+        displayName: az ad app create
+        href: ad/app.yml#az_ad_app_create
+      - name: Delete
+        displayName: az ad app delete
+        href: ad/app.yml#az_ad_app_delete
+      - name: List
+        displayName: az ad app list
+        href: ad/app.yml#az_ad_app_list
+      - name: Show
+        displayName: az ad app show
+        href: ad/app.yml#az_ad_app_show
+      - name: Update
+        displayName: az ad app update
+        href: ad/app.yml#az_ad_app_update
+    - name: Groups
+      displayName: az ad group
+      href: ad/group.yml
+      items:
+      - name: Create
+        displayName: az ad group create
+        href: ad/group.yml#az_ad_group_create
+      - name: Delete
+        displayName: az ad group delete
+        href: ad/group.yml#az_ad_group_delete
+      - name: Get-Member-Groups
+        displayName: az ad group get-member-groups
+        href: ad/group.yml#az_ad_group_get_member_groups
+      - name: List
+        displayName: az ad group list
+        href: ad/group.yml#az_ad_group_list
+      - name: Show
+        displayName: az ad group show
+        href: ad/group.yml#az_ad_group_show
+      - name: Member
+        displayName: az ad group member
+        href: ad/group/member.yml
+        items:
+        - name: Add
+          displayName: az ad group member add
+          href: ad/group/member.yml#az_ad_group_member_add
+        - name: Check
+          displayName: az ad group member check
+          href: ad/group/member.yml#az_ad_group_member_check
+        - name: List
+          displayName: az ad group member list
+          href: ad/group/member.yml#az_ad_group_member_list
+        - name: Remove
+          displayName: az ad group member remove
+          href: ad/group/member.yml#az_ad_group_member_remove
+    - name: Service Principals
+      displayName: az ad sp
+      href: ad/sp.yml
+      items:
+      - name: Create
+        displayName: az ad sp create
+        href: ad/sp.yml#az_ad_sp_create
+      - name: Create-For-Rbac
+        displayName: az ad sp create-for-rbac
+        href: ad/sp.yml#az_ad_sp_create_for_rbac
+      - name: Delete
+        displayName: az ad sp delete
+        href: ad/sp.yml#az_ad_sp_delete
+      - name: List
+        displayName: az ad sp list
+        href: ad/sp.yml#az_ad_sp_list
+      - name: Reset-Credentials
+        displayName: az ad sp reset-credentials
+        href: ad/sp.yml#az_ad_sp_reset_credentials
+      - name: Show
+        displayName: az ad sp show
+        href: ad/sp.yml#az_ad_sp_show
+    - name: Users
+      displayName: az ad user
+      href: ad/user.yml
+      items:
+      - name: Create
+        displayName: az ad user create
+        href: ad/user.yml#az_ad_user_create
+      - name: Delete
+        displayName: az ad user delete
+        href: ad/user.yml#az_ad_user_delete
+      - name: List
+        displayName: az ad user list
+        href: ad/user.yml#az_ad_user_list
+      - name: Show
+        displayName: az ad user show
+        href: ad/user.yml#az_ad_user_show
+  - name: Batch
+    displayName: az batch
+    href: batch.yml
+    items:
+    - name: Accounts
+      displayName: az batch account
+      href: batch/account.yml
+      items:
+      - name: Create
+        displayName: az batch account create
+        href: batch/account.yml#az_batch_account_create
+      - name: Delete
+        displayName: az batch account delete
+        href: batch/account.yml#az_batch_account_delete
+      - name: List
+        displayName: az batch account list
+        href: batch/account.yml#az_batch_account_list
+      - name: Login
+        displayName: az batch account login
+        href: batch/account.yml#az_batch_account_login
+      - name: Set
+        displayName: az batch account set
+        href: batch/account.yml#az_batch_account_set
+      - name: Show
+        displayName: az batch account show
+        href: batch/account.yml#az_batch_account_show
+      - name: Auto-Storage Keys
+        displayName: az batch account autostorage-keys
+        href: batch/account/autostorage-keys.yml
+        items:
+        - name: Sync
+          displayName: az batch account autostorage-keys sync
+          href: batch/account/autostorage-keys.yml#az_batch_account_autostorage_keys_sync
+      - name: Keys
+        displayName: az batch account keys
+        href: batch/account/keys.yml
+        items:
+        - name: List
+          displayName: az batch account keys list
+          href: batch/account/keys.yml#az_batch_account_keys_list
+        - name: Renew
+          displayName: az batch account keys renew
+          href: batch/account/keys.yml#az_batch_account_keys_renew
+    - name: Applications
+      displayName: az batch application
+      href: batch/application.yml
+      items:
+      - name: Create
+        displayName: az batch application create
+        href: batch/application.yml#az_batch_application_create
+      - name: Delete
+        displayName: az batch application delete
+        href: batch/application.yml#az_batch_application_delete
+      - name: List
+        displayName: az batch application list
+        href: batch/application.yml#az_batch_application_list
+      - name: Set
+        displayName: az batch application set
+        href: batch/application.yml#az_batch_application_set
+      - name: Show
+        displayName: az batch application show
+        href: batch/application.yml#az_batch_application_show
+      - name: Packages
+        displayName: az batch application package
+        href: batch/application/package.yml
+        items:
+        - name: Activate
+          displayName: az batch application package activate
+          href: batch/application/package.yml#az_batch_application_package_activate
+        - name: Create
+          displayName: az batch application package create
+          href: batch/application/package.yml#az_batch_application_package_create
+        - name: Delete
+          displayName: az batch application package delete
+          href: batch/application/package.yml#az_batch_application_package_delete
+        - name: Show
+          displayName: az batch application package show
+          href: batch/application/package.yml#az_batch_application_package_show
+      - name: Summaries
+        displayName: az batch application summary
+        href: batch/application/summary.yml
+        items:
+        - name: List
+          displayName: az batch application summary list
+          href: batch/application/summary.yml#az_batch_application_summary_list
+        - name: Show
+          displayName: az batch application summary show
+          href: batch/application/summary.yml#az_batch_application_summary_show
+    - name: Certificates
+      displayName: az batch certificate
+      href: batch/certificate.yml
+      items:
+      - name: Create
+        displayName: az batch certificate create
+        href: batch/certificate.yml#az_batch_certificate_create
+      - name: Delete
+        displayName: az batch certificate delete
+        href: batch/certificate.yml#az_batch_certificate_delete
+      - name: List
+        displayName: az batch certificate list
+        href: batch/certificate.yml#az_batch_certificate_list
+      - name: Show
+        displayName: az batch certificate show
+        href: batch/certificate.yml#az_batch_certificate_show
+    - name: Job Schedules
+      displayName: az batch job-schedule
+      href: batch/job-schedule.yml
+      items:
+      - name: Create
+        displayName: az batch job-schedule create
+        href: batch/job-schedule.yml#az_batch_job_schedule_create
+      - name: Delete
+        displayName: az batch job-schedule delete
+        href: batch/job-schedule.yml#az_batch_job_schedule_delete
+      - name: Disable
+        displayName: az batch job-schedule disable
+        href: batch/job-schedule.yml#az_batch_job_schedule_disable
+      - name: Enable
+        displayName: az batch job-schedule enable
+        href: batch/job-schedule.yml#az_batch_job_schedule_enable
+      - name: List
+        displayName: az batch job-schedule list
+        href: batch/job-schedule.yml#az_batch_job_schedule_list
+      - name: Reset
+        displayName: az batch job-schedule reset
+        href: batch/job-schedule.yml#az_batch_job_schedule_reset
+      - name: Set
+        displayName: az batch job-schedule set
+        href: batch/job-schedule.yml#az_batch_job_schedule_set
+      - name: Show
+        displayName: az batch job-schedule show
+        href: batch/job-schedule.yml#az_batch_job_schedule_show
+      - name: Stop
+        displayName: az batch job-schedule stop
+        href: batch/job-schedule.yml#az_batch_job_schedule_stop
+    - name: Jobs
+      displayName: az batch job
+      href: batch/job.yml
+      items:
+      - name: Create
+        displayName: az batch job create
+        href: batch/job.yml#az_batch_job_create
+      - name: Delete
+        displayName: az batch job delete
+        href: batch/job.yml#az_batch_job_delete
+      - name: Disable
+        displayName: az batch job disable
+        href: batch/job.yml#az_batch_job_disable
+      - name: Enable
+        displayName: az batch job enable
+        href: batch/job.yml#az_batch_job_enable
+      - name: List
+        displayName: az batch job list
+        href: batch/job.yml#az_batch_job_list
+      - name: Reset
+        displayName: az batch job reset
+        href: batch/job.yml#az_batch_job_reset
+      - name: Set
+        displayName: az batch job set
+        href: batch/job.yml#az_batch_job_set
+      - name: Show
+        displayName: az batch job show
+        href: batch/job.yml#az_batch_job_show
+      - name: Stop
+        displayName: az batch job stop
+        href: batch/job.yml#az_batch_job_stop
+      - name: Statistics
+        displayName: az batch job all-statistics
+        href: batch/job/all-statistics.yml
+        items:
+        - name: Show
+          displayName: az batch job all-statistics show
+          href: batch/job/all-statistics.yml#az_batch_job_all_statistics_show
+      - name: Status
+        displayName: az batch job prep-release-status
+        href: batch/job/prep-release-status.yml
+        items:
+        - name: List
+          displayName: az batch job prep-release-status list
+          href: batch/job/prep-release-status.yml#az_batch_job_prep_release_status_list
+    - name: Locations
+      displayName: az batch location
+      href: batch/location.yml
+      items:
+      - name: Quotas
+        displayName: az batch location quotas
+        href: batch/location/quotas.yml
+        items:
+        - name: Show
+          displayName: az batch location quotas show
+          href: batch/location/quotas.yml#az_batch_location_quotas_show
+    - name: Nodes
+      displayName: az batch node
+      href: batch/node.yml
+      items:
+      - name: Delete
+        displayName: az batch node delete
+        href: batch/node.yml#az_batch_node_delete
+      - name: List
+        displayName: az batch node list
+        href: batch/node.yml#az_batch_node_list
+      - name: Reboot
+        displayName: az batch node reboot
+        href: batch/node.yml#az_batch_node_reboot
+      - name: Reimage
+        displayName: az batch node reimage
+        href: batch/node.yml#az_batch_node_reimage
+      - name: Show
+        displayName: az batch node show
+        href: batch/node.yml#az_batch_node_show
+      - name: Files
+        displayName: az batch node file
+        href: batch/node/file.yml
+        items:
+        - name: Delete
+          displayName: az batch node file delete
+          href: batch/node/file.yml#az_batch_node_file_delete
+        - name: Download
+          displayName: az batch node file download
+          href: batch/node/file.yml#az_batch_node_file_download
+        - name: List
+          displayName: az batch node file list
+          href: batch/node/file.yml#az_batch_node_file_list
+        - name: Show
+          displayName: az batch node file show
+          href: batch/node/file.yml#az_batch_node_file_show
+      - name: Remote Desktop Protocols
+        displayName: az batch node remote-desktop
+        href: batch/node/remote-desktop.yml
+        items:
+        - name: Download
+          displayName: az batch node remote-desktop download
+          href: batch/node/remote-desktop.yml#az_batch_node_remote_desktop_download
+      - name: Remote Login Settings
+        displayName: az batch node remote-login-settings
+        href: batch/node/remote-login-settings.yml
+        items:
+        - name: Show
+          displayName: az batch node remote-login-settings show
+          href: batch/node/remote-login-settings.yml#az_batch_node_remote_login_settings_show
+      - name: Scheduling
+        displayName: az batch node scheduling
+        href: batch/node/scheduling.yml
+        items:
+        - name: Disable
+          displayName: az batch node scheduling disable
+          href: batch/node/scheduling.yml#az_batch_node_scheduling_disable
+        - name: Enable
+          displayName: az batch node scheduling enable
+          href: batch/node/scheduling.yml#az_batch_node_scheduling_enable
+      - name: Users
+        displayName: az batch node user
+        href: batch/node/user.yml
+        items:
+        - name: Create
+          displayName: az batch node user create
+          href: batch/node/user.yml#az_batch_node_user_create
+        - name: Delete
+          displayName: az batch node user delete
+          href: batch/node/user.yml#az_batch_node_user_delete
+        - name: Reset
+          displayName: az batch node user reset
+          href: batch/node/user.yml#az_batch_node_user_reset
+    - name: Pools
+      displayName: az batch pool
+      href: batch/pool.yml
+      items:
+      - name: Create
+        displayName: az batch pool create
+        href: batch/pool.yml#az_batch_pool_create
+      - name: Delete
+        displayName: az batch pool delete
+        href: batch/pool.yml#az_batch_pool_delete
+      - name: List
+        displayName: az batch pool list
+        href: batch/pool.yml#az_batch_pool_list
+      - name: Reset
+        displayName: az batch pool reset
+        href: batch/pool.yml#az_batch_pool_reset
+      - name: Resize
+        displayName: az batch pool resize
+        href: batch/pool.yml#az_batch_pool_resize
+      - name: Set
+        displayName: az batch pool set
+        href: batch/pool.yml#az_batch_pool_set
+      - name: Show
+        displayName: az batch pool show
+        href: batch/pool.yml#az_batch_pool_show
+      - name: Autoscale
+        displayName: az batch pool autoscale
+        href: batch/pool/autoscale.yml
+        items:
+        - name: Disable
+          displayName: az batch pool autoscale disable
+          href: batch/pool/autoscale.yml#az_batch_pool_autoscale_disable
+        - name: Enable
+          displayName: az batch pool autoscale enable
+          href: batch/pool/autoscale.yml#az_batch_pool_autoscale_enable
+        - name: Evaluate
+          displayName: az batch pool autoscale evaluate
+          href: batch/pool/autoscale.yml#az_batch_pool_autoscale_evaluate
+      - name: Node Agent Skus
+        displayName: az batch pool node-agent-skus
+        href: batch/pool/node-agent-skus.yml
+        items:
+        - name: List
+          displayName: az batch pool node-agent-skus list
+          href: batch/pool/node-agent-skus.yml#az_batch_pool_node_agent_skus_list
+      - name: Operating Systems
+        displayName: az batch pool os
+        href: batch/pool/os.yml
+        items:
+        - name: Upgrade
+          displayName: az batch pool os upgrade
+          href: batch/pool/os.yml#az_batch_pool_os_upgrade
+      - name: Statistics
+        displayName: az batch pool all-statistics
+        href: batch/pool/all-statistics.yml
+        items:
+        - name: Show
+          displayName: az batch pool all-statistics show
+          href: batch/pool/all-statistics.yml#az_batch_pool_all_statistics_show
+      - name: Usage Metrics
+        displayName: az batch pool usage-metrics
+        href: batch/pool/usage-metrics.yml
+        items:
+        - name: List
+          displayName: az batch pool usage-metrics list
+          href: batch/pool/usage-metrics.yml#az_batch_pool_usage_metrics_list
+    - name: Tasks
+      displayName: az batch task
+      href: batch/task.yml
+      items:
+      - name: Create
+        displayName: az batch task create
+        href: batch/task.yml#az_batch_task_create
+      - name: Delete
+        displayName: az batch task delete
+        href: batch/task.yml#az_batch_task_delete
+      - name: List
+        displayName: az batch task list
+        href: batch/task.yml#az_batch_task_list
+      - name: Reactivate
+        displayName: az batch task reactivate
+        href: batch/task.yml#az_batch_task_reactivate
+      - name: Reset
+        displayName: az batch task reset
+        href: batch/task.yml#az_batch_task_reset
+      - name: Show
+        displayName: az batch task show
+        href: batch/task.yml#az_batch_task_show
+      - name: Stop
+        displayName: az batch task stop
+        href: batch/task.yml#az_batch_task_stop
+      - name: Files
+        displayName: az batch task file
+        href: batch/task/file.yml
+        items:
+        - name: Delete
+          displayName: az batch task file delete
+          href: batch/task/file.yml#az_batch_task_file_delete
+        - name: Download
+          displayName: az batch task file download
+          href: batch/task/file.yml#az_batch_task_file_download
+        - name: List
+          displayName: az batch task file list
+          href: batch/task/file.yml#az_batch_task_file_list
+        - name: Show
+          displayName: az batch task file show
+          href: batch/task/file.yml#az_batch_task_file_show
+      - name: Subtasks
+        displayName: az batch task subtask
+        href: batch/task/subtask.yml
+        items:
+        - name: List
+          displayName: az batch task subtask list
+          href: batch/task/subtask.yml#az_batch_task_subtask_list
+  - name: Billing
+    displayName: az billing
+    href: billing.yml
+    items:
+    - name: Invoice
+      displayName: az billing invoice
+      href: billing/invoice.yml
+      items:
+      - name: List
+        displayName: az billing invoice list
+        href: billing/invoice.yml#az_billing_invoice_list
+      - name: Show
+        displayName: az billing invoice show
+        href: billing/invoice.yml#az_billing_invoice_show
+    - name: Period
+      displayName: az billing period
+      href: billing/period.yml
+      items:
+      - name: List
+        displayName: az billing period list
+        href: billing/period.yml#az_billing_period_list
+      - name: Show
+        displayName: az billing period show
+        href: billing/period.yml#az_billing_period_show
+  - name: CDN
+    displayName: az cdn
+    href: cdn.yml
+    items:
+    - name: Name-Exists
+      displayName: az cdn name-exists
+      href: cdn.yml#az_cdn_name_exists
+    - name: Usage
+      displayName: az cdn usage
+      href: cdn.yml#az_cdn_usage
+    - name: Custom-Domain
+      displayName: az cdn custom-domain
+      href: cdn/custom-domain.yml
+      items:
+      - name: Create
+        displayName: az cdn custom-domain create
+        href: cdn/custom-domain.yml#az_cdn_custom_domain_create
+      - name: Delete
+        displayName: az cdn custom-domain delete
+        href: cdn/custom-domain.yml#az_cdn_custom_domain_delete
+      - name: List
+        displayName: az cdn custom-domain list
+        href: cdn/custom-domain.yml#az_cdn_custom_domain_list
+      - name: Show
+        displayName: az cdn custom-domain show
+        href: cdn/custom-domain.yml#az_cdn_custom_domain_show
+    - name: Edge-Node
+      displayName: az cdn edge-node
+      href: cdn/edge-node.yml
+      items:
+      - name: List
+        displayName: az cdn edge-node list
+        href: cdn/edge-node.yml#az_cdn_edge_node_list
+    - name: Endpoint
+      displayName: az cdn endpoint
+      href: cdn/endpoint.yml
+      items:
+      - name: Create
+        displayName: az cdn endpoint create
+        href: cdn/endpoint.yml#az_cdn_endpoint_create
+      - name: Delete
+        displayName: az cdn endpoint delete
+        href: cdn/endpoint.yml#az_cdn_endpoint_delete
+      - name: List
+        displayName: az cdn endpoint list
+        href: cdn/endpoint.yml#az_cdn_endpoint_list
+      - name: Load
+        displayName: az cdn endpoint load
+        href: cdn/endpoint.yml#az_cdn_endpoint_load
+      - name: Purge
+        displayName: az cdn endpoint purge
+        href: cdn/endpoint.yml#az_cdn_endpoint_purge
+      - name: Show
+        displayName: az cdn endpoint show
+        href: cdn/endpoint.yml#az_cdn_endpoint_show
+      - name: Start
+        displayName: az cdn endpoint start
+        href: cdn/endpoint.yml#az_cdn_endpoint_start
+      - name: Stop
+        displayName: az cdn endpoint stop
+        href: cdn/endpoint.yml#az_cdn_endpoint_stop
+      - name: Update
+        displayName: az cdn endpoint update
+        href: cdn/endpoint.yml#az_cdn_endpoint_update
+      - name: Validate-Custom-Domain
+        displayName: az cdn endpoint validate-custom-domain
+        href: cdn/endpoint.yml#az_cdn_endpoint_validate_custom_domain
+    - name: Origin
+      displayName: az cdn origin
+      href: cdn/origin.yml
+      items:
+      - name: List
+        displayName: az cdn origin list
+        href: cdn/origin.yml#az_cdn_origin_list
+      - name: Show
+        displayName: az cdn origin show
+        href: cdn/origin.yml#az_cdn_origin_show
+    - name: Profile
+      displayName: az cdn profile
+      href: cdn/profile.yml
+      items:
+      - name: Create
+        displayName: az cdn profile create
+        href: cdn/profile.yml#az_cdn_profile_create
+      - name: Delete
+        displayName: az cdn profile delete
+        href: cdn/profile.yml#az_cdn_profile_delete
+      - name: List
+        displayName: az cdn profile list
+        href: cdn/profile.yml#az_cdn_profile_list
+      - name: Show
+        displayName: az cdn profile show
+        href: cdn/profile.yml#az_cdn_profile_show
+      - name: Update
+        displayName: az cdn profile update
+        href: cdn/profile.yml#az_cdn_profile_update
+      - name: Usage
+        displayName: az cdn profile usage
+        href: cdn/profile.yml#az_cdn_profile_usage
+  - name: Cloud Management
+    displayName: az cloud
+    href: cloud.yml
+    items:
+    - name: List
+      displayName: az cloud list
+      href: cloud.yml#az_cloud_list
+    - name: List-Profiles
+      displayName: az cloud list-profiles
+      href: cloud.yml#az_cloud_list_profiles
+    - name: Register
+      displayName: az cloud register
+      href: cloud.yml#az_cloud_register
+    - name: Set
+      displayName: az cloud set
+      href: cloud.yml#az_cloud_set
+    - name: Show
+      displayName: az cloud show
+      href: cloud.yml#az_cloud_show
+    - name: Unregister
+      displayName: az cloud unregister
+      href: cloud.yml#az_cloud_unregister
+    - name: Update
+      displayName: az cloud update
+      href: cloud.yml#az_cloud_update
+  - name: Cognitive Services
+    displayName: az cognitiveservices
+    href: cognitiveservices.yml
+    items:
+    - name: List
+      displayName: az cognitiveservices list
+      href: cognitiveservices.yml#az_cognitiveservices_list
+    - name: Account
+      displayName: az cognitiveservices account
+      href: cognitiveservices/account.yml
+      items:
+      - name: Create
+        displayName: az cognitiveservices account create
+        href: cognitiveservices/account.yml#az_cognitiveservices_account_create
+      - name: Delete
+        displayName: az cognitiveservices account delete
+        href: cognitiveservices/account.yml#az_cognitiveservices_account_delete
+      - name: List-Skus
+        displayName: az cognitiveservices account list-skus
+        href: cognitiveservices/account.yml#az_cognitiveservices_account_list_skus
+      - name: Show
+        displayName: az cognitiveservices account show
+        href: cognitiveservices/account.yml#az_cognitiveservices_account_show
+      - name: Update
+        displayName: az cognitiveservices account update
+        href: cognitiveservices/account.yml#az_cognitiveservices_account_update
+      - name: Keys
+        displayName: az cognitiveservices account keys
+        href: cognitiveservices/account/keys.yml
+        items:
+        - name: List
+          displayName: az cognitiveservices account keys list
+          href: cognitiveservices/account/keys.yml#az_cognitiveservices_account_keys_list
+        - name: Regenerate
+          displayName: az cognitiveservices account keys regenerate
+          href: cognitiveservices/account/keys.yml#az_cognitiveservices_account_keys_regenerate
+  - name: Components
+    displayName: az component
+    href: component.yml
+    items:
+    - name: List
+      displayName: az component list
+      href: component.yml#az_component_list
+    - name: List-Available
+      displayName: az component list-available
+      href: component.yml#az_component_list_available
+    - name: Remove
+      displayName: az component remove
+      href: component.yml#az_component_remove
+    - name: Update
+      displayName: az component update
+      href: component.yml#az_component_update
+  - name: Consumption
+    displayName: az consumption
+    href: consumption.yml
+    items:
+    - name: Usage
+      displayName: az consumption usage
+      href: consumption/usage.yml
+      items:
+      - name: List
+        displayName: az consumption usage list
+        href: consumption/usage.yml#az_consumption_usage_list
+  - name: Container Registry
+    displayName: az acr
+    href: acr.yml
+    items:
+    - name: Check-Name
+      displayName: az acr check-name
+      href: acr.yml#az_acr_check_name
+    - name: Create
+      displayName: az acr create
+      href: acr.yml#az_acr_create
+    - name: Delete
+      displayName: az acr delete
+      href: acr.yml#az_acr_delete
+    - name: List
+      displayName: az acr list
+      href: acr.yml#az_acr_list
+    - name: Login
+      displayName: az acr login
+      href: acr.yml#az_acr_login
+    - name: Show
+      displayName: az acr show
+      href: acr.yml#az_acr_show
+    - name: Show-Usage
+      displayName: az acr show-usage
+      href: acr.yml#az_acr_show_usage
+    - name: Update
+      displayName: az acr update
+      href: acr.yml#az_acr_update
+    - name: Credentials
+      displayName: az acr credential
+      href: acr/credential.yml
+      items:
+      - name: Renew
+        displayName: az acr credential renew
+        href: acr/credential.yml#az_acr_credential_renew
+      - name: Show
+        displayName: az acr credential show
+        href: acr/credential.yml#az_acr_credential_show
+    - name: Repositories
+      displayName: az acr repository
+      href: acr/repository.yml
+      items:
+      - name: Delete
+        displayName: az acr repository delete
+        href: acr/repository.yml#az_acr_repository_delete
+      - name: List
+        displayName: az acr repository list
+        href: acr/repository.yml#az_acr_repository_list
+      - name: Show-Manifests
+        displayName: az acr repository show-manifests
+        href: acr/repository.yml#az_acr_repository_show_manifests
+      - name: Show-Tags
+        displayName: az acr repository show-tags
+        href: acr/repository.yml#az_acr_repository_show_tags
+    - name: Webhook
+      displayName: az acr webhook
+      href: acr/webhook.yml
+      items:
+      - name: Create
+        displayName: az acr webhook create
+        href: acr/webhook.yml#az_acr_webhook_create
+      - name: Delete
+        displayName: az acr webhook delete
+        href: acr/webhook.yml#az_acr_webhook_delete
+      - name: Get-Config
+        displayName: az acr webhook get-config
+        href: acr/webhook.yml#az_acr_webhook_get_config
+      - name: List
+        displayName: az acr webhook list
+        href: acr/webhook.yml#az_acr_webhook_list
+      - name: List-Events
+        displayName: az acr webhook list-events
+        href: acr/webhook.yml#az_acr_webhook_list_events
+      - name: Ping
+        displayName: az acr webhook ping
+        href: acr/webhook.yml#az_acr_webhook_ping
+      - name: Show
+        displayName: az acr webhook show
+        href: acr/webhook.yml#az_acr_webhook_show
+      - name: Update
+        displayName: az acr webhook update
+        href: acr/webhook.yml#az_acr_webhook_update
+  - name: Container Service
+    displayName: az acs
+    href: acs.yml
+    items:
+    - name: Browse
+      displayName: az acs browse
+      href: acs.yml#az_acs_browse
+    - name: Create
+      displayName: az acs create
+      href: acs.yml#az_acs_create
+    - name: Delete
+      displayName: az acs delete
+      href: acs.yml#az_acs_delete
+    - name: Install-Cli
+      displayName: az acs install-cli
+      href: acs.yml#az_acs_install_cli
+    - name: List
+      displayName: az acs list
+      href: acs.yml#az_acs_list
+    - name: Scale
+      displayName: az acs scale
+      href: acs.yml#az_acs_scale
+    - name: Show
+      displayName: az acs show
+      href: acs.yml#az_acs_show
+    - name: Wait
+      displayName: az acs wait
+      href: acs.yml#az_acs_wait
+    - name: DC/OS
+      displayName: az acs dcos
+      href: acs/dcos.yml
+      items:
+      - name: Browse
+        displayName: az acs dcos browse
+        href: acs/dcos.yml#az_acs_dcos_browse
+      - name: Install-Cli
+        displayName: az acs dcos install-cli
+        href: acs/dcos.yml#az_acs_dcos_install_cli
+    - name: Kubernetes
+      displayName: az acs kubernetes
+      href: acs/kubernetes.yml
+      items:
+      - name: Browse
+        displayName: az acs kubernetes browse
+        href: acs/kubernetes.yml#az_acs_kubernetes_browse
+      - name: Get-Credentials
+        displayName: az acs kubernetes get-credentials
+        href: acs/kubernetes.yml#az_acs_kubernetes_get_credentials
+      - name: Install-Cli
+        displayName: az acs kubernetes install-cli
+        href: acs/kubernetes.yml#az_acs_kubernetes_install_cli
+  - name: Cosmos DB
+    displayName: az cosmosdb
+    href: cosmosdb.yml
+    items:
+    - name: Check-Name-Exists
+      displayName: az cosmosdb check-name-exists
+      href: cosmosdb.yml#az_cosmosdb_check_name_exists
+    - name: Create
+      displayName: az cosmosdb create
+      href: cosmosdb.yml#az_cosmosdb_create
+    - name: Delete
+      displayName: az cosmosdb delete
+      href: cosmosdb.yml#az_cosmosdb_delete
+    - name: Failover-Priority-Change
+      displayName: az cosmosdb failover-priority-change
+      href: cosmosdb.yml#az_cosmosdb_failover_priority_change
+    - name: List
+      displayName: az cosmosdb list
+      href: cosmosdb.yml#az_cosmosdb_list
+    - name: List-Connection-Strings
+      displayName: az cosmosdb list-connection-strings
+      href: cosmosdb.yml#az_cosmosdb_list_connection_strings
+    - name: List-Keys
+      displayName: az cosmosdb list-keys
+      href: cosmosdb.yml#az_cosmosdb_list_keys
+    - name: List-Read-Only-Keys
+      displayName: az cosmosdb list-read-only-keys
+      href: cosmosdb.yml#az_cosmosdb_list_read_only_keys
+    - name: Regenerate-Key
+      displayName: az cosmosdb regenerate-key
+      href: cosmosdb.yml#az_cosmosdb_regenerate_key
+    - name: Show
+      displayName: az cosmosdb show
+      href: cosmosdb.yml#az_cosmosdb_show
+    - name: Update
+      displayName: az cosmosdb update
+      href: cosmosdb.yml#az_cosmosdb_update
+    - name: Collection
+      displayName: az cosmosdb collection
+      href: cosmosdb/collection.yml
+      items:
+      - name: Create
+        displayName: az cosmosdb collection create
+        href: cosmosdb/collection.yml#az_cosmosdb_collection_create
+      - name: Delete
+        displayName: az cosmosdb collection delete
+        href: cosmosdb/collection.yml#az_cosmosdb_collection_delete
+      - name: Exists
+        displayName: az cosmosdb collection exists
+        href: cosmosdb/collection.yml#az_cosmosdb_collection_exists
+      - name: List
+        displayName: az cosmosdb collection list
+        href: cosmosdb/collection.yml#az_cosmosdb_collection_list
+      - name: Show
+        displayName: az cosmosdb collection show
+        href: cosmosdb/collection.yml#az_cosmosdb_collection_show
+      - name: Update
+        displayName: az cosmosdb collection update
+        href: cosmosdb/collection.yml#az_cosmosdb_collection_update
+    - name: Database
+      displayName: az cosmosdb database
+      href: cosmosdb/database.yml
+      items:
+      - name: Create
+        displayName: az cosmosdb database create
+        href: cosmosdb/database.yml#az_cosmosdb_database_create
+      - name: Delete
+        displayName: az cosmosdb database delete
+        href: cosmosdb/database.yml#az_cosmosdb_database_delete
+      - name: Exists
+        displayName: az cosmosdb database exists
+        href: cosmosdb/database.yml#az_cosmosdb_database_exists
+      - name: List
+        displayName: az cosmosdb database list
+        href: cosmosdb/database.yml#az_cosmosdb_database_list
+      - name: Show
+        displayName: az cosmosdb database show
+        href: cosmosdb/database.yml#az_cosmosdb_database_show
+  - name: Data Lake Analytics
+    displayName: az dla
+    href: dla.yml
+    items:
+    - name: Accounts
+      displayName: az dla account
+      href: dla/account.yml
+      items:
+      - name: Create
+        displayName: az dla account create
+        href: dla/account.yml#az_dla_account_create
+      - name: Delete
+        displayName: az dla account delete
+        href: dla/account.yml#az_dla_account_delete
+      - name: List
+        displayName: az dla account list
+        href: dla/account.yml#az_dla_account_list
+      - name: Show
+        displayName: az dla account show
+        href: dla/account.yml#az_dla_account_show
+      - name: Update
+        displayName: az dla account update
+        href: dla/account.yml#az_dla_account_update
+      - name: Blob Storage
+        displayName: az dla account blob-storage
+        href: dla/account/blob-storage.yml
+        items:
+        - name: Add
+          displayName: az dla account blob-storage add
+          href: dla/account/blob-storage.yml#az_dla_account_blob_storage_add
+        - name: Delete
+          displayName: az dla account blob-storage delete
+          href: dla/account/blob-storage.yml#az_dla_account_blob_storage_delete
+        - name: List
+          displayName: az dla account blob-storage list
+          href: dla/account/blob-storage.yml#az_dla_account_blob_storage_list
+        - name: Show
+          displayName: az dla account blob-storage show
+          href: dla/account/blob-storage.yml#az_dla_account_blob_storage_show
+        - name: Update
+          displayName: az dla account blob-storage update
+          href: dla/account/blob-storage.yml#az_dla_account_blob_storage_update
+      - name: Compute-Policy
+        displayName: az dla account compute-policy
+        href: dla/account/compute-policy.yml
+        items:
+        - name: Create
+          displayName: az dla account compute-policy create
+          href: dla/account/compute-policy.yml#az_dla_account_compute_policy_create
+        - name: Delete
+          displayName: az dla account compute-policy delete
+          href: dla/account/compute-policy.yml#az_dla_account_compute_policy_delete
+        - name: List
+          displayName: az dla account compute-policy list
+          href: dla/account/compute-policy.yml#az_dla_account_compute_policy_list
+        - name: Show
+          displayName: az dla account compute-policy show
+          href: dla/account/compute-policy.yml#az_dla_account_compute_policy_show
+        - name: Update
+          displayName: az dla account compute-policy update
+          href: dla/account/compute-policy.yml#az_dla_account_compute_policy_update
+      - name: Data Lake Store
+        displayName: az dla account data-lake-store
+        href: dla/account/data-lake-store.yml
+        items:
+        - name: Add
+          displayName: az dla account data-lake-store add
+          href: dla/account/data-lake-store.yml#az_dla_account_data_lake_store_add
+        - name: Delete
+          displayName: az dla account data-lake-store delete
+          href: dla/account/data-lake-store.yml#az_dla_account_data_lake_store_delete
+        - name: List
+          displayName: az dla account data-lake-store list
+          href: dla/account/data-lake-store.yml#az_dla_account_data_lake_store_list
+        - name: Show
+          displayName: az dla account data-lake-store show
+          href: dla/account/data-lake-store.yml#az_dla_account_data_lake_store_show
+      - name: Firewall Rules
+        displayName: az dla account firewall
+        href: dla/account/firewall.yml
+        items:
+        - name: Create
+          displayName: az dla account firewall create
+          href: dla/account/firewall.yml#az_dla_account_firewall_create
+        - name: Delete
+          displayName: az dla account firewall delete
+          href: dla/account/firewall.yml#az_dla_account_firewall_delete
+        - name: List
+          displayName: az dla account firewall list
+          href: dla/account/firewall.yml#az_dla_account_firewall_list
+        - name: Show
+          displayName: az dla account firewall show
+          href: dla/account/firewall.yml#az_dla_account_firewall_show
+        - name: Update
+          displayName: az dla account firewall update
+          href: dla/account/firewall.yml#az_dla_account_firewall_update
+    - name: Catalogs
+      displayName: az dla catalog
+      href: dla/catalog.yml
+      items:
+      - name: '[](dla/catalog/assembly.yml "az dla catalog assembly")'
+        items:
+        - name: List
+          displayName: az dla catalog assembly list
+          href: dla/catalog/assembly.yml#az_dla_catalog_assembly_list
+        - name: Show
+          displayName: az dla catalog assembly show
+          href: dla/catalog/assembly.yml#az_dla_catalog_assembly_show
+      - name: Credentials
+        displayName: az dla catalog credential
+        href: dla/catalog/credential.yml
+        items:
+        - name: Create
+          displayName: az dla catalog credential create
+          href: dla/catalog/credential.yml#az_dla_catalog_credential_create
+        - name: Delete
+          displayName: az dla catalog credential delete
+          href: dla/catalog/credential.yml#az_dla_catalog_credential_delete
+        - name: List
+          displayName: az dla catalog credential list
+          href: dla/catalog/credential.yml#az_dla_catalog_credential_list
+        - name: Show
+          displayName: az dla catalog credential show
+          href: dla/catalog/credential.yml#az_dla_catalog_credential_show
+        - name: Update
+          displayName: az dla catalog credential update
+          href: dla/catalog/credential.yml#az_dla_catalog_credential_update
+      - name: Databases
+        displayName: az dla catalog database
+        href: dla/catalog/database.yml
+        items:
+        - name: List
+          displayName: az dla catalog database list
+          href: dla/catalog/database.yml#az_dla_catalog_database_list
+        - name: Show
+          displayName: az dla catalog database show
+          href: dla/catalog/database.yml#az_dla_catalog_database_show
+      - name: External Data Sources
+        displayName: az dla catalog external-data-source
+        href: dla/catalog/external-data-source.yml
+        items:
+        - name: List
+          displayName: az dla catalog external-data-source list
+          href: dla/catalog/external-data-source.yml#az_dla_catalog_external_data_source_list
+        - name: Show
+          displayName: az dla catalog external-data-source show
+          href: dla/catalog/external-data-source.yml#az_dla_catalog_external_data_source_show
+      - name: Package
+        displayName: az dla catalog package
+        href: dla/catalog/package.yml
+        items:
+        - name: List
+          displayName: az dla catalog package list
+          href: dla/catalog/package.yml#az_dla_catalog_package_list
+        - name: Show
+          displayName: az dla catalog package show
+          href: dla/catalog/package.yml#az_dla_catalog_package_show
+      - name: Schemas
+        displayName: az dla catalog schema
+        href: dla/catalog/schema.yml
+        items:
+        - name: List
+          displayName: az dla catalog schema list
+          href: dla/catalog/schema.yml#az_dla_catalog_schema_list
+        - name: Show
+          displayName: az dla catalog schema show
+          href: dla/catalog/schema.yml#az_dla_catalog_schema_show
+      - name: Stored Procedures
+        displayName: az dla catalog procedure
+        href: dla/catalog/procedure.yml
+        items:
+        - name: List
+          displayName: az dla catalog procedure list
+          href: dla/catalog/procedure.yml#az_dla_catalog_procedure_list
+        - name: Show
+          displayName: az dla catalog procedure show
+          href: dla/catalog/procedure.yml#az_dla_catalog_procedure_show
+      - name: Table Partitions
+        displayName: az dla catalog table-partition
+        href: dla/catalog/table-partition.yml
+        items:
+        - name: List
+          displayName: az dla catalog table-partition list
+          href: dla/catalog/table-partition.yml#az_dla_catalog_table_partition_list
+        - name: Show
+          displayName: az dla catalog table-partition show
+          href: dla/catalog/table-partition.yml#az_dla_catalog_table_partition_show
+      - name: Table Statistics
+        displayName: az dla catalog table-stats
+        href: dla/catalog/table-stats.yml
+        items:
+        - name: List
+          displayName: az dla catalog table-stats list
+          href: dla/catalog/table-stats.yml#az_dla_catalog_table_stats_list
+        - name: Show
+          displayName: az dla catalog table-stats show
+          href: dla/catalog/table-stats.yml#az_dla_catalog_table_stats_show
+      - name: Table Types
+        displayName: az dla catalog table-type
+        href: dla/catalog/table-type.yml
+        items:
+        - name: List
+          displayName: az dla catalog table-type list
+          href: dla/catalog/table-type.yml#az_dla_catalog_table_type_list
+        - name: Show
+          displayName: az dla catalog table-type show
+          href: dla/catalog/table-type.yml#az_dla_catalog_table_type_show
+      - name: Tables
+        displayName: az dla catalog table
+        href: dla/catalog/table.yml
+        items:
+        - name: List
+          displayName: az dla catalog table list
+          href: dla/catalog/table.yml#az_dla_catalog_table_list
+        - name: Show
+          displayName: az dla catalog table show
+          href: dla/catalog/table.yml#az_dla_catalog_table_show
+      - name: Table-Valued Functions
+        displayName: az dla catalog tvf
+        href: dla/catalog/tvf.yml
+        items:
+        - name: List
+          displayName: az dla catalog tvf list
+          href: dla/catalog/tvf.yml#az_dla_catalog_tvf_list
+        - name: Show
+          displayName: az dla catalog tvf show
+          href: dla/catalog/tvf.yml#az_dla_catalog_tvf_show
+      - name: Views
+        displayName: az dla catalog view
+        href: dla/catalog/view.yml
+        items:
+        - name: List
+          displayName: az dla catalog view list
+          href: dla/catalog/view.yml#az_dla_catalog_view_list
+        - name: Show
+          displayName: az dla catalog view show
+          href: dla/catalog/view.yml#az_dla_catalog_view_show
+    - name: Jobs
+      displayName: az dla job
+      href: dla/job.yml
+      items:
+      - name: Cancel
+        displayName: az dla job cancel
+        href: dla/job.yml#az_dla_job_cancel
+      - name: List
+        displayName: az dla job list
+        href: dla/job.yml#az_dla_job_list
+      - name: Show
+        displayName: az dla job show
+        href: dla/job.yml#az_dla_job_show
+      - name: Submit
+        displayName: az dla job submit
+        href: dla/job.yml#az_dla_job_submit
+      - name: Wait
+        displayName: az dla job wait
+        href: dla/job.yml#az_dla_job_wait
+      - name: Pipeline
+        displayName: az dla job pipeline
+        href: dla/job/pipeline.yml
+        items:
+        - name: List
+          displayName: az dla job pipeline list
+          href: dla/job/pipeline.yml#az_dla_job_pipeline_list
+        - name: Show
+          displayName: az dla job pipeline show
+          href: dla/job/pipeline.yml#az_dla_job_pipeline_show
+      - name: Recurrence
+        displayName: az dla job recurrence
+        href: dla/job/recurrence.yml
+        items:
+        - name: List
+          displayName: az dla job recurrence list
+          href: dla/job/recurrence.yml#az_dla_job_recurrence_list
+        - name: Show
+          displayName: az dla job recurrence show
+          href: dla/job/recurrence.yml#az_dla_job_recurrence_show
+  - name: Data Lake Store
+    displayName: az dls
+    href: dls.yml
+    items:
+    - name: Accounts
+      displayName: az dls account
+      href: dls/account.yml
+      items:
+      - name: Create
+        displayName: az dls account create
+        href: dls/account.yml#az_dls_account_create
+      - name: Delete
+        displayName: az dls account delete
+        href: dls/account.yml#az_dls_account_delete
+      - name: Enable-Key-Vault
+        displayName: az dls account enable-key-vault
+        href: dls/account.yml#az_dls_account_enable_key_vault
+      - name: List
+        displayName: az dls account list
+        href: dls/account.yml#az_dls_account_list
+      - name: Show
+        displayName: az dls account show
+        href: dls/account.yml#az_dls_account_show
+      - name: Update
+        displayName: az dls account update
+        href: dls/account.yml#az_dls_account_update
+      - name: Firewalls
+        displayName: az dls account firewall
+        href: dls/account/firewall.yml
+        items:
+        - name: Create
+          displayName: az dls account firewall create
+          href: dls/account/firewall.yml#az_dls_account_firewall_create
+        - name: Delete
+          displayName: az dls account firewall delete
+          href: dls/account/firewall.yml#az_dls_account_firewall_delete
+        - name: List
+          displayName: az dls account firewall list
+          href: dls/account/firewall.yml#az_dls_account_firewall_list
+        - name: Show
+          displayName: az dls account firewall show
+          href: dls/account/firewall.yml#az_dls_account_firewall_show
+        - name: Update
+          displayName: az dls account firewall update
+          href: dls/account/firewall.yml#az_dls_account_firewall_update
+      - name: Trusted Identity Providers
+        displayName: az dls account trusted-provider
+        href: dls/account/trusted-provider.yml
+        items:
+        - name: Create
+          displayName: az dls account trusted-provider create
+          href: dls/account/trusted-provider.yml#az_dls_account_trusted_provider_create
+        - name: Delete
+          displayName: az dls account trusted-provider delete
+          href: dls/account/trusted-provider.yml#az_dls_account_trusted_provider_delete
+        - name: List
+          displayName: az dls account trusted-provider list
+          href: dls/account/trusted-provider.yml#az_dls_account_trusted_provider_list
+        - name: Show
+          displayName: az dls account trusted-provider show
+          href: dls/account/trusted-provider.yml#az_dls_account_trusted_provider_show
+        - name: Update
+          displayName: az dls account trusted-provider update
+          href: dls/account/trusted-provider.yml#az_dls_account_trusted_provider_update
+    - name: File System
+      displayName: az dls fs
+      href: dls/fs.yml
+      items:
+      - name: Append
+        displayName: az dls fs append
+        href: dls/fs.yml#az_dls_fs_append
+      - name: Create
+        displayName: az dls fs create
+        href: dls/fs.yml#az_dls_fs_create
+      - name: Delete
+        displayName: az dls fs delete
+        href: dls/fs.yml#az_dls_fs_delete
+      - name: Download
+        displayName: az dls fs download
+        href: dls/fs.yml#az_dls_fs_download
+      - name: Join
+        displayName: az dls fs join
+        href: dls/fs.yml#az_dls_fs_join
+      - name: List
+        displayName: az dls fs list
+        href: dls/fs.yml#az_dls_fs_list
+      - name: Move
+        displayName: az dls fs move
+        href: dls/fs.yml#az_dls_fs_move
+      - name: Preview
+        displayName: az dls fs preview
+        href: dls/fs.yml#az_dls_fs_preview
+      - name: Remove-Expiry
+        displayName: az dls fs remove-expiry
+        href: dls/fs.yml#az_dls_fs_remove_expiry
+      - name: Set-Expiry
+        displayName: az dls fs set-expiry
+        href: dls/fs.yml#az_dls_fs_set_expiry
+      - name: Show
+        displayName: az dls fs show
+        href: dls/fs.yml#az_dls_fs_show
+      - name: Test
+        displayName: az dls fs test
+        href: dls/fs.yml#az_dls_fs_test
+      - name: Upload
+        displayName: az dls fs upload
+        href: dls/fs.yml#az_dls_fs_upload
+      - name: Access
+        displayName: az dls fs access
+        href: dls/fs/access.yml
+        items:
+        - name: Remove-All
+          displayName: az dls fs access remove-all
+          href: dls/fs/access.yml#az_dls_fs_access_remove_all
+        - name: Remove-Entry
+          displayName: az dls fs access remove-entry
+          href: dls/fs/access.yml#az_dls_fs_access_remove_entry
+        - name: Set
+          displayName: az dls fs access set
+          href: dls/fs/access.yml#az_dls_fs_access_set
+        - name: Set-Entry
+          displayName: az dls fs access set-entry
+          href: dls/fs/access.yml#az_dls_fs_access_set_entry
+        - name: Set-Owner
+          displayName: az dls fs access set-owner
+          href: dls/fs/access.yml#az_dls_fs_access_set_owner
+        - name: Set-Permission
+          displayName: az dls fs access set-permission
+          href: dls/fs/access.yml#az_dls_fs_access_set_permission
+        - name: Show
+          displayName: az dls fs access show
+          href: dls/fs/access.yml#az_dls_fs_access_show
+  - name: Devtest Lab
+    displayName: az lab
+    href: lab.yml
+    items:
+    - name: Delete
+      displayName: az lab delete
+      href: lab.yml#az_lab_delete
+    - name: Get
+      displayName: az lab get
+      href: lab.yml#az_lab_get
+    - name: Arm-Template
+      displayName: az lab arm-template
+      href: lab/arm-template.yml
+      items:
+      - name: List
+        displayName: az lab arm-template list
+        href: lab/arm-template.yml#az_lab_arm_template_list
+      - name: Show
+        displayName: az lab arm-template show
+        href: lab/arm-template.yml#az_lab_arm_template_show
+    - name: Artifact Sources
+      displayName: az lab artifact-source
+      href: lab/artifact-source.yml
+      items:
+      - name: List
+        displayName: az lab artifact-source list
+        href: lab/artifact-source.yml#az_lab_artifact_source_list
+      - name: Show
+        displayName: az lab artifact-source show
+        href: lab/artifact-source.yml#az_lab_artifact_source_show
+    - name: Artifacts
+      displayName: az lab artifact
+      href: lab/artifact.yml
+      items:
+      - name: List
+        displayName: az lab artifact list
+        href: lab/artifact.yml#az_lab_artifact_list
+    - name: Custom Images
+      displayName: az lab custom-image
+      href: lab/custom-image.yml
+      items:
+      - name: Create
+        displayName: az lab custom-image create
+        href: lab/custom-image.yml#az_lab_custom_image_create
+      - name: Delete
+        displayName: az lab custom-image delete
+        href: lab/custom-image.yml#az_lab_custom_image_delete
+      - name: List
+        displayName: az lab custom-image list
+        href: lab/custom-image.yml#az_lab_custom_image_list
+      - name: Show
+        displayName: az lab custom-image show
+        href: lab/custom-image.yml#az_lab_custom_image_show
+    - name: Environment
+      displayName: az lab environment
+      href: lab/environment.yml
+      items:
+      - name: Create
+        displayName: az lab environment create
+        href: lab/environment.yml#az_lab_environment_create
+      - name: Delete
+        displayName: az lab environment delete
+        href: lab/environment.yml#az_lab_environment_delete
+      - name: List
+        displayName: az lab environment list
+        href: lab/environment.yml#az_lab_environment_list
+      - name: Show
+        displayName: az lab environment show
+        href: lab/environment.yml#az_lab_environment_show
+    - name: Formulas
+      displayName: az lab formula
+      href: lab/formula.yml
+      items:
+      - name: Delete
+        displayName: az lab formula delete
+        href: lab/formula.yml#az_lab_formula_delete
+      - name: Export-Artifacts
+        displayName: az lab formula export-artifacts
+        href: lab/formula.yml#az_lab_formula_export_artifacts
+      - name: List
+        displayName: az lab formula list
+        href: lab/formula.yml#az_lab_formula_list
+      - name: Show
+        displayName: az lab formula show
+        href: lab/formula.yml#az_lab_formula_show
+    - name: Gallery Images
+      displayName: az lab gallery-image
+      href: lab/gallery-image.yml
+      items:
+      - name: List
+        displayName: az lab gallery-image list
+        href: lab/gallery-image.yml#az_lab_gallery_image_list
+    - name: Secret
+      displayName: az lab secret
+      href: lab/secret.yml
+      items:
+      - name: Delete
+        displayName: az lab secret delete
+        href: lab/secret.yml#az_lab_secret_delete
+      - name: List
+        displayName: az lab secret list
+        href: lab/secret.yml#az_lab_secret_list
+      - name: Set
+        displayName: az lab secret set
+        href: lab/secret.yml#az_lab_secret_set
+      - name: Show
+        displayName: az lab secret show
+        href: lab/secret.yml#az_lab_secret_show
+    - name: Virtual Networks
+      displayName: az lab vnet
+      href: lab/vnet.yml
+      items:
+      - name: Get
+        displayName: az lab vnet get
+        href: lab/vnet.yml#az_lab_vnet_get
+      - name: List
+        displayName: az lab vnet list
+        href: lab/vnet.yml#az_lab_vnet_list
+    - name: Virutal Machines
+      displayName: az lab vm
+      href: lab/vm.yml
+      items:
+      - name: Apply-Artifacts
+        displayName: az lab vm apply-artifacts
+        href: lab/vm.yml#az_lab_vm_apply_artifacts
+      - name: Claim
+        displayName: az lab vm claim
+        href: lab/vm.yml#az_lab_vm_claim
+      - name: Create
+        displayName: az lab vm create
+        href: lab/vm.yml#az_lab_vm_create
+      - name: Delete
+        displayName: az lab vm delete
+        href: lab/vm.yml#az_lab_vm_delete
+      - name: List
+        displayName: az lab vm list
+        href: lab/vm.yml#az_lab_vm_list
+      - name: Show
+        displayName: az lab vm show
+        href: lab/vm.yml#az_lab_vm_show
+      - name: Start
+        displayName: az lab vm start
+        href: lab/vm.yml#az_lab_vm_start
+      - name: Stop
+        displayName: az lab vm stop
+        href: lab/vm.yml#az_lab_vm_stop
+  - name: Functions
+    displayName: az functionapp
+    href: functionapp.yml
+    items:
+    - name: Create
+      displayName: az functionapp create
+      href: functionapp.yml#az_functionapp_create
+    - name: Delete
+      displayName: az functionapp delete
+      href: functionapp.yml#az_functionapp_delete
+    - name: List
+      displayName: az functionapp list
+      href: functionapp.yml#az_functionapp_list
+    - name: List-Consumption-Locations
+      displayName: az functionapp list-consumption-locations
+      href: functionapp.yml#az_functionapp_list_consumption_locations
+    - name: Restart
+      displayName: az functionapp restart
+      href: functionapp.yml#az_functionapp_restart
+    - name: Show
+      displayName: az functionapp show
+      href: functionapp.yml#az_functionapp_show
+    - name: Start
+      displayName: az functionapp start
+      href: functionapp.yml#az_functionapp_start
+    - name: Stop
+      displayName: az functionapp stop
+      href: functionapp.yml#az_functionapp_stop
+    - name: Config
+      displayName: az functionapp config
+      href: functionapp/config.yml
+      items:
+      - name: Appsettings
+        displayName: az functionapp config appsettings
+        href: functionapp/config/appsettings.yml
+        items:
+        - name: Delete
+          displayName: az functionapp config appsettings delete
+          href: functionapp/config/appsettings.yml#az_functionapp_config_appsettings_delete
+        - name: List
+          displayName: az functionapp config appsettings list
+          href: functionapp/config/appsettings.yml#az_functionapp_config_appsettings_list
+        - name: Set
+          displayName: az functionapp config appsettings set
+          href: functionapp/config/appsettings.yml#az_functionapp_config_appsettings_set
+      - name: Hostname
+        displayName: az functionapp config hostname
+        href: functionapp/config/hostname.yml
+        items:
+        - name: Add
+          displayName: az functionapp config hostname add
+          href: functionapp/config/hostname.yml#az_functionapp_config_hostname_add
+        - name: Delete
+          displayName: az functionapp config hostname delete
+          href: functionapp/config/hostname.yml#az_functionapp_config_hostname_delete
+        - name: Get-External-Ip
+          displayName: az functionapp config hostname get-external-ip
+          href: functionapp/config/hostname.yml#az_functionapp_config_hostname_get_external_ip
+        - name: List
+          displayName: az functionapp config hostname list
+          href: functionapp/config/hostname.yml#az_functionapp_config_hostname_list
+      - name: Ssl
+        displayName: az functionapp config ssl
+        href: functionapp/config/ssl.yml
+        items:
+        - name: Bind
+          displayName: az functionapp config ssl bind
+          href: functionapp/config/ssl.yml#az_functionapp_config_ssl_bind
+        - name: Delete
+          displayName: az functionapp config ssl delete
+          href: functionapp/config/ssl.yml#az_functionapp_config_ssl_delete
+        - name: List
+          displayName: az functionapp config ssl list
+          href: functionapp/config/ssl.yml#az_functionapp_config_ssl_list
+        - name: Unbind
+          displayName: az functionapp config ssl unbind
+          href: functionapp/config/ssl.yml#az_functionapp_config_ssl_unbind
+        - name: Upload
+          displayName: az functionapp config ssl upload
+          href: functionapp/config/ssl.yml#az_functionapp_config_ssl_upload
+    - name: Deployment
+      displayName: az functionapp deployment
+      href: functionapp/deployment.yml
+      items:
+      - name: List-Publishing-Profiles
+        displayName: az functionapp deployment list-publishing-profiles
+        href: functionapp/deployment.yml#az_functionapp_deployment_list_publishing_profiles
+      - name: Source
+        displayName: az functionapp deployment source
+        href: functionapp/deployment/source.yml
+        items:
+        - name: Config
+          displayName: az functionapp deployment source config
+          href: functionapp/deployment/source.yml#az_functionapp_deployment_source_config
+        - name: Config-Local-Git
+          displayName: az functionapp deployment source config-local-git
+          href: functionapp/deployment/source.yml#az_functionapp_deployment_source_config_local_git
+        - name: Delete
+          displayName: az functionapp deployment source delete
+          href: functionapp/deployment/source.yml#az_functionapp_deployment_source_delete
+        - name: Show
+          displayName: az functionapp deployment source show
+          href: functionapp/deployment/source.yml#az_functionapp_deployment_source_show
+        - name: Sync
+          displayName: az functionapp deployment source sync
+          href: functionapp/deployment/source.yml#az_functionapp_deployment_source_sync
+        - name: Update-Token
+          displayName: az functionapp deployment source update-token
+          href: functionapp/deployment/source.yml#az_functionapp_deployment_source_update_token
+      - name: User
+        displayName: az functionapp deployment user
+        href: functionapp/deployment/user.yml
+        items:
+        - name: Set
+          displayName: az functionapp deployment user set
+          href: functionapp/deployment/user.yml#az_functionapp_deployment_user_set
+        - name: Show
+          displayName: az functionapp deployment user show
+          href: functionapp/deployment/user.yml#az_functionapp_deployment_user_show
+  - name: Help Content
+    displayName: az taskhelp
+    href: taskhelp.yml
+    items:
+    - name: Deploy-Arm-Template
+      displayName: az taskhelp deploy-arm-template
+      href: taskhelp.yml#az_taskhelp_deploy_arm_template
+  - name: Iot
+    displayName: az iot
+    href: iot.yml
+    items:
+    - name: Devices
+      displayName: az iot device
+      href: iot/device.yml
+      items:
+      - name: Create
+        displayName: az iot device create
+        href: iot/device.yml#az_iot_device_create
+      - name: Delete
+        displayName: az iot device delete
+        href: iot/device.yml#az_iot_device_delete
+      - name: Export
+        displayName: az iot device export
+        href: iot/device.yml#az_iot_device_export
+      - name: Import
+        displayName: az iot device import
+        href: iot/device.yml#az_iot_device_import
+      - name: List
+        displayName: az iot device list
+        href: iot/device.yml#az_iot_device_list
+      - name: Show
+        displayName: az iot device show
+        href: iot/device.yml#az_iot_device_show
+      - name: Show-Connection-String
+        displayName: az iot device show-connection-string
+        href: iot/device.yml#az_iot_device_show_connection_string
+      - name: Update
+        displayName: az iot device update
+        href: iot/device.yml#az_iot_device_update
+      - name: Messaging
+        displayName: az iot device message
+        href: iot/device/message.yml
+        items:
+        - name: Abandon
+          displayName: az iot device message abandon
+          href: iot/device/message.yml#az_iot_device_message_abandon
+        - name: Complete
+          displayName: az iot device message complete
+          href: iot/device/message.yml#az_iot_device_message_complete
+        - name: Receive
+          displayName: az iot device message receive
+          href: iot/device/message.yml#az_iot_device_message_receive
+        - name: Reject
+          displayName: az iot device message reject
+          href: iot/device/message.yml#az_iot_device_message_reject
+        - name: Send
+          displayName: az iot device message send
+          href: iot/device/message.yml#az_iot_device_message_send
+    - name: Hubs
+      displayName: az iot hub
+      href: iot/hub.yml
+      items:
+      - name: Create
+        displayName: az iot hub create
+        href: iot/hub.yml#az_iot_hub_create
+      - name: Delete
+        displayName: az iot hub delete
+        href: iot/hub.yml#az_iot_hub_delete
+      - name: List
+        displayName: az iot hub list
+        href: iot/hub.yml#az_iot_hub_list
+      - name: List-Skus
+        displayName: az iot hub list-skus
+        href: iot/hub.yml#az_iot_hub_list_skus
+      - name: Show
+        displayName: az iot hub show
+        href: iot/hub.yml#az_iot_hub_show
+      - name: Show-Connection-String
+        displayName: az iot hub show-connection-string
+        href: iot/hub.yml#az_iot_hub_show_connection_string
+      - name: Show-Quota-Metrics
+        displayName: az iot hub show-quota-metrics
+        href: iot/hub.yml#az_iot_hub_show_quota_metrics
+      - name: Show-Stats
+        displayName: az iot hub show-stats
+        href: iot/hub.yml#az_iot_hub_show_stats
+      - name: Update
+        displayName: az iot hub update
+        href: iot/hub.yml#az_iot_hub_update
+      - name: Consumer Groups
+        displayName: az iot hub consumer-group
+        href: iot/hub/consumer-group.yml
+        items:
+        - name: Create
+          displayName: az iot hub consumer-group create
+          href: iot/hub/consumer-group.yml#az_iot_hub_consumer_group_create
+        - name: Delete
+          displayName: az iot hub consumer-group delete
+          href: iot/hub/consumer-group.yml#az_iot_hub_consumer_group_delete
+        - name: List
+          displayName: az iot hub consumer-group list
+          href: iot/hub/consumer-group.yml#az_iot_hub_consumer_group_list
+        - name: Show
+          displayName: az iot hub consumer-group show
+          href: iot/hub/consumer-group.yml#az_iot_hub_consumer_group_show
+      - name: Jobs
+        displayName: az iot hub job
+        href: iot/hub/job.yml
+        items:
+        - name: Cancel
+          displayName: az iot hub job cancel
+          href: iot/hub/job.yml#az_iot_hub_job_cancel
+        - name: List
+          displayName: az iot hub job list
+          href: iot/hub/job.yml#az_iot_hub_job_list
+        - name: Show
+          displayName: az iot hub job show
+          href: iot/hub/job.yml#az_iot_hub_job_show
+      - name: Policies
+        displayName: az iot hub policy
+        href: iot/hub/policy.yml
+        items:
+        - name: Create
+          displayName: az iot hub policy create
+          href: iot/hub/policy.yml#az_iot_hub_policy_create
+        - name: Delete
+          displayName: az iot hub policy delete
+          href: iot/hub/policy.yml#az_iot_hub_policy_delete
+        - name: List
+          displayName: az iot hub policy list
+          href: iot/hub/policy.yml#az_iot_hub_policy_list
+        - name: Show
+          displayName: az iot hub policy show
+          href: iot/hub/policy.yml#az_iot_hub_policy_show
+  - name: Key Vault
+    displayName: az keyvault
+    href: keyvault.yml
+    items:
+    - name: Create
+      displayName: az keyvault create
+      href: keyvault.yml#az_keyvault_create
+    - name: Delete
+      displayName: az keyvault delete
+      href: keyvault.yml#az_keyvault_delete
+    - name: Delete-Policy
+      displayName: az keyvault delete-policy
+      href: keyvault.yml#az_keyvault_delete_policy
+    - name: List
+      displayName: az keyvault list
+      href: keyvault.yml#az_keyvault_list
+    - name: List-Deleted
+      displayName: az keyvault list-deleted
+      href: keyvault.yml#az_keyvault_list_deleted
+    - name: Purge
+      displayName: az keyvault purge
+      href: keyvault.yml#az_keyvault_purge
+    - name: Recover
+      displayName: az keyvault recover
+      href: keyvault.yml#az_keyvault_recover
+    - name: Set-Policy
+      displayName: az keyvault set-policy
+      href: keyvault.yml#az_keyvault_set_policy
+    - name: Show
+      displayName: az keyvault show
+      href: keyvault.yml#az_keyvault_show
+    - name: Update
+      displayName: az keyvault update
+      href: keyvault.yml#az_keyvault_update
+    - name: Certificates
+      displayName: az keyvault certificate
+      href: keyvault/certificate.yml
+      items:
+      - name: Create
+        displayName: az keyvault certificate create
+        href: keyvault/certificate.yml#az_keyvault_certificate_create
+      - name: Delete
+        displayName: az keyvault certificate delete
+        href: keyvault/certificate.yml#az_keyvault_certificate_delete
+      - name: Download
+        displayName: az keyvault certificate download
+        href: keyvault/certificate.yml#az_keyvault_certificate_download
+      - name: Get-Default-Policy
+        displayName: az keyvault certificate get-default-policy
+        href: keyvault/certificate.yml#az_keyvault_certificate_get_default_policy
+      - name: Import
+        displayName: az keyvault certificate import
+        href: keyvault/certificate.yml#az_keyvault_certificate_import
+      - name: List
+        displayName: az keyvault certificate list
+        href: keyvault/certificate.yml#az_keyvault_certificate_list
+      - name: List-Deleted
+        displayName: az keyvault certificate list-deleted
+        href: keyvault/certificate.yml#az_keyvault_certificate_list_deleted
+      - name: List-Versions
+        displayName: az keyvault certificate list-versions
+        href: keyvault/certificate.yml#az_keyvault_certificate_list_versions
+      - name: Purge
+        displayName: az keyvault certificate purge
+        href: keyvault/certificate.yml#az_keyvault_certificate_purge
+      - name: Recover
+        displayName: az keyvault certificate recover
+        href: keyvault/certificate.yml#az_keyvault_certificate_recover
+      - name: Set-Attributes
+        displayName: az keyvault certificate set-attributes
+        href: keyvault/certificate.yml#az_keyvault_certificate_set_attributes
+      - name: Show
+        displayName: az keyvault certificate show
+        href: keyvault/certificate.yml#az_keyvault_certificate_show
+      - name: Show-Deleted
+        displayName: az keyvault certificate show-deleted
+        href: keyvault/certificate.yml#az_keyvault_certificate_show_deleted
+      - name: Contacts
+        displayName: az keyvault certificate contact
+        href: keyvault/certificate/contact.yml
+        items:
+        - name: Add
+          displayName: az keyvault certificate contact add
+          href: keyvault/certificate/contact.yml#az_keyvault_certificate_contact_add
+        - name: Delete
+          displayName: az keyvault certificate contact delete
+          href: keyvault/certificate/contact.yml#az_keyvault_certificate_contact_delete
+        - name: List
+          displayName: az keyvault certificate contact list
+          href: keyvault/certificate/contact.yml#az_keyvault_certificate_contact_list
+      - name: Issuers
+        displayName: az keyvault certificate issuer
+        href: keyvault/certificate/issuer.yml
+        items:
+        - name: Create
+          displayName: az keyvault certificate issuer create
+          href: keyvault/certificate/issuer.yml#az_keyvault_certificate_issuer_create
+        - name: Delete
+          displayName: az keyvault certificate issuer delete
+          href: keyvault/certificate/issuer.yml#az_keyvault_certificate_issuer_delete
+        - name: List
+          displayName: az keyvault certificate issuer list
+          href: keyvault/certificate/issuer.yml#az_keyvault_certificate_issuer_list
+        - name: Show
+          displayName: az keyvault certificate issuer show
+          href: keyvault/certificate/issuer.yml#az_keyvault_certificate_issuer_show
+        - name: Update
+          displayName: az keyvault certificate issuer update
+          href: keyvault/certificate/issuer.yml#az_keyvault_certificate_issuer_update
+        - name: Administration
+          displayName: az keyvault certificate issuer admin
+          href: keyvault/certificate/issuer/admin.yml
+          items:
+          - name: Add
+            displayName: az keyvault certificate issuer admin add
+            href: keyvault/certificate/issuer/admin.yml#az_keyvault_certificate_issuer_admin_add
+          - name: Delete
+            displayName: az keyvault certificate issuer admin delete
+            href: keyvault/certificate/issuer/admin.yml#az_keyvault_certificate_issuer_admin_delete
+          - name: List
+            displayName: az keyvault certificate issuer admin list
+            href: keyvault/certificate/issuer/admin.yml#az_keyvault_certificate_issuer_admin_list
+      - name: Pending
+        displayName: az keyvault certificate pending
+        href: keyvault/certificate/pending.yml
+        items:
+        - name: Delete
+          displayName: az keyvault certificate pending delete
+          href: keyvault/certificate/pending.yml#az_keyvault_certificate_pending_delete
+        - name: Merge
+          displayName: az keyvault certificate pending merge
+          href: keyvault/certificate/pending.yml#az_keyvault_certificate_pending_merge
+        - name: Show
+          displayName: az keyvault certificate pending show
+          href: keyvault/certificate/pending.yml#az_keyvault_certificate_pending_show
+    - name: Keys
+      displayName: az keyvault key
+      href: keyvault/key.yml
+      items:
+      - name: Backup
+        displayName: az keyvault key backup
+        href: keyvault/key.yml#az_keyvault_key_backup
+      - name: Create
+        displayName: az keyvault key create
+        href: keyvault/key.yml#az_keyvault_key_create
+      - name: Delete
+        displayName: az keyvault key delete
+        href: keyvault/key.yml#az_keyvault_key_delete
+      - name: Import
+        displayName: az keyvault key import
+        href: keyvault/key.yml#az_keyvault_key_import
+      - name: List
+        displayName: az keyvault key list
+        href: keyvault/key.yml#az_keyvault_key_list
+      - name: List-Deleted
+        displayName: az keyvault key list-deleted
+        href: keyvault/key.yml#az_keyvault_key_list_deleted
+      - name: List-Versions
+        displayName: az keyvault key list-versions
+        href: keyvault/key.yml#az_keyvault_key_list_versions
+      - name: Purge
+        displayName: az keyvault key purge
+        href: keyvault/key.yml#az_keyvault_key_purge
+      - name: Recover
+        displayName: az keyvault key recover
+        href: keyvault/key.yml#az_keyvault_key_recover
+      - name: Restore
+        displayName: az keyvault key restore
+        href: keyvault/key.yml#az_keyvault_key_restore
+      - name: Set-Attributes
+        displayName: az keyvault key set-attributes
+        href: keyvault/key.yml#az_keyvault_key_set_attributes
+      - name: Show
+        displayName: az keyvault key show
+        href: keyvault/key.yml#az_keyvault_key_show
+      - name: Show-Deleted
+        displayName: az keyvault key show-deleted
+        href: keyvault/key.yml#az_keyvault_key_show_deleted
+    - name: Secrets
+      displayName: az keyvault secret
+      href: keyvault/secret.yml
+      items:
+      - name: Backup
+        displayName: az keyvault secret backup
+        href: keyvault/secret.yml#az_keyvault_secret_backup
+      - name: Delete
+        displayName: az keyvault secret delete
+        href: keyvault/secret.yml#az_keyvault_secret_delete
+      - name: Download
+        displayName: az keyvault secret download
+        href: keyvault/secret.yml#az_keyvault_secret_download
+      - name: List
+        displayName: az keyvault secret list
+        href: keyvault/secret.yml#az_keyvault_secret_list
+      - name: List-Deleted
+        displayName: az keyvault secret list-deleted
+        href: keyvault/secret.yml#az_keyvault_secret_list_deleted
+      - name: List-Versions
+        displayName: az keyvault secret list-versions
+        href: keyvault/secret.yml#az_keyvault_secret_list_versions
+      - name: Purge
+        displayName: az keyvault secret purge
+        href: keyvault/secret.yml#az_keyvault_secret_purge
+      - name: Recover
+        displayName: az keyvault secret recover
+        href: keyvault/secret.yml#az_keyvault_secret_recover
+      - name: Restore
+        displayName: az keyvault secret restore
+        href: keyvault/secret.yml#az_keyvault_secret_restore
+      - name: Set
+        displayName: az keyvault secret set
+        href: keyvault/secret.yml#az_keyvault_secret_set
+      - name: Set-Attributes
+        displayName: az keyvault secret set-attributes
+        href: keyvault/secret.yml#az_keyvault_secret_set_attributes
+      - name: Show
+        displayName: az keyvault secret show
+        href: keyvault/secret.yml#az_keyvault_secret_show
+      - name: Show-Deleted
+        displayName: az keyvault secret show-deleted
+        href: keyvault/secret.yml#az_keyvault_secret_show_deleted
+  - name: Locks
+    displayName: az lock
+    href: lock.yml
+    items:
+    - name: Create
+      displayName: az lock create
+      href: lock.yml#az_lock_create
+    - name: Delete
+      displayName: az lock delete
+      href: lock.yml#az_lock_delete
+    - name: List
+      displayName: az lock list
+      href: lock.yml#az_lock_list
+    - name: Show
+      displayName: az lock show
+      href: lock.yml#az_lock_show
+    - name: Update
+      displayName: az lock update
+      href: lock.yml#az_lock_update
+  - name: Managed App
+    displayName: az managedapp
+    href: managedapp.yml
+    items:
+    - name: Create
+      displayName: az managedapp create
+      href: managedapp.yml#az_managedapp_create
+    - name: Delete
+      displayName: az managedapp delete
+      href: managedapp.yml#az_managedapp_delete
+    - name: List
+      displayName: az managedapp list
+      href: managedapp.yml#az_managedapp_list
+    - name: Show
+      displayName: az managedapp show
+      href: managedapp.yml#az_managedapp_show
+    - name: Definition
+      displayName: az managedapp definition
+      href: managedapp/definition.yml
+      items:
+      - name: Create
+        displayName: az managedapp definition create
+        href: managedapp/definition.yml#az_managedapp_definition_create
+      - name: Delete
+        displayName: az managedapp definition delete
+        href: managedapp/definition.yml#az_managedapp_definition_delete
+      - name: List
+        displayName: az managedapp definition list
+        href: managedapp/definition.yml#az_managedapp_definition_list
+      - name: Show
+        displayName: az managedapp definition show
+        href: managedapp/definition.yml#az_managedapp_definition_show
+  - name: Managed Disks
+    displayName: az disk
+    href: disk.yml
+    items:
+    - name: Create
+      displayName: az disk create
+      href: disk.yml#az_disk_create
+    - name: Delete
+      displayName: az disk delete
+      href: disk.yml#az_disk_delete
+    - name: Grant-Access
+      displayName: az disk grant-access
+      href: disk.yml#az_disk_grant_access
+    - name: List
+      displayName: az disk list
+      href: disk.yml#az_disk_list
+    - name: Revoke-Access
+      displayName: az disk revoke-access
+      href: disk.yml#az_disk_revoke_access
+    - name: Show
+      displayName: az disk show
+      href: disk.yml#az_disk_show
+    - name: Update
+      displayName: az disk update
+      href: disk.yml#az_disk_update
+    - name: Wait
+      displayName: az disk wait
+      href: disk.yml#az_disk_wait
+  - name: Monitoring
+    displayName: az monitor
+    href: monitor.yml
+    items:
+    - name: Activity Log
+      displayName: az monitor activity-log
+      href: monitor/activity-log.yml
+      items:
+      - name: List
+        displayName: az monitor activity-log list
+        href: monitor/activity-log.yml#az_monitor_activity_log_list
+    - name: Alert
+      displayName: az monitor alert
+      href: monitor/alert.yml
+      items:
+      - name: Create
+        displayName: az monitor alert create
+        href: monitor/alert.yml#az_monitor_alert_create
+      - name: Delete
+        displayName: az monitor alert delete
+        href: monitor/alert.yml#az_monitor_alert_delete
+      - name: List
+        displayName: az monitor alert list
+        href: monitor/alert.yml#az_monitor_alert_list
+      - name: List-Incidents
+        displayName: az monitor alert list-incidents
+        href: monitor/alert.yml#az_monitor_alert_list_incidents
+      - name: Show
+        displayName: az monitor alert show
+        href: monitor/alert.yml#az_monitor_alert_show
+      - name: Show-Incident
+        displayName: az monitor alert show-incident
+        href: monitor/alert.yml#az_monitor_alert_show_incident
+      - name: Update
+        displayName: az monitor alert update
+        href: monitor/alert.yml#az_monitor_alert_update
+    - name: Auto-Scale Settings
+      displayName: az monitor autoscale-settings
+      href: monitor/autoscale-settings.yml
+      items:
+      - name: Create
+        displayName: az monitor autoscale-settings create
+        href: monitor/autoscale-settings.yml#az_monitor_autoscale_settings_create
+      - name: Delete
+        displayName: az monitor autoscale-settings delete
+        href: monitor/autoscale-settings.yml#az_monitor_autoscale_settings_delete
+      - name: Get-Parameters-Template
+        displayName: az monitor autoscale-settings get-parameters-template
+        href: monitor/autoscale-settings.yml#az_monitor_autoscale_settings_get_parameters_template
+      - name: List
+        displayName: az monitor autoscale-settings list
+        href: monitor/autoscale-settings.yml#az_monitor_autoscale_settings_list
+      - name: Show
+        displayName: az monitor autoscale-settings show
+        href: monitor/autoscale-settings.yml#az_monitor_autoscale_settings_show
+      - name: Update
+        displayName: az monitor autoscale-settings update
+        href: monitor/autoscale-settings.yml#az_monitor_autoscale_settings_update
+    - name: Diagnostics Settings
+      displayName: az monitor diagnostic-settings
+      href: monitor/diagnostic-settings.yml
+      items:
+      - name: Create
+        displayName: az monitor diagnostic-settings create
+        href: monitor/diagnostic-settings.yml#az_monitor_diagnostic_settings_create
+      - name: Show
+        displayName: az monitor diagnostic-settings show
+        href: monitor/diagnostic-settings.yml#az_monitor_diagnostic_settings_show
+      - name: Update
+        displayName: az monitor diagnostic-settings update
+        href: monitor/diagnostic-settings.yml#az_monitor_diagnostic_settings_update
+    - name: Log Profiles
+      displayName: az monitor log-profiles
+      href: monitor/log-profiles.yml
+      items:
+      - name: Create
+        displayName: az monitor log-profiles create
+        href: monitor/log-profiles.yml#az_monitor_log_profiles_create
+      - name: Delete
+        displayName: az monitor log-profiles delete
+        href: monitor/log-profiles.yml#az_monitor_log_profiles_delete
+      - name: List
+        displayName: az monitor log-profiles list
+        href: monitor/log-profiles.yml#az_monitor_log_profiles_list
+      - name: Show
+        displayName: az monitor log-profiles show
+        href: monitor/log-profiles.yml#az_monitor_log_profiles_show
+      - name: Update
+        displayName: az monitor log-profiles update
+        href: monitor/log-profiles.yml#az_monitor_log_profiles_update
+    - name: Metrics
+      displayName: az monitor metrics
+      href: monitor/metrics.yml
+      items:
+      - name: List
+        displayName: az monitor metrics list
+        href: monitor/metrics.yml#az_monitor_metrics_list
+      - name: List-Definitions
+        displayName: az monitor metrics list-definitions
+        href: monitor/metrics.yml#az_monitor_metrics_list_definitions
+  - name: Mysql
+    displayName: az mysql
+    href: mysql.yml
+    items:
+    - name: Databases
+      displayName: az mysql db
+      href: mysql/db.yml
+      items:
+      - name: List
+        displayName: az mysql db list
+        href: mysql/db.yml#az_mysql_db_list
+    - name: Server Logs
+      displayName: az mysql server-logs
+      href: mysql/server-logs.yml
+      items:
+      - name: Download
+        displayName: az mysql server-logs download
+        href: mysql/server-logs.yml#az_mysql_server_logs_download
+      - name: List
+        displayName: az mysql server-logs list
+        href: mysql/server-logs.yml#az_mysql_server_logs_list
+    - name: Servers
+      displayName: az mysql server
+      href: mysql/server.yml
+      items:
+      - name: Create
+        displayName: az mysql server create
+        href: mysql/server.yml#az_mysql_server_create
+      - name: Delete
+        displayName: az mysql server delete
+        href: mysql/server.yml#az_mysql_server_delete
+      - name: List
+        displayName: az mysql server list
+        href: mysql/server.yml#az_mysql_server_list
+      - name: Restore
+        displayName: az mysql server restore
+        href: mysql/server.yml#az_mysql_server_restore
+      - name: Show
+        displayName: az mysql server show
+        href: mysql/server.yml#az_mysql_server_show
+      - name: Update
+        displayName: az mysql server update
+        href: mysql/server.yml#az_mysql_server_update
+      - name: Configurations
+        displayName: az mysql server configuration
+        href: mysql/server/configuration.yml
+        items:
+        - name: List
+          displayName: az mysql server configuration list
+          href: mysql/server/configuration.yml#az_mysql_server_configuration_list
+        - name: Set
+          displayName: az mysql server configuration set
+          href: mysql/server/configuration.yml#az_mysql_server_configuration_set
+        - name: Show
+          displayName: az mysql server configuration show
+          href: mysql/server/configuration.yml#az_mysql_server_configuration_show
+      - name: Firewall Rules
+        displayName: az mysql server firewall-rule
+        href: mysql/server/firewall-rule.yml
+        items:
+        - name: Create
+          displayName: az mysql server firewall-rule create
+          href: mysql/server/firewall-rule.yml#az_mysql_server_firewall_rule_create
+        - name: Delete
+          displayName: az mysql server firewall-rule delete
+          href: mysql/server/firewall-rule.yml#az_mysql_server_firewall_rule_delete
+        - name: List
+          displayName: az mysql server firewall-rule list
+          href: mysql/server/firewall-rule.yml#az_mysql_server_firewall_rule_list
+        - name: Show
+          displayName: az mysql server firewall-rule show
+          href: mysql/server/firewall-rule.yml#az_mysql_server_firewall_rule_show
+        - name: Update
+          displayName: az mysql server firewall-rule update
+          href: mysql/server/firewall-rule.yml#az_mysql_server_firewall_rule_update
+  - name: Postgresql
+    displayName: az postgres
+    href: postgres.yml
+    items:
+    - name: Databases
+      displayName: az postgres db
+      href: postgres/db.yml
+      items:
+      - name: List
+        displayName: az postgres db list
+        href: postgres/db.yml#az_postgres_db_list
+    - name: Server Logs
+      displayName: az postgres server-logs
+      href: postgres/server-logs.yml
+      items:
+      - name: Download
+        displayName: az postgres server-logs download
+        href: postgres/server-logs.yml#az_postgres_server_logs_download
+      - name: List
+        displayName: az postgres server-logs list
+        href: postgres/server-logs.yml#az_postgres_server_logs_list
+    - name: Servers
+      displayName: az postgres server
+      href: postgres/server.yml
+      items:
+      - name: Create
+        displayName: az postgres server create
+        href: postgres/server.yml#az_postgres_server_create
+      - name: Delete
+        displayName: az postgres server delete
+        href: postgres/server.yml#az_postgres_server_delete
+      - name: List
+        displayName: az postgres server list
+        href: postgres/server.yml#az_postgres_server_list
+      - name: Restore
+        displayName: az postgres server restore
+        href: postgres/server.yml#az_postgres_server_restore
+      - name: Show
+        displayName: az postgres server show
+        href: postgres/server.yml#az_postgres_server_show
+      - name: Update
+        displayName: az postgres server update
+        href: postgres/server.yml#az_postgres_server_update
+      - name: Configurations
+        displayName: az postgres server configuration
+        href: postgres/server/configuration.yml
+        items:
+        - name: List
+          displayName: az postgres server configuration list
+          href: postgres/server/configuration.yml#az_postgres_server_configuration_list
+        - name: Set
+          displayName: az postgres server configuration set
+          href: postgres/server/configuration.yml#az_postgres_server_configuration_set
+        - name: Show
+          displayName: az postgres server configuration show
+          href: postgres/server/configuration.yml#az_postgres_server_configuration_show
+      - name: Firewall Rules
+        displayName: az postgres server firewall-rule
+        href: postgres/server/firewall-rule.yml
+        items:
+        - name: Create
+          displayName: az postgres server firewall-rule create
+          href: postgres/server/firewall-rule.yml#az_postgres_server_firewall_rule_create
+        - name: Delete
+          displayName: az postgres server firewall-rule delete
+          href: postgres/server/firewall-rule.yml#az_postgres_server_firewall_rule_delete
+        - name: List
+          displayName: az postgres server firewall-rule list
+          href: postgres/server/firewall-rule.yml#az_postgres_server_firewall_rule_list
+        - name: Show
+          displayName: az postgres server firewall-rule show
+          href: postgres/server/firewall-rule.yml#az_postgres_server_firewall_rule_show
+        - name: Update
+          displayName: az postgres server firewall-rule update
+          href: postgres/server/firewall-rule.yml#az_postgres_server_firewall_rule_update
+  - name: Redis Cache
+    displayName: az redis
+    href: redis.yml
+    items:
+    - name: Create
+      displayName: az redis create
+      href: redis.yml#az_redis_create
+    - name: Delete
+      displayName: az redis delete
+      href: redis.yml#az_redis_delete
+    - name: Export
+      displayName: az redis export
+      href: redis.yml#az_redis_export
+    - name: Force-Reboot
+      displayName: az redis force-reboot
+      href: redis.yml#az_redis_force_reboot
+    - name: Import-Method
+      displayName: az redis import-method
+      href: redis.yml#az_redis_import_method
+    - name: List
+      displayName: az redis list
+      href: redis.yml#az_redis_list
+    - name: List-All
+      displayName: az redis list-all
+      href: redis.yml#az_redis_list_all
+    - name: List-Keys
+      displayName: az redis list-keys
+      href: redis.yml#az_redis_list_keys
+    - name: Regenerate-Keys
+      displayName: az redis regenerate-keys
+      href: redis.yml#az_redis_regenerate_keys
+    - name: Show
+      displayName: az redis show
+      href: redis.yml#az_redis_show
+    - name: Update
+      displayName: az redis update
+      href: redis.yml#az_redis_update
+    - name: Update-Settings
+      displayName: az redis update-settings
+      href: redis.yml#az_redis_update_settings
+    - name: Patch Schedules
+      displayName: az redis patch-schedule
+      href: redis/patch-schedule.yml
+      items:
+      - name: Delete
+        displayName: az redis patch-schedule delete
+        href: redis/patch-schedule.yml#az_redis_patch_schedule_delete
+      - name: Set
+        displayName: az redis patch-schedule set
+        href: redis/patch-schedule.yml#az_redis_patch_schedule_set
+      - name: Show
+        displayName: az redis patch-schedule show
+        href: redis/patch-schedule.yml#az_redis_patch_schedule_show
+  - name: Resource Groups
+    displayName: az group
+    href: group.yml
+    items:
+    - name: Create
+      displayName: az group create
+      href: group.yml#az_group_create
+    - name: Delete
+      displayName: az group delete
+      href: group.yml#az_group_delete
+    - name: Exists
+      displayName: az group exists
+      href: group.yml#az_group_exists
+    - name: Export
+      displayName: az group export
+      href: group.yml#az_group_export
+    - name: List
+      displayName: az group list
+      href: group.yml#az_group_list
+    - name: Show
+      displayName: az group show
+      href: group.yml#az_group_show
+    - name: Update
+      displayName: az group update
+      href: group.yml#az_group_update
+    - name: Wait
+      displayName: az group wait
+      href: group.yml#az_group_wait
+    - name: Deployments
+      displayName: az group deployment
+      href: group/deployment.yml
+      items:
+      - name: Create
+        displayName: az group deployment create
+        href: group/deployment.yml#az_group_deployment_create
+      - name: Delete
+        displayName: az group deployment delete
+        href: group/deployment.yml#az_group_deployment_delete
+      - name: Export
+        displayName: az group deployment export
+        href: group/deployment.yml#az_group_deployment_export
+      - name: List
+        displayName: az group deployment list
+        href: group/deployment.yml#az_group_deployment_list
+      - name: Show
+        displayName: az group deployment show
+        href: group/deployment.yml#az_group_deployment_show
+      - name: Validate
+        displayName: az group deployment validate
+        href: group/deployment.yml#az_group_deployment_validate
+      - name: Wait
+        displayName: az group deployment wait
+        href: group/deployment.yml#az_group_deployment_wait
+      - name: Operations
+        displayName: az group deployment operation
+        href: group/deployment/operation.yml
+        items:
+        - name: List
+          displayName: az group deployment operation list
+          href: group/deployment/operation.yml#az_group_deployment_operation_list
+        - name: Show
+          displayName: az group deployment operation show
+          href: group/deployment/operation.yml#az_group_deployment_operation_show
+  - name: Resource Policies
+    displayName: az policy
+    href: policy.yml
+    items:
+    - name: Assignments
+      displayName: az policy assignment
+      href: policy/assignment.yml
+      items:
+      - name: Create
+        displayName: az policy assignment create
+        href: policy/assignment.yml#az_policy_assignment_create
+      - name: Delete
+        displayName: az policy assignment delete
+        href: policy/assignment.yml#az_policy_assignment_delete
+      - name: List
+        displayName: az policy assignment list
+        href: policy/assignment.yml#az_policy_assignment_list
+      - name: Show
+        displayName: az policy assignment show
+        href: policy/assignment.yml#az_policy_assignment_show
+    - name: Definitions
+      displayName: az policy definition
+      href: policy/definition.yml
+      items:
+      - name: Create
+        displayName: az policy definition create
+        href: policy/definition.yml#az_policy_definition_create
+      - name: Delete
+        displayName: az policy definition delete
+        href: policy/definition.yml#az_policy_definition_delete
+      - name: List
+        displayName: az policy definition list
+        href: policy/definition.yml#az_policy_definition_list
+      - name: Show
+        displayName: az policy definition show
+        href: policy/definition.yml#az_policy_definition_show
+      - name: Update
+        displayName: az policy definition update
+        href: policy/definition.yml#az_policy_definition_update
+  - name: Resource Provider Features
+    displayName: az feature
+    href: feature.yml
+    items:
+    - name: List
+      displayName: az feature list
+      href: feature.yml#az_feature_list
+    - name: Register
+      displayName: az feature register
+      href: feature.yml#az_feature_register
+    - name: Show
+      displayName: az feature show
+      href: feature.yml#az_feature_show
+  - name: Resource Providers
+    displayName: az provider
+    href: provider.yml
+    items:
+    - name: List
+      displayName: az provider list
+      href: provider.yml#az_provider_list
+    - name: Register
+      displayName: az provider register
+      href: provider.yml#az_provider_register
+    - name: Show
+      displayName: az provider show
+      href: provider.yml#az_provider_show
+    - name: Unregister
+      displayName: az provider unregister
+      href: provider.yml#az_provider_unregister
+    - name: Operation
+      displayName: az provider operation
+      href: provider/operation.yml
+      items:
+      - name: List
+        displayName: az provider operation list
+        href: provider/operation.yml#az_provider_operation_list
+      - name: Show
+        displayName: az provider operation show
+        href: provider/operation.yml#az_provider_operation_show
+  - name: Resource Tags
+    displayName: az tag
+    href: tag.yml
+    items:
+    - name: Add-Value
+      displayName: az tag add-value
+      href: tag.yml#az_tag_add_value
+    - name: Create
+      displayName: az tag create
+      href: tag.yml#az_tag_create
+    - name: Delete
+      displayName: az tag delete
+      href: tag.yml#az_tag_delete
+    - name: List
+      displayName: az tag list
+      href: tag.yml#az_tag_list
+    - name: Remove-Value
+      displayName: az tag remove-value
+      href: tag.yml#az_tag_remove_value
+  - name: Resources
+    displayName: az resource
+    href: resource.yml
+    items:
+    - name: Create
+      displayName: az resource create
+      href: resource.yml#az_resource_create
+    - name: Delete
+      displayName: az resource delete
+      href: resource.yml#az_resource_delete
+    - name: List
+      displayName: az resource list
+      href: resource.yml#az_resource_list
+    - name: Move
+      displayName: az resource move
+      href: resource.yml#az_resource_move
+    - name: Show
+      displayName: az resource show
+      href: resource.yml#az_resource_show
+    - name: Tag
+      displayName: az resource tag
+      href: resource.yml#az_resource_tag
+    - name: Update
+      displayName: az resource update
+      href: resource.yml#az_resource_update
+    - name: Links
+      displayName: az resource link
+      href: resource/link.yml
+      items:
+      - name: Create
+        displayName: az resource link create
+        href: resource/link.yml#az_resource_link_create
+      - name: Delete
+        displayName: az resource link delete
+        href: resource/link.yml#az_resource_link_delete
+      - name: List
+        displayName: az resource link list
+        href: resource/link.yml#az_resource_link_list
+      - name: Show
+        displayName: az resource link show
+        href: resource/link.yml#az_resource_link_show
+      - name: Update
+        displayName: az resource link update
+        href: resource/link.yml#az_resource_link_update
+  - name: Roles
+    displayName: az role
+    href: role.yml
+    items:
+    - name: Assignments
+      displayName: az role assignment
+      href: role/assignment.yml
+      items:
+      - name: Create
+        displayName: az role assignment create
+        href: role/assignment.yml#az_role_assignment_create
+      - name: Delete
+        displayName: az role assignment delete
+        href: role/assignment.yml#az_role_assignment_delete
+      - name: List
+        displayName: az role assignment list
+        href: role/assignment.yml#az_role_assignment_list
+    - name: Definitions
+      displayName: az role definition
+      href: role/definition.yml
+      items:
+      - name: Create
+        displayName: az role definition create
+        href: role/definition.yml#az_role_definition_create
+      - name: Delete
+        displayName: az role definition delete
+        href: role/definition.yml#az_role_definition_delete
+      - name: List
+        displayName: az role definition list
+        href: role/definition.yml#az_role_definition_list
+      - name: Update
+        displayName: az role definition update
+        href: role/definition.yml#az_role_definition_update
+  - name: Service Fabric
+    displayName: az sf
+    href: sf.yml
+    items:
+    - name: Application
+      displayName: az sf application
+      href: sf/application.yml
+      items:
+      - name: Create
+        displayName: az sf application create
+        href: sf/application.yml#az_sf_application_create
+      - name: Delete
+        displayName: az sf application delete
+        href: sf/application.yml#az_sf_application_delete
+      - name: Health
+        displayName: az sf application health
+        href: sf/application.yml#az_sf_application_health
+      - name: List
+        displayName: az sf application list
+        href: sf/application.yml#az_sf_application_list
+      - name: Manifest
+        displayName: az sf application manifest
+        href: sf/application.yml#az_sf_application_manifest
+      - name: Package-Delete
+        displayName: az sf application package-delete
+        href: sf/application.yml#az_sf_application_package_delete
+      - name: Provision
+        displayName: az sf application provision
+        href: sf/application.yml#az_sf_application_provision
+      - name: Report-Health
+        displayName: az sf application report-health
+        href: sf/application.yml#az_sf_application_report_health
+      - name: Type
+        displayName: az sf application type
+        href: sf/application.yml#az_sf_application_type
+      - name: Unprovision
+        displayName: az sf application unprovision
+        href: sf/application.yml#az_sf_application_unprovision
+      - name: Upgrade
+        displayName: az sf application upgrade
+        href: sf/application.yml#az_sf_application_upgrade
+      - name: Upload
+        displayName: az sf application upload
+        href: sf/application.yml#az_sf_application_upload
+    - name: Chaos
+      displayName: az sf chaos
+      href: sf/chaos.yml
+      items:
+      - name: Start
+        displayName: az sf chaos start
+        href: sf/chaos.yml#az_sf_chaos_start
+    - name: Cluster
+      displayName: az sf cluster
+      href: sf/cluster.yml
+      items:
+      - name: Code-Version
+        displayName: az sf cluster code-version
+        href: sf/cluster.yml#az_sf_cluster_code_version
+      - name: Config-Version
+        displayName: az sf cluster config-version
+        href: sf/cluster.yml#az_sf_cluster_config_version
+      - name: Health
+        displayName: az sf cluster health
+        href: sf/cluster.yml#az_sf_cluster_health
+      - name: Manifest
+        displayName: az sf cluster manifest
+        href: sf/cluster.yml#az_sf_cluster_manifest
+      - name: Select
+        displayName: az sf cluster select
+        href: sf/cluster.yml#az_sf_cluster_select
+    - name: Compose
+      displayName: az sf compose
+      href: sf/compose.yml
+      items:
+      - name: Create
+        displayName: az sf compose create
+        href: sf/compose.yml#az_sf_compose_create
+      - name: List
+        displayName: az sf compose list
+        href: sf/compose.yml#az_sf_compose_list
+      - name: Remove
+        displayName: az sf compose remove
+        href: sf/compose.yml#az_sf_compose_remove
+      - name: Status
+        displayName: az sf compose status
+        href: sf/compose.yml#az_sf_compose_status
+    - name: Node
+      displayName: az sf node
+      href: sf/node.yml
+      items:
+      - name: Code-Package
+        displayName: az sf node code-package
+        href: sf/node.yml#az_sf_node_code_package
+      - name: List
+        displayName: az sf node list
+        href: sf/node.yml#az_sf_node_list
+      - name: Load
+        displayName: az sf node load
+        href: sf/node.yml#az_sf_node_load
+      - name: Remove-State
+        displayName: az sf node remove-state
+        href: sf/node.yml#az_sf_node_remove_state
+      - name: Replica-List
+        displayName: az sf node replica-list
+        href: sf/node.yml#az_sf_node_replica_list
+      - name: Report-Health
+        displayName: az sf node report-health
+        href: sf/node.yml#az_sf_node_report_health
+      - name: Restart
+        displayName: az sf node restart
+        href: sf/node.yml#az_sf_node_restart
+      - name: Service-Package
+        displayName: az sf node service-package
+        href: sf/node.yml#az_sf_node_service_package
+      - name: Service-Package-List
+        displayName: az sf node service-package-list
+        href: sf/node.yml#az_sf_node_service_package_list
+      - name: Service-Package-Upload
+        displayName: az sf node service-package-upload
+        href: sf/node.yml#az_sf_node_service_package_upload
+      - name: Service-Type
+        displayName: az sf node service-type
+        href: sf/node.yml#az_sf_node_service_type
+      - name: Service-Type-List
+        displayName: az sf node service-type-list
+        href: sf/node.yml#az_sf_node_service_type_list
+      - name: Start
+        displayName: az sf node start
+        href: sf/node.yml#az_sf_node_start
+      - name: Stop
+        displayName: az sf node stop
+        href: sf/node.yml#az_sf_node_stop
+    - name: Partition
+      displayName: az sf partition
+      href: sf/partition.yml
+      items:
+      - name: Health
+        displayName: az sf partition health
+        href: sf/partition.yml#az_sf_partition_health
+      - name: Info
+        displayName: az sf partition info
+        href: sf/partition.yml#az_sf_partition_info
+      - name: Report-Health
+        displayName: az sf partition report-health
+        href: sf/partition.yml#az_sf_partition_report_health
+      - name: Service-Name
+        displayName: az sf partition service-name
+        href: sf/partition.yml#az_sf_partition_service_name
+    - name: Replica
+      displayName: az sf replica
+      href: sf/replica.yml
+      items:
+      - name: Health
+        displayName: az sf replica health
+        href: sf/replica.yml#az_sf_replica_health
+      - name: Report-Health
+        displayName: az sf replica report-health
+        href: sf/replica.yml#az_sf_replica_report_health
+    - name: Service
+      displayName: az sf service
+      href: sf/service.yml
+      items:
+      - name: Application-Name
+        displayName: az sf service application-name
+        href: sf/service.yml#az_sf_service_application_name
+      - name: Create
+        displayName: az sf service create
+        href: sf/service.yml#az_sf_service_create
+      - name: Description
+        displayName: az sf service description
+        href: sf/service.yml#az_sf_service_description
+      - name: Health
+        displayName: az sf service health
+        href: sf/service.yml#az_sf_service_health
+      - name: List
+        displayName: az sf service list
+        href: sf/service.yml#az_sf_service_list
+      - name: Manifest
+        displayName: az sf service manifest
+        href: sf/service.yml#az_sf_service_manifest
+      - name: Report-Health
+        displayName: az sf service report-health
+        href: sf/service.yml#az_sf_service_report_health
+      - name: Resolve
+        displayName: az sf service resolve
+        href: sf/service.yml#az_sf_service_resolve
+      - name: Update
+        displayName: az sf service update
+        href: sf/service.yml#az_sf_service_update
+  - name: SQL
+    displayName: az sql
+    href: sql.yml
+    items:
+    - name: Data Warehouses
+      displayName: az sql dw
+      href: sql/dw.yml
+      items:
+      - name: Create
+        displayName: az sql dw create
+        href: sql/dw.yml#az_sql_dw_create
+      - name: Delete
+        displayName: az sql dw delete
+        href: sql/dw.yml#az_sql_dw_delete
+      - name: List
+        displayName: az sql dw list
+        href: sql/dw.yml#az_sql_dw_list
+      - name: Pause
+        displayName: az sql dw pause
+        href: sql/dw.yml#az_sql_dw_pause
+      - name: Resume
+        displayName: az sql dw resume
+        href: sql/dw.yml#az_sql_dw_resume
+      - name: Show
+        displayName: az sql dw show
+        href: sql/dw.yml#az_sql_dw_show
+      - name: Update
+        displayName: az sql dw update
+        href: sql/dw.yml#az_sql_dw_update
+    - name: Databases
+      displayName: az sql db
+      href: sql/db.yml
+      items:
+      - name: Copy
+        displayName: az sql db copy
+        href: sql/db.yml#az_sql_db_copy
+      - name: Create
+        displayName: az sql db create
+        href: sql/db.yml#az_sql_db_create
+      - name: Delete
+        displayName: az sql db delete
+        href: sql/db.yml#az_sql_db_delete
+      - name: Export
+        displayName: az sql db export
+        href: sql/db.yml#az_sql_db_export
+      - name: Import
+        displayName: az sql db import
+        href: sql/db.yml#az_sql_db_import
+      - name: List
+        displayName: az sql db list
+        href: sql/db.yml#az_sql_db_list
+      - name: List-Editions
+        displayName: az sql db list-editions
+        href: sql/db.yml#az_sql_db_list_editions
+      - name: List-Usages
+        displayName: az sql db list-usages
+        href: sql/db.yml#az_sql_db_list_usages
+      - name: Restore
+        displayName: az sql db restore
+        href: sql/db.yml#az_sql_db_restore
+      - name: Show
+        displayName: az sql db show
+        href: sql/db.yml#az_sql_db_show
+      - name: Update
+        displayName: az sql db update
+        href: sql/db.yml#az_sql_db_update
+      - name: Audit-Policy
+        displayName: az sql db audit-policy
+        href: sql/db/audit-policy.yml
+        items:
+        - name: Show
+          displayName: az sql db audit-policy show
+          href: sql/db/audit-policy.yml#az_sql_db_audit_policy_show
+        - name: Update
+          displayName: az sql db audit-policy update
+          href: sql/db/audit-policy.yml#az_sql_db_audit_policy_update
+      - name: Replica
+        displayName: az sql db replica
+        href: sql/db/replica.yml
+        items:
+        - name: Create
+          displayName: az sql db replica create
+          href: sql/db/replica.yml#az_sql_db_replica_create
+        - name: Delete-Link
+          displayName: az sql db replica delete-link
+          href: sql/db/replica.yml#az_sql_db_replica_delete_link
+        - name: List-Links
+          displayName: az sql db replica list-links
+          href: sql/db/replica.yml#az_sql_db_replica_list_links
+        - name: Set-Primary
+          displayName: az sql db replica set-primary
+          href: sql/db/replica.yml#az_sql_db_replica_set_primary
+      - name: Threat-Policy
+        displayName: az sql db threat-policy
+        href: sql/db/threat-policy.yml
+        items:
+        - name: Show
+          displayName: az sql db threat-policy show
+          href: sql/db/threat-policy.yml#az_sql_db_threat_policy_show
+        - name: Update
+          displayName: az sql db threat-policy update
+          href: sql/db/threat-policy.yml#az_sql_db_threat_policy_update
+    - name: Elastic Pools
+      displayName: az sql elastic-pool
+      href: sql/elastic-pool.yml
+      items:
+      - name: Create
+        displayName: az sql elastic-pool create
+        href: sql/elastic-pool.yml#az_sql_elastic_pool_create
+      - name: Delete
+        displayName: az sql elastic-pool delete
+        href: sql/elastic-pool.yml#az_sql_elastic_pool_delete
+      - name: List
+        displayName: az sql elastic-pool list
+        href: sql/elastic-pool.yml#az_sql_elastic_pool_list
+      - name: List-Dbs
+        displayName: az sql elastic-pool list-dbs
+        href: sql/elastic-pool.yml#az_sql_elastic_pool_list_dbs
+      - name: List-Editions
+        displayName: az sql elastic-pool list-editions
+        href: sql/elastic-pool.yml#az_sql_elastic_pool_list_editions
+      - name: Show
+        displayName: az sql elastic-pool show
+        href: sql/elastic-pool.yml#az_sql_elastic_pool_show
+      - name: Update
+        displayName: az sql elastic-pool update
+        href: sql/elastic-pool.yml#az_sql_elastic_pool_update
+    - name: Server
+      displayName: az sql server
+      href: sql/server.yml
+      items:
+      - name: Create
+        displayName: az sql server create
+        href: sql/server.yml#az_sql_server_create
+      - name: Delete
+        displayName: az sql server delete
+        href: sql/server.yml#az_sql_server_delete
+      - name: List
+        displayName: az sql server list
+        href: sql/server.yml#az_sql_server_list
+      - name: List-Usages
+        displayName: az sql server list-usages
+        href: sql/server.yml#az_sql_server_list_usages
+      - name: Show
+        displayName: az sql server show
+        href: sql/server.yml#az_sql_server_show
+      - name: Update
+        displayName: az sql server update
+        href: sql/server.yml#az_sql_server_update
+      - name: Ad-Admin
+        displayName: az sql server ad-admin
+        href: sql/server/ad-admin.yml
+        items:
+        - name: Create
+          displayName: az sql server ad-admin create
+          href: sql/server/ad-admin.yml#az_sql_server_ad_admin_create
+        - name: Delete
+          displayName: az sql server ad-admin delete
+          href: sql/server/ad-admin.yml#az_sql_server_ad_admin_delete
+        - name: List
+          displayName: az sql server ad-admin list
+          href: sql/server/ad-admin.yml#az_sql_server_ad_admin_list
+        - name: Update
+          displayName: az sql server ad-admin update
+          href: sql/server/ad-admin.yml#az_sql_server_ad_admin_update
+      - name: Firewall Rules
+        displayName: az sql server firewall-rule
+        href: sql/server/firewall-rule.yml
+        items:
+        - name: Create
+          displayName: az sql server firewall-rule create
+          href: sql/server/firewall-rule.yml#az_sql_server_firewall_rule_create
+        - name: Delete
+          displayName: az sql server firewall-rule delete
+          href: sql/server/firewall-rule.yml#az_sql_server_firewall_rule_delete
+        - name: List
+          displayName: az sql server firewall-rule list
+          href: sql/server/firewall-rule.yml#az_sql_server_firewall_rule_list
+        - name: Show
+          displayName: az sql server firewall-rule show
+          href: sql/server/firewall-rule.yml#az_sql_server_firewall_rule_show
+        - name: Update
+          displayName: az sql server firewall-rule update
+          href: sql/server/firewall-rule.yml#az_sql_server_firewall_rule_update
+  - name: Storage
+    displayName: az storage
+    href: storage.yml
+    items:
+    - name: Accounts
+      displayName: az storage account
+      href: storage/account.yml
+      items:
+      - name: Check-Name
+        displayName: az storage account check-name
+        href: storage/account.yml#az_storage_account_check_name
+      - name: Create
+        displayName: az storage account create
+        href: storage/account.yml#az_storage_account_create
+      - name: Delete
+        displayName: az storage account delete
+        href: storage/account.yml#az_storage_account_delete
+      - name: Generate-Sas
+        displayName: az storage account generate-sas
+        href: storage/account.yml#az_storage_account_generate_sas
+      - name: List
+        displayName: az storage account list
+        href: storage/account.yml#az_storage_account_list
+      - name: Show
+        displayName: az storage account show
+        href: storage/account.yml#az_storage_account_show
+      - name: Show-Connection-String
+        displayName: az storage account show-connection-string
+        href: storage/account.yml#az_storage_account_show_connection_string
+      - name: Show-Usage
+        displayName: az storage account show-usage
+        href: storage/account.yml#az_storage_account_show_usage
+      - name: Update
+        displayName: az storage account update
+        href: storage/account.yml#az_storage_account_update
+      - name: Keys
+        displayName: az storage account keys
+        href: storage/account/keys.yml
+        items:
+        - name: List
+          displayName: az storage account keys list
+          href: storage/account/keys.yml#az_storage_account_keys_list
+        - name: Renew
+          displayName: az storage account keys renew
+          href: storage/account/keys.yml#az_storage_account_keys_renew
+    - name: Blob
+      displayName: az storage blob
+      href: storage/blob.yml
+      items:
+      - name: Delete
+        displayName: az storage blob delete
+        href: storage/blob.yml#az_storage_blob_delete
+      - name: Download
+        displayName: az storage blob download
+        href: storage/blob.yml#az_storage_blob_download
+      - name: Download-Batch
+        displayName: az storage blob download-batch
+        href: storage/blob.yml#az_storage_blob_download_batch
+      - name: Exists
+        displayName: az storage blob exists
+        href: storage/blob.yml#az_storage_blob_exists
+      - name: Generate-Sas
+        displayName: az storage blob generate-sas
+        href: storage/blob.yml#az_storage_blob_generate_sas
+      - name: List
+        displayName: az storage blob list
+        href: storage/blob.yml#az_storage_blob_list
+      - name: Show
+        displayName: az storage blob show
+        href: storage/blob.yml#az_storage_blob_show
+      - name: Snapshot
+        displayName: az storage blob snapshot
+        href: storage/blob.yml#az_storage_blob_snapshot
+      - name: Update
+        displayName: az storage blob update
+        href: storage/blob.yml#az_storage_blob_update
+      - name: Upload
+        displayName: az storage blob upload
+        href: storage/blob.yml#az_storage_blob_upload
+      - name: Upload-Batch
+        displayName: az storage blob upload-batch
+        href: storage/blob.yml#az_storage_blob_upload_batch
+      - name: Url
+        displayName: az storage blob url
+        href: storage/blob.yml#az_storage_blob_url
+      - name: Copy Operations
+        displayName: az storage blob copy
+        href: storage/blob/copy.yml
+        items:
+        - name: Cancel
+          displayName: az storage blob copy cancel
+          href: storage/blob/copy.yml#az_storage_blob_copy_cancel
+        - name: Start
+          displayName: az storage blob copy start
+          href: storage/blob/copy.yml#az_storage_blob_copy_start
+        - name: Start-Batch
+          displayName: az storage blob copy start-batch
+          href: storage/blob/copy.yml#az_storage_blob_copy_start_batch
+      - name: Incremental-Copy
+        displayName: az storage blob incremental-copy
+        href: storage/blob/incremental-copy.yml
+        items:
+        - name: Cancel
+          displayName: az storage blob incremental-copy cancel
+          href: storage/blob/incremental-copy.yml#az_storage_blob_incremental_copy_cancel
+        - name: Start
+          displayName: az storage blob incremental-copy start
+          href: storage/blob/incremental-copy.yml#az_storage_blob_incremental_copy_start
+      - name: Leases
+        displayName: az storage blob lease
+        href: storage/blob/lease.yml
+        items:
+        - name: Acquire
+          displayName: az storage blob lease acquire
+          href: storage/blob/lease.yml#az_storage_blob_lease_acquire
+        - name: Break
+          displayName: az storage blob lease break
+          href: storage/blob/lease.yml#az_storage_blob_lease_break
+        - name: Change
+          displayName: az storage blob lease change
+          href: storage/blob/lease.yml#az_storage_blob_lease_change
+        - name: Release
+          displayName: az storage blob lease release
+          href: storage/blob/lease.yml#az_storage_blob_lease_release
+        - name: Renew
+          displayName: az storage blob lease renew
+          href: storage/blob/lease.yml#az_storage_blob_lease_renew
+      - name: Metadata
+        displayName: az storage blob metadata
+        href: storage/blob/metadata.yml
+        items:
+        - name: Show
+          displayName: az storage blob metadata show
+          href: storage/blob/metadata.yml#az_storage_blob_metadata_show
+        - name: Update
+          displayName: az storage blob metadata update
+          href: storage/blob/metadata.yml#az_storage_blob_metadata_update
+      - name: Service Properties
+        displayName: az storage blob service-properties
+        href: storage/blob/service-properties.yml
+        items:
+        - name: Show
+          displayName: az storage blob service-properties show
+          href: storage/blob/service-properties.yml#az_storage_blob_service_properties_show
+    - name: Containers
+      displayName: az storage container
+      href: storage/container.yml
+      items:
+      - name: Create
+        displayName: az storage container create
+        href: storage/container.yml#az_storage_container_create
+      - name: Delete
+        displayName: az storage container delete
+        href: storage/container.yml#az_storage_container_delete
+      - name: Exists
+        displayName: az storage container exists
+        href: storage/container.yml#az_storage_container_exists
+      - name: Generate-Sas
+        displayName: az storage container generate-sas
+        href: storage/container.yml#az_storage_container_generate_sas
+      - name: List
+        displayName: az storage container list
+        href: storage/container.yml#az_storage_container_list
+      - name: Set-Permission
+        displayName: az storage container set-permission
+        href: storage/container.yml#az_storage_container_set_permission
+      - name: Show
+        displayName: az storage container show
+        href: storage/container.yml#az_storage_container_show
+      - name: Show-Permission
+        displayName: az storage container show-permission
+        href: storage/container.yml#az_storage_container_show_permission
+      - name: Leases
+        displayName: az storage container lease
+        href: storage/container/lease.yml
+        items:
+        - name: Acquire
+          displayName: az storage container lease acquire
+          href: storage/container/lease.yml#az_storage_container_lease_acquire
+        - name: Break
+          displayName: az storage container lease break
+          href: storage/container/lease.yml#az_storage_container_lease_break
+        - name: Change
+          displayName: az storage container lease change
+          href: storage/container/lease.yml#az_storage_container_lease_change
+        - name: Release
+          displayName: az storage container lease release
+          href: storage/container/lease.yml#az_storage_container_lease_release
+        - name: Renew
+          displayName: az storage container lease renew
+          href: storage/container/lease.yml#az_storage_container_lease_renew
+      - name: Metadata
+        displayName: az storage container metadata
+        href: storage/container/metadata.yml
+        items:
+        - name: Show
+          displayName: az storage container metadata show
+          href: storage/container/metadata.yml#az_storage_container_metadata_show
+        - name: Update
+          displayName: az storage container metadata update
+          href: storage/container/metadata.yml#az_storage_container_metadata_update
+      - name: Policies
+        displayName: az storage container policy
+        href: storage/container/policy.yml
+        items:
+        - name: Create
+          displayName: az storage container policy create
+          href: storage/container/policy.yml#az_storage_container_policy_create
+        - name: Delete
+          displayName: az storage container policy delete
+          href: storage/container/policy.yml#az_storage_container_policy_delete
+        - name: List
+          displayName: az storage container policy list
+          href: storage/container/policy.yml#az_storage_container_policy_list
+        - name: Show
+          displayName: az storage container policy show
+          href: storage/container/policy.yml#az_storage_container_policy_show
+        - name: Update
+          displayName: az storage container policy update
+          href: storage/container/policy.yml#az_storage_container_policy_update
+    - name: Cross-Origin Resorce Sharing
+      displayName: az storage cors
+      href: storage/cors.yml
+      items:
+      - name: Add
+        displayName: az storage cors add
+        href: storage/cors.yml#az_storage_cors_add
+      - name: Clear
+        displayName: az storage cors clear
+        href: storage/cors.yml#az_storage_cors_clear
+      - name: List
+        displayName: az storage cors list
+        href: storage/cors.yml#az_storage_cors_list
+    - name: Directories
+      displayName: az storage directory
+      href: storage/directory.yml
+      items:
+      - name: Create
+        displayName: az storage directory create
+        href: storage/directory.yml#az_storage_directory_create
+      - name: Delete
+        displayName: az storage directory delete
+        href: storage/directory.yml#az_storage_directory_delete
+      - name: Exists
+        displayName: az storage directory exists
+        href: storage/directory.yml#az_storage_directory_exists
+      - name: List
+        displayName: az storage directory list
+        href: storage/directory.yml#az_storage_directory_list
+      - name: Show
+        displayName: az storage directory show
+        href: storage/directory.yml#az_storage_directory_show
+      - name: Metadata
+        displayName: az storage directory metadata
+        href: storage/directory/metadata.yml
+        items:
+        - name: Show
+          displayName: az storage directory metadata show
+          href: storage/directory/metadata.yml#az_storage_directory_metadata_show
+        - name: Update
+          displayName: az storage directory metadata update
+          href: storage/directory/metadata.yml#az_storage_directory_metadata_update
+    - name: File Shares
+      displayName: az storage share
+      href: storage/share.yml
+      items:
+      - name: Create
+        displayName: az storage share create
+        href: storage/share.yml#az_storage_share_create
+      - name: Delete
+        displayName: az storage share delete
+        href: storage/share.yml#az_storage_share_delete
+      - name: Exists
+        displayName: az storage share exists
+        href: storage/share.yml#az_storage_share_exists
+      - name: Generate-Sas
+        displayName: az storage share generate-sas
+        href: storage/share.yml#az_storage_share_generate_sas
+      - name: List
+        displayName: az storage share list
+        href: storage/share.yml#az_storage_share_list
+      - name: Show
+        displayName: az storage share show
+        href: storage/share.yml#az_storage_share_show
+      - name: Stats
+        displayName: az storage share stats
+        href: storage/share.yml#az_storage_share_stats
+      - name: Update
+        displayName: az storage share update
+        href: storage/share.yml#az_storage_share_update
+      - name: Metadata
+        displayName: az storage share metadata
+        href: storage/share/metadata.yml
+        items:
+        - name: Show
+          displayName: az storage share metadata show
+          href: storage/share/metadata.yml#az_storage_share_metadata_show
+        - name: Update
+          displayName: az storage share metadata update
+          href: storage/share/metadata.yml#az_storage_share_metadata_update
+      - name: Policies
+        displayName: az storage share policy
+        href: storage/share/policy.yml
+        items:
+        - name: Create
+          displayName: az storage share policy create
+          href: storage/share/policy.yml#az_storage_share_policy_create
+        - name: Delete
+          displayName: az storage share policy delete
+          href: storage/share/policy.yml#az_storage_share_policy_delete
+        - name: List
+          displayName: az storage share policy list
+          href: storage/share/policy.yml#az_storage_share_policy_list
+        - name: Show
+          displayName: az storage share policy show
+          href: storage/share/policy.yml#az_storage_share_policy_show
+        - name: Update
+          displayName: az storage share policy update
+          href: storage/share/policy.yml#az_storage_share_policy_update
+    - name: Files
+      displayName: az storage file
+      href: storage/file.yml
+      items:
+      - name: Delete
+        displayName: az storage file delete
+        href: storage/file.yml#az_storage_file_delete
+      - name: Download
+        displayName: az storage file download
+        href: storage/file.yml#az_storage_file_download
+      - name: Download-Batch
+        displayName: az storage file download-batch
+        href: storage/file.yml#az_storage_file_download_batch
+      - name: Exists
+        displayName: az storage file exists
+        href: storage/file.yml#az_storage_file_exists
+      - name: Generate-Sas
+        displayName: az storage file generate-sas
+        href: storage/file.yml#az_storage_file_generate_sas
+      - name: List
+        displayName: az storage file list
+        href: storage/file.yml#az_storage_file_list
+      - name: Resize
+        displayName: az storage file resize
+        href: storage/file.yml#az_storage_file_resize
+      - name: Show
+        displayName: az storage file show
+        href: storage/file.yml#az_storage_file_show
+      - name: Update
+        displayName: az storage file update
+        href: storage/file.yml#az_storage_file_update
+      - name: Upload
+        displayName: az storage file upload
+        href: storage/file.yml#az_storage_file_upload
+      - name: Upload-Batch
+        displayName: az storage file upload-batch
+        href: storage/file.yml#az_storage_file_upload_batch
+      - name: Url
+        displayName: az storage file url
+        href: storage/file.yml#az_storage_file_url
+      - name: Copy Operations
+        displayName: az storage file copy
+        href: storage/file/copy.yml
+        items:
+        - name: Cancel
+          displayName: az storage file copy cancel
+          href: storage/file/copy.yml#az_storage_file_copy_cancel
+        - name: Start
+          displayName: az storage file copy start
+          href: storage/file/copy.yml#az_storage_file_copy_start
+        - name: Start-Batch
+          displayName: az storage file copy start-batch
+          href: storage/file/copy.yml#az_storage_file_copy_start_batch
+      - name: Metadata
+        displayName: az storage file metadata
+        href: storage/file/metadata.yml
+        items:
+        - name: Show
+          displayName: az storage file metadata show
+          href: storage/file/metadata.yml#az_storage_file_metadata_show
+        - name: Update
+          displayName: az storage file metadata update
+          href: storage/file/metadata.yml#az_storage_file_metadata_update
+    - name: Logging
+      displayName: az storage logging
+      href: storage/logging.yml
+      items:
+      - name: Show
+        displayName: az storage logging show
+        href: storage/logging.yml#az_storage_logging_show
+      - name: Update
+        displayName: az storage logging update
+        href: storage/logging.yml#az_storage_logging_update
+    - name: Messages
+      displayName: az storage message
+      href: storage/message.yml
+      items:
+      - name: Clear
+        displayName: az storage message clear
+        href: storage/message.yml#az_storage_message_clear
+      - name: Delete
+        displayName: az storage message delete
+        href: storage/message.yml#az_storage_message_delete
+      - name: Get
+        displayName: az storage message get
+        href: storage/message.yml#az_storage_message_get
+      - name: Peek
+        displayName: az storage message peek
+        href: storage/message.yml#az_storage_message_peek
+      - name: Put
+        displayName: az storage message put
+        href: storage/message.yml#az_storage_message_put
+      - name: Update
+        displayName: az storage message update
+        href: storage/message.yml#az_storage_message_update
+    - name: Metrics
+      displayName: az storage metrics
+      href: storage/metrics.yml
+      items:
+      - name: Show
+        displayName: az storage metrics show
+        href: storage/metrics.yml#az_storage_metrics_show
+      - name: Update
+        displayName: az storage metrics update
+        href: storage/metrics.yml#az_storage_metrics_update
+    - name: Queues
+      displayName: az storage queue
+      href: storage/queue.yml
+      items:
+      - name: Create
+        displayName: az storage queue create
+        href: storage/queue.yml#az_storage_queue_create
+      - name: Delete
+        displayName: az storage queue delete
+        href: storage/queue.yml#az_storage_queue_delete
+      - name: Exists
+        displayName: az storage queue exists
+        href: storage/queue.yml#az_storage_queue_exists
+      - name: Generate-Sas
+        displayName: az storage queue generate-sas
+        href: storage/queue.yml#az_storage_queue_generate_sas
+      - name: List
+        displayName: az storage queue list
+        href: storage/queue.yml#az_storage_queue_list
+      - name: Stats
+        displayName: az storage queue stats
+        href: storage/queue.yml#az_storage_queue_stats
+      - name: Metadata
+        displayName: az storage queue metadata
+        href: storage/queue/metadata.yml
+        items:
+        - name: Show
+          displayName: az storage queue metadata show
+          href: storage/queue/metadata.yml#az_storage_queue_metadata_show
+        - name: Update
+          displayName: az storage queue metadata update
+          href: storage/queue/metadata.yml#az_storage_queue_metadata_update
+      - name: Policies
+        displayName: az storage queue policy
+        href: storage/queue/policy.yml
+        items:
+        - name: Create
+          displayName: az storage queue policy create
+          href: storage/queue/policy.yml#az_storage_queue_policy_create
+        - name: Delete
+          displayName: az storage queue policy delete
+          href: storage/queue/policy.yml#az_storage_queue_policy_delete
+        - name: List
+          displayName: az storage queue policy list
+          href: storage/queue/policy.yml#az_storage_queue_policy_list
+        - name: Show
+          displayName: az storage queue policy show
+          href: storage/queue/policy.yml#az_storage_queue_policy_show
+        - name: Update
+          displayName: az storage queue policy update
+          href: storage/queue/policy.yml#az_storage_queue_policy_update
+    - name: Table Storage Entities
+      displayName: az storage entity
+      href: storage/entity.yml
+      items:
+      - name: Delete
+        displayName: az storage entity delete
+        href: storage/entity.yml#az_storage_entity_delete
+      - name: Insert
+        displayName: az storage entity insert
+        href: storage/entity.yml#az_storage_entity_insert
+      - name: Merge
+        displayName: az storage entity merge
+        href: storage/entity.yml#az_storage_entity_merge
+      - name: Query
+        displayName: az storage entity query
+        href: storage/entity.yml#az_storage_entity_query
+      - name: Replace
+        displayName: az storage entity replace
+        href: storage/entity.yml#az_storage_entity_replace
+      - name: Show
+        displayName: az storage entity show
+        href: storage/entity.yml#az_storage_entity_show
+    - name: Tables
+      displayName: az storage table
+      href: storage/table.yml
+      items:
+      - name: Create
+        displayName: az storage table create
+        href: storage/table.yml#az_storage_table_create
+      - name: Delete
+        displayName: az storage table delete
+        href: storage/table.yml#az_storage_table_delete
+      - name: Exists
+        displayName: az storage table exists
+        href: storage/table.yml#az_storage_table_exists
+      - name: Generate-Sas
+        displayName: az storage table generate-sas
+        href: storage/table.yml#az_storage_table_generate_sas
+      - name: List
+        displayName: az storage table list
+        href: storage/table.yml#az_storage_table_list
+      - name: Stats
+        displayName: az storage table stats
+        href: storage/table.yml#az_storage_table_stats
+      - name: Policies
+        displayName: az storage table policy
+        href: storage/table/policy.yml
+        items:
+        - name: Create
+          displayName: az storage table policy create
+          href: storage/table/policy.yml#az_storage_table_policy_create
+        - name: Delete
+          displayName: az storage table policy delete
+          href: storage/table/policy.yml#az_storage_table_policy_delete
+        - name: List
+          displayName: az storage table policy list
+          href: storage/table/policy.yml#az_storage_table_policy_list
+        - name: Show
+          displayName: az storage table policy show
+          href: storage/table/policy.yml#az_storage_table_policy_show
+        - name: Update
+          displayName: az storage table policy update
+          href: storage/table/policy.yml#az_storage_table_policy_update
+  - name: Subscriptions
+    displayName: az account
+    href: account.yml
+    items:
+    - name: Clear
+      displayName: az account clear
+      href: account.yml#az_account_clear
+    - name: Get-Access-Token
+      displayName: az account get-access-token
+      href: account.yml#az_account_get_access_token
+    - name: List
+      displayName: az account list
+      href: account.yml#az_account_list
+    - name: List-Locations
+      displayName: az account list-locations
+      href: account.yml#az_account_list_locations
+    - name: Set
+      displayName: az account set
+      href: account.yml#az_account_set
+    - name: Show
+      displayName: az account show
+      href: account.yml#az_account_show
+  - name: Virtual Machines
+    displayName: az vm
+    href: vm.yml
+    items:
+    - name: Assign-Identity
+      displayName: az vm assign-identity
+      href: vm.yml#az_vm_assign_identity
+    - name: Capture
+      displayName: az vm capture
+      href: vm.yml#az_vm_capture
+    - name: Convert
+      displayName: az vm convert
+      href: vm.yml#az_vm_convert
+    - name: Create
+      displayName: az vm create
+      href: vm.yml#az_vm_create
+    - name: Deallocate
+      displayName: az vm deallocate
+      href: vm.yml#az_vm_deallocate
+    - name: Delete
+      displayName: az vm delete
+      href: vm.yml#az_vm_delete
+    - name: Format-Secret
+      displayName: az vm format-secret
+      href: vm.yml#az_vm_format_secret
+    - name: Generalize
+      displayName: az vm generalize
+      href: vm.yml#az_vm_generalize
+    - name: Get-Instance-View
+      displayName: az vm get-instance-view
+      href: vm.yml#az_vm_get_instance_view
+    - name: List
+      displayName: az vm list
+      href: vm.yml#az_vm_list
+    - name: List-Ip-Addresses
+      displayName: az vm list-ip-addresses
+      href: vm.yml#az_vm_list_ip_addresses
+    - name: List-Sizes
+      displayName: az vm list-sizes
+      href: vm.yml#az_vm_list_sizes
+    - name: List-Usage
+      displayName: az vm list-usage
+      href: vm.yml#az_vm_list_usage
+    - name: List-Vm-Resize-Options
+      displayName: az vm list-vm-resize-options
+      href: vm.yml#az_vm_list_vm_resize_options
+    - name: Open-Port
+      displayName: az vm open-port
+      href: vm.yml#az_vm_open_port
+    - name: Redeploy
+      displayName: az vm redeploy
+      href: vm.yml#az_vm_redeploy
+    - name: Resize
+      displayName: az vm resize
+      href: vm.yml#az_vm_resize
+    - name: Restart
+      displayName: az vm restart
+      href: vm.yml#az_vm_restart
+    - name: Show
+      displayName: az vm show
+      href: vm.yml#az_vm_show
+    - name: Start
+      displayName: az vm start
+      href: vm.yml#az_vm_start
+    - name: Stop
+      displayName: az vm stop
+      href: vm.yml#az_vm_stop
+    - name: Update
+      displayName: az vm update
+      href: vm.yml#az_vm_update
+    - name: Wait
+      displayName: az vm wait
+      href: vm.yml#az_vm_wait
+    - name: Availability Sets
+      displayName: az vm availability-set
+      href: vm/availability-set.yml
+      items:
+      - name: Convert
+        displayName: az vm availability-set convert
+        href: vm/availability-set.yml#az_vm_availability_set_convert
+      - name: Create
+        displayName: az vm availability-set create
+        href: vm/availability-set.yml#az_vm_availability_set_create
+      - name: Delete
+        displayName: az vm availability-set delete
+        href: vm/availability-set.yml#az_vm_availability_set_delete
+      - name: List
+        displayName: az vm availability-set list
+        href: vm/availability-set.yml#az_vm_availability_set_list
+      - name: List-Sizes
+        displayName: az vm availability-set list-sizes
+        href: vm/availability-set.yml#az_vm_availability_set_list_sizes
+      - name: Show
+        displayName: az vm availability-set show
+        href: vm/availability-set.yml#az_vm_availability_set_show
+      - name: Update
+        displayName: az vm availability-set update
+        href: vm/availability-set.yml#az_vm_availability_set_update
+    - name: Boot Diagnostics
+      displayName: az vm boot-diagnostics
+      href: vm/boot-diagnostics.yml
+      items:
+      - name: Disable
+        displayName: az vm boot-diagnostics disable
+        href: vm/boot-diagnostics.yml#az_vm_boot_diagnostics_disable
+      - name: Enable
+        displayName: az vm boot-diagnostics enable
+        href: vm/boot-diagnostics.yml#az_vm_boot_diagnostics_enable
+      - name: Get-Boot-Log
+        displayName: az vm boot-diagnostics get-boot-log
+        href: vm/boot-diagnostics.yml#az_vm_boot_diagnostics_get_boot_log
+    - name: Diagnostics
+      displayName: az vm diagnostics
+      href: vm/diagnostics.yml
+      items:
+      - name: Get-Default-Config
+        displayName: az vm diagnostics get-default-config
+        href: vm/diagnostics.yml#az_vm_diagnostics_get_default_config
+      - name: Set
+        displayName: az vm diagnostics set
+        href: vm/diagnostics.yml#az_vm_diagnostics_set
+    - name: Encryption
+      displayName: az vm encryption
+      href: vm/encryption.yml
+      items:
+      - name: Disable
+        displayName: az vm encryption disable
+        href: vm/encryption.yml#az_vm_encryption_disable
+      - name: Enable
+        displayName: az vm encryption enable
+        href: vm/encryption.yml#az_vm_encryption_enable
+      - name: Show
+        displayName: az vm encryption show
+        href: vm/encryption.yml#az_vm_encryption_show
+    - name: Extensions
+      displayName: az vm extension
+      href: vm/extension.yml
+      items:
+      - name: Delete
+        displayName: az vm extension delete
+        href: vm/extension.yml#az_vm_extension_delete
+      - name: List
+        displayName: az vm extension list
+        href: vm/extension.yml#az_vm_extension_list
+      - name: Set
+        displayName: az vm extension set
+        href: vm/extension.yml#az_vm_extension_set
+      - name: Show
+        displayName: az vm extension show
+        href: vm/extension.yml#az_vm_extension_show
+      - name: Extension Images
+        displayName: az vm extension image
+        href: vm/extension/image.yml
+        items:
+        - name: List
+          displayName: az vm extension image list
+          href: vm/extension/image.yml#az_vm_extension_image_list
+        - name: List-Names
+          displayName: az vm extension image list-names
+          href: vm/extension/image.yml#az_vm_extension_image_list_names
+        - name: List-Versions
+          displayName: az vm extension image list-versions
+          href: vm/extension/image.yml#az_vm_extension_image_list_versions
+        - name: Show
+          displayName: az vm extension image show
+          href: vm/extension/image.yml#az_vm_extension_image_show
+    - name: Images
+      displayName: az vm image
+      href: vm/image.yml
+      items:
+      - name: List
+        displayName: az vm image list
+        href: vm/image.yml#az_vm_image_list
+      - name: List-Offers
+        displayName: az vm image list-offers
+        href: vm/image.yml#az_vm_image_list_offers
+      - name: List-Publishers
+        displayName: az vm image list-publishers
+        href: vm/image.yml#az_vm_image_list_publishers
+      - name: List-Skus
+        displayName: az vm image list-skus
+        href: vm/image.yml#az_vm_image_list_skus
+      - name: Show
+        displayName: az vm image show
+        href: vm/image.yml#az_vm_image_show
+    - name: Network Interfaces
+      displayName: az vm nic
+      href: vm/nic.yml
+      items:
+      - name: Add
+        displayName: az vm nic add
+        href: vm/nic.yml#az_vm_nic_add
+      - name: List
+        displayName: az vm nic list
+        href: vm/nic.yml#az_vm_nic_list
+      - name: Remove
+        displayName: az vm nic remove
+        href: vm/nic.yml#az_vm_nic_remove
+      - name: Set
+        displayName: az vm nic set
+        href: vm/nic.yml#az_vm_nic_set
+      - name: Show
+        displayName: az vm nic show
+        href: vm/nic.yml#az_vm_nic_show
+    - name: Storage Disks
+      displayName: az vm disk
+      href: vm/disk.yml
+      items:
+      - name: Attach
+        displayName: az vm disk attach
+        href: vm/disk.yml#az_vm_disk_attach
+      - name: Detach
+        displayName: az vm disk detach
+        href: vm/disk.yml#az_vm_disk_detach
+    - name: Unmanaged Disks
+      displayName: az vm unmanaged-disk
+      href: vm/unmanaged-disk.yml
+      items:
+      - name: Attach
+        displayName: az vm unmanaged-disk attach
+        href: vm/unmanaged-disk.yml#az_vm_unmanaged_disk_attach
+      - name: Detach
+        displayName: az vm unmanaged-disk detach
+        href: vm/unmanaged-disk.yml#az_vm_unmanaged_disk_detach
+      - name: List
+        displayName: az vm unmanaged-disk list
+        href: vm/unmanaged-disk.yml#az_vm_unmanaged_disk_list
+    - name: Users
+      displayName: az vm user
+      href: vm/user.yml
+      items:
+      - name: Delete
+        displayName: az vm user delete
+        href: vm/user.yml#az_vm_user_delete
+      - name: Reset-Ssh
+        displayName: az vm user reset-ssh
+        href: vm/user.yml#az_vm_user_reset_ssh
+      - name: Update
+        displayName: az vm user update
+        href: vm/user.yml#az_vm_user_update
+  - name: VM Images
+    displayName: az image
+    href: image.yml
+    items:
+    - name: Create
+      displayName: az image create
+      href: image.yml#az_image_create
+    - name: Delete
+      displayName: az image delete
+      href: image.yml#az_image_delete
+    - name: List
+      displayName: az image list
+      href: image.yml#az_image_list
+    - name: Show
+      displayName: az image show
+      href: image.yml#az_image_show
+  - name: VM Scale Sets
+    displayName: az vmss
+    href: vmss.yml
+    items:
+    - name: Assign-Identity
+      displayName: az vmss assign-identity
+      href: vmss.yml#az_vmss_assign_identity
+    - name: Create
+      displayName: az vmss create
+      href: vmss.yml#az_vmss_create
+    - name: Deallocate
+      displayName: az vmss deallocate
+      href: vmss.yml#az_vmss_deallocate
+    - name: Delete
+      displayName: az vmss delete
+      href: vmss.yml#az_vmss_delete
+    - name: Delete-Instances
+      displayName: az vmss delete-instances
+      href: vmss.yml#az_vmss_delete_instances
+    - name: Get-Instance-View
+      displayName: az vmss get-instance-view
+      href: vmss.yml#az_vmss_get_instance_view
+    - name: List
+      displayName: az vmss list
+      href: vmss.yml#az_vmss_list
+    - name: List-Instance-Connection-Info
+      displayName: az vmss list-instance-connection-info
+      href: vmss.yml#az_vmss_list_instance_connection_info
+    - name: List-Instance-Public-Ips
+      displayName: az vmss list-instance-public-ips
+      href: vmss.yml#az_vmss_list_instance_public_ips
+    - name: List-Instances
+      displayName: az vmss list-instances
+      href: vmss.yml#az_vmss_list_instances
+    - name: List-Skus
+      displayName: az vmss list-skus
+      href: vmss.yml#az_vmss_list_skus
+    - name: Reimage
+      displayName: az vmss reimage
+      href: vmss.yml#az_vmss_reimage
+    - name: Restart
+      displayName: az vmss restart
+      href: vmss.yml#az_vmss_restart
+    - name: Scale
+      displayName: az vmss scale
+      href: vmss.yml#az_vmss_scale
+    - name: Show
+      displayName: az vmss show
+      href: vmss.yml#az_vmss_show
+    - name: Start
+      displayName: az vmss start
+      href: vmss.yml#az_vmss_start
+    - name: Stop
+      displayName: az vmss stop
+      href: vmss.yml#az_vmss_stop
+    - name: Update
+      displayName: az vmss update
+      href: vmss.yml#az_vmss_update
+    - name: Update-Instances
+      displayName: az vmss update-instances
+      href: vmss.yml#az_vmss_update_instances
+    - name: Wait
+      displayName: az vmss wait
+      href: vmss.yml#az_vmss_wait
+    - name: Diagnostics
+      displayName: az vmss diagnostics
+      href: vmss/diagnostics.yml
+      items:
+      - name: Get-Default-Config
+        displayName: az vmss diagnostics get-default-config
+        href: vmss/diagnostics.yml#az_vmss_diagnostics_get_default_config
+      - name: Set
+        displayName: az vmss diagnostics set
+        href: vmss/diagnostics.yml#az_vmss_diagnostics_set
+    - name: Disks
+      displayName: az vmss disk
+      href: vmss/disk.yml
+      items:
+      - name: Attach
+        displayName: az vmss disk attach
+        href: vmss/disk.yml#az_vmss_disk_attach
+      - name: Detach
+        displayName: az vmss disk detach
+        href: vmss/disk.yml#az_vmss_disk_detach
+    - name: Extensions
+      displayName: az vmss extension
+      href: vmss/extension.yml
+      items:
+      - name: Delete
+        displayName: az vmss extension delete
+        href: vmss/extension.yml#az_vmss_extension_delete
+      - name: List
+        displayName: az vmss extension list
+        href: vmss/extension.yml#az_vmss_extension_list
+      - name: Set
+        displayName: az vmss extension set
+        href: vmss/extension.yml#az_vmss_extension_set
+      - name: Show
+        displayName: az vmss extension show
+        href: vmss/extension.yml#az_vmss_extension_show
+      - name: Images
+        displayName: az vmss extension image
+        href: vmss/extension/image.yml
+        items:
+        - name: List
+          displayName: az vmss extension image list
+          href: vmss/extension/image.yml#az_vmss_extension_image_list
+        - name: List-Names
+          displayName: az vmss extension image list-names
+          href: vmss/extension/image.yml#az_vmss_extension_image_list_names
+        - name: List-Versions
+          displayName: az vmss extension image list-versions
+          href: vmss/extension/image.yml#az_vmss_extension_image_list_versions
+        - name: Show
+          displayName: az vmss extension image show
+          href: vmss/extension/image.yml#az_vmss_extension_image_show
+    - name: Network Interfaces
+      displayName: az vmss nic
+      href: vmss/nic.yml
+      items:
+      - name: List
+        displayName: az vmss nic list
+        href: vmss/nic.yml#az_vmss_nic_list
+      - name: List-Vm-Nics
+        displayName: az vmss nic list-vm-nics
+        href: vmss/nic.yml#az_vmss_nic_list_vm_nics
+      - name: Show
+        displayName: az vmss nic show
+        href: vmss/nic.yml#az_vmss_nic_show
+  - name: VM Snapshots
+    displayName: az snapshot
+    href: snapshot.yml
+    items:
+    - name: Create
+      displayName: az snapshot create
+      href: snapshot.yml#az_snapshot_create
+    - name: Delete
+      displayName: az snapshot delete
+      href: snapshot.yml#az_snapshot_delete
+    - name: Grant-Access
+      displayName: az snapshot grant-access
+      href: snapshot.yml#az_snapshot_grant_access
+    - name: List
+      displayName: az snapshot list
+      href: snapshot.yml#az_snapshot_list
+    - name: Revoke-Access
+      displayName: az snapshot revoke-access
+      href: snapshot.yml#az_snapshot_revoke_access
+    - name: Show
+      displayName: az snapshot show
+      href: snapshot.yml#az_snapshot_show
+    - name: Update
+      displayName: az snapshot update
+      href: snapshot.yml#az_snapshot_update
+  - name: Web Apps
+    displayName: az webapp
+    href: webapp.yml
+    items:
+    - name: Browse
+      displayName: az webapp browse
+      href: webapp.yml#az_webapp_browse
+    - name: Create
+      displayName: az webapp create
+      href: webapp.yml#az_webapp_create
+    - name: Delete
+      displayName: az webapp delete
+      href: webapp.yml#az_webapp_delete
+    - name: List
+      displayName: az webapp list
+      href: webapp.yml#az_webapp_list
+    - name: List-Runtimes
+      displayName: az webapp list-runtimes
+      href: webapp.yml#az_webapp_list_runtimes
+    - name: Restart
+      displayName: az webapp restart
+      href: webapp.yml#az_webapp_restart
+    - name: Show
+      displayName: az webapp show
+      href: webapp.yml#az_webapp_show
+    - name: Start
+      displayName: az webapp start
+      href: webapp.yml#az_webapp_start
+    - name: Stop
+      displayName: az webapp stop
+      href: webapp.yml#az_webapp_stop
+    - name: Config
+      displayName: az webapp config
+      href: webapp/config.yml
+      items:
+      - name: Set
+        displayName: az webapp config set
+        href: webapp/config.yml#az_webapp_config_set
+      - name: Show
+        displayName: az webapp config show
+        href: webapp/config.yml#az_webapp_config_show
+      - name: Appsettings
+        displayName: az webapp config appsettings
+        href: webapp/config/appsettings.yml
+        items:
+        - name: Delete
+          displayName: az webapp config appsettings delete
+          href: webapp/config/appsettings.yml#az_webapp_config_appsettings_delete
+        - name: List
+          displayName: az webapp config appsettings list
+          href: webapp/config/appsettings.yml#az_webapp_config_appsettings_list
+        - name: Set
+          displayName: az webapp config appsettings set
+          href: webapp/config/appsettings.yml#az_webapp_config_appsettings_set
+      - name: Backup
+        displayName: az webapp config backup
+        href: webapp/config/backup.yml
+        items:
+        - name: Create
+          displayName: az webapp config backup create
+          href: webapp/config/backup.yml#az_webapp_config_backup_create
+        - name: List
+          displayName: az webapp config backup list
+          href: webapp/config/backup.yml#az_webapp_config_backup_list
+        - name: Restore
+          displayName: az webapp config backup restore
+          href: webapp/config/backup.yml#az_webapp_config_backup_restore
+        - name: Show
+          displayName: az webapp config backup show
+          href: webapp/config/backup.yml#az_webapp_config_backup_show
+        - name: Update
+          displayName: az webapp config backup update
+          href: webapp/config/backup.yml#az_webapp_config_backup_update
+      - name: Connection-String
+        displayName: az webapp config connection-string
+        href: webapp/config/connection-string.yml
+        items:
+        - name: Delete
+          displayName: az webapp config connection-string delete
+          href: webapp/config/connection-string.yml#az_webapp_config_connection_string_delete
+        - name: List
+          displayName: az webapp config connection-string list
+          href: webapp/config/connection-string.yml#az_webapp_config_connection_string_list
+        - name: Set
+          displayName: az webapp config connection-string set
+          href: webapp/config/connection-string.yml#az_webapp_config_connection_string_set
+      - name: Container
+        displayName: az webapp config container
+        href: webapp/config/container.yml
+        items:
+        - name: Delete
+          displayName: az webapp config container delete
+          href: webapp/config/container.yml#az_webapp_config_container_delete
+        - name: Set
+          displayName: az webapp config container set
+          href: webapp/config/container.yml#az_webapp_config_container_set
+        - name: Show
+          displayName: az webapp config container show
+          href: webapp/config/container.yml#az_webapp_config_container_show
+      - name: Hostname
+        displayName: az webapp config hostname
+        href: webapp/config/hostname.yml
+        items:
+        - name: Add
+          displayName: az webapp config hostname add
+          href: webapp/config/hostname.yml#az_webapp_config_hostname_add
+        - name: Delete
+          displayName: az webapp config hostname delete
+          href: webapp/config/hostname.yml#az_webapp_config_hostname_delete
+        - name: Get-External-Ip
+          displayName: az webapp config hostname get-external-ip
+          href: webapp/config/hostname.yml#az_webapp_config_hostname_get_external_ip
+        - name: List
+          displayName: az webapp config hostname list
+          href: webapp/config/hostname.yml#az_webapp_config_hostname_list
+      - name: Ssl
+        displayName: az webapp config ssl
+        href: webapp/config/ssl.yml
+        items:
+        - name: Bind
+          displayName: az webapp config ssl bind
+          href: webapp/config/ssl.yml#az_webapp_config_ssl_bind
+        - name: Delete
+          displayName: az webapp config ssl delete
+          href: webapp/config/ssl.yml#az_webapp_config_ssl_delete
+        - name: List
+          displayName: az webapp config ssl list
+          href: webapp/config/ssl.yml#az_webapp_config_ssl_list
+        - name: Unbind
+          displayName: az webapp config ssl unbind
+          href: webapp/config/ssl.yml#az_webapp_config_ssl_unbind
+        - name: Upload
+          displayName: az webapp config ssl upload
+          href: webapp/config/ssl.yml#az_webapp_config_ssl_upload
+    - name: Deployment
+      displayName: az webapp deployment
+      href: webapp/deployment.yml
+      items:
+      - name: List-Publishing-Profiles
+        displayName: az webapp deployment list-publishing-profiles
+        href: webapp/deployment.yml#az_webapp_deployment_list_publishing_profiles
+      - name: Slot
+        displayName: az webapp deployment slot
+        href: webapp/deployment/slot.yml
+        items:
+        - name: Auto-Swap
+          displayName: az webapp deployment slot auto-swap
+          href: webapp/deployment/slot.yml#az_webapp_deployment_slot_auto_swap
+        - name: Create
+          displayName: az webapp deployment slot create
+          href: webapp/deployment/slot.yml#az_webapp_deployment_slot_create
+        - name: Delete
+          displayName: az webapp deployment slot delete
+          href: webapp/deployment/slot.yml#az_webapp_deployment_slot_delete
+        - name: List
+          displayName: az webapp deployment slot list
+          href: webapp/deployment/slot.yml#az_webapp_deployment_slot_list
+        - name: Swap
+          displayName: az webapp deployment slot swap
+          href: webapp/deployment/slot.yml#az_webapp_deployment_slot_swap
+      - name: Source
+        displayName: az webapp deployment source
+        href: webapp/deployment/source.yml
+        items:
+        - name: Config
+          displayName: az webapp deployment source config
+          href: webapp/deployment/source.yml#az_webapp_deployment_source_config
+        - name: Config-Local-Git
+          displayName: az webapp deployment source config-local-git
+          href: webapp/deployment/source.yml#az_webapp_deployment_source_config_local_git
+        - name: Delete
+          displayName: az webapp deployment source delete
+          href: webapp/deployment/source.yml#az_webapp_deployment_source_delete
+        - name: Show
+          displayName: az webapp deployment source show
+          href: webapp/deployment/source.yml#az_webapp_deployment_source_show
+        - name: Sync
+          displayName: az webapp deployment source sync
+          href: webapp/deployment/source.yml#az_webapp_deployment_source_sync
+        - name: Update-Token
+          displayName: az webapp deployment source update-token
+          href: webapp/deployment/source.yml#az_webapp_deployment_source_update_token
+      - name: User
+        displayName: az webapp deployment user
+        href: webapp/deployment/user.yml
+        items:
+        - name: Set
+          displayName: az webapp deployment user set
+          href: webapp/deployment/user.yml#az_webapp_deployment_user_set
+        - name: Show
+          displayName: az webapp deployment user show
+          href: webapp/deployment/user.yml#az_webapp_deployment_user_show
+    - name: Log
+      displayName: az webapp log
+      href: webapp/log.yml
+      items:
+      - name: Config
+        displayName: az webapp log config
+        href: webapp/log.yml#az_webapp_log_config
+      - name: Download
+        displayName: az webapp log download
+        href: webapp/log.yml#az_webapp_log_download
+      - name: Tail
+        displayName: az webapp log tail
+        href: webapp/log.yml#az_webapp_log_tail
+    - name: Traffic-Routing
+      displayName: az webapp traffic-routing
+      href: webapp/traffic-routing.yml
+      items:
+      - name: Clear
+        displayName: az webapp traffic-routing clear
+        href: webapp/traffic-routing.yml#az_webapp_traffic_routing_clear
+      - name: Set
+        displayName: az webapp traffic-routing set
+        href: webapp/traffic-routing.yml#az_webapp_traffic_routing_set
+      - name: Show
+        displayName: az webapp traffic-routing show
+        href: webapp/traffic-routing.yml#az_webapp_traffic_routing_show
